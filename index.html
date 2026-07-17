@@ -217,7 +217,19 @@
         <p class="eyebrow">DINE-IN MENU</p>
         <h2 id="mainTitle">Explore the menu</h2>
       </div>
-      <p id="menuStatus" aria-live="polite">Loading the menu…</p>
+      <div class="menu-viewbar" aria-label="Menu results and display options">
+        <p id="menuStatus" aria-live="polite">Loading the menu…</p>
+        <div class="view-switcher" role="group" aria-label="Menu display view">
+          <button type="button" data-menu-view="grid" aria-pressed="true" title="Grid view">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h7v7H4V4Zm9 0h7v7h-7V4ZM4 13h7v7H4v-7Zm9 0h7v7h-7v-7Z"/></svg>
+            <span>Grid</span>
+          </button>
+          <button type="button" data-menu-view="list" aria-pressed="false" title="List view">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h12M8 12h12M8 18h12M4 6h.01M4 12h.01M4 18h.01"/></svg>
+            <span>List</span>
+          </button>
+        </div>
+      </div>
     </header>
 
     <section id="categoryView" aria-label="Menu categories">

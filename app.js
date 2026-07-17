@@ -9,6 +9,8 @@
   const PRODUCT_DETAILS = window.MENU_PRODUCT_DETAILS || { meta: {}, items: {} };
   const OFFER_STORAGE_KEY = 'amigos-anniversary-offer-dismissed-2026';
   const OFFER_DISMISSAL_DAYS = 45;
+  const MENU_VIEW_STORAGE_KEY = 'amigos-menu-view';
+  const MENU_VIEWS = new Set(['grid', 'list']);
 
   const categoryMap = new Map(DATA.categories.map(category => [category.id, category]));
   const itemMap = new Map(DATA.items.map(item => [item.id, item]));
@@ -178,12 +180,28 @@
     nonveg: 'Non-vegetarian'
   };
 
+  function readMenuView() {
+    try {
+      const saved = localStorage.getItem(MENU_VIEW_STORAGE_KEY);
+      return MENU_VIEWS.has(saved) ? saved : 'grid';
+    } catch {
+      return 'grid';
+    }
+  }
+
+  function storeMenuView(value) {
+    try {
+      localStorage.setItem(MENU_VIEW_STORAGE_KEY, value);
+    } catch {}
+  }
+
   const state = {
     query: '',
     diet: 'all',
     smartFilter: null,
     budget: null,
     openCategory: null,
+    menuView: readMenuView(),
     lastFocused: null
   };
 
@@ -198,6 +216,7 @@
     filters: document.getElementById('filters'),
     mainTitle: document.getElementById('mainTitle'),
     menuStatus: document.getElementById('menuStatus'),
+    menuMain: document.getElementById('menuMain'),
     categoryView: document.getElementById('categoryView'),
     categoryGrid: document.getElementById('categoryGrid'),
     categorySections: document.getElementById('categorySections'),
@@ -227,6 +246,7 @@
     dishDialogSmart: document.getElementById('dishDialogSmart'),
     dishDialogAllergens: document.getElementById('dishDialogAllergens'),
     dishDialogDisclaimer: document.getElementById('dishDialogDisclaimer'),
+    viewSwitcher: document.querySelector('.view-switcher'),
     anniversaryOfferDialog: document.getElementById('anniversaryOfferDialog'),
     closeOfferDialog: document.getElementById('closeOfferDialog'),
     dismissOfferDialog: document.getElementById('dismissOfferDialog'),
@@ -470,6 +490,11 @@
     </div>`;
   }
 
+  function portionCountMarkup(item) {
+    if (item.variants.length <= 1) return '';
+    return `<span class="dish-card__sizes">${item.variants.length} sizes</span>`;
+  }
+
   function matchesQuery(item) {
     if (!state.query) return true;
     const category = categoryMap.get(item.category);
@@ -522,6 +547,13 @@
     const thumb = item.imageThumb ? escapeHTML(item.imageThumb) : '';
     const srcset = thumb ? ` srcset="${thumb} 420w, ${image} 960w" sizes="${escapeHTML(sizes)}"` : '';
     return `src="${image}"${srcset}`;
+  }
+
+  function cardImageAttrs(item) {
+    if (state.menuView === 'grid' && item.imageThumb) {
+      return `src="${escapeHTML(item.imageThumb)}"`;
+    }
+    return responsiveImageAttrs(item, '(min-width: 1280px) 24vw, (min-width: 820px) 31vw, calc(100vw - 56px)');
   }
 
   function variantsMarkup(item) {
@@ -675,10 +707,10 @@
     const category = categoryMap.get(item.category);
     const detail = productDetail(item);
     const price = priceSummary(item);
-    return `<article class="dish-card">
-      <button class="dish-card__image" type="button" data-open-dish="${escapeHTML(item.id)}" aria-label="View ${escapeHTML(item.name)}">
-        <img ${responsiveImageAttrs(item, '(min-width: 1080px) 31vw, (min-width: 820px) 46vw, calc(100vw - 56px)')} alt="Illustrative visual of ${escapeHTML(item.name)}" loading="lazy" decoding="async" width="960" height="720" onerror="this.src='assets/menu/fallback.webp'">
-      </button>
+    return `<article class="dish-card" role="button" tabindex="0" data-open-dish="${escapeHTML(item.id)}" aria-label="View ${escapeHTML(item.name)}">
+      <span class="dish-card__image">
+        <img ${cardImageAttrs(item)} alt="Illustrative visual of ${escapeHTML(item.name)}" loading="lazy" decoding="async" width="960" height="720" onerror="this.src='assets/menu/fallback.webp'">
+      </span>
       <div class="dish-card__body">
         <div class="dish-card__content">
           <div class="dish-card__top">
@@ -688,6 +720,7 @@
           <p class="dish-card__category">${escapeHTML(category?.name || '')}</p>
           <p class="dish-card__description">${escapeHTML(dishDescription(item))}</p>
           ${dishBadges(item)}
+          ${portionCountMarkup(item)}
         </div>
         ${variantsMarkup(item)}
       </div>
@@ -812,6 +845,43 @@
       .join('');
   }
 
+  function renderMenuViewControls() {
+    el.menuMain?.setAttribute('data-menu-view', state.menuView);
+    el.viewSwitcher?.querySelectorAll('[data-menu-view]').forEach(button => {
+      const active = button.dataset.menuView === state.menuView;
+      button.setAttribute('aria-pressed', String(active));
+    });
+  }
+
+  function currentMenuAnchor() {
+    if (state.query) return el.searchView;
+    if (state.openCategory) return document.getElementById(`category-${state.openCategory}`);
+    return el.categoryView;
+  }
+
+  function preserveMenuAnchor(callback) {
+    const anchor = currentMenuAnchor();
+    const beforeTop = anchor?.getBoundingClientRect().top;
+    callback();
+    if (!Number.isFinite(beforeTop)) return;
+    requestAnimationFrame(() => {
+      const nextAnchor = currentMenuAnchor();
+      const afterTop = nextAnchor?.getBoundingClientRect().top;
+      if (Number.isFinite(afterTop)) {
+        window.scrollBy({ top: afterTop - beforeTop, left: 0, behavior: 'auto' });
+      }
+    });
+  }
+
+  function setMenuView(value) {
+    if (!MENU_VIEWS.has(value) || value === state.menuView) return;
+    preserveMenuAnchor(() => {
+      state.menuView = value;
+      storeMenuView(value);
+      render();
+    });
+  }
+
   function availableCategoryEntries() {
     return DATA.categories
       .map(category => ({
@@ -898,6 +968,7 @@
   function render() {
     renderFilters();
     renderPopularSearches();
+    renderMenuViewControls();
     el.clearSearch.hidden = !state.query;
     const searching = state.query.trim().length > 0;
     if (searching) el.mainTitle.textContent = 'Search the full menu';
@@ -1141,6 +1212,12 @@
     }
   });
 
+  el.viewSwitcher?.addEventListener('click', event => {
+    const viewButton = event.target.closest('[data-menu-view]');
+    if (!viewButton) return;
+    setMenuView(viewButton.dataset.menuView);
+  });
+
   document.addEventListener('click', event => {
     const searchButton = event.target.closest('[data-smart-search]');
     if (searchButton) {
@@ -1167,6 +1244,13 @@
 
     const dishButton = event.target.closest('[data-open-dish]');
     if (dishButton) openDish(dishButton.dataset.openDish);
+  });
+
+  document.addEventListener('keydown', event => {
+    const dishCard = event.target.closest?.('.dish-card[data-open-dish]');
+    if (!dishCard || (event.key !== 'Enter' && event.key !== ' ')) return;
+    event.preventDefault();
+    openDish(dishCard.dataset.openDish);
   });
 
   el.categoriesButton.addEventListener('click', openDrawerPanel);
