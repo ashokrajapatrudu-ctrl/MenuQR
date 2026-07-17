@@ -97,6 +97,44 @@
     return prices.length ? Math.min(...prices) : null;
   }
 
+  function priceSummary(item) {
+    const min = minimumPrice(item);
+    if (min === null) return 'Ask staff';
+    return item.variants.length > 1 ? `From ${formatPrice(min)}` : formatPrice(min);
+  }
+
+  function dishDescription(item) {
+    if (item.note) return item.note;
+    const category = categoryMap.get(item.category);
+    const cuisine = DATA.cuisines.find(entry => entry.id === item.cuisine);
+    const tone = {
+      veg: 'A vegetarian favourite',
+      egg: 'A comforting egg favourite',
+      nonveg: 'A hearty non-veg favourite'
+    }[item.diet] || 'A house favourite';
+    return `${tone} from ${category?.name || cuisine?.name || 'the Amigos kitchen'}, prepared fresh for your table.`;
+  }
+
+  function spicyLevel(item) {
+    const text = normalize(`${item.name} ${item.search || ''}`);
+    if (/\b(spicy|schezwan|chilli|chili|dragon|pepper|kolhapuri|andhra|gongura|avakai|hot)\b/.test(text)) {
+      return 'Hot';
+    }
+    if (/\b(tandoori|tikka|masala|curry|biryani|pulao|mandi|kebab|gravy)\b/.test(text)) {
+      return 'Medium';
+    }
+    return 'Mild';
+  }
+
+  function dishBadges(item) {
+    const spice = spicyLevel(item);
+    return `<div class="dish-card__badges" aria-label="Dish highlights">
+      <span class="dish-badge dish-badge--chef">Chef Recommended</span>
+      <span class="dish-badge dish-badge--ordered">Most Ordered</span>
+      <span class="dish-badge dish-badge--spice dish-badge--${escapeHTML(spice.toLowerCase())}">${escapeHTML(spice)} Spice</span>
+    </div>`;
+  }
+
   function matchesQuery(item) {
     if (!state.query) return true;
     const category = categoryMap.get(item.category);
@@ -157,14 +195,20 @@
 
   function dishCard(item) {
     const category = categoryMap.get(item.category);
+    const price = priceSummary(item);
     return `<article class="dish-card">
       <button class="dish-card__image" type="button" data-open-dish="${escapeHTML(item.id)}" aria-label="View ${escapeHTML(item.name)}">
         <img src="${escapeHTML(item.image)}" alt="Illustrative visual of ${escapeHTML(item.name)}" loading="lazy" decoding="async" width="640" height="480" onerror="this.src='assets/menu/fallback.webp'">
       </button>
       <div class="dish-card__body">
-        <div>
-          <div class="dish-card__name">${dietMarkup(item.diet)}<h3>${escapeHTML(item.name)}</h3></div>
+        <div class="dish-card__content">
+          <div class="dish-card__top">
+            <div class="dish-card__name">${dietMarkup(item.diet)}<h3>${escapeHTML(item.name)}</h3></div>
+            <strong class="dish-card__price ${price === 'Ask staff' ? 'ask' : ''}">${escapeHTML(price)}</strong>
+          </div>
           <p class="dish-card__category">${escapeHTML(category?.name || '')}</p>
+          <p class="dish-card__description">${escapeHTML(dishDescription(item))}</p>
+          ${dishBadges(item)}
         </div>
         ${variantsMarkup(item)}
       </div>
