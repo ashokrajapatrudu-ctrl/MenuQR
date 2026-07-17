@@ -159,13 +159,15 @@ input:focus-visible {
   place-items: center;
   border: 1px solid rgba(255, 255, 255, .34);
   border-radius: 50%;
-  color: #fff;
-  background: rgba(255, 255, 255, .11);
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 23px;
-  font-style: italic;
-  font-weight: 700;
+  overflow: hidden;
+  background: rgba(255, 255, 255, .9);
   backdrop-filter: blur(18px);
+}
+
+.brand__mark img {
+  width: 92%;
+  height: 92%;
+  object-fit: contain;
 }
 
 .brand__copy strong,
@@ -452,7 +454,7 @@ input:focus-visible {
   box-shadow: var(--shadow-md);
 }
 
-.brand-card img {
+.brand-card > img {
   width: 100%;
   aspect-ratio: 16 / 10;
   object-fit: cover;
@@ -467,17 +469,22 @@ input:focus-visible {
 
 .brand-card__logo {
   display: inline-grid;
-  width: 46px;
-  height: 46px;
+  width: 64px;
+  height: 64px;
   place-items: center;
   border: 1px solid color-mix(in srgb, var(--brand-accent) 34%, #ffffff);
   border-radius: 50%;
-  color: #fff;
-  background: var(--brand-accent);
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 15px;
-  font-weight: 700;
+  overflow: hidden;
+  background: #fff;
   box-shadow: 0 10px 24px color-mix(in srgb, var(--brand-accent) 28%, transparent);
+}
+
+.brand-card__logo img {
+  width: 88%;
+  height: 88%;
+  aspect-ratio: auto;
+  object-fit: contain;
+  background: transparent;
 }
 
 .brand-card h3 {
