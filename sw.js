@@ -1,4 +1,4 @@
-const CACHE = 'amigos-brand-experience-v7';
+const CACHE = 'amigos-brand-experience-v8';
 const CORE = [
   './',
   './index.html',
@@ -8,11 +8,11 @@ const CORE = [
   './icon.svg',
   './manifest.webmanifest',
   './assets/menu/fallback.webp',
-  './assets/logos/amigos.png',
-  './assets/logos/spicy-darbar.png',
-  './assets/logos/red-panda.png',
-  './assets/logos/grill-cafe.png',
-  './assets/logos/andhra-bhavan.png'
+  './assets/logos/amigos.webp',
+  './assets/logos/spicy-darbar.webp',
+  './assets/logos/red-panda.webp',
+  './assets/logos/grill-cafe.webp',
+  './assets/logos/andhra-bhavan.webp'
 ];
 
 self.addEventListener('install', event => {
