@@ -1,0 +1,428 @@
+id,name,category,image,type
+veg-starters-crispy-chilli-baby-corn,Crispy Chilli Baby Corn,Veg Starters,assets/menu/veg-starters-crispy-chilli-baby-corn.webp,representative illustration
+veg-starters-crispy-corn,Crispy Corn,Veg Starters,assets/menu/veg-starters-crispy-corn.webp,representative illustration
+veg-starters-dragon-baby-corn,Dragon Baby Corn,Veg Starters,assets/menu/veg-starters-dragon-baby-corn.webp,representative illustration
+veg-starters-honey-chilli-potato,Honey Chilli Potato,Veg Starters,assets/menu/veg-starters-honey-chilli-potato.webp,representative illustration
+veg-starters-crispy-mushroom,Crispy Mushroom,Veg Starters,assets/menu/veg-starters-crispy-mushroom.webp,representative illustration
+veg-starters-chilli-mushroom,Chilli Mushroom,Veg Starters,assets/menu/veg-starters-chilli-mushroom.webp,representative illustration
+veg-starters-salt-pepper-mushroom,Salt & Pepper Mushroom,Veg Starters,assets/menu/veg-starters-salt-pepper-mushroom.webp,representative illustration
+veg-starters-veg-manchurian-dry,Veg Manchurian Dry,Veg Starters,assets/menu/veg-starters-veg-manchurian-dry.webp,representative illustration
+veg-starters-veg-65,Veg 65,Veg Starters,assets/menu/veg-starters-veg-65.webp,representative illustration
+veg-starters-paneer-65,Paneer 65,Veg Starters,assets/menu/veg-starters-paneer-65.webp,representative illustration
+veg-starters-chilli-paneer,Chilli Paneer,Veg Starters,assets/menu/veg-starters-chilli-paneer.webp,representative illustration
+veg-starters-dragon-paneer,Dragon Paneer,Veg Starters,assets/menu/veg-starters-dragon-paneer.webp,representative illustration
+veg-starters-paneer-manchurian,Paneer Manchurian,Veg Starters,assets/menu/veg-starters-paneer-manchurian.webp,representative illustration
+veg-starters-schezwan-paneer,Schezwan Paneer,Veg Starters,assets/menu/veg-starters-schezwan-paneer.webp,representative illustration
+chicken-starters-crispy-chicken,Crispy Chicken,Chicken Starters,assets/menu/chicken-starters-crispy-chicken.webp,representative illustration
+chicken-starters-chilli-chicken-dry,Chilli Chicken Dry,Chicken Starters,assets/menu/chicken-starters-chilli-chicken-dry.webp,representative illustration
+chicken-starters-dragon-chicken,Dragon Chicken,Chicken Starters,assets/menu/chicken-starters-dragon-chicken.webp,representative illustration
+chicken-starters-chicken-65,Chicken 65,Chicken Starters,assets/menu/chicken-starters-chicken-65.webp,representative illustration
+chicken-starters-pepper-chicken,Pepper Chicken,Chicken Starters,assets/menu/chicken-starters-pepper-chicken.webp,representative illustration
+chicken-starters-honey-chilli-chicken,Honey Chilli Chicken,Chicken Starters,assets/menu/chicken-starters-honey-chilli-chicken.webp,representative illustration
+chicken-starters-chicken-manchurian-dry,Chicken Manchurian Dry,Chicken Starters,assets/menu/chicken-starters-chicken-manchurian-dry.webp,representative illustration
+chicken-starters-chicken-lollipop,Chicken Lollipop,Chicken Starters,assets/menu/chicken-starters-chicken-lollipop.webp,representative illustration
+chicken-starters-chicken-wings,Chicken Wings,Chicken Starters,assets/menu/chicken-starters-chicken-wings.webp,representative illustration
+chicken-starters-garlic-chicken,Garlic Chicken,Chicken Starters,assets/menu/chicken-starters-garlic-chicken.webp,representative illustration
+chicken-starters-schezwan-chicken,Schezwan Chicken,Chicken Starters,assets/menu/chicken-starters-schezwan-chicken.webp,representative illustration
+chicken-starters-lemon-chicken,Lemon Chicken,Chicken Starters,assets/menu/chicken-starters-lemon-chicken.webp,representative illustration
+chicken-starters-sesame-chicken,Sesame Chicken,Chicken Starters,assets/menu/chicken-starters-sesame-chicken.webp,representative illustration
+seafood-starters-crispy-fish,Crispy Fish,Seafood Starters,assets/menu/seafood-starters-crispy-fish.webp,representative illustration
+seafood-starters-chilli-fish,Chilli Fish,Seafood Starters,assets/menu/seafood-starters-chilli-fish.webp,representative illustration
+seafood-starters-dragon-fish,Dragon Fish,Seafood Starters,assets/menu/seafood-starters-dragon-fish.webp,representative illustration
+seafood-starters-pepper-fish,Pepper Fish,Seafood Starters,assets/menu/seafood-starters-pepper-fish.webp,representative illustration
+seafood-starters-salt-pepper-prawns,Salt & Pepper Prawns,Seafood Starters,assets/menu/seafood-starters-salt-pepper-prawns.webp,representative illustration
+seafood-starters-chilli-garlic-prawns,Chilli Garlic Prawns,Seafood Starters,assets/menu/seafood-starters-chilli-garlic-prawns.webp,representative illustration
+seafood-starters-dragon-prawns,Dragon Prawns,Seafood Starters,assets/menu/seafood-starters-dragon-prawns.webp,representative illustration
+shawarma-wraps-classic-chicken-shawarma,Classic Chicken Shawarma,Shawarma & Wraps,assets/menu/shawarma-wraps-classic-chicken-shawarma.webp,representative illustration
+shawarma-wraps-arabian-chicken-shawarma,Arabian Chicken Shawarma,Shawarma & Wraps,assets/menu/shawarma-wraps-arabian-chicken-shawarma.webp,representative illustration
+shawarma-wraps-peri-peri-chicken-shawarma,Peri Peri Chicken Shawarma,Shawarma & Wraps,assets/menu/shawarma-wraps-peri-peri-chicken-shawarma.webp,representative illustration
+shawarma-wraps-bbq-chicken-shawarma,BBQ Chicken Shawarma,Shawarma & Wraps,assets/menu/shawarma-wraps-bbq-chicken-shawarma.webp,representative illustration
+shawarma-wraps-smoky-chicken-shawarma,Smoky Chicken Shawarma,Shawarma & Wraps,assets/menu/shawarma-wraps-smoky-chicken-shawarma.webp,representative illustration
+shawarma-wraps-tandoori-chicken-shawarma,Tandoori Chicken Shawarma,Shawarma & Wraps,assets/menu/shawarma-wraps-tandoori-chicken-shawarma.webp,representative illustration
+shawarma-wraps-cheesy-chicken-shawarma,Cheesy Chicken Shawarma,Shawarma & Wraps,assets/menu/shawarma-wraps-cheesy-chicken-shawarma.webp,representative illustration
+shawarma-wraps-double-chicken-shawarma,Double Chicken Shawarma,Shawarma & Wraps,assets/menu/shawarma-wraps-double-chicken-shawarma.webp,representative illustration
+shawarma-wraps-loaded-chicken-shawarma,Loaded Chicken Shawarma,Shawarma & Wraps,assets/menu/shawarma-wraps-loaded-chicken-shawarma.webp,representative illustration
+shawarma-wraps-jumbo-chicken-shawarma,Jumbo Chicken Shawarma,Shawarma & Wraps,assets/menu/shawarma-wraps-jumbo-chicken-shawarma.webp,representative illustration
+shawarma-wraps-mexican-chicken-shawarma,Mexican Chicken Shawarma,Shawarma & Wraps,assets/menu/shawarma-wraps-mexican-chicken-shawarma.webp,representative illustration
+shawarma-wraps-paneer-shawarma,Paneer Shawarma,Shawarma & Wraps,assets/menu/shawarma-wraps-paneer-shawarma.webp,representative illustration
+shawarma-wraps-falafel-chicken-shawarma,Falafel Chicken Shawarma,Shawarma & Wraps,assets/menu/shawarma-wraps-falafel-chicken-shawarma.webp,representative illustration
+shawarma-wraps-veggie-shawarma,Veggie Shawarma,Shawarma & Wraps,assets/menu/shawarma-wraps-veggie-shawarma.webp,representative illustration
+shawarma-wraps-grilled-chicken-wrap,Grilled Chicken Wrap,Shawarma & Wraps,assets/menu/shawarma-wraps-grilled-chicken-wrap.webp,representative illustration
+shawarma-wraps-paneer-wrap,Paneer Wrap,Shawarma & Wraps,assets/menu/shawarma-wraps-paneer-wrap.webp,representative illustration
+shawarma-wraps-falafel-wrap,Falafel Wrap,Shawarma & Wraps,assets/menu/shawarma-wraps-falafel-wrap.webp,representative illustration
+shawarma-wraps-mexican-chicken-wrap,Mexican Chicken Wrap,Shawarma & Wraps,assets/menu/shawarma-wraps-mexican-chicken-wrap.webp,representative illustration
+shawarma-wraps-peri-peri-chicken-wrap,Peri Peri Chicken Wrap,Shawarma & Wraps,assets/menu/shawarma-wraps-peri-peri-chicken-wrap.webp,representative illustration
+veg-biryanis-plain-biryani-rice,Plain Biryani Rice,Veg Biryanis,assets/menu/veg-biryanis-plain-biryani-rice.webp,representative illustration
+veg-biryanis-veg-biryani,Veg Biryani,Veg Biryanis,assets/menu/veg-biryanis-veg-biryani.webp,representative illustration
+veg-biryanis-baby-corn-biryani,Baby Corn Biryani,Veg Biryanis,assets/menu/veg-biryanis-baby-corn-biryani.webp,representative illustration
+veg-biryanis-mushroom-biryani,Mushroom Biryani,Veg Biryanis,assets/menu/veg-biryanis-mushroom-biryani.webp,representative illustration
+veg-biryanis-soya-chaap-biryani,Soya Chaap Biryani,Veg Biryanis,assets/menu/veg-biryanis-soya-chaap-biryani.webp,representative illustration
+veg-biryanis-kaju-biryani,Kaju Biryani,Veg Biryanis,assets/menu/veg-biryanis-kaju-biryani.webp,representative illustration
+veg-biryanis-paneer-biryani,Paneer Biryani,Veg Biryanis,assets/menu/veg-biryanis-paneer-biryani.webp,representative illustration
+veg-biryanis-paneer-kaju-biryani,Paneer Kaju Biryani,Veg Biryanis,assets/menu/veg-biryanis-paneer-kaju-biryani.webp,representative illustration
+veg-biryanis-paneer-pulao,Paneer Pulao,Veg Biryanis,assets/menu/veg-biryanis-paneer-pulao.webp,representative illustration
+veg-biryanis-kaju-pulao,Kaju Pulao,Veg Biryanis,assets/menu/veg-biryanis-kaju-pulao.webp,representative illustration
+veg-biryanis-mushroom-pulao,Mushroom Pulao,Veg Biryanis,assets/menu/veg-biryanis-mushroom-pulao.webp,representative illustration
+veg-biryanis-baby-corn-pulao,Baby Corn Pulao,Veg Biryanis,assets/menu/veg-biryanis-baby-corn-pulao.webp,representative illustration
+veg-biryanis-mushroom-avakai-biryani,Mushroom Avakai Biryani,Veg Biryanis,assets/menu/veg-biryanis-mushroom-avakai-biryani.webp,representative illustration
+veg-biryanis-paneer-avakai-biryani,Paneer Avakai Biryani,Veg Biryanis,assets/menu/veg-biryanis-paneer-avakai-biryani.webp,representative illustration
+veg-biryanis-baby-corn-avakai-biryani,Baby Corn Avakai Biryani,Veg Biryanis,assets/menu/veg-biryanis-baby-corn-avakai-biryani.webp,representative illustration
+veg-biryanis-veg-avakai-biryani,Veg Avakai Biryani,Veg Biryanis,assets/menu/veg-biryanis-veg-avakai-biryani.webp,representative illustration
+veg-biryanis-paneer-tikka-biryani,Paneer Tikka Biryani,Veg Biryanis,assets/menu/veg-biryanis-paneer-tikka-biryani.webp,representative illustration
+veg-pot-biryanis-veg-pot-biryani,Veg Pot Biryani,Veg Pot Biryanis,assets/menu/veg-pot-biryanis-veg-pot-biryani.webp,representative illustration
+veg-pot-biryanis-paneer-pot-biryani,Paneer Pot Biryani,Veg Pot Biryanis,assets/menu/veg-pot-biryanis-paneer-pot-biryani.webp,representative illustration
+veg-pot-biryanis-baby-corn-pot-biryani,Baby Corn Pot Biryani,Veg Pot Biryanis,assets/menu/veg-pot-biryanis-baby-corn-pot-biryani.webp,representative illustration
+veg-pot-biryanis-mushroom-pot-biryani,Mushroom Pot Biryani,Veg Pot Biryanis,assets/menu/veg-pot-biryanis-mushroom-pot-biryani.webp,representative illustration
+veg-pot-biryanis-paneer-kaju-pot-biryani,Paneer Kaju Pot Biryani,Veg Pot Biryanis,assets/menu/veg-pot-biryanis-paneer-kaju-pot-biryani.webp,representative illustration
+veg-pot-biryanis-kaju-pot-biryani,Kaju Pot Biryani,Veg Pot Biryanis,assets/menu/veg-pot-biryanis-kaju-pot-biryani.webp,representative illustration
+veg-pot-biryanis-amigos-veg-special-pot-biryani,Amigos Veg Special Pot Biryani,Veg Pot Biryanis,assets/menu/veg-pot-biryanis-amigos-veg-special-pot-biryani.webp,representative illustration
+nonveg-biryanis-hyderabadi-egg-biryani,Hyderabadi Egg Biryani,Non-Veg Biryanis,assets/menu/nonveg-biryanis-hyderabadi-egg-biryani.webp,representative illustration
+nonveg-biryanis-amigos-fry-piece-chicken-biryani,Amigos Fry Piece Chicken Biryani,Non-Veg Biryanis,assets/menu/nonveg-biryanis-amigos-fry-piece-chicken-biryani.webp,representative illustration
+nonveg-biryanis-hyderabadi-chicken-dum-biryani,Hyderabadi Chicken Dum Biryani,Non-Veg Biryanis,assets/menu/nonveg-biryanis-hyderabadi-chicken-dum-biryani.webp,representative illustration
+nonveg-biryanis-chicken-wings-biryani,Chicken Wings Biryani,Non-Veg Biryanis,assets/menu/nonveg-biryanis-chicken-wings-biryani.webp,representative illustration
+nonveg-biryanis-konaseema-chicken-biryani,Konaseema Chicken Biryani,Non-Veg Biryanis,assets/menu/nonveg-biryanis-konaseema-chicken-biryani.webp,representative illustration
+nonveg-biryanis-boneless-chicken-biryani,Boneless Chicken Biryani,Non-Veg Biryanis,assets/menu/nonveg-biryanis-boneless-chicken-biryani.webp,representative illustration
+nonveg-biryanis-mughalai-chicken-biryani,Mughalai Chicken Biryani,Non-Veg Biryanis,assets/menu/nonveg-biryanis-mughalai-chicken-biryani.webp,representative illustration
+nonveg-biryanis-chicken-65-biryani,Chicken 65 Biryani,Non-Veg Biryanis,assets/menu/nonveg-biryanis-chicken-65-biryani.webp,representative illustration
+nonveg-biryanis-andhra-avakai-chicken-biryani,Andhra Avakai Chicken Biryani,Non-Veg Biryanis,assets/menu/nonveg-biryanis-andhra-avakai-chicken-biryani.webp,representative illustration
+nonveg-biryanis-chicken-tikka-biryani,Chicken Tikka Biryani,Non-Veg Biryanis,assets/menu/nonveg-biryanis-chicken-tikka-biryani.webp,representative illustration
+nonveg-biryanis-chicken-tangdi-biryani,Chicken Tangdi Biryani,Non-Veg Biryanis,assets/menu/nonveg-biryanis-chicken-tangdi-biryani.webp,representative illustration
+nonveg-biryanis-chicken-lollipop-biryani,Chicken Lollipop Biryani,Non-Veg Biryanis,assets/menu/nonveg-biryanis-chicken-lollipop-biryani.webp,representative illustration
+nonveg-biryanis-tandoor-chicken-biryani,Tandoor Chicken Biryani,Non-Veg Biryanis,assets/menu/nonveg-biryanis-tandoor-chicken-biryani.webp,representative illustration
+nonveg-biryanis-avakai-chicken-boneless-biryani,Avakai Chicken Boneless Biryani,Non-Veg Biryanis,assets/menu/nonveg-biryanis-avakai-chicken-boneless-biryani.webp,representative illustration
+nonveg-biryanis-amigos-raju-gari-kodi-pulao,Amigos Raju Gari Kodi Pulao,Non-Veg Biryanis,assets/menu/nonveg-biryanis-amigos-raju-gari-kodi-pulao.webp,representative illustration
+nonveg-biryanis-avakai-chicken-pulao-bone,Avakai Chicken Pulao Bone,Non-Veg Biryanis,assets/menu/nonveg-biryanis-avakai-chicken-pulao-bone.webp,representative illustration
+nonveg-biryanis-avakai-chicken-pulao-boneless,Avakai Chicken Pulao Boneless,Non-Veg Biryanis,assets/menu/nonveg-biryanis-avakai-chicken-pulao-boneless.webp,representative illustration
+nonveg-biryanis-hyderabadi-mutton-biryani,Hyderabadi Mutton Biryani,Non-Veg Biryanis,assets/menu/nonveg-biryanis-hyderabadi-mutton-biryani.webp,representative illustration
+nonveg-biryanis-gongura-mutton-biryani,Gongura Mutton Biryani,Non-Veg Biryanis,assets/menu/nonveg-biryanis-gongura-mutton-biryani.webp,representative illustration
+nonveg-biryanis-mutton-fry-piece-biryani,Mutton Fry Piece Biryani,Non-Veg Biryanis,assets/menu/nonveg-biryanis-mutton-fry-piece-biryani.webp,representative illustration
+nonveg-biryanis-mutton-keema-biryani,Mutton Keema Biryani,Non-Veg Biryanis,assets/menu/nonveg-biryanis-mutton-keema-biryani.webp,representative illustration
+nonveg-biryanis-mutton-pulao,Mutton Pulao,Non-Veg Biryanis,assets/menu/nonveg-biryanis-mutton-pulao.webp,representative illustration
+nonveg-biryanis-fish-biryani,Fish Biryani,Non-Veg Biryanis,assets/menu/nonveg-biryanis-fish-biryani.webp,representative illustration
+nonveg-biryanis-prawns-biryani,Prawns Biryani,Non-Veg Biryanis,assets/menu/nonveg-biryanis-prawns-biryani.webp,representative illustration
+nonveg-biryanis-special-spicy-prawns-pulao,Special Spicy Prawns Pulao,Non-Veg Biryanis,assets/menu/nonveg-biryanis-special-spicy-prawns-pulao.webp,representative illustration
+nonveg-pot-biryanis-chicken-pot-biryani-with-bone,Chicken Pot Biryani With Bone,Chicken & Seafood Pot Biryanis,assets/menu/nonveg-pot-biryanis-chicken-pot-biryani-with-bone.webp,representative illustration
+nonveg-pot-biryanis-boneless-chicken-pot-biryani,Boneless Chicken Pot Biryani,Chicken & Seafood Pot Biryanis,assets/menu/nonveg-pot-biryanis-boneless-chicken-pot-biryani.webp,representative illustration
+nonveg-pot-biryanis-chicken-tikka-pot-biryani,Chicken Tikka Pot Biryani,Chicken & Seafood Pot Biryanis,assets/menu/nonveg-pot-biryanis-chicken-tikka-pot-biryani.webp,representative illustration
+nonveg-pot-biryanis-special-prawns-pot-biryani,Special Prawns Pot Biryani,Chicken & Seafood Pot Biryanis,assets/menu/nonveg-pot-biryanis-special-prawns-pot-biryani.webp,representative illustration
+family-packs-hyderabadi-chicken-dum-family-pack,Hyderabadi Chicken Dum Family Pack,Family Packs,assets/menu/family-packs-hyderabadi-chicken-dum-family-pack.webp,representative illustration
+family-packs-fry-piece-chicken-biryani-family-pack,Fry Piece Chicken Biryani Family Pack,Family Packs,assets/menu/family-packs-fry-piece-chicken-biryani-family-pack.webp,representative illustration
+family-packs-veg-biryani-family-pack,Veg Biryani Family Pack,Family Packs,assets/menu/family-packs-veg-biryani-family-pack.webp,representative illustration
+family-packs-paneer-tikka-biryani-family-pack,Paneer Tikka Biryani Family Pack,Family Packs,assets/menu/family-packs-paneer-tikka-biryani-family-pack.webp,representative illustration
+family-packs-chicken-tandoori-biryani-family-pack,Chicken Tandoori Biryani Family Pack,Family Packs,assets/menu/family-packs-chicken-tandoori-biryani-family-pack.webp,representative illustration
+mandi-classic-chicken-mandi,Classic Chicken Mandi,Mandi,assets/menu/mandi-classic-chicken-mandi.webp,representative illustration
+mandi-chicken-juicy-mandi,Chicken Juicy Mandi,Mandi,assets/menu/mandi-chicken-juicy-mandi.webp,representative illustration
+mandi-mutton-mandi,Mutton Mandi,Mandi,assets/menu/mandi-mutton-mandi.webp,representative illustration
+mandi-mutton-raan-mandi,Mutton Raan Mandi,Mandi,assets/menu/mandi-mutton-raan-mandi.webp,representative illustration
+mandi-fish-mandi,Fish Mandi,Mandi,assets/menu/mandi-fish-mandi.webp,representative illustration
+mandi-prawns-mandi,Prawns Mandi,Mandi,assets/menu/mandi-prawns-mandi.webp,representative illustration
+mandi-paneer-mandi,Paneer Mandi,Mandi,assets/menu/mandi-paneer-mandi.webp,representative illustration
+mandi-mushroom-mandi,Mushroom Mandi,Mandi,assets/menu/mandi-mushroom-mandi.webp,representative illustration
+mandi-veg-arabian-mandi,Veg Arabian Mandi,Mandi,assets/menu/mandi-veg-arabian-mandi.webp,representative illustration
+meals-thalis-south-indian-meals,South Indian Meals,Meals & Thalis,assets/menu/meals-thalis-south-indian-meals.webp,representative illustration
+meals-thalis-north-indian-meals,North Indian Meals,Meals & Thalis,assets/menu/meals-thalis-north-indian-meals.webp,representative illustration
+meals-thalis-veg-mini-meals,Veg Mini Meals,Meals & Thalis,assets/menu/meals-thalis-veg-mini-meals.webp,representative illustration
+dals-creamy-butter-dal,Creamy Butter Dal,Dals,assets/menu/dals-creamy-butter-dal.webp,representative illustration
+dals-dhaba-dal-fry,Dhaba Dal Fry,Dals,assets/menu/dals-dhaba-dal-fry.webp,representative illustration
+dals-punjabi-saag-dal,Punjabi Saag Dal,Dals,assets/menu/dals-punjabi-saag-dal.webp,representative illustration
+dals-homestyle-tomato-dal,Homestyle Tomato Dal,Dals,assets/menu/dals-homestyle-tomato-dal.webp,representative illustration
+dals-andhra-pappu-dal,Andhra Pappu Dal,Dals,assets/menu/dals-andhra-pappu-dal.webp,representative illustration
+dals-slow-cooked-dal-makhani,Slow Cooked Dal Makhani,Dals,assets/menu/dals-slow-cooked-dal-makhani.webp,representative illustration
+dals-garlic-tempered-dal-dal-lasooni,Garlic Tempered Dal (Dal Lasooni),Dals,assets/menu/dals-garlic-tempered-dal-dal-lasooni.webp,representative illustration
+veg-main-course-desi-bhindi-fry,Desi Bhindi Fry,Garden Veg Main Course,assets/menu/veg-main-course-desi-bhindi-fry.webp,representative illustration
+veg-main-course-golden-aloo-fry,Golden Aloo Fry,Garden Veg Main Course,assets/menu/veg-main-course-golden-aloo-fry.webp,representative illustration
+veg-main-course-classic-jeera-aloo,Classic Jeera Aloo,Garden Veg Main Course,assets/menu/veg-main-course-classic-jeera-aloo.webp,representative illustration
+veg-main-course-rajasthani-sev-tamatar,Rajasthani Sev Tamatar,Garden Veg Main Course,assets/menu/veg-main-course-rajasthani-sev-tamatar.webp,representative illustration
+veg-main-course-punjabi-rajma-curry,Punjabi Rajma Curry,Garden Veg Main Course,assets/menu/veg-main-course-punjabi-rajma-curry.webp,representative illustration
+veg-main-course-homestyle-aloo-methi,Homestyle Aloo Methi,Garden Veg Main Course,assets/menu/veg-main-course-homestyle-aloo-methi.webp,representative illustration
+veg-main-course-dhaba-bhindi-masala,Dhaba Bhindi Masala,Garden Veg Main Course,assets/menu/veg-main-course-dhaba-bhindi-masala.webp,representative illustration
+veg-main-course-garden-mix-veg-curry,Garden Mix Veg Curry,Garden Veg Main Course,assets/menu/veg-main-course-garden-mix-veg-curry.webp,representative illustration
+veg-main-course-fiery-veg-kolhapuri,Fiery Veg Kolhapuri,Garden Veg Main Course,assets/menu/veg-main-course-fiery-veg-kolhapuri.webp,representative illustration
+veg-main-course-royal-veg-handi,Royal Veg Handi,Garden Veg Main Course,assets/menu/veg-main-course-royal-veg-handi.webp,representative illustration
+veg-main-course-classic-veg-jalfrezi,Classic Veg Jalfrezi,Garden Veg Main Course,assets/menu/veg-main-course-classic-veg-jalfrezi.webp,representative illustration
+veg-main-course-royal-navratan-korma,Royal Navratan Korma,Garden Veg Main Course,assets/menu/veg-main-course-royal-navratan-korma.webp,representative illustration
+veg-main-course-hyderabadi-veg-curry,Hyderabadi Veg Curry,Garden Veg Main Course,assets/menu/veg-main-course-hyderabadi-veg-curry.webp,representative illustration
+veg-main-course-creamy-corn-masala,Creamy Corn Masala,Garden Veg Main Course,assets/menu/veg-main-course-creamy-corn-masala.webp,representative illustration
+veg-main-course-button-mushroom-masala,Button Mushroom Masala,Garden Veg Main Course,assets/menu/veg-main-course-button-mushroom-masala.webp,representative illustration
+veg-main-course-baby-corn-masala-delight,Baby Corn Masala Delight,Garden Veg Main Course,assets/menu/veg-main-course-baby-corn-masala-delight.webp,representative illustration
+veg-main-course-kadai-mushroom,Kadai Mushroom,Garden Veg Main Course,assets/menu/veg-main-course-kadai-mushroom.webp,representative illustration
+veg-main-course-butter-mushroom-masala,Butter Mushroom Masala,Garden Veg Main Course,assets/menu/veg-main-course-butter-mushroom-masala.webp,representative illustration
+veg-main-course-creamy-mushroom-corn-masala,Creamy Mushroom Corn Masala,Garden Veg Main Course,assets/menu/veg-main-course-creamy-mushroom-corn-masala.webp,representative illustration
+veg-main-course-punjabi-soya-chaap-masala,Punjabi Soya Chaap Masala,Garden Veg Main Course,assets/menu/veg-main-course-punjabi-soya-chaap-masala.webp,representative illustration
+veg-main-course-palak-corn-masala,Palak Corn Masala,Garden Veg Main Course,assets/menu/veg-main-course-palak-corn-masala.webp,representative illustration
+veg-main-course-green-peas-masala-matar,Green Peas Masala (Matar),Garden Veg Main Course,assets/menu/veg-main-course-green-peas-masala-matar.webp,representative illustration
+veg-main-course-kaju-butter-masala,Kaju Butter Masala,Garden Veg Main Course,assets/menu/veg-main-course-kaju-butter-masala.webp,representative illustration
+paneer-main-course-creamy-paneer-butter-masala,Creamy Paneer Butter Masala,Paneer Main Course,assets/menu/paneer-main-course-creamy-paneer-butter-masala.webp,representative illustration
+paneer-main-course-matar-paneer-masala,Matar Paneer Masala,Paneer Main Course,assets/menu/paneer-main-course-matar-paneer-masala.webp,representative illustration
+paneer-main-course-royal-paneer-lababdar,Royal Paneer Lababdar,Paneer Main Course,assets/menu/paneer-main-course-royal-paneer-lababdar.webp,representative illustration
+paneer-main-course-kadai-paneer-special,Kadai Paneer Special,Paneer Main Course,assets/menu/paneer-main-course-kadai-paneer-special.webp,representative illustration
+paneer-main-course-royal-shahi-paneer,Royal Shahi Paneer,Paneer Main Course,assets/menu/paneer-main-course-royal-shahi-paneer.webp,representative illustration
+paneer-main-course-tandoori-paneer-tikka-masala,Tandoori Paneer Tikka Masala,Paneer Main Course,assets/menu/paneer-main-course-tandoori-paneer-tikka-masala.webp,representative illustration
+paneer-main-course-dhaba-paneer-bhurji,Dhaba Paneer Bhurji,Paneer Main Course,assets/menu/paneer-main-course-dhaba-paneer-bhurji.webp,representative illustration
+paneer-main-course-paneer-do-pyaza-special,Paneer Do Pyaza Special,Paneer Main Course,assets/menu/paneer-main-course-paneer-do-pyaza-special.webp,representative illustration
+paneer-main-course-spicy-paneer-kolhapuri,Spicy Paneer Kolhapuri,Paneer Main Course,assets/menu/paneer-main-course-spicy-paneer-kolhapuri.webp,representative illustration
+paneer-main-course-royal-paneer-handi,Royal Paneer Handi,Paneer Main Course,assets/menu/paneer-main-course-royal-paneer-handi.webp,representative illustration
+paneer-main-course-punjabi-palak-paneer,Punjabi Palak Paneer,Paneer Main Course,assets/menu/paneer-main-course-punjabi-palak-paneer.webp,representative illustration
+paneer-main-course-andhra-aavakai-paneer-masala,Andhra Aavakai Paneer Masala,Paneer Main Course,assets/menu/paneer-main-course-andhra-aavakai-paneer-masala.webp,representative illustration
+paneer-main-course-hyderabadi-paneer-masala-curry,Hyderabadi Paneer Masala Curry,Paneer Main Course,assets/menu/paneer-main-course-hyderabadi-paneer-masala-curry.webp,representative illustration
+paneer-main-course-methi-chaman-paneer,Methi Chaman Paneer,Paneer Main Course,assets/menu/paneer-main-course-methi-chaman-paneer.webp,representative illustration
+paneer-main-course-kaju-paneer-butter-masala,Kaju Paneer Butter Masala,Paneer Main Course,assets/menu/paneer-main-course-kaju-paneer-butter-masala.webp,representative illustration
+egg-main-course-veg-loaded-omelette,Veg Loaded Omelette,Egg Main Course,assets/menu/egg-main-course-veg-loaded-omelette.webp,representative illustration
+egg-main-course-classic-plain-omelette,Classic Plain Omelette,Egg Main Course,assets/menu/egg-main-course-classic-plain-omelette.webp,representative illustration
+egg-main-course-dhaba-masala-omelette,Dhaba Masala Omelette,Egg Main Course,assets/menu/egg-main-course-dhaba-masala-omelette.webp,representative illustration
+egg-main-course-homestyle-egg-curry,Homestyle Egg Curry,Egg Main Course,assets/menu/egg-main-course-homestyle-egg-curry.webp,representative illustration
+egg-main-course-dhaba-style-egg-curry,Dhaba Style Egg Curry,Egg Main Course,assets/menu/egg-main-course-dhaba-style-egg-curry.webp,representative illustration
+egg-main-course-creamy-egg-butter-masala-3-eggs,Creamy Egg Butter Masala (3 Eggs),Egg Main Course,assets/menu/egg-main-course-creamy-egg-butter-masala-3-eggs.webp,representative illustration
+egg-main-course-egg-do-pyaza-special,Egg Do Pyaza Special,Egg Main Course,assets/menu/egg-main-course-egg-do-pyaza-special.webp,representative illustration
+egg-main-course-spicy-egg-bhurji-masala,Spicy Egg Bhurji Masala,Egg Main Course,assets/menu/egg-main-course-spicy-egg-bhurji-masala.webp,representative illustration
+egg-main-course-masala-omelette-curry,Masala Omelette Curry,Egg Main Course,assets/menu/egg-main-course-masala-omelette-curry.webp,representative illustration
+egg-main-course-egg-keema-masala,Egg Keema Masala,Egg Main Course,assets/menu/egg-main-course-egg-keema-masala.webp,representative illustration
+chicken-main-course-dhaba-chicken-masala-bn,Dhaba Chicken Masala BN,Chicken Main Course,assets/menu/chicken-main-course-dhaba-chicken-masala-bn.webp,representative illustration
+chicken-main-course-spicy-darbar-tandoor-butter-chicken-bn,Spicy Darbar Tandoor Butter Chicken Bn,Chicken Main Course,assets/menu/chicken-main-course-spicy-darbar-tandoor-butter-chicken-bn.webp,representative illustration
+chicken-main-course-royal-chicken-handi-bl,Royal Chicken Handi BL,Chicken Main Course,assets/menu/chicken-main-course-royal-chicken-handi-bl.webp,representative illustration
+chicken-main-course-kadai-chicken-special-bl,Kadai Chicken Special BL,Chicken Main Course,assets/menu/chicken-main-course-kadai-chicken-special-bl.webp,representative illustration
+chicken-main-course-fiery-chicken-kolhapuri-bl,Fiery Chicken Kolhapuri BL,Chicken Main Course,assets/menu/chicken-main-course-fiery-chicken-kolhapuri-bl.webp,representative illustration
+chicken-main-course-royal-chicken-lababdar-bl,Royal Chicken Lababdar BL,Chicken Main Course,assets/menu/chicken-main-course-royal-chicken-lababdar-bl.webp,representative illustration
+chicken-main-course-tandoori-chicken-tikka-masala,Tandoori Chicken Tikka Masala,Chicken Main Course,assets/menu/chicken-main-course-tandoori-chicken-tikka-masala.webp,representative illustration
+chicken-main-course-spicy-andhra-chicken-curry-bn,Spicy Andhra Chicken Curry BN,Chicken Main Course,assets/menu/chicken-main-course-spicy-andhra-chicken-curry-bn.webp,representative illustration
+chicken-main-course-green-chilli-chicken-masala-bn,Green Chilli Chicken Masala BN,Chicken Main Course,assets/menu/chicken-main-course-green-chilli-chicken-masala-bn.webp,representative illustration
+chicken-main-course-royal-mughlai-chicken-curry-bn,Royal Mughlai Chicken Curry BN,Chicken Main Course,assets/menu/chicken-main-course-royal-mughlai-chicken-curry-bn.webp,representative illustration
+chicken-main-course-creamy-white-chicken-korma-bn,Creamy White Chicken Korma BN,Chicken Main Course,assets/menu/chicken-main-course-creamy-white-chicken-korma-bn.webp,representative illustration
+chicken-main-course-avakaya-chicken-masala-bn,Avakaya Chicken Masala BN,Chicken Main Course,assets/menu/chicken-main-course-avakaya-chicken-masala-bn.webp,representative illustration
+chicken-main-course-gongura-chicken-curry-bn,Gongura Chicken Curry BN,Chicken Main Course,assets/menu/chicken-main-course-gongura-chicken-curry-bn.webp,representative illustration
+chicken-main-course-chicken-do-pyaza-special-bl,Chicken Do Pyaza Special BL,Chicken Main Course,assets/menu/chicken-main-course-chicken-do-pyaza-special-bl.webp,representative illustration
+chicken-main-course-boneless-butter-chicken-masala,Boneless Butter Chicken Masala,Chicken Main Course,assets/menu/chicken-main-course-boneless-butter-chicken-masala.webp,representative illustration
+chicken-main-course-dum-ka-chicken-masala,Dum Ka Chicken Masala,Chicken Main Course,assets/menu/chicken-main-course-dum-ka-chicken-masala.webp,representative illustration
+chicken-main-course-chicken-tangadi-masala,Chicken Tangadi Masala,Chicken Main Course,assets/menu/chicken-main-course-chicken-tangadi-masala.webp,representative illustration
+mutton-main-course-kashmiri-mutton-rogan-josh,Kashmiri Mutton Rogan Josh,Mutton Main Course,assets/menu/mutton-main-course-kashmiri-mutton-rogan-josh.webp,representative illustration
+mutton-main-course-bengali-mutton-kosha,Bengali Mutton Kosha,Mutton Main Course,assets/menu/mutton-main-course-bengali-mutton-kosha.webp,representative illustration
+mutton-main-course-dhaba-style-mutton-curry,Dhaba Style Mutton Curry,Mutton Main Course,assets/menu/mutton-main-course-dhaba-style-mutton-curry.webp,representative illustration
+mutton-main-course-royal-mutton-handi,Royal Mutton Handi,Mutton Main Course,assets/menu/mutton-main-course-royal-mutton-handi.webp,representative illustration
+mutton-main-course-kadai-mutton-special,Kadai Mutton Special,Mutton Main Course,assets/menu/mutton-main-course-kadai-mutton-special.webp,representative illustration
+mutton-main-course-spicy-mutton-keema-masala,Spicy Mutton Keema Masala,Mutton Main Course,assets/menu/mutton-main-course-spicy-mutton-keema-masala.webp,representative illustration
+mutton-main-course-mutton-do-pyaza-special,Mutton Do Pyaza Special,Mutton Main Course,assets/menu/mutton-main-course-mutton-do-pyaza-special.webp,representative illustration
+mutton-main-course-pepper-mutton-fry,Pepper Mutton Fry,Mutton Main Course,assets/menu/mutton-main-course-pepper-mutton-fry.webp,representative illustration
+mutton-main-course-gongura-mutton-curry,Gongura Mutton Curry,Mutton Main Course,assets/menu/mutton-main-course-gongura-mutton-curry.webp,representative illustration
+mutton-main-course-dum-ka-mutton-masala,Dum Ka Mutton Masala,Mutton Main Course,assets/menu/mutton-main-course-dum-ka-mutton-masala.webp,representative illustration
+seafood-main-course-basa-fish-masala-special,Basa Fish Masala Special,Seafood Main Course,assets/menu/seafood-main-course-basa-fish-masala-special.webp,representative illustration
+seafood-main-course-kadai-fish-masala,Kadai Fish Masala,Seafood Main Course,assets/menu/seafood-main-course-kadai-fish-masala.webp,representative illustration
+seafood-main-course-creamy-butter-fish-masala,Creamy Butter Fish Masala,Seafood Main Course,assets/menu/seafood-main-course-creamy-butter-fish-masala.webp,representative illustration
+seafood-main-course-tandoori-fish-tikka-masala,Tandoori Fish Tikka Masala,Seafood Main Course,assets/menu/seafood-main-course-tandoori-fish-tikka-masala.webp,representative illustration
+seafood-main-course-spicy-andhra-fish-curry,Spicy Andhra Fish Curry,Seafood Main Course,assets/menu/seafood-main-course-spicy-andhra-fish-curry.webp,representative illustration
+seafood-main-course-classic-prawns-masala,Classic Prawns Masala,Seafood Main Course,assets/menu/seafood-main-course-classic-prawns-masala.webp,representative illustration
+seafood-main-course-butter-garlic-prawns-special,Butter Garlic Prawns Special,Seafood Main Course,assets/menu/seafood-main-course-butter-garlic-prawns-special.webp,representative illustration
+seafood-main-course-creamy-malai-prawns-curry,Creamy Malai Prawns Curry,Seafood Main Course,assets/menu/seafood-main-course-creamy-malai-prawns-curry.webp,representative illustration
+seafood-main-course-spicy-andhra-prawns-curry,Spicy Andhra Prawns Curry,Seafood Main Course,assets/menu/seafood-main-course-spicy-andhra-prawns-curry.webp,representative illustration
+seafood-main-course-pepper-prawn-masala,Pepper Prawn Masala,Seafood Main Course,assets/menu/seafood-main-course-pepper-prawn-masala.webp,representative illustration
+seafood-main-course-chettinad-prawn-curry,Chettinad Prawn Curry,Seafood Main Course,assets/menu/seafood-main-course-chettinad-prawn-curry.webp,representative illustration
+tandoori-kebabs-classic-paneer-tikka,Classic Paneer Tikka,Tandoori Kebabs,assets/menu/tandoori-kebabs-classic-paneer-tikka.webp,representative illustration
+tandoori-kebabs-achari-paneer-tikka,Achari Paneer Tikka,Tandoori Kebabs,assets/menu/tandoori-kebabs-achari-paneer-tikka.webp,representative illustration
+tandoori-kebabs-hariyali-paneer-tikka,Hariyali Paneer Tikka,Tandoori Kebabs,assets/menu/tandoori-kebabs-hariyali-paneer-tikka.webp,representative illustration
+tandoori-kebabs-malai-paneer-tikka,Malai Paneer Tikka,Tandoori Kebabs,assets/menu/tandoori-kebabs-malai-paneer-tikka.webp,representative illustration
+tandoori-kebabs-tandoori-mushroom,Tandoori Mushroom,Tandoori Kebabs,assets/menu/tandoori-kebabs-tandoori-mushroom.webp,representative illustration
+tandoori-kebabs-tandoori-baby-corn,Tandoori Baby Corn,Tandoori Kebabs,assets/menu/tandoori-kebabs-tandoori-baby-corn.webp,representative illustration
+tandoori-kebabs-tandoori-broccoli,Tandoori Broccoli,Tandoori Kebabs,assets/menu/tandoori-kebabs-tandoori-broccoli.webp,representative illustration
+tandoori-kebabs-soya-chaap-tikka,Soya Chaap Tikka,Tandoori Kebabs,assets/menu/tandoori-kebabs-soya-chaap-tikka.webp,representative illustration
+tandoori-kebabs-tandoori-chicken,Tandoori Chicken,Tandoori Kebabs,assets/menu/tandoori-kebabs-tandoori-chicken.webp,representative illustration
+tandoori-kebabs-classic-chicken-tikka,Classic Chicken Tikka,Tandoori Kebabs,assets/menu/tandoori-kebabs-classic-chicken-tikka.webp,representative illustration
+tandoori-kebabs-malai-chicken-tikka,Malai Chicken Tikka,Tandoori Kebabs,assets/menu/tandoori-kebabs-malai-chicken-tikka.webp,representative illustration
+tandoori-kebabs-hariyali-chicken-tikka,Hariyali Chicken Tikka,Tandoori Kebabs,assets/menu/tandoori-kebabs-hariyali-chicken-tikka.webp,representative illustration
+tandoori-kebabs-achari-chicken-tikka,Achari Chicken Tikka,Tandoori Kebabs,assets/menu/tandoori-kebabs-achari-chicken-tikka.webp,representative illustration
+tandoori-kebabs-afghani-chicken-tikka,Afghani Chicken Tikka,Tandoori Kebabs,assets/menu/tandoori-kebabs-afghani-chicken-tikka.webp,representative illustration
+tandoori-kebabs-tangdi-kebab,Tangdi Kebab,Tandoori Kebabs,assets/menu/tandoori-kebabs-tangdi-kebab.webp,representative illustration
+tandoori-kebabs-chicken-seekh-kebab,Chicken Seekh Kebab,Tandoori Kebabs,assets/menu/tandoori-kebabs-chicken-seekh-kebab.webp,representative illustration
+tandoori-kebabs-reshmi-chicken-kebab,Reshmi Chicken Kebab,Tandoori Kebabs,assets/menu/tandoori-kebabs-reshmi-chicken-kebab.webp,representative illustration
+tandoori-kebabs-pepper-chicken-kebab,Pepper Chicken Kebab,Tandoori Kebabs,assets/menu/tandoori-kebabs-pepper-chicken-kebab.webp,representative illustration
+tandoori-kebabs-pahadi-chicken-kebab,Pahadi Chicken Kebab,Tandoori Kebabs,assets/menu/tandoori-kebabs-pahadi-chicken-kebab.webp,representative illustration
+tandoori-kebabs-udthi-panchi-chicken-kebab,Udthi Panchi Chicken Kebab,Tandoori Kebabs,assets/menu/tandoori-kebabs-udthi-panchi-chicken-kebab.webp,representative illustration
+tandoori-kebabs-fish-tikka,Fish Tikka,Tandoori Kebabs,assets/menu/tandoori-kebabs-fish-tikka.webp,representative illustration
+tandoori-kebabs-malai-fish-tikka,Malai Fish Tikka,Tandoori Kebabs,assets/menu/tandoori-kebabs-malai-fish-tikka.webp,representative illustration
+tandoori-kebabs-tandoori-prawns,Tandoori Prawns,Tandoori Kebabs,assets/menu/tandoori-kebabs-tandoori-prawns.webp,representative illustration
+tandoori-kebabs-achari-tandoori-prawns,Achari Tandoori Prawns,Tandoori Kebabs,assets/menu/tandoori-kebabs-achari-tandoori-prawns.webp,representative illustration
+tandoori-kebabs-veg-tandoori-platter,Veg Tandoori Platter,Tandoori Kebabs,assets/menu/tandoori-kebabs-veg-tandoori-platter.webp,representative illustration
+tandoori-kebabs-chicken-tikka-platter,Chicken Tikka Platter,Tandoori Kebabs,assets/menu/tandoori-kebabs-chicken-tikka-platter.webp,representative illustration
+tandoori-kebabs-mixed-tandoor-platter,Mixed Tandoor Platter,Tandoori Kebabs,assets/menu/tandoori-kebabs-mixed-tandoor-platter.webp,representative illustration
+chinese-main-course-veg-manchurian-gravy,Veg Manchurian Gravy,Chinese Main Course,assets/menu/chinese-main-course-veg-manchurian-gravy.webp,representative illustration
+chinese-main-course-veg-hot-garlic-gravy,Veg Hot Garlic Gravy,Chinese Main Course,assets/menu/chinese-main-course-veg-hot-garlic-gravy.webp,representative illustration
+chinese-main-course-veg-black-pepper-gravy,Veg BLack Pepper Gravy,Chinese Main Course,assets/menu/chinese-main-course-veg-black-pepper-gravy.webp,representative illustration
+chinese-main-course-veg-schezwan-gravy,Veg Schezwan Gravy,Chinese Main Course,assets/menu/chinese-main-course-veg-schezwan-gravy.webp,representative illustration
+chinese-main-course-veg-chilli-garlic,Veg Chilli Garlic,Chinese Main Course,assets/menu/chinese-main-course-veg-chilli-garlic.webp,representative illustration
+chinese-main-course-chilli-paneer-gravy,Chilli Paneer Gravy,Chinese Main Course,assets/menu/chinese-main-course-chilli-paneer-gravy.webp,representative illustration
+chinese-main-course-paneer-manchurian-gravy,Paneer Manchurian Gravy,Chinese Main Course,assets/menu/chinese-main-course-paneer-manchurian-gravy.webp,representative illustration
+chinese-main-course-paneer-black-pepper,Paneer BLack Pepper,Chinese Main Course,assets/menu/chinese-main-course-paneer-black-pepper.webp,representative illustration
+chinese-main-course-paneer-hot-garlic,Paneer Hot Garlic,Chinese Main Course,assets/menu/chinese-main-course-paneer-hot-garlic.webp,representative illustration
+chinese-main-course-chilli-chicken-gravy,Chilli Chicken Gravy,Chinese Main Course,assets/menu/chinese-main-course-chilli-chicken-gravy.webp,representative illustration
+chinese-main-course-chicken-manchurian-gravy,Chicken Manchurian Gravy,Chinese Main Course,assets/menu/chinese-main-course-chicken-manchurian-gravy.webp,representative illustration
+chinese-main-course-chicken-hot-garlic-gravy,Chicken Hot Garlic Gravy,Chinese Main Course,assets/menu/chinese-main-course-chicken-hot-garlic-gravy.webp,representative illustration
+chinese-main-course-chicken-black-pepper-gravy,Chicken BLack Pepper Gravy,Chinese Main Course,assets/menu/chinese-main-course-chicken-black-pepper-gravy.webp,representative illustration
+chinese-main-course-chicken-schezwan-gravy,Chicken Schezwan Gravy,Chinese Main Course,assets/menu/chinese-main-course-chicken-schezwan-gravy.webp,representative illustration
+chinese-main-course-chicken-chilli-garlic-gravy,Chicken Chilli Garlic Gravy,Chinese Main Course,assets/menu/chinese-main-course-chicken-chilli-garlic-gravy.webp,representative illustration
+chinese-main-course-chilli-fish-gravy,Chilli Fish Gravy,Chinese Main Course,assets/menu/chinese-main-course-chilli-fish-gravy.webp,representative illustration
+chinese-main-course-fish-black-pepper-gravy,Fish BLack Pepper Gravy,Chinese Main Course,assets/menu/chinese-main-course-fish-black-pepper-gravy.webp,representative illustration
+chinese-main-course-chilli-garlic-prawns-gravy,Chilli Garlic Prawns Gravy,Chinese Main Course,assets/menu/chinese-main-course-chilli-garlic-prawns-gravy.webp,representative illustration
+chinese-main-course-prawns-black-pepper-gravy,Prawns BLack Pepper Gravy,Chinese Main Course,assets/menu/chinese-main-course-prawns-black-pepper-gravy.webp,representative illustration
+chinese-rice-veg-fried-rice,Veg Fried Rice,Chinese Rice,assets/menu/chinese-rice-veg-fried-rice.webp,representative illustration
+chinese-rice-veg-schezwan-fried-rice,Veg Schezwan Fried Rice,Chinese Rice,assets/menu/chinese-rice-veg-schezwan-fried-rice.webp,representative illustration
+chinese-rice-veg-burnt-garlic-fried-rice,Veg Burnt Garlic Fried Rice,Chinese Rice,assets/menu/chinese-rice-veg-burnt-garlic-fried-rice.webp,representative illustration
+chinese-rice-veg-dragon-fried-rice,Veg Dragon Fried Rice,Chinese Rice,assets/menu/chinese-rice-veg-dragon-fried-rice.webp,representative illustration
+chinese-rice-paneer-schezwan-fried-rice,Paneer Schezwan Fried Rice,Chinese Rice,assets/menu/chinese-rice-paneer-schezwan-fried-rice.webp,representative illustration
+chinese-rice-veg-triple-schezwan-fried-rice,Veg Triple Schezwan Fried Rice,Chinese Rice,assets/menu/chinese-rice-veg-triple-schezwan-fried-rice.webp,representative illustration
+chinese-rice-egg-fried-rice,Egg Fried Rice,Chinese Rice,assets/menu/chinese-rice-egg-fried-rice.webp,representative illustration
+chinese-rice-egg-schezwan-fried-rice,Egg Schezwan Fried Rice,Chinese Rice,assets/menu/chinese-rice-egg-schezwan-fried-rice.webp,representative illustration
+chinese-rice-chicken-fried-rice,Chicken Fried Rice,Chinese Rice,assets/menu/chinese-rice-chicken-fried-rice.webp,representative illustration
+chinese-rice-chicken-schezwan-fried-rice,Chicken Schezwan Fried Rice,Chinese Rice,assets/menu/chinese-rice-chicken-schezwan-fried-rice.webp,representative illustration
+chinese-rice-chicken-burnt-garlic-fried-rice,Chicken Burnt Garlic Fried Rice,Chinese Rice,assets/menu/chinese-rice-chicken-burnt-garlic-fried-rice.webp,representative illustration
+chinese-rice-chicken-dragon-fried-rice,Chicken Dragon Fried Rice,Chinese Rice,assets/menu/chinese-rice-chicken-dragon-fried-rice.webp,representative illustration
+chinese-rice-chicken-triple-schezwan-fried-rice,Chicken Triple Schezwan Fried Rice,Chinese Rice,assets/menu/chinese-rice-chicken-triple-schezwan-fried-rice.webp,representative illustration
+chinese-rice-prawn-fried-rice,Prawn Fried Rice,Chinese Rice,assets/menu/chinese-rice-prawn-fried-rice.webp,representative illustration
+chinese-rice-mixed-seafood-fried-rice,Mixed Seafood Fried Rice,Chinese Rice,assets/menu/chinese-rice-mixed-seafood-fried-rice.webp,representative illustration
+chinese-rice-mixed-non-veg-fried-rice,Mixed Non-Veg Fried Rice,Chinese Rice,assets/menu/chinese-rice-mixed-non-veg-fried-rice.webp,representative illustration
+noodles-veg-hakka-noodles,Veg Hakka Noodles,Noodles,assets/menu/noodles-veg-hakka-noodles.webp,representative illustration
+noodles-veg-schezwan-noodles,Veg Schezwan Noodles,Noodles,assets/menu/noodles-veg-schezwan-noodles.webp,representative illustration
+noodles-veg-garlic-noodles,Veg Garlic Noodles,Noodles,assets/menu/noodles-veg-garlic-noodles.webp,representative illustration
+noodles-veg-burnt-garlic-noodles,Veg Burnt Garlic Noodles,Noodles,assets/menu/noodles-veg-burnt-garlic-noodles.webp,representative illustration
+noodles-veg-singapore-noodles,Veg Singapore Noodles,Noodles,assets/menu/noodles-veg-singapore-noodles.webp,representative illustration
+noodles-veg-triple-schezwan-noodles,Veg Triple Schezwan Noodles,Noodles,assets/menu/noodles-veg-triple-schezwan-noodles.webp,representative illustration
+noodles-egg-hakka-noodles,Egg Hakka Noodles,Noodles,assets/menu/noodles-egg-hakka-noodles.webp,representative illustration
+noodles-egg-garlic-noodles,Egg Garlic Noodles,Noodles,assets/menu/noodles-egg-garlic-noodles.webp,representative illustration
+noodles-egg-schezwan-noodles,Egg Schezwan Noodles,Noodles,assets/menu/noodles-egg-schezwan-noodles.webp,representative illustration
+noodles-chicken-hakka-noodles,Chicken Hakka Noodles,Noodles,assets/menu/noodles-chicken-hakka-noodles.webp,representative illustration
+noodles-chicken-garlic-noodles,Chicken Garlic Noodles,Noodles,assets/menu/noodles-chicken-garlic-noodles.webp,representative illustration
+noodles-chicken-schezwan-noodles,Chicken Schezwan Noodles,Noodles,assets/menu/noodles-chicken-schezwan-noodles.webp,representative illustration
+noodles-chicken-burnt-garlic-noodles,Chicken Burnt Garlic Noodles,Noodles,assets/menu/noodles-chicken-burnt-garlic-noodles.webp,representative illustration
+noodles-chicken-triple-schezwan-noodles,Chicken Triple Schezwan Noodles,Noodles,assets/menu/noodles-chicken-triple-schezwan-noodles.webp,representative illustration
+noodles-prawn-hakka-noodles,Prawn Hakka Noodles,Noodles,assets/menu/noodles-prawn-hakka-noodles.webp,representative illustration
+noodles-mixed-seafood-noodles,Mixed Seafood Noodles,Noodles,assets/menu/noodles-mixed-seafood-noodles.webp,representative illustration
+rotis-naans-plain-tandoori-roti,Plain Tandoori Roti,Rotis & Naans,assets/menu/rotis-naans-plain-tandoori-roti.webp,representative illustration
+rotis-naans-butter-tandoori-roti,Butter Tandoori Roti,Rotis & Naans,assets/menu/rotis-naans-butter-tandoori-roti.webp,representative illustration
+rotis-naans-missi-roti,Missi Roti,Rotis & Naans,assets/menu/rotis-naans-missi-roti.webp,representative illustration
+rotis-naans-pudina-roti,Pudina Roti,Rotis & Naans,assets/menu/rotis-naans-pudina-roti.webp,representative illustration
+rotis-naans-plain-naan,Plain Naan,Rotis & Naans,assets/menu/rotis-naans-plain-naan.webp,representative illustration
+rotis-naans-butter-naan,Butter Naan,Rotis & Naans,assets/menu/rotis-naans-butter-naan.webp,representative illustration
+rotis-naans-garlic-naan,Garlic Naan,Rotis & Naans,assets/menu/rotis-naans-garlic-naan.webp,representative illustration
+rotis-naans-garlic-butter-naan,Garlic Butter Naan,Rotis & Naans,assets/menu/rotis-naans-garlic-butter-naan.webp,representative illustration
+rotis-naans-cheese-naan,Cheese Naan,Rotis & Naans,assets/menu/rotis-naans-cheese-naan.webp,representative illustration
+rotis-naans-cheese-garlic-naan,Cheese Garlic Naan,Rotis & Naans,assets/menu/rotis-naans-cheese-garlic-naan.webp,representative illustration
+rotis-naans-cheese-chilli-garlic-naan,Cheese Chilli Garlic Naan,Rotis & Naans,assets/menu/rotis-naans-cheese-chilli-garlic-naan.webp,representative illustration
+rotis-naans-aloo-paratha,Aloo Paratha,Rotis & Naans,assets/menu/rotis-naans-aloo-paratha.webp,representative illustration
+rotis-naans-paneer-paratha,Paneer Paratha,Rotis & Naans,assets/menu/rotis-naans-paneer-paratha.webp,representative illustration
+rotis-naans-onion-kulcha,Onion Kulcha,Rotis & Naans,assets/menu/rotis-naans-onion-kulcha.webp,representative illustration
+rotis-naans-paneer-kulcha,Paneer Kulcha,Rotis & Naans,assets/menu/rotis-naans-paneer-kulcha.webp,representative illustration
+rotis-naans-laccha-paratha,Laccha Paratha,Rotis & Naans,assets/menu/rotis-naans-laccha-paratha.webp,representative illustration
+rotis-naans-butter-laccha-paratha,Butter Laccha Paratha,Rotis & Naans,assets/menu/rotis-naans-butter-laccha-paratha.webp,representative illustration
+rotis-naans-pudina-laccha-paratha,Pudina Laccha Paratha,Rotis & Naans,assets/menu/rotis-naans-pudina-laccha-paratha.webp,representative illustration
+rotis-naans-rumali-roti,Rumali Roti,Rotis & Naans,assets/menu/rotis-naans-rumali-roti.webp,representative illustration
+rotis-naans-tandoori-stuffed-kulcha,Tandoori Stuffed Kulcha,Rotis & Naans,assets/menu/rotis-naans-tandoori-stuffed-kulcha.webp,representative illustration
+rotis-naans-stuffed-cheese-kulcha,Stuffed Cheese Kulcha,Rotis & Naans,assets/menu/rotis-naans-stuffed-cheese-kulcha.webp,representative illustration
+rotis-naans-folding-naan,Folding Naan,Rotis & Naans,assets/menu/rotis-naans-folding-naan.webp,representative illustration
+indian-rice-steamed-basmati-rice,Steamed Basmati Rice,Indian Rice,assets/menu/indian-rice-steamed-basmati-rice.webp,representative illustration
+indian-rice-aromatic-ghee-rice,Aromatic Ghee Rice,Indian Rice,assets/menu/indian-rice-aromatic-ghee-rice.webp,representative illustration
+indian-rice-classic-jeera-rice,Classic Jeera Rice,Indian Rice,assets/menu/indian-rice-classic-jeera-rice.webp,representative illustration
+indian-rice-south-indian-lemon-rice,South Indian Lemon Rice,Indian Rice,assets/menu/indian-rice-south-indian-lemon-rice.webp,representative illustration
+indian-rice-green-peas-pulao,Green Peas Pulao,Indian Rice,assets/menu/indian-rice-green-peas-pulao.webp,representative illustration
+indian-rice-royal-veg-pulao,Royal Veg Pulao,Indian Rice,assets/menu/indian-rice-royal-veg-pulao.webp,representative illustration
+indian-rice-royal-kashmiri-pulao,Royal Kashmiri Pulao,Indian Rice,assets/menu/indian-rice-royal-kashmiri-pulao.webp,representative illustration
+indian-rice-dhaba-tadka-rice,Dhaba Tadka Rice,Indian Rice,assets/menu/indian-rice-dhaba-tadka-rice.webp,representative illustration
+indian-rice-curd-rice,Curd Rice,Indian Rice,assets/menu/indian-rice-curd-rice.webp,representative illustration
+indian-rice-tomato-rice,Tomato Rice,Indian Rice,assets/menu/indian-rice-tomato-rice.webp,representative illustration
+south-indian-idli-2-pcs,Idli (2 pcs),South Indian,assets/menu/south-indian-idli-2-pcs.webp,representative illustration
+south-indian-karam-podi-idli,Karam Podi Idli,South Indian,assets/menu/south-indian-karam-podi-idli.webp,representative illustration
+south-indian-ghee-podi-idli,Ghee Podi Idli,South Indian,assets/menu/south-indian-ghee-podi-idli.webp,representative illustration
+south-indian-idli-sambar,Idli Sambar,South Indian,assets/menu/south-indian-idli-sambar.webp,representative illustration
+south-indian-sambar-vada,Sambar Vada,South Indian,assets/menu/south-indian-sambar-vada.webp,representative illustration
+south-indian-medu-vada-2-pcs,Medu Vada (2 pcs),South Indian,assets/menu/south-indian-medu-vada-2-pcs.webp,representative illustration
+south-indian-idli-vada-combo,Idli Vada Combo,South Indian,assets/menu/south-indian-idli-vada-combo.webp,representative illustration
+south-indian-plain-dosa,Plain Dosa,South Indian,assets/menu/south-indian-plain-dosa.webp,representative illustration
+south-indian-masala-dosa,Masala Dosa,South Indian,assets/menu/south-indian-masala-dosa.webp,representative illustration
+south-indian-butter-dosa,Butter Dosa,South Indian,assets/menu/south-indian-butter-dosa.webp,representative illustration
+south-indian-karam-dosa,Karam Dosa,South Indian,assets/menu/south-indian-karam-dosa.webp,representative illustration
+south-indian-onion-dosa,Onion Dosa,South Indian,assets/menu/south-indian-onion-dosa.webp,representative illustration
+south-indian-ghee-dosa,Ghee Dosa,South Indian,assets/menu/south-indian-ghee-dosa.webp,representative illustration
+south-indian-podi-dosa,Podi Dosa,South Indian,assets/menu/south-indian-podi-dosa.webp,representative illustration
+south-indian-ghee-masala-dosa,Ghee Masala Dosa,South Indian,assets/menu/south-indian-ghee-masala-dosa.webp,representative illustration
+south-indian-butter-masala-dosa,Butter Masala Dosa,South Indian,assets/menu/south-indian-butter-masala-dosa.webp,representative illustration
+south-indian-ghee-karam-dosa,Ghee Karam Dosa,South Indian,assets/menu/south-indian-ghee-karam-dosa.webp,representative illustration
+south-indian-butter-karam-dosa,Butter Karam Dosa,South Indian,assets/menu/south-indian-butter-karam-dosa.webp,representative illustration
+south-indian-onion-masala-dosa,Onion Masala Dosa,South Indian,assets/menu/south-indian-onion-masala-dosa.webp,representative illustration
+south-indian-paper-dosa,Paper Dosa,South Indian,assets/menu/south-indian-paper-dosa.webp,representative illustration
+south-indian-rava-dosa,Rava Dosa,South Indian,assets/menu/south-indian-rava-dosa.webp,representative illustration
+south-indian-onion-rava-dosa,Onion Rava Dosa,South Indian,assets/menu/south-indian-onion-rava-dosa.webp,representative illustration
+south-indian-mysore-masala-dosa,Mysore Masala Dosa,South Indian,assets/menu/south-indian-mysore-masala-dosa.webp,representative illustration
+south-indian-set-dosa,Set Dosa,South Indian,assets/menu/south-indian-set-dosa.webp,representative illustration
+south-indian-pesarattu,Pesarattu,South Indian,assets/menu/south-indian-pesarattu.webp,representative illustration
+south-indian-upma-pesarattu,Upma Pesarattu,South Indian,assets/menu/south-indian-upma-pesarattu.webp,representative illustration
+south-indian-onion-uttapam,Onion Uttapam,South Indian,assets/menu/south-indian-onion-uttapam.webp,representative illustration
+south-indian-tomato-uttapam,Tomato Uttapam,South Indian,assets/menu/south-indian-tomato-uttapam.webp,representative illustration
+south-indian-mixed-veg-uttapam,Mixed Veg Uttapam,South Indian,assets/menu/south-indian-mixed-veg-uttapam.webp,representative illustration
+south-indian-poori-bhaji,Poori Bhaji,South Indian,assets/menu/south-indian-poori-bhaji.webp,representative illustration
+south-indian-ven-pongal,Ven Pongal,South Indian,assets/menu/south-indian-ven-pongal.webp,representative illustration
+south-indian-vegetable-upma,Vegetable Upma,South Indian,assets/menu/south-indian-vegetable-upma.webp,representative illustration
+south-indian-mini-tiffin,Mini Tiffin,South Indian,assets/menu/south-indian-mini-tiffin.webp,representative illustration
+nonveg-dosa-egg-dosa,Egg Dosa,Egg & Chicken Dosa,assets/menu/nonveg-dosa-egg-dosa.webp,representative illustration
+nonveg-dosa-chicken-dosa,Chicken Dosa,Egg & Chicken Dosa,assets/menu/nonveg-dosa-chicken-dosa.webp,representative illustration
+burgers-classic-veg-burger,Classic Veg Burger,Burgers,assets/menu/burgers-classic-veg-burger.webp,representative illustration
+burgers-paneer-burger,Paneer Burger,Burgers,assets/menu/burgers-paneer-burger.webp,representative illustration
+burgers-classic-chicken-burger,Classic Chicken Burger,Burgers,assets/menu/burgers-classic-chicken-burger.webp,representative illustration
+burgers-crispy-chicken-burger,Crispy Chicken Burger,Burgers,assets/menu/burgers-crispy-chicken-burger.webp,representative illustration
+burgers-peri-peri-chicken-burger,Peri Peri Chicken Burger,Burgers,assets/menu/burgers-peri-peri-chicken-burger.webp,representative illustration
+burgers-double-patty-chicken-burger,Double Patty Chicken Burger,Burgers,assets/menu/burgers-double-patty-chicken-burger.webp,representative illustration
+continental-classic-mac-n-cheese,Classic Mac n Cheese,Mac & Cheese,assets/menu/continental-classic-mac-n-cheese.webp,representative illustration
+continental-peri-peri-mac-n-cheese,Peri Peri Mac n Cheese,Mac & Cheese,assets/menu/continental-peri-peri-mac-n-cheese.webp,representative illustration
+continental-loaded-cheese-mac,Loaded Cheese Mac,Mac & Cheese,assets/menu/continental-loaded-cheese-mac.webp,representative illustration
+continental-mushroom-mac-n-cheese,Mushroom Mac n Cheese,Mac & Cheese,assets/menu/continental-mushroom-mac-n-cheese.webp,representative illustration
+continental-chicken-mac-n-cheese,Chicken Mac n Cheese,Mac & Cheese,assets/menu/continental-chicken-mac-n-cheese.webp,representative illustration
+continental-peri-peri-chicken-mac,Peri Peri Chicken Mac,Mac & Cheese,assets/menu/continental-peri-peri-chicken-mac.webp,representative illustration
+continental-loaded-chicken-mac,Loaded Chicken Mac,Mac & Cheese,assets/menu/continental-loaded-chicken-mac.webp,representative illustration
+salads-garden-fresh-salad,Garden Fresh Salad,Salads,assets/menu/salads-garden-fresh-salad.webp,representative illustration
+salads-greek-salad,Greek Salad,Salads,assets/menu/salads-greek-salad.webp,representative illustration
+salads-chicken-caesar-salad,Chicken Caesar Salad,Salads,assets/menu/salads-chicken-caesar-salad.webp,representative illustration
+salads-grilled-chicken-salad,Grilled Chicken Salad,Salads,assets/menu/salads-grilled-chicken-salad.webp,representative illustration
+salads-paneer-protein-salad,Paneer Protein Salad,Salads,assets/menu/salads-paneer-protein-salad.webp,representative illustration
+salads-indian-garden-salad,Indian Garden Salad,Salads,assets/menu/salads-indian-garden-salad.webp,representative illustration
+salads-fresh-cucumber-salad,Fresh Cucumber Salad,Salads,assets/menu/salads-fresh-cucumber-salad.webp,representative illustration
+salads-classic-onion-salad,Classic Onion Salad,Salads,assets/menu/salads-classic-onion-salad.webp,representative illustration
+soups-veg-sweet-corn-soup,Veg Sweet Corn Soup,Soups,assets/menu/soups-veg-sweet-corn-soup.webp,representative illustration
+soups-veg-hot-sour-soup,Veg Hot & Sour Soup,Soups,assets/menu/soups-veg-hot-sour-soup.webp,representative illustration
+soups-veg-manchow-soup,Veg Manchow Soup,Soups,assets/menu/soups-veg-manchow-soup.webp,representative illustration
+soups-lemon-coriander-soup,Lemon Coriander Soup,Soups,assets/menu/soups-lemon-coriander-soup.webp,representative illustration
+soups-veg-burnt-garlic-soup,Veg Burnt Garlic Soup,Soups,assets/menu/soups-veg-burnt-garlic-soup.webp,representative illustration
+soups-chicken-sweet-corn-soup,Chicken Sweet Corn Soup,Soups,assets/menu/soups-chicken-sweet-corn-soup.webp,representative illustration
+soups-chicken-hot-sour-soup,Chicken Hot & Sour Soup,Soups,assets/menu/soups-chicken-hot-sour-soup.webp,representative illustration
+soups-chicken-manchow-soup,Chicken Manchow Soup,Soups,assets/menu/soups-chicken-manchow-soup.webp,representative illustration
+soups-chicken-burnt-garlic-soup,Chicken Burnt Garlic Soup,Soups,assets/menu/soups-chicken-burnt-garlic-soup.webp,representative illustration
+desserts-double-ka-meetha,Double Ka Meetha,Desserts,assets/menu/desserts-double-ka-meetha.webp,representative illustration
+desserts-qubani-ka-meetha,Qubani Ka Meetha,Desserts,assets/menu/desserts-qubani-ka-meetha.webp,representative illustration
+desserts-apricot-delight,Apricot Delight,Desserts,assets/menu/desserts-apricot-delight.webp,representative illustration
+desserts-gulab-jamun,Gulab Jamun,Desserts,assets/menu/desserts-gulab-jamun.webp,representative illustration
+desserts-shahi-tukda,Shahi Tukda,Desserts,assets/menu/desserts-shahi-tukda.webp,representative illustration
+desserts-brownie-with-ice-cream,Brownie With Ice Cream,Desserts,assets/menu/desserts-brownie-with-ice-cream.webp,representative illustration
+desserts-rasgulla,Rasgulla,Desserts,assets/menu/desserts-rasgulla.webp,representative illustration
+thick-shakes-oreo-thick-shake,Oreo Thick Shake,Thick Shakes,assets/menu/thick-shakes-oreo-thick-shake.webp,representative illustration
+thick-shakes-kitkat-thick-shake,Kitkat Thick Shake,Thick Shakes,assets/menu/thick-shakes-kitkat-thick-shake.webp,representative illustration
+thick-shakes-brownie-thick-shake,Brownie Thick Shake,Thick Shakes,assets/menu/thick-shakes-brownie-thick-shake.webp,representative illustration
+thick-shakes-ferrero-thick-shake,Ferrero Thick Shake,Thick Shakes,assets/menu/thick-shakes-ferrero-thick-shake.webp,representative illustration
+thick-shakes-mango-thick-shake,Mango Thick Shake,Thick Shakes,assets/menu/thick-shakes-mango-thick-shake.webp,representative illustration
+thick-shakes-strawberry-thick-shake,Strawberry Thick Shake,Thick Shakes,assets/menu/thick-shakes-strawberry-thick-shake.webp,representative illustration
+thick-shakes-chocolate-thick-shake,Chocolate Thick Shake,Thick Shakes,assets/menu/thick-shakes-chocolate-thick-shake.webp,representative illustration
+thick-shakes-cold-coffee-thick-shake,Cold Coffee Thick Shake,Thick Shakes,assets/menu/thick-shakes-cold-coffee-thick-shake.webp,representative illustration
+mocktails-virgin-mojito,Virgin Mojito,Mocktails & Iced Tea,assets/menu/mocktails-virgin-mojito.webp,representative illustration
+mocktails-blue-lagoon,BLue Lagoon,Mocktails & Iced Tea,assets/menu/mocktails-blue-lagoon.webp,representative illustration
+mocktails-green-apple-cooler,Green Apple Cooler,Mocktails & Iced Tea,assets/menu/mocktails-green-apple-cooler.webp,representative illustration
+mocktails-watermelon-mint-cooler,Watermelon Mint Cooler,Mocktails & Iced Tea,assets/menu/mocktails-watermelon-mint-cooler.webp,representative illustration
+mocktails-kiwi-cooler,Kiwi Cooler,Mocktails & Iced Tea,assets/menu/mocktails-kiwi-cooler.webp,representative illustration
+mocktails-passion-fruit-cooler,Passion Fruit Cooler,Mocktails & Iced Tea,assets/menu/mocktails-passion-fruit-cooler.webp,representative illustration
+mocktails-fruit-punch,Fruit Punch,Mocktails & Iced Tea,assets/menu/mocktails-fruit-punch.webp,representative illustration
+mocktails-peach-iced-tea,Peach Iced Tea,Mocktails & Iced Tea,assets/menu/mocktails-peach-iced-tea.webp,representative illustration
+mocktails-lemon-iced-tea,Lemon Iced Tea,Mocktails & Iced Tea,assets/menu/mocktails-lemon-iced-tea.webp,representative illustration
+cold-beverages-mineral-water-500-ml,Mineral Water 500 ml,Cold Beverages,assets/menu/cold-beverages-mineral-water-500-ml.webp,representative illustration
+cold-beverages-mineral-water-1000-ml,Mineral Water 1000 ml,Cold Beverages,assets/menu/cold-beverages-mineral-water-1000-ml.webp,representative illustration
+cold-beverages-coca-cola-soft-beverage-300-ml-served-in-glass,Coca-Cola Soft Beverage 300 ml (Served in Glass),Cold Beverages,assets/menu/cold-beverages-coca-cola-soft-beverage-300-ml-served-in-glass.webp,representative illustration
+cold-beverages-pepsi-soft-beverage-300-ml-served-in-glass,Pepsi Soft Beverage 300 ml (Served In Glass),Cold Beverages,assets/menu/cold-beverages-pepsi-soft-beverage-300-ml-served-in-glass.webp,representative illustration
+cold-beverages-campa-soft-beverage-300-ml-served-in-glass,Campa Soft Beverage 300 ml (Served In Glass),Cold Beverages,assets/menu/cold-beverages-campa-soft-beverage-300-ml-served-in-glass.webp,representative illustration
+cold-beverages-masala-cool-drink,Masala Cool Drink,Cold Beverages,assets/menu/cold-beverages-masala-cool-drink.webp,representative illustration
+biryani-addons-onion-raita,Onion Raita,Biryani Add-ons,assets/menu/biryani-addons-onion-raita.webp,representative illustration
+biryani-addons-boondi-raita,Boondi Raita,Biryani Add-ons,assets/menu/biryani-addons-boondi-raita.webp,representative illustration
+biryani-addons-cucumber-raita,Cucumber Raita,Biryani Add-ons,assets/menu/biryani-addons-cucumber-raita.webp,representative illustration
+biryani-addons-extra-dum-chicken-piece,Extra Dum Chicken Piece,Biryani Add-ons,assets/menu/biryani-addons-extra-dum-chicken-piece.webp,representative illustration
+biryani-addons-extra-fry-piece-chicken,Extra Fry Piece Chicken,Biryani Add-ons,assets/menu/biryani-addons-extra-fry-piece-chicken.webp,representative illustration
+biryani-addons-extra-lollipop-2-pcs,Extra Lollipop (2 pcs),Biryani Add-ons,assets/menu/biryani-addons-extra-lollipop-2-pcs.webp,representative illustration

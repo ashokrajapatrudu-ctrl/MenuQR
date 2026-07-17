@@ -1,0 +1,2991 @@
+[
+  {
+    "id": "veg-starters-crispy-chilli-baby-corn",
+    "name": "Crispy Chilli Baby Corn",
+    "category": "Veg Starters",
+    "image": "assets/menu/veg-starters-crispy-chilli-baby-corn.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "veg-starters-crispy-corn",
+    "name": "Crispy Corn",
+    "category": "Veg Starters",
+    "image": "assets/menu/veg-starters-crispy-corn.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "veg-starters-dragon-baby-corn",
+    "name": "Dragon Baby Corn",
+    "category": "Veg Starters",
+    "image": "assets/menu/veg-starters-dragon-baby-corn.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "veg-starters-honey-chilli-potato",
+    "name": "Honey Chilli Potato",
+    "category": "Veg Starters",
+    "image": "assets/menu/veg-starters-honey-chilli-potato.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "veg-starters-crispy-mushroom",
+    "name": "Crispy Mushroom",
+    "category": "Veg Starters",
+    "image": "assets/menu/veg-starters-crispy-mushroom.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "veg-starters-chilli-mushroom",
+    "name": "Chilli Mushroom",
+    "category": "Veg Starters",
+    "image": "assets/menu/veg-starters-chilli-mushroom.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "veg-starters-salt-pepper-mushroom",
+    "name": "Salt & Pepper Mushroom",
+    "category": "Veg Starters",
+    "image": "assets/menu/veg-starters-salt-pepper-mushroom.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "veg-starters-veg-manchurian-dry",
+    "name": "Veg Manchurian Dry",
+    "category": "Veg Starters",
+    "image": "assets/menu/veg-starters-veg-manchurian-dry.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "veg-starters-veg-65",
+    "name": "Veg 65",
+    "category": "Veg Starters",
+    "image": "assets/menu/veg-starters-veg-65.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "veg-starters-paneer-65",
+    "name": "Paneer 65",
+    "category": "Veg Starters",
+    "image": "assets/menu/veg-starters-paneer-65.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "veg-starters-chilli-paneer",
+    "name": "Chilli Paneer",
+    "category": "Veg Starters",
+    "image": "assets/menu/veg-starters-chilli-paneer.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "veg-starters-dragon-paneer",
+    "name": "Dragon Paneer",
+    "category": "Veg Starters",
+    "image": "assets/menu/veg-starters-dragon-paneer.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "veg-starters-paneer-manchurian",
+    "name": "Paneer Manchurian",
+    "category": "Veg Starters",
+    "image": "assets/menu/veg-starters-paneer-manchurian.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "veg-starters-schezwan-paneer",
+    "name": "Schezwan Paneer",
+    "category": "Veg Starters",
+    "image": "assets/menu/veg-starters-schezwan-paneer.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chicken-starters-crispy-chicken",
+    "name": "Crispy Chicken",
+    "category": "Chicken Starters",
+    "image": "assets/menu/chicken-starters-crispy-chicken.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chicken-starters-chilli-chicken-dry",
+    "name": "Chilli Chicken Dry",
+    "category": "Chicken Starters",
+    "image": "assets/menu/chicken-starters-chilli-chicken-dry.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chicken-starters-dragon-chicken",
+    "name": "Dragon Chicken",
+    "category": "Chicken Starters",
+    "image": "assets/menu/chicken-starters-dragon-chicken.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chicken-starters-chicken-65",
+    "name": "Chicken 65",
+    "category": "Chicken Starters",
+    "image": "assets/menu/chicken-starters-chicken-65.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chicken-starters-pepper-chicken",
+    "name": "Pepper Chicken",
+    "category": "Chicken Starters",
+    "image": "assets/menu/chicken-starters-pepper-chicken.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chicken-starters-honey-chilli-chicken",
+    "name": "Honey Chilli Chicken",
+    "category": "Chicken Starters",
+    "image": "assets/menu/chicken-starters-honey-chilli-chicken.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chicken-starters-chicken-manchurian-dry",
+    "name": "Chicken Manchurian Dry",
+    "category": "Chicken Starters",
+    "image": "assets/menu/chicken-starters-chicken-manchurian-dry.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chicken-starters-chicken-lollipop",
+    "name": "Chicken Lollipop",
+    "category": "Chicken Starters",
+    "image": "assets/menu/chicken-starters-chicken-lollipop.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chicken-starters-chicken-wings",
+    "name": "Chicken Wings",
+    "category": "Chicken Starters",
+    "image": "assets/menu/chicken-starters-chicken-wings.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chicken-starters-garlic-chicken",
+    "name": "Garlic Chicken",
+    "category": "Chicken Starters",
+    "image": "assets/menu/chicken-starters-garlic-chicken.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chicken-starters-schezwan-chicken",
+    "name": "Schezwan Chicken",
+    "category": "Chicken Starters",
+    "image": "assets/menu/chicken-starters-schezwan-chicken.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chicken-starters-lemon-chicken",
+    "name": "Lemon Chicken",
+    "category": "Chicken Starters",
+    "image": "assets/menu/chicken-starters-lemon-chicken.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chicken-starters-sesame-chicken",
+    "name": "Sesame Chicken",
+    "category": "Chicken Starters",
+    "image": "assets/menu/chicken-starters-sesame-chicken.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "seafood-starters-crispy-fish",
+    "name": "Crispy Fish",
+    "category": "Seafood Starters",
+    "image": "assets/menu/seafood-starters-crispy-fish.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "seafood-starters-chilli-fish",
+    "name": "Chilli Fish",
+    "category": "Seafood Starters",
+    "image": "assets/menu/seafood-starters-chilli-fish.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "seafood-starters-dragon-fish",
+    "name": "Dragon Fish",
+    "category": "Seafood Starters",
+    "image": "assets/menu/seafood-starters-dragon-fish.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "seafood-starters-pepper-fish",
+    "name": "Pepper Fish",
+    "category": "Seafood Starters",
+    "image": "assets/menu/seafood-starters-pepper-fish.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "seafood-starters-salt-pepper-prawns",
+    "name": "Salt & Pepper Prawns",
+    "category": "Seafood Starters",
+    "image": "assets/menu/seafood-starters-salt-pepper-prawns.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "seafood-starters-chilli-garlic-prawns",
+    "name": "Chilli Garlic Prawns",
+    "category": "Seafood Starters",
+    "image": "assets/menu/seafood-starters-chilli-garlic-prawns.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "seafood-starters-dragon-prawns",
+    "name": "Dragon Prawns",
+    "category": "Seafood Starters",
+    "image": "assets/menu/seafood-starters-dragon-prawns.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "shawarma-wraps-classic-chicken-shawarma",
+    "name": "Classic Chicken Shawarma",
+    "category": "Shawarma & Wraps",
+    "image": "assets/menu/shawarma-wraps-classic-chicken-shawarma.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "shawarma-wraps-arabian-chicken-shawarma",
+    "name": "Arabian Chicken Shawarma",
+    "category": "Shawarma & Wraps",
+    "image": "assets/menu/shawarma-wraps-arabian-chicken-shawarma.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "shawarma-wraps-peri-peri-chicken-shawarma",
+    "name": "Peri Peri Chicken Shawarma",
+    "category": "Shawarma & Wraps",
+    "image": "assets/menu/shawarma-wraps-peri-peri-chicken-shawarma.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "shawarma-wraps-bbq-chicken-shawarma",
+    "name": "BBQ Chicken Shawarma",
+    "category": "Shawarma & Wraps",
+    "image": "assets/menu/shawarma-wraps-bbq-chicken-shawarma.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "shawarma-wraps-smoky-chicken-shawarma",
+    "name": "Smoky Chicken Shawarma",
+    "category": "Shawarma & Wraps",
+    "image": "assets/menu/shawarma-wraps-smoky-chicken-shawarma.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "shawarma-wraps-tandoori-chicken-shawarma",
+    "name": "Tandoori Chicken Shawarma",
+    "category": "Shawarma & Wraps",
+    "image": "assets/menu/shawarma-wraps-tandoori-chicken-shawarma.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "shawarma-wraps-cheesy-chicken-shawarma",
+    "name": "Cheesy Chicken Shawarma",
+    "category": "Shawarma & Wraps",
+    "image": "assets/menu/shawarma-wraps-cheesy-chicken-shawarma.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "shawarma-wraps-double-chicken-shawarma",
+    "name": "Double Chicken Shawarma",
+    "category": "Shawarma & Wraps",
+    "image": "assets/menu/shawarma-wraps-double-chicken-shawarma.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "shawarma-wraps-loaded-chicken-shawarma",
+    "name": "Loaded Chicken Shawarma",
+    "category": "Shawarma & Wraps",
+    "image": "assets/menu/shawarma-wraps-loaded-chicken-shawarma.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "shawarma-wraps-jumbo-chicken-shawarma",
+    "name": "Jumbo Chicken Shawarma",
+    "category": "Shawarma & Wraps",
+    "image": "assets/menu/shawarma-wraps-jumbo-chicken-shawarma.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "shawarma-wraps-mexican-chicken-shawarma",
+    "name": "Mexican Chicken Shawarma",
+    "category": "Shawarma & Wraps",
+    "image": "assets/menu/shawarma-wraps-mexican-chicken-shawarma.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "shawarma-wraps-paneer-shawarma",
+    "name": "Paneer Shawarma",
+    "category": "Shawarma & Wraps",
+    "image": "assets/menu/shawarma-wraps-paneer-shawarma.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "shawarma-wraps-falafel-chicken-shawarma",
+    "name": "Falafel Chicken Shawarma",
+    "category": "Shawarma & Wraps",
+    "image": "assets/menu/shawarma-wraps-falafel-chicken-shawarma.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "shawarma-wraps-veggie-shawarma",
+    "name": "Veggie Shawarma",
+    "category": "Shawarma & Wraps",
+    "image": "assets/menu/shawarma-wraps-veggie-shawarma.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "shawarma-wraps-grilled-chicken-wrap",
+    "name": "Grilled Chicken Wrap",
+    "category": "Shawarma & Wraps",
+    "image": "assets/menu/shawarma-wraps-grilled-chicken-wrap.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "shawarma-wraps-paneer-wrap",
+    "name": "Paneer Wrap",
+    "category": "Shawarma & Wraps",
+    "image": "assets/menu/shawarma-wraps-paneer-wrap.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "shawarma-wraps-falafel-wrap",
+    "name": "Falafel Wrap",
+    "category": "Shawarma & Wraps",
+    "image": "assets/menu/shawarma-wraps-falafel-wrap.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "shawarma-wraps-mexican-chicken-wrap",
+    "name": "Mexican Chicken Wrap",
+    "category": "Shawarma & Wraps",
+    "image": "assets/menu/shawarma-wraps-mexican-chicken-wrap.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "shawarma-wraps-peri-peri-chicken-wrap",
+    "name": "Peri Peri Chicken Wrap",
+    "category": "Shawarma & Wraps",
+    "image": "assets/menu/shawarma-wraps-peri-peri-chicken-wrap.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "veg-biryanis-plain-biryani-rice",
+    "name": "Plain Biryani Rice",
+    "category": "Veg Biryanis",
+    "image": "assets/menu/veg-biryanis-plain-biryani-rice.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "veg-biryanis-veg-biryani",
+    "name": "Veg Biryani",
+    "category": "Veg Biryanis",
+    "image": "assets/menu/veg-biryanis-veg-biryani.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "veg-biryanis-baby-corn-biryani",
+    "name": "Baby Corn Biryani",
+    "category": "Veg Biryanis",
+    "image": "assets/menu/veg-biryanis-baby-corn-biryani.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "veg-biryanis-mushroom-biryani",
+    "name": "Mushroom Biryani",
+    "category": "Veg Biryanis",
+    "image": "assets/menu/veg-biryanis-mushroom-biryani.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "veg-biryanis-soya-chaap-biryani",
+    "name": "Soya Chaap Biryani",
+    "category": "Veg Biryanis",
+    "image": "assets/menu/veg-biryanis-soya-chaap-biryani.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "veg-biryanis-kaju-biryani",
+    "name": "Kaju Biryani",
+    "category": "Veg Biryanis",
+    "image": "assets/menu/veg-biryanis-kaju-biryani.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "veg-biryanis-paneer-biryani",
+    "name": "Paneer Biryani",
+    "category": "Veg Biryanis",
+    "image": "assets/menu/veg-biryanis-paneer-biryani.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "veg-biryanis-paneer-kaju-biryani",
+    "name": "Paneer Kaju Biryani",
+    "category": "Veg Biryanis",
+    "image": "assets/menu/veg-biryanis-paneer-kaju-biryani.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "veg-biryanis-paneer-pulao",
+    "name": "Paneer Pulao",
+    "category": "Veg Biryanis",
+    "image": "assets/menu/veg-biryanis-paneer-pulao.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "veg-biryanis-kaju-pulao",
+    "name": "Kaju Pulao",
+    "category": "Veg Biryanis",
+    "image": "assets/menu/veg-biryanis-kaju-pulao.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "veg-biryanis-mushroom-pulao",
+    "name": "Mushroom Pulao",
+    "category": "Veg Biryanis",
+    "image": "assets/menu/veg-biryanis-mushroom-pulao.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "veg-biryanis-baby-corn-pulao",
+    "name": "Baby Corn Pulao",
+    "category": "Veg Biryanis",
+    "image": "assets/menu/veg-biryanis-baby-corn-pulao.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "veg-biryanis-mushroom-avakai-biryani",
+    "name": "Mushroom Avakai Biryani",
+    "category": "Veg Biryanis",
+    "image": "assets/menu/veg-biryanis-mushroom-avakai-biryani.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "veg-biryanis-paneer-avakai-biryani",
+    "name": "Paneer Avakai Biryani",
+    "category": "Veg Biryanis",
+    "image": "assets/menu/veg-biryanis-paneer-avakai-biryani.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "veg-biryanis-baby-corn-avakai-biryani",
+    "name": "Baby Corn Avakai Biryani",
+    "category": "Veg Biryanis",
+    "image": "assets/menu/veg-biryanis-baby-corn-avakai-biryani.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "veg-biryanis-veg-avakai-biryani",
+    "name": "Veg Avakai Biryani",
+    "category": "Veg Biryanis",
+    "image": "assets/menu/veg-biryanis-veg-avakai-biryani.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "veg-biryanis-paneer-tikka-biryani",
+    "name": "Paneer Tikka Biryani",
+    "category": "Veg Biryanis",
+    "image": "assets/menu/veg-biryanis-paneer-tikka-biryani.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "veg-pot-biryanis-veg-pot-biryani",
+    "name": "Veg Pot Biryani",
+    "category": "Veg Pot Biryanis",
+    "image": "assets/menu/veg-pot-biryanis-veg-pot-biryani.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "veg-pot-biryanis-paneer-pot-biryani",
+    "name": "Paneer Pot Biryani",
+    "category": "Veg Pot Biryanis",
+    "image": "assets/menu/veg-pot-biryanis-paneer-pot-biryani.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "veg-pot-biryanis-baby-corn-pot-biryani",
+    "name": "Baby Corn Pot Biryani",
+    "category": "Veg Pot Biryanis",
+    "image": "assets/menu/veg-pot-biryanis-baby-corn-pot-biryani.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "veg-pot-biryanis-mushroom-pot-biryani",
+    "name": "Mushroom Pot Biryani",
+    "category": "Veg Pot Biryanis",
+    "image": "assets/menu/veg-pot-biryanis-mushroom-pot-biryani.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "veg-pot-biryanis-paneer-kaju-pot-biryani",
+    "name": "Paneer Kaju Pot Biryani",
+    "category": "Veg Pot Biryanis",
+    "image": "assets/menu/veg-pot-biryanis-paneer-kaju-pot-biryani.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "veg-pot-biryanis-kaju-pot-biryani",
+    "name": "Kaju Pot Biryani",
+    "category": "Veg Pot Biryanis",
+    "image": "assets/menu/veg-pot-biryanis-kaju-pot-biryani.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "veg-pot-biryanis-amigos-veg-special-pot-biryani",
+    "name": "Amigos Veg Special Pot Biryani",
+    "category": "Veg Pot Biryanis",
+    "image": "assets/menu/veg-pot-biryanis-amigos-veg-special-pot-biryani.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "nonveg-biryanis-hyderabadi-egg-biryani",
+    "name": "Hyderabadi Egg Biryani",
+    "category": "Non-Veg Biryanis",
+    "image": "assets/menu/nonveg-biryanis-hyderabadi-egg-biryani.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "nonveg-biryanis-amigos-fry-piece-chicken-biryani",
+    "name": "Amigos Fry Piece Chicken Biryani",
+    "category": "Non-Veg Biryanis",
+    "image": "assets/menu/nonveg-biryanis-amigos-fry-piece-chicken-biryani.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "nonveg-biryanis-hyderabadi-chicken-dum-biryani",
+    "name": "Hyderabadi Chicken Dum Biryani",
+    "category": "Non-Veg Biryanis",
+    "image": "assets/menu/nonveg-biryanis-hyderabadi-chicken-dum-biryani.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "nonveg-biryanis-chicken-wings-biryani",
+    "name": "Chicken Wings Biryani",
+    "category": "Non-Veg Biryanis",
+    "image": "assets/menu/nonveg-biryanis-chicken-wings-biryani.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "nonveg-biryanis-konaseema-chicken-biryani",
+    "name": "Konaseema Chicken Biryani",
+    "category": "Non-Veg Biryanis",
+    "image": "assets/menu/nonveg-biryanis-konaseema-chicken-biryani.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "nonveg-biryanis-boneless-chicken-biryani",
+    "name": "Boneless Chicken Biryani",
+    "category": "Non-Veg Biryanis",
+    "image": "assets/menu/nonveg-biryanis-boneless-chicken-biryani.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "nonveg-biryanis-mughalai-chicken-biryani",
+    "name": "Mughalai Chicken Biryani",
+    "category": "Non-Veg Biryanis",
+    "image": "assets/menu/nonveg-biryanis-mughalai-chicken-biryani.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "nonveg-biryanis-chicken-65-biryani",
+    "name": "Chicken 65 Biryani",
+    "category": "Non-Veg Biryanis",
+    "image": "assets/menu/nonveg-biryanis-chicken-65-biryani.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "nonveg-biryanis-andhra-avakai-chicken-biryani",
+    "name": "Andhra Avakai Chicken Biryani",
+    "category": "Non-Veg Biryanis",
+    "image": "assets/menu/nonveg-biryanis-andhra-avakai-chicken-biryani.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "nonveg-biryanis-chicken-tikka-biryani",
+    "name": "Chicken Tikka Biryani",
+    "category": "Non-Veg Biryanis",
+    "image": "assets/menu/nonveg-biryanis-chicken-tikka-biryani.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "nonveg-biryanis-chicken-tangdi-biryani",
+    "name": "Chicken Tangdi Biryani",
+    "category": "Non-Veg Biryanis",
+    "image": "assets/menu/nonveg-biryanis-chicken-tangdi-biryani.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "nonveg-biryanis-chicken-lollipop-biryani",
+    "name": "Chicken Lollipop Biryani",
+    "category": "Non-Veg Biryanis",
+    "image": "assets/menu/nonveg-biryanis-chicken-lollipop-biryani.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "nonveg-biryanis-tandoor-chicken-biryani",
+    "name": "Tandoor Chicken Biryani",
+    "category": "Non-Veg Biryanis",
+    "image": "assets/menu/nonveg-biryanis-tandoor-chicken-biryani.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "nonveg-biryanis-avakai-chicken-boneless-biryani",
+    "name": "Avakai Chicken Boneless Biryani",
+    "category": "Non-Veg Biryanis",
+    "image": "assets/menu/nonveg-biryanis-avakai-chicken-boneless-biryani.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "nonveg-biryanis-amigos-raju-gari-kodi-pulao",
+    "name": "Amigos Raju Gari Kodi Pulao",
+    "category": "Non-Veg Biryanis",
+    "image": "assets/menu/nonveg-biryanis-amigos-raju-gari-kodi-pulao.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "nonveg-biryanis-avakai-chicken-pulao-bone",
+    "name": "Avakai Chicken Pulao Bone",
+    "category": "Non-Veg Biryanis",
+    "image": "assets/menu/nonveg-biryanis-avakai-chicken-pulao-bone.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "nonveg-biryanis-avakai-chicken-pulao-boneless",
+    "name": "Avakai Chicken Pulao Boneless",
+    "category": "Non-Veg Biryanis",
+    "image": "assets/menu/nonveg-biryanis-avakai-chicken-pulao-boneless.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "nonveg-biryanis-hyderabadi-mutton-biryani",
+    "name": "Hyderabadi Mutton Biryani",
+    "category": "Non-Veg Biryanis",
+    "image": "assets/menu/nonveg-biryanis-hyderabadi-mutton-biryani.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "nonveg-biryanis-gongura-mutton-biryani",
+    "name": "Gongura Mutton Biryani",
+    "category": "Non-Veg Biryanis",
+    "image": "assets/menu/nonveg-biryanis-gongura-mutton-biryani.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "nonveg-biryanis-mutton-fry-piece-biryani",
+    "name": "Mutton Fry Piece Biryani",
+    "category": "Non-Veg Biryanis",
+    "image": "assets/menu/nonveg-biryanis-mutton-fry-piece-biryani.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "nonveg-biryanis-mutton-keema-biryani",
+    "name": "Mutton Keema Biryani",
+    "category": "Non-Veg Biryanis",
+    "image": "assets/menu/nonveg-biryanis-mutton-keema-biryani.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "nonveg-biryanis-mutton-pulao",
+    "name": "Mutton Pulao",
+    "category": "Non-Veg Biryanis",
+    "image": "assets/menu/nonveg-biryanis-mutton-pulao.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "nonveg-biryanis-fish-biryani",
+    "name": "Fish Biryani",
+    "category": "Non-Veg Biryanis",
+    "image": "assets/menu/nonveg-biryanis-fish-biryani.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "nonveg-biryanis-prawns-biryani",
+    "name": "Prawns Biryani",
+    "category": "Non-Veg Biryanis",
+    "image": "assets/menu/nonveg-biryanis-prawns-biryani.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "nonveg-biryanis-special-spicy-prawns-pulao",
+    "name": "Special Spicy Prawns Pulao",
+    "category": "Non-Veg Biryanis",
+    "image": "assets/menu/nonveg-biryanis-special-spicy-prawns-pulao.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "nonveg-pot-biryanis-chicken-pot-biryani-with-bone",
+    "name": "Chicken Pot Biryani With Bone",
+    "category": "Chicken & Seafood Pot Biryanis",
+    "image": "assets/menu/nonveg-pot-biryanis-chicken-pot-biryani-with-bone.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "nonveg-pot-biryanis-boneless-chicken-pot-biryani",
+    "name": "Boneless Chicken Pot Biryani",
+    "category": "Chicken & Seafood Pot Biryanis",
+    "image": "assets/menu/nonveg-pot-biryanis-boneless-chicken-pot-biryani.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "nonveg-pot-biryanis-chicken-tikka-pot-biryani",
+    "name": "Chicken Tikka Pot Biryani",
+    "category": "Chicken & Seafood Pot Biryanis",
+    "image": "assets/menu/nonveg-pot-biryanis-chicken-tikka-pot-biryani.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "nonveg-pot-biryanis-special-prawns-pot-biryani",
+    "name": "Special Prawns Pot Biryani",
+    "category": "Chicken & Seafood Pot Biryanis",
+    "image": "assets/menu/nonveg-pot-biryanis-special-prawns-pot-biryani.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "family-packs-hyderabadi-chicken-dum-family-pack",
+    "name": "Hyderabadi Chicken Dum Family Pack",
+    "category": "Family Packs",
+    "image": "assets/menu/family-packs-hyderabadi-chicken-dum-family-pack.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "family-packs-fry-piece-chicken-biryani-family-pack",
+    "name": "Fry Piece Chicken Biryani Family Pack",
+    "category": "Family Packs",
+    "image": "assets/menu/family-packs-fry-piece-chicken-biryani-family-pack.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "family-packs-veg-biryani-family-pack",
+    "name": "Veg Biryani Family Pack",
+    "category": "Family Packs",
+    "image": "assets/menu/family-packs-veg-biryani-family-pack.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "family-packs-paneer-tikka-biryani-family-pack",
+    "name": "Paneer Tikka Biryani Family Pack",
+    "category": "Family Packs",
+    "image": "assets/menu/family-packs-paneer-tikka-biryani-family-pack.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "family-packs-chicken-tandoori-biryani-family-pack",
+    "name": "Chicken Tandoori Biryani Family Pack",
+    "category": "Family Packs",
+    "image": "assets/menu/family-packs-chicken-tandoori-biryani-family-pack.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "mandi-classic-chicken-mandi",
+    "name": "Classic Chicken Mandi",
+    "category": "Mandi",
+    "image": "assets/menu/mandi-classic-chicken-mandi.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "mandi-chicken-juicy-mandi",
+    "name": "Chicken Juicy Mandi",
+    "category": "Mandi",
+    "image": "assets/menu/mandi-chicken-juicy-mandi.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "mandi-mutton-mandi",
+    "name": "Mutton Mandi",
+    "category": "Mandi",
+    "image": "assets/menu/mandi-mutton-mandi.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "mandi-mutton-raan-mandi",
+    "name": "Mutton Raan Mandi",
+    "category": "Mandi",
+    "image": "assets/menu/mandi-mutton-raan-mandi.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "mandi-fish-mandi",
+    "name": "Fish Mandi",
+    "category": "Mandi",
+    "image": "assets/menu/mandi-fish-mandi.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "mandi-prawns-mandi",
+    "name": "Prawns Mandi",
+    "category": "Mandi",
+    "image": "assets/menu/mandi-prawns-mandi.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "mandi-paneer-mandi",
+    "name": "Paneer Mandi",
+    "category": "Mandi",
+    "image": "assets/menu/mandi-paneer-mandi.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "mandi-mushroom-mandi",
+    "name": "Mushroom Mandi",
+    "category": "Mandi",
+    "image": "assets/menu/mandi-mushroom-mandi.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "mandi-veg-arabian-mandi",
+    "name": "Veg Arabian Mandi",
+    "category": "Mandi",
+    "image": "assets/menu/mandi-veg-arabian-mandi.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "meals-thalis-south-indian-meals",
+    "name": "South Indian Meals",
+    "category": "Meals & Thalis",
+    "image": "assets/menu/meals-thalis-south-indian-meals.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "meals-thalis-north-indian-meals",
+    "name": "North Indian Meals",
+    "category": "Meals & Thalis",
+    "image": "assets/menu/meals-thalis-north-indian-meals.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "meals-thalis-veg-mini-meals",
+    "name": "Veg Mini Meals",
+    "category": "Meals & Thalis",
+    "image": "assets/menu/meals-thalis-veg-mini-meals.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "dals-creamy-butter-dal",
+    "name": "Creamy Butter Dal",
+    "category": "Dals",
+    "image": "assets/menu/dals-creamy-butter-dal.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "dals-dhaba-dal-fry",
+    "name": "Dhaba Dal Fry",
+    "category": "Dals",
+    "image": "assets/menu/dals-dhaba-dal-fry.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "dals-punjabi-saag-dal",
+    "name": "Punjabi Saag Dal",
+    "category": "Dals",
+    "image": "assets/menu/dals-punjabi-saag-dal.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "dals-homestyle-tomato-dal",
+    "name": "Homestyle Tomato Dal",
+    "category": "Dals",
+    "image": "assets/menu/dals-homestyle-tomato-dal.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "dals-andhra-pappu-dal",
+    "name": "Andhra Pappu Dal",
+    "category": "Dals",
+    "image": "assets/menu/dals-andhra-pappu-dal.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "dals-slow-cooked-dal-makhani",
+    "name": "Slow Cooked Dal Makhani",
+    "category": "Dals",
+    "image": "assets/menu/dals-slow-cooked-dal-makhani.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "dals-garlic-tempered-dal-dal-lasooni",
+    "name": "Garlic Tempered Dal (Dal Lasooni)",
+    "category": "Dals",
+    "image": "assets/menu/dals-garlic-tempered-dal-dal-lasooni.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "veg-main-course-desi-bhindi-fry",
+    "name": "Desi Bhindi Fry",
+    "category": "Garden Veg Main Course",
+    "image": "assets/menu/veg-main-course-desi-bhindi-fry.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "veg-main-course-golden-aloo-fry",
+    "name": "Golden Aloo Fry",
+    "category": "Garden Veg Main Course",
+    "image": "assets/menu/veg-main-course-golden-aloo-fry.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "veg-main-course-classic-jeera-aloo",
+    "name": "Classic Jeera Aloo",
+    "category": "Garden Veg Main Course",
+    "image": "assets/menu/veg-main-course-classic-jeera-aloo.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "veg-main-course-rajasthani-sev-tamatar",
+    "name": "Rajasthani Sev Tamatar",
+    "category": "Garden Veg Main Course",
+    "image": "assets/menu/veg-main-course-rajasthani-sev-tamatar.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "veg-main-course-punjabi-rajma-curry",
+    "name": "Punjabi Rajma Curry",
+    "category": "Garden Veg Main Course",
+    "image": "assets/menu/veg-main-course-punjabi-rajma-curry.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "veg-main-course-homestyle-aloo-methi",
+    "name": "Homestyle Aloo Methi",
+    "category": "Garden Veg Main Course",
+    "image": "assets/menu/veg-main-course-homestyle-aloo-methi.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "veg-main-course-dhaba-bhindi-masala",
+    "name": "Dhaba Bhindi Masala",
+    "category": "Garden Veg Main Course",
+    "image": "assets/menu/veg-main-course-dhaba-bhindi-masala.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "veg-main-course-garden-mix-veg-curry",
+    "name": "Garden Mix Veg Curry",
+    "category": "Garden Veg Main Course",
+    "image": "assets/menu/veg-main-course-garden-mix-veg-curry.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "veg-main-course-fiery-veg-kolhapuri",
+    "name": "Fiery Veg Kolhapuri",
+    "category": "Garden Veg Main Course",
+    "image": "assets/menu/veg-main-course-fiery-veg-kolhapuri.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "veg-main-course-royal-veg-handi",
+    "name": "Royal Veg Handi",
+    "category": "Garden Veg Main Course",
+    "image": "assets/menu/veg-main-course-royal-veg-handi.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "veg-main-course-classic-veg-jalfrezi",
+    "name": "Classic Veg Jalfrezi",
+    "category": "Garden Veg Main Course",
+    "image": "assets/menu/veg-main-course-classic-veg-jalfrezi.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "veg-main-course-royal-navratan-korma",
+    "name": "Royal Navratan Korma",
+    "category": "Garden Veg Main Course",
+    "image": "assets/menu/veg-main-course-royal-navratan-korma.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "veg-main-course-hyderabadi-veg-curry",
+    "name": "Hyderabadi Veg Curry",
+    "category": "Garden Veg Main Course",
+    "image": "assets/menu/veg-main-course-hyderabadi-veg-curry.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "veg-main-course-creamy-corn-masala",
+    "name": "Creamy Corn Masala",
+    "category": "Garden Veg Main Course",
+    "image": "assets/menu/veg-main-course-creamy-corn-masala.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "veg-main-course-button-mushroom-masala",
+    "name": "Button Mushroom Masala",
+    "category": "Garden Veg Main Course",
+    "image": "assets/menu/veg-main-course-button-mushroom-masala.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "veg-main-course-baby-corn-masala-delight",
+    "name": "Baby Corn Masala Delight",
+    "category": "Garden Veg Main Course",
+    "image": "assets/menu/veg-main-course-baby-corn-masala-delight.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "veg-main-course-kadai-mushroom",
+    "name": "Kadai Mushroom",
+    "category": "Garden Veg Main Course",
+    "image": "assets/menu/veg-main-course-kadai-mushroom.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "veg-main-course-butter-mushroom-masala",
+    "name": "Butter Mushroom Masala",
+    "category": "Garden Veg Main Course",
+    "image": "assets/menu/veg-main-course-butter-mushroom-masala.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "veg-main-course-creamy-mushroom-corn-masala",
+    "name": "Creamy Mushroom Corn Masala",
+    "category": "Garden Veg Main Course",
+    "image": "assets/menu/veg-main-course-creamy-mushroom-corn-masala.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "veg-main-course-punjabi-soya-chaap-masala",
+    "name": "Punjabi Soya Chaap Masala",
+    "category": "Garden Veg Main Course",
+    "image": "assets/menu/veg-main-course-punjabi-soya-chaap-masala.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "veg-main-course-palak-corn-masala",
+    "name": "Palak Corn Masala",
+    "category": "Garden Veg Main Course",
+    "image": "assets/menu/veg-main-course-palak-corn-masala.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "veg-main-course-green-peas-masala-matar",
+    "name": "Green Peas Masala (Matar)",
+    "category": "Garden Veg Main Course",
+    "image": "assets/menu/veg-main-course-green-peas-masala-matar.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "veg-main-course-kaju-butter-masala",
+    "name": "Kaju Butter Masala",
+    "category": "Garden Veg Main Course",
+    "image": "assets/menu/veg-main-course-kaju-butter-masala.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "paneer-main-course-creamy-paneer-butter-masala",
+    "name": "Creamy Paneer Butter Masala",
+    "category": "Paneer Main Course",
+    "image": "assets/menu/paneer-main-course-creamy-paneer-butter-masala.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "paneer-main-course-matar-paneer-masala",
+    "name": "Matar Paneer Masala",
+    "category": "Paneer Main Course",
+    "image": "assets/menu/paneer-main-course-matar-paneer-masala.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "paneer-main-course-royal-paneer-lababdar",
+    "name": "Royal Paneer Lababdar",
+    "category": "Paneer Main Course",
+    "image": "assets/menu/paneer-main-course-royal-paneer-lababdar.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "paneer-main-course-kadai-paneer-special",
+    "name": "Kadai Paneer Special",
+    "category": "Paneer Main Course",
+    "image": "assets/menu/paneer-main-course-kadai-paneer-special.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "paneer-main-course-royal-shahi-paneer",
+    "name": "Royal Shahi Paneer",
+    "category": "Paneer Main Course",
+    "image": "assets/menu/paneer-main-course-royal-shahi-paneer.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "paneer-main-course-tandoori-paneer-tikka-masala",
+    "name": "Tandoori Paneer Tikka Masala",
+    "category": "Paneer Main Course",
+    "image": "assets/menu/paneer-main-course-tandoori-paneer-tikka-masala.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "paneer-main-course-dhaba-paneer-bhurji",
+    "name": "Dhaba Paneer Bhurji",
+    "category": "Paneer Main Course",
+    "image": "assets/menu/paneer-main-course-dhaba-paneer-bhurji.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "paneer-main-course-paneer-do-pyaza-special",
+    "name": "Paneer Do Pyaza Special",
+    "category": "Paneer Main Course",
+    "image": "assets/menu/paneer-main-course-paneer-do-pyaza-special.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "paneer-main-course-spicy-paneer-kolhapuri",
+    "name": "Spicy Paneer Kolhapuri",
+    "category": "Paneer Main Course",
+    "image": "assets/menu/paneer-main-course-spicy-paneer-kolhapuri.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "paneer-main-course-royal-paneer-handi",
+    "name": "Royal Paneer Handi",
+    "category": "Paneer Main Course",
+    "image": "assets/menu/paneer-main-course-royal-paneer-handi.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "paneer-main-course-punjabi-palak-paneer",
+    "name": "Punjabi Palak Paneer",
+    "category": "Paneer Main Course",
+    "image": "assets/menu/paneer-main-course-punjabi-palak-paneer.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "paneer-main-course-andhra-aavakai-paneer-masala",
+    "name": "Andhra Aavakai Paneer Masala",
+    "category": "Paneer Main Course",
+    "image": "assets/menu/paneer-main-course-andhra-aavakai-paneer-masala.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "paneer-main-course-hyderabadi-paneer-masala-curry",
+    "name": "Hyderabadi Paneer Masala Curry",
+    "category": "Paneer Main Course",
+    "image": "assets/menu/paneer-main-course-hyderabadi-paneer-masala-curry.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "paneer-main-course-methi-chaman-paneer",
+    "name": "Methi Chaman Paneer",
+    "category": "Paneer Main Course",
+    "image": "assets/menu/paneer-main-course-methi-chaman-paneer.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "paneer-main-course-kaju-paneer-butter-masala",
+    "name": "Kaju Paneer Butter Masala",
+    "category": "Paneer Main Course",
+    "image": "assets/menu/paneer-main-course-kaju-paneer-butter-masala.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "egg-main-course-veg-loaded-omelette",
+    "name": "Veg Loaded Omelette",
+    "category": "Egg Main Course",
+    "image": "assets/menu/egg-main-course-veg-loaded-omelette.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "egg-main-course-classic-plain-omelette",
+    "name": "Classic Plain Omelette",
+    "category": "Egg Main Course",
+    "image": "assets/menu/egg-main-course-classic-plain-omelette.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "egg-main-course-dhaba-masala-omelette",
+    "name": "Dhaba Masala Omelette",
+    "category": "Egg Main Course",
+    "image": "assets/menu/egg-main-course-dhaba-masala-omelette.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "egg-main-course-homestyle-egg-curry",
+    "name": "Homestyle Egg Curry",
+    "category": "Egg Main Course",
+    "image": "assets/menu/egg-main-course-homestyle-egg-curry.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "egg-main-course-dhaba-style-egg-curry",
+    "name": "Dhaba Style Egg Curry",
+    "category": "Egg Main Course",
+    "image": "assets/menu/egg-main-course-dhaba-style-egg-curry.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "egg-main-course-creamy-egg-butter-masala-3-eggs",
+    "name": "Creamy Egg Butter Masala (3 Eggs)",
+    "category": "Egg Main Course",
+    "image": "assets/menu/egg-main-course-creamy-egg-butter-masala-3-eggs.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "egg-main-course-egg-do-pyaza-special",
+    "name": "Egg Do Pyaza Special",
+    "category": "Egg Main Course",
+    "image": "assets/menu/egg-main-course-egg-do-pyaza-special.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "egg-main-course-spicy-egg-bhurji-masala",
+    "name": "Spicy Egg Bhurji Masala",
+    "category": "Egg Main Course",
+    "image": "assets/menu/egg-main-course-spicy-egg-bhurji-masala.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "egg-main-course-masala-omelette-curry",
+    "name": "Masala Omelette Curry",
+    "category": "Egg Main Course",
+    "image": "assets/menu/egg-main-course-masala-omelette-curry.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "egg-main-course-egg-keema-masala",
+    "name": "Egg Keema Masala",
+    "category": "Egg Main Course",
+    "image": "assets/menu/egg-main-course-egg-keema-masala.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chicken-main-course-dhaba-chicken-masala-bn",
+    "name": "Dhaba Chicken Masala BN",
+    "category": "Chicken Main Course",
+    "image": "assets/menu/chicken-main-course-dhaba-chicken-masala-bn.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chicken-main-course-spicy-darbar-tandoor-butter-chicken-bn",
+    "name": "Spicy Darbar Tandoor Butter Chicken Bn",
+    "category": "Chicken Main Course",
+    "image": "assets/menu/chicken-main-course-spicy-darbar-tandoor-butter-chicken-bn.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chicken-main-course-royal-chicken-handi-bl",
+    "name": "Royal Chicken Handi BL",
+    "category": "Chicken Main Course",
+    "image": "assets/menu/chicken-main-course-royal-chicken-handi-bl.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chicken-main-course-kadai-chicken-special-bl",
+    "name": "Kadai Chicken Special BL",
+    "category": "Chicken Main Course",
+    "image": "assets/menu/chicken-main-course-kadai-chicken-special-bl.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chicken-main-course-fiery-chicken-kolhapuri-bl",
+    "name": "Fiery Chicken Kolhapuri BL",
+    "category": "Chicken Main Course",
+    "image": "assets/menu/chicken-main-course-fiery-chicken-kolhapuri-bl.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chicken-main-course-royal-chicken-lababdar-bl",
+    "name": "Royal Chicken Lababdar BL",
+    "category": "Chicken Main Course",
+    "image": "assets/menu/chicken-main-course-royal-chicken-lababdar-bl.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chicken-main-course-tandoori-chicken-tikka-masala",
+    "name": "Tandoori Chicken Tikka Masala",
+    "category": "Chicken Main Course",
+    "image": "assets/menu/chicken-main-course-tandoori-chicken-tikka-masala.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chicken-main-course-spicy-andhra-chicken-curry-bn",
+    "name": "Spicy Andhra Chicken Curry BN",
+    "category": "Chicken Main Course",
+    "image": "assets/menu/chicken-main-course-spicy-andhra-chicken-curry-bn.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chicken-main-course-green-chilli-chicken-masala-bn",
+    "name": "Green Chilli Chicken Masala BN",
+    "category": "Chicken Main Course",
+    "image": "assets/menu/chicken-main-course-green-chilli-chicken-masala-bn.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chicken-main-course-royal-mughlai-chicken-curry-bn",
+    "name": "Royal Mughlai Chicken Curry BN",
+    "category": "Chicken Main Course",
+    "image": "assets/menu/chicken-main-course-royal-mughlai-chicken-curry-bn.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chicken-main-course-creamy-white-chicken-korma-bn",
+    "name": "Creamy White Chicken Korma BN",
+    "category": "Chicken Main Course",
+    "image": "assets/menu/chicken-main-course-creamy-white-chicken-korma-bn.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chicken-main-course-avakaya-chicken-masala-bn",
+    "name": "Avakaya Chicken Masala BN",
+    "category": "Chicken Main Course",
+    "image": "assets/menu/chicken-main-course-avakaya-chicken-masala-bn.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chicken-main-course-gongura-chicken-curry-bn",
+    "name": "Gongura Chicken Curry BN",
+    "category": "Chicken Main Course",
+    "image": "assets/menu/chicken-main-course-gongura-chicken-curry-bn.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chicken-main-course-chicken-do-pyaza-special-bl",
+    "name": "Chicken Do Pyaza Special BL",
+    "category": "Chicken Main Course",
+    "image": "assets/menu/chicken-main-course-chicken-do-pyaza-special-bl.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chicken-main-course-boneless-butter-chicken-masala",
+    "name": "Boneless Butter Chicken Masala",
+    "category": "Chicken Main Course",
+    "image": "assets/menu/chicken-main-course-boneless-butter-chicken-masala.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chicken-main-course-dum-ka-chicken-masala",
+    "name": "Dum Ka Chicken Masala",
+    "category": "Chicken Main Course",
+    "image": "assets/menu/chicken-main-course-dum-ka-chicken-masala.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chicken-main-course-chicken-tangadi-masala",
+    "name": "Chicken Tangadi Masala",
+    "category": "Chicken Main Course",
+    "image": "assets/menu/chicken-main-course-chicken-tangadi-masala.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "mutton-main-course-kashmiri-mutton-rogan-josh",
+    "name": "Kashmiri Mutton Rogan Josh",
+    "category": "Mutton Main Course",
+    "image": "assets/menu/mutton-main-course-kashmiri-mutton-rogan-josh.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "mutton-main-course-bengali-mutton-kosha",
+    "name": "Bengali Mutton Kosha",
+    "category": "Mutton Main Course",
+    "image": "assets/menu/mutton-main-course-bengali-mutton-kosha.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "mutton-main-course-dhaba-style-mutton-curry",
+    "name": "Dhaba Style Mutton Curry",
+    "category": "Mutton Main Course",
+    "image": "assets/menu/mutton-main-course-dhaba-style-mutton-curry.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "mutton-main-course-royal-mutton-handi",
+    "name": "Royal Mutton Handi",
+    "category": "Mutton Main Course",
+    "image": "assets/menu/mutton-main-course-royal-mutton-handi.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "mutton-main-course-kadai-mutton-special",
+    "name": "Kadai Mutton Special",
+    "category": "Mutton Main Course",
+    "image": "assets/menu/mutton-main-course-kadai-mutton-special.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "mutton-main-course-spicy-mutton-keema-masala",
+    "name": "Spicy Mutton Keema Masala",
+    "category": "Mutton Main Course",
+    "image": "assets/menu/mutton-main-course-spicy-mutton-keema-masala.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "mutton-main-course-mutton-do-pyaza-special",
+    "name": "Mutton Do Pyaza Special",
+    "category": "Mutton Main Course",
+    "image": "assets/menu/mutton-main-course-mutton-do-pyaza-special.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "mutton-main-course-pepper-mutton-fry",
+    "name": "Pepper Mutton Fry",
+    "category": "Mutton Main Course",
+    "image": "assets/menu/mutton-main-course-pepper-mutton-fry.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "mutton-main-course-gongura-mutton-curry",
+    "name": "Gongura Mutton Curry",
+    "category": "Mutton Main Course",
+    "image": "assets/menu/mutton-main-course-gongura-mutton-curry.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "mutton-main-course-dum-ka-mutton-masala",
+    "name": "Dum Ka Mutton Masala",
+    "category": "Mutton Main Course",
+    "image": "assets/menu/mutton-main-course-dum-ka-mutton-masala.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "seafood-main-course-basa-fish-masala-special",
+    "name": "Basa Fish Masala Special",
+    "category": "Seafood Main Course",
+    "image": "assets/menu/seafood-main-course-basa-fish-masala-special.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "seafood-main-course-kadai-fish-masala",
+    "name": "Kadai Fish Masala",
+    "category": "Seafood Main Course",
+    "image": "assets/menu/seafood-main-course-kadai-fish-masala.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "seafood-main-course-creamy-butter-fish-masala",
+    "name": "Creamy Butter Fish Masala",
+    "category": "Seafood Main Course",
+    "image": "assets/menu/seafood-main-course-creamy-butter-fish-masala.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "seafood-main-course-tandoori-fish-tikka-masala",
+    "name": "Tandoori Fish Tikka Masala",
+    "category": "Seafood Main Course",
+    "image": "assets/menu/seafood-main-course-tandoori-fish-tikka-masala.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "seafood-main-course-spicy-andhra-fish-curry",
+    "name": "Spicy Andhra Fish Curry",
+    "category": "Seafood Main Course",
+    "image": "assets/menu/seafood-main-course-spicy-andhra-fish-curry.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "seafood-main-course-classic-prawns-masala",
+    "name": "Classic Prawns Masala",
+    "category": "Seafood Main Course",
+    "image": "assets/menu/seafood-main-course-classic-prawns-masala.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "seafood-main-course-butter-garlic-prawns-special",
+    "name": "Butter Garlic Prawns Special",
+    "category": "Seafood Main Course",
+    "image": "assets/menu/seafood-main-course-butter-garlic-prawns-special.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "seafood-main-course-creamy-malai-prawns-curry",
+    "name": "Creamy Malai Prawns Curry",
+    "category": "Seafood Main Course",
+    "image": "assets/menu/seafood-main-course-creamy-malai-prawns-curry.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "seafood-main-course-spicy-andhra-prawns-curry",
+    "name": "Spicy Andhra Prawns Curry",
+    "category": "Seafood Main Course",
+    "image": "assets/menu/seafood-main-course-spicy-andhra-prawns-curry.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "seafood-main-course-pepper-prawn-masala",
+    "name": "Pepper Prawn Masala",
+    "category": "Seafood Main Course",
+    "image": "assets/menu/seafood-main-course-pepper-prawn-masala.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "seafood-main-course-chettinad-prawn-curry",
+    "name": "Chettinad Prawn Curry",
+    "category": "Seafood Main Course",
+    "image": "assets/menu/seafood-main-course-chettinad-prawn-curry.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "tandoori-kebabs-classic-paneer-tikka",
+    "name": "Classic Paneer Tikka",
+    "category": "Tandoori Kebabs",
+    "image": "assets/menu/tandoori-kebabs-classic-paneer-tikka.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "tandoori-kebabs-achari-paneer-tikka",
+    "name": "Achari Paneer Tikka",
+    "category": "Tandoori Kebabs",
+    "image": "assets/menu/tandoori-kebabs-achari-paneer-tikka.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "tandoori-kebabs-hariyali-paneer-tikka",
+    "name": "Hariyali Paneer Tikka",
+    "category": "Tandoori Kebabs",
+    "image": "assets/menu/tandoori-kebabs-hariyali-paneer-tikka.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "tandoori-kebabs-malai-paneer-tikka",
+    "name": "Malai Paneer Tikka",
+    "category": "Tandoori Kebabs",
+    "image": "assets/menu/tandoori-kebabs-malai-paneer-tikka.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "tandoori-kebabs-tandoori-mushroom",
+    "name": "Tandoori Mushroom",
+    "category": "Tandoori Kebabs",
+    "image": "assets/menu/tandoori-kebabs-tandoori-mushroom.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "tandoori-kebabs-tandoori-baby-corn",
+    "name": "Tandoori Baby Corn",
+    "category": "Tandoori Kebabs",
+    "image": "assets/menu/tandoori-kebabs-tandoori-baby-corn.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "tandoori-kebabs-tandoori-broccoli",
+    "name": "Tandoori Broccoli",
+    "category": "Tandoori Kebabs",
+    "image": "assets/menu/tandoori-kebabs-tandoori-broccoli.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "tandoori-kebabs-soya-chaap-tikka",
+    "name": "Soya Chaap Tikka",
+    "category": "Tandoori Kebabs",
+    "image": "assets/menu/tandoori-kebabs-soya-chaap-tikka.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "tandoori-kebabs-tandoori-chicken",
+    "name": "Tandoori Chicken",
+    "category": "Tandoori Kebabs",
+    "image": "assets/menu/tandoori-kebabs-tandoori-chicken.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "tandoori-kebabs-classic-chicken-tikka",
+    "name": "Classic Chicken Tikka",
+    "category": "Tandoori Kebabs",
+    "image": "assets/menu/tandoori-kebabs-classic-chicken-tikka.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "tandoori-kebabs-malai-chicken-tikka",
+    "name": "Malai Chicken Tikka",
+    "category": "Tandoori Kebabs",
+    "image": "assets/menu/tandoori-kebabs-malai-chicken-tikka.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "tandoori-kebabs-hariyali-chicken-tikka",
+    "name": "Hariyali Chicken Tikka",
+    "category": "Tandoori Kebabs",
+    "image": "assets/menu/tandoori-kebabs-hariyali-chicken-tikka.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "tandoori-kebabs-achari-chicken-tikka",
+    "name": "Achari Chicken Tikka",
+    "category": "Tandoori Kebabs",
+    "image": "assets/menu/tandoori-kebabs-achari-chicken-tikka.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "tandoori-kebabs-afghani-chicken-tikka",
+    "name": "Afghani Chicken Tikka",
+    "category": "Tandoori Kebabs",
+    "image": "assets/menu/tandoori-kebabs-afghani-chicken-tikka.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "tandoori-kebabs-tangdi-kebab",
+    "name": "Tangdi Kebab",
+    "category": "Tandoori Kebabs",
+    "image": "assets/menu/tandoori-kebabs-tangdi-kebab.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "tandoori-kebabs-chicken-seekh-kebab",
+    "name": "Chicken Seekh Kebab",
+    "category": "Tandoori Kebabs",
+    "image": "assets/menu/tandoori-kebabs-chicken-seekh-kebab.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "tandoori-kebabs-reshmi-chicken-kebab",
+    "name": "Reshmi Chicken Kebab",
+    "category": "Tandoori Kebabs",
+    "image": "assets/menu/tandoori-kebabs-reshmi-chicken-kebab.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "tandoori-kebabs-pepper-chicken-kebab",
+    "name": "Pepper Chicken Kebab",
+    "category": "Tandoori Kebabs",
+    "image": "assets/menu/tandoori-kebabs-pepper-chicken-kebab.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "tandoori-kebabs-pahadi-chicken-kebab",
+    "name": "Pahadi Chicken Kebab",
+    "category": "Tandoori Kebabs",
+    "image": "assets/menu/tandoori-kebabs-pahadi-chicken-kebab.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "tandoori-kebabs-udthi-panchi-chicken-kebab",
+    "name": "Udthi Panchi Chicken Kebab",
+    "category": "Tandoori Kebabs",
+    "image": "assets/menu/tandoori-kebabs-udthi-panchi-chicken-kebab.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "tandoori-kebabs-fish-tikka",
+    "name": "Fish Tikka",
+    "category": "Tandoori Kebabs",
+    "image": "assets/menu/tandoori-kebabs-fish-tikka.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "tandoori-kebabs-malai-fish-tikka",
+    "name": "Malai Fish Tikka",
+    "category": "Tandoori Kebabs",
+    "image": "assets/menu/tandoori-kebabs-malai-fish-tikka.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "tandoori-kebabs-tandoori-prawns",
+    "name": "Tandoori Prawns",
+    "category": "Tandoori Kebabs",
+    "image": "assets/menu/tandoori-kebabs-tandoori-prawns.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "tandoori-kebabs-achari-tandoori-prawns",
+    "name": "Achari Tandoori Prawns",
+    "category": "Tandoori Kebabs",
+    "image": "assets/menu/tandoori-kebabs-achari-tandoori-prawns.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "tandoori-kebabs-veg-tandoori-platter",
+    "name": "Veg Tandoori Platter",
+    "category": "Tandoori Kebabs",
+    "image": "assets/menu/tandoori-kebabs-veg-tandoori-platter.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "tandoori-kebabs-chicken-tikka-platter",
+    "name": "Chicken Tikka Platter",
+    "category": "Tandoori Kebabs",
+    "image": "assets/menu/tandoori-kebabs-chicken-tikka-platter.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "tandoori-kebabs-mixed-tandoor-platter",
+    "name": "Mixed Tandoor Platter",
+    "category": "Tandoori Kebabs",
+    "image": "assets/menu/tandoori-kebabs-mixed-tandoor-platter.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chinese-main-course-veg-manchurian-gravy",
+    "name": "Veg Manchurian Gravy",
+    "category": "Chinese Main Course",
+    "image": "assets/menu/chinese-main-course-veg-manchurian-gravy.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chinese-main-course-veg-hot-garlic-gravy",
+    "name": "Veg Hot Garlic Gravy",
+    "category": "Chinese Main Course",
+    "image": "assets/menu/chinese-main-course-veg-hot-garlic-gravy.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chinese-main-course-veg-black-pepper-gravy",
+    "name": "Veg BLack Pepper Gravy",
+    "category": "Chinese Main Course",
+    "image": "assets/menu/chinese-main-course-veg-black-pepper-gravy.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chinese-main-course-veg-schezwan-gravy",
+    "name": "Veg Schezwan Gravy",
+    "category": "Chinese Main Course",
+    "image": "assets/menu/chinese-main-course-veg-schezwan-gravy.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chinese-main-course-veg-chilli-garlic",
+    "name": "Veg Chilli Garlic",
+    "category": "Chinese Main Course",
+    "image": "assets/menu/chinese-main-course-veg-chilli-garlic.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chinese-main-course-chilli-paneer-gravy",
+    "name": "Chilli Paneer Gravy",
+    "category": "Chinese Main Course",
+    "image": "assets/menu/chinese-main-course-chilli-paneer-gravy.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chinese-main-course-paneer-manchurian-gravy",
+    "name": "Paneer Manchurian Gravy",
+    "category": "Chinese Main Course",
+    "image": "assets/menu/chinese-main-course-paneer-manchurian-gravy.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chinese-main-course-paneer-black-pepper",
+    "name": "Paneer BLack Pepper",
+    "category": "Chinese Main Course",
+    "image": "assets/menu/chinese-main-course-paneer-black-pepper.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chinese-main-course-paneer-hot-garlic",
+    "name": "Paneer Hot Garlic",
+    "category": "Chinese Main Course",
+    "image": "assets/menu/chinese-main-course-paneer-hot-garlic.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chinese-main-course-chilli-chicken-gravy",
+    "name": "Chilli Chicken Gravy",
+    "category": "Chinese Main Course",
+    "image": "assets/menu/chinese-main-course-chilli-chicken-gravy.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chinese-main-course-chicken-manchurian-gravy",
+    "name": "Chicken Manchurian Gravy",
+    "category": "Chinese Main Course",
+    "image": "assets/menu/chinese-main-course-chicken-manchurian-gravy.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chinese-main-course-chicken-hot-garlic-gravy",
+    "name": "Chicken Hot Garlic Gravy",
+    "category": "Chinese Main Course",
+    "image": "assets/menu/chinese-main-course-chicken-hot-garlic-gravy.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chinese-main-course-chicken-black-pepper-gravy",
+    "name": "Chicken BLack Pepper Gravy",
+    "category": "Chinese Main Course",
+    "image": "assets/menu/chinese-main-course-chicken-black-pepper-gravy.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chinese-main-course-chicken-schezwan-gravy",
+    "name": "Chicken Schezwan Gravy",
+    "category": "Chinese Main Course",
+    "image": "assets/menu/chinese-main-course-chicken-schezwan-gravy.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chinese-main-course-chicken-chilli-garlic-gravy",
+    "name": "Chicken Chilli Garlic Gravy",
+    "category": "Chinese Main Course",
+    "image": "assets/menu/chinese-main-course-chicken-chilli-garlic-gravy.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chinese-main-course-chilli-fish-gravy",
+    "name": "Chilli Fish Gravy",
+    "category": "Chinese Main Course",
+    "image": "assets/menu/chinese-main-course-chilli-fish-gravy.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chinese-main-course-fish-black-pepper-gravy",
+    "name": "Fish BLack Pepper Gravy",
+    "category": "Chinese Main Course",
+    "image": "assets/menu/chinese-main-course-fish-black-pepper-gravy.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chinese-main-course-chilli-garlic-prawns-gravy",
+    "name": "Chilli Garlic Prawns Gravy",
+    "category": "Chinese Main Course",
+    "image": "assets/menu/chinese-main-course-chilli-garlic-prawns-gravy.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chinese-main-course-prawns-black-pepper-gravy",
+    "name": "Prawns BLack Pepper Gravy",
+    "category": "Chinese Main Course",
+    "image": "assets/menu/chinese-main-course-prawns-black-pepper-gravy.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chinese-rice-veg-fried-rice",
+    "name": "Veg Fried Rice",
+    "category": "Chinese Rice",
+    "image": "assets/menu/chinese-rice-veg-fried-rice.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chinese-rice-veg-schezwan-fried-rice",
+    "name": "Veg Schezwan Fried Rice",
+    "category": "Chinese Rice",
+    "image": "assets/menu/chinese-rice-veg-schezwan-fried-rice.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chinese-rice-veg-burnt-garlic-fried-rice",
+    "name": "Veg Burnt Garlic Fried Rice",
+    "category": "Chinese Rice",
+    "image": "assets/menu/chinese-rice-veg-burnt-garlic-fried-rice.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chinese-rice-veg-dragon-fried-rice",
+    "name": "Veg Dragon Fried Rice",
+    "category": "Chinese Rice",
+    "image": "assets/menu/chinese-rice-veg-dragon-fried-rice.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chinese-rice-paneer-schezwan-fried-rice",
+    "name": "Paneer Schezwan Fried Rice",
+    "category": "Chinese Rice",
+    "image": "assets/menu/chinese-rice-paneer-schezwan-fried-rice.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chinese-rice-veg-triple-schezwan-fried-rice",
+    "name": "Veg Triple Schezwan Fried Rice",
+    "category": "Chinese Rice",
+    "image": "assets/menu/chinese-rice-veg-triple-schezwan-fried-rice.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chinese-rice-egg-fried-rice",
+    "name": "Egg Fried Rice",
+    "category": "Chinese Rice",
+    "image": "assets/menu/chinese-rice-egg-fried-rice.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chinese-rice-egg-schezwan-fried-rice",
+    "name": "Egg Schezwan Fried Rice",
+    "category": "Chinese Rice",
+    "image": "assets/menu/chinese-rice-egg-schezwan-fried-rice.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chinese-rice-chicken-fried-rice",
+    "name": "Chicken Fried Rice",
+    "category": "Chinese Rice",
+    "image": "assets/menu/chinese-rice-chicken-fried-rice.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chinese-rice-chicken-schezwan-fried-rice",
+    "name": "Chicken Schezwan Fried Rice",
+    "category": "Chinese Rice",
+    "image": "assets/menu/chinese-rice-chicken-schezwan-fried-rice.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chinese-rice-chicken-burnt-garlic-fried-rice",
+    "name": "Chicken Burnt Garlic Fried Rice",
+    "category": "Chinese Rice",
+    "image": "assets/menu/chinese-rice-chicken-burnt-garlic-fried-rice.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chinese-rice-chicken-dragon-fried-rice",
+    "name": "Chicken Dragon Fried Rice",
+    "category": "Chinese Rice",
+    "image": "assets/menu/chinese-rice-chicken-dragon-fried-rice.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chinese-rice-chicken-triple-schezwan-fried-rice",
+    "name": "Chicken Triple Schezwan Fried Rice",
+    "category": "Chinese Rice",
+    "image": "assets/menu/chinese-rice-chicken-triple-schezwan-fried-rice.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chinese-rice-prawn-fried-rice",
+    "name": "Prawn Fried Rice",
+    "category": "Chinese Rice",
+    "image": "assets/menu/chinese-rice-prawn-fried-rice.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chinese-rice-mixed-seafood-fried-rice",
+    "name": "Mixed Seafood Fried Rice",
+    "category": "Chinese Rice",
+    "image": "assets/menu/chinese-rice-mixed-seafood-fried-rice.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "chinese-rice-mixed-non-veg-fried-rice",
+    "name": "Mixed Non-Veg Fried Rice",
+    "category": "Chinese Rice",
+    "image": "assets/menu/chinese-rice-mixed-non-veg-fried-rice.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "noodles-veg-hakka-noodles",
+    "name": "Veg Hakka Noodles",
+    "category": "Noodles",
+    "image": "assets/menu/noodles-veg-hakka-noodles.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "noodles-veg-schezwan-noodles",
+    "name": "Veg Schezwan Noodles",
+    "category": "Noodles",
+    "image": "assets/menu/noodles-veg-schezwan-noodles.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "noodles-veg-garlic-noodles",
+    "name": "Veg Garlic Noodles",
+    "category": "Noodles",
+    "image": "assets/menu/noodles-veg-garlic-noodles.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "noodles-veg-burnt-garlic-noodles",
+    "name": "Veg Burnt Garlic Noodles",
+    "category": "Noodles",
+    "image": "assets/menu/noodles-veg-burnt-garlic-noodles.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "noodles-veg-singapore-noodles",
+    "name": "Veg Singapore Noodles",
+    "category": "Noodles",
+    "image": "assets/menu/noodles-veg-singapore-noodles.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "noodles-veg-triple-schezwan-noodles",
+    "name": "Veg Triple Schezwan Noodles",
+    "category": "Noodles",
+    "image": "assets/menu/noodles-veg-triple-schezwan-noodles.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "noodles-egg-hakka-noodles",
+    "name": "Egg Hakka Noodles",
+    "category": "Noodles",
+    "image": "assets/menu/noodles-egg-hakka-noodles.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "noodles-egg-garlic-noodles",
+    "name": "Egg Garlic Noodles",
+    "category": "Noodles",
+    "image": "assets/menu/noodles-egg-garlic-noodles.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "noodles-egg-schezwan-noodles",
+    "name": "Egg Schezwan Noodles",
+    "category": "Noodles",
+    "image": "assets/menu/noodles-egg-schezwan-noodles.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "noodles-chicken-hakka-noodles",
+    "name": "Chicken Hakka Noodles",
+    "category": "Noodles",
+    "image": "assets/menu/noodles-chicken-hakka-noodles.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "noodles-chicken-garlic-noodles",
+    "name": "Chicken Garlic Noodles",
+    "category": "Noodles",
+    "image": "assets/menu/noodles-chicken-garlic-noodles.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "noodles-chicken-schezwan-noodles",
+    "name": "Chicken Schezwan Noodles",
+    "category": "Noodles",
+    "image": "assets/menu/noodles-chicken-schezwan-noodles.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "noodles-chicken-burnt-garlic-noodles",
+    "name": "Chicken Burnt Garlic Noodles",
+    "category": "Noodles",
+    "image": "assets/menu/noodles-chicken-burnt-garlic-noodles.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "noodles-chicken-triple-schezwan-noodles",
+    "name": "Chicken Triple Schezwan Noodles",
+    "category": "Noodles",
+    "image": "assets/menu/noodles-chicken-triple-schezwan-noodles.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "noodles-prawn-hakka-noodles",
+    "name": "Prawn Hakka Noodles",
+    "category": "Noodles",
+    "image": "assets/menu/noodles-prawn-hakka-noodles.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "noodles-mixed-seafood-noodles",
+    "name": "Mixed Seafood Noodles",
+    "category": "Noodles",
+    "image": "assets/menu/noodles-mixed-seafood-noodles.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "rotis-naans-plain-tandoori-roti",
+    "name": "Plain Tandoori Roti",
+    "category": "Rotis & Naans",
+    "image": "assets/menu/rotis-naans-plain-tandoori-roti.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "rotis-naans-butter-tandoori-roti",
+    "name": "Butter Tandoori Roti",
+    "category": "Rotis & Naans",
+    "image": "assets/menu/rotis-naans-butter-tandoori-roti.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "rotis-naans-missi-roti",
+    "name": "Missi Roti",
+    "category": "Rotis & Naans",
+    "image": "assets/menu/rotis-naans-missi-roti.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "rotis-naans-pudina-roti",
+    "name": "Pudina Roti",
+    "category": "Rotis & Naans",
+    "image": "assets/menu/rotis-naans-pudina-roti.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "rotis-naans-plain-naan",
+    "name": "Plain Naan",
+    "category": "Rotis & Naans",
+    "image": "assets/menu/rotis-naans-plain-naan.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "rotis-naans-butter-naan",
+    "name": "Butter Naan",
+    "category": "Rotis & Naans",
+    "image": "assets/menu/rotis-naans-butter-naan.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "rotis-naans-garlic-naan",
+    "name": "Garlic Naan",
+    "category": "Rotis & Naans",
+    "image": "assets/menu/rotis-naans-garlic-naan.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "rotis-naans-garlic-butter-naan",
+    "name": "Garlic Butter Naan",
+    "category": "Rotis & Naans",
+    "image": "assets/menu/rotis-naans-garlic-butter-naan.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "rotis-naans-cheese-naan",
+    "name": "Cheese Naan",
+    "category": "Rotis & Naans",
+    "image": "assets/menu/rotis-naans-cheese-naan.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "rotis-naans-cheese-garlic-naan",
+    "name": "Cheese Garlic Naan",
+    "category": "Rotis & Naans",
+    "image": "assets/menu/rotis-naans-cheese-garlic-naan.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "rotis-naans-cheese-chilli-garlic-naan",
+    "name": "Cheese Chilli Garlic Naan",
+    "category": "Rotis & Naans",
+    "image": "assets/menu/rotis-naans-cheese-chilli-garlic-naan.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "rotis-naans-aloo-paratha",
+    "name": "Aloo Paratha",
+    "category": "Rotis & Naans",
+    "image": "assets/menu/rotis-naans-aloo-paratha.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "rotis-naans-paneer-paratha",
+    "name": "Paneer Paratha",
+    "category": "Rotis & Naans",
+    "image": "assets/menu/rotis-naans-paneer-paratha.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "rotis-naans-onion-kulcha",
+    "name": "Onion Kulcha",
+    "category": "Rotis & Naans",
+    "image": "assets/menu/rotis-naans-onion-kulcha.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "rotis-naans-paneer-kulcha",
+    "name": "Paneer Kulcha",
+    "category": "Rotis & Naans",
+    "image": "assets/menu/rotis-naans-paneer-kulcha.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "rotis-naans-laccha-paratha",
+    "name": "Laccha Paratha",
+    "category": "Rotis & Naans",
+    "image": "assets/menu/rotis-naans-laccha-paratha.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "rotis-naans-butter-laccha-paratha",
+    "name": "Butter Laccha Paratha",
+    "category": "Rotis & Naans",
+    "image": "assets/menu/rotis-naans-butter-laccha-paratha.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "rotis-naans-pudina-laccha-paratha",
+    "name": "Pudina Laccha Paratha",
+    "category": "Rotis & Naans",
+    "image": "assets/menu/rotis-naans-pudina-laccha-paratha.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "rotis-naans-rumali-roti",
+    "name": "Rumali Roti",
+    "category": "Rotis & Naans",
+    "image": "assets/menu/rotis-naans-rumali-roti.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "rotis-naans-tandoori-stuffed-kulcha",
+    "name": "Tandoori Stuffed Kulcha",
+    "category": "Rotis & Naans",
+    "image": "assets/menu/rotis-naans-tandoori-stuffed-kulcha.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "rotis-naans-stuffed-cheese-kulcha",
+    "name": "Stuffed Cheese Kulcha",
+    "category": "Rotis & Naans",
+    "image": "assets/menu/rotis-naans-stuffed-cheese-kulcha.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "rotis-naans-folding-naan",
+    "name": "Folding Naan",
+    "category": "Rotis & Naans",
+    "image": "assets/menu/rotis-naans-folding-naan.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "indian-rice-steamed-basmati-rice",
+    "name": "Steamed Basmati Rice",
+    "category": "Indian Rice",
+    "image": "assets/menu/indian-rice-steamed-basmati-rice.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "indian-rice-aromatic-ghee-rice",
+    "name": "Aromatic Ghee Rice",
+    "category": "Indian Rice",
+    "image": "assets/menu/indian-rice-aromatic-ghee-rice.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "indian-rice-classic-jeera-rice",
+    "name": "Classic Jeera Rice",
+    "category": "Indian Rice",
+    "image": "assets/menu/indian-rice-classic-jeera-rice.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "indian-rice-south-indian-lemon-rice",
+    "name": "South Indian Lemon Rice",
+    "category": "Indian Rice",
+    "image": "assets/menu/indian-rice-south-indian-lemon-rice.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "indian-rice-green-peas-pulao",
+    "name": "Green Peas Pulao",
+    "category": "Indian Rice",
+    "image": "assets/menu/indian-rice-green-peas-pulao.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "indian-rice-royal-veg-pulao",
+    "name": "Royal Veg Pulao",
+    "category": "Indian Rice",
+    "image": "assets/menu/indian-rice-royal-veg-pulao.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "indian-rice-royal-kashmiri-pulao",
+    "name": "Royal Kashmiri Pulao",
+    "category": "Indian Rice",
+    "image": "assets/menu/indian-rice-royal-kashmiri-pulao.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "indian-rice-dhaba-tadka-rice",
+    "name": "Dhaba Tadka Rice",
+    "category": "Indian Rice",
+    "image": "assets/menu/indian-rice-dhaba-tadka-rice.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "indian-rice-curd-rice",
+    "name": "Curd Rice",
+    "category": "Indian Rice",
+    "image": "assets/menu/indian-rice-curd-rice.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "indian-rice-tomato-rice",
+    "name": "Tomato Rice",
+    "category": "Indian Rice",
+    "image": "assets/menu/indian-rice-tomato-rice.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "south-indian-idli-2-pcs",
+    "name": "Idli (2 pcs)",
+    "category": "South Indian",
+    "image": "assets/menu/south-indian-idli-2-pcs.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "south-indian-karam-podi-idli",
+    "name": "Karam Podi Idli",
+    "category": "South Indian",
+    "image": "assets/menu/south-indian-karam-podi-idli.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "south-indian-ghee-podi-idli",
+    "name": "Ghee Podi Idli",
+    "category": "South Indian",
+    "image": "assets/menu/south-indian-ghee-podi-idli.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "south-indian-idli-sambar",
+    "name": "Idli Sambar",
+    "category": "South Indian",
+    "image": "assets/menu/south-indian-idli-sambar.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "south-indian-sambar-vada",
+    "name": "Sambar Vada",
+    "category": "South Indian",
+    "image": "assets/menu/south-indian-sambar-vada.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "south-indian-medu-vada-2-pcs",
+    "name": "Medu Vada (2 pcs)",
+    "category": "South Indian",
+    "image": "assets/menu/south-indian-medu-vada-2-pcs.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "south-indian-idli-vada-combo",
+    "name": "Idli Vada Combo",
+    "category": "South Indian",
+    "image": "assets/menu/south-indian-idli-vada-combo.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "south-indian-plain-dosa",
+    "name": "Plain Dosa",
+    "category": "South Indian",
+    "image": "assets/menu/south-indian-plain-dosa.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "south-indian-masala-dosa",
+    "name": "Masala Dosa",
+    "category": "South Indian",
+    "image": "assets/menu/south-indian-masala-dosa.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "south-indian-butter-dosa",
+    "name": "Butter Dosa",
+    "category": "South Indian",
+    "image": "assets/menu/south-indian-butter-dosa.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "south-indian-karam-dosa",
+    "name": "Karam Dosa",
+    "category": "South Indian",
+    "image": "assets/menu/south-indian-karam-dosa.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "south-indian-onion-dosa",
+    "name": "Onion Dosa",
+    "category": "South Indian",
+    "image": "assets/menu/south-indian-onion-dosa.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "south-indian-ghee-dosa",
+    "name": "Ghee Dosa",
+    "category": "South Indian",
+    "image": "assets/menu/south-indian-ghee-dosa.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "south-indian-podi-dosa",
+    "name": "Podi Dosa",
+    "category": "South Indian",
+    "image": "assets/menu/south-indian-podi-dosa.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "south-indian-ghee-masala-dosa",
+    "name": "Ghee Masala Dosa",
+    "category": "South Indian",
+    "image": "assets/menu/south-indian-ghee-masala-dosa.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "south-indian-butter-masala-dosa",
+    "name": "Butter Masala Dosa",
+    "category": "South Indian",
+    "image": "assets/menu/south-indian-butter-masala-dosa.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "south-indian-ghee-karam-dosa",
+    "name": "Ghee Karam Dosa",
+    "category": "South Indian",
+    "image": "assets/menu/south-indian-ghee-karam-dosa.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "south-indian-butter-karam-dosa",
+    "name": "Butter Karam Dosa",
+    "category": "South Indian",
+    "image": "assets/menu/south-indian-butter-karam-dosa.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "south-indian-onion-masala-dosa",
+    "name": "Onion Masala Dosa",
+    "category": "South Indian",
+    "image": "assets/menu/south-indian-onion-masala-dosa.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "south-indian-paper-dosa",
+    "name": "Paper Dosa",
+    "category": "South Indian",
+    "image": "assets/menu/south-indian-paper-dosa.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "south-indian-rava-dosa",
+    "name": "Rava Dosa",
+    "category": "South Indian",
+    "image": "assets/menu/south-indian-rava-dosa.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "south-indian-onion-rava-dosa",
+    "name": "Onion Rava Dosa",
+    "category": "South Indian",
+    "image": "assets/menu/south-indian-onion-rava-dosa.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "south-indian-mysore-masala-dosa",
+    "name": "Mysore Masala Dosa",
+    "category": "South Indian",
+    "image": "assets/menu/south-indian-mysore-masala-dosa.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "south-indian-set-dosa",
+    "name": "Set Dosa",
+    "category": "South Indian",
+    "image": "assets/menu/south-indian-set-dosa.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "south-indian-pesarattu",
+    "name": "Pesarattu",
+    "category": "South Indian",
+    "image": "assets/menu/south-indian-pesarattu.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "south-indian-upma-pesarattu",
+    "name": "Upma Pesarattu",
+    "category": "South Indian",
+    "image": "assets/menu/south-indian-upma-pesarattu.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "south-indian-onion-uttapam",
+    "name": "Onion Uttapam",
+    "category": "South Indian",
+    "image": "assets/menu/south-indian-onion-uttapam.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "south-indian-tomato-uttapam",
+    "name": "Tomato Uttapam",
+    "category": "South Indian",
+    "image": "assets/menu/south-indian-tomato-uttapam.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "south-indian-mixed-veg-uttapam",
+    "name": "Mixed Veg Uttapam",
+    "category": "South Indian",
+    "image": "assets/menu/south-indian-mixed-veg-uttapam.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "south-indian-poori-bhaji",
+    "name": "Poori Bhaji",
+    "category": "South Indian",
+    "image": "assets/menu/south-indian-poori-bhaji.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "south-indian-ven-pongal",
+    "name": "Ven Pongal",
+    "category": "South Indian",
+    "image": "assets/menu/south-indian-ven-pongal.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "south-indian-vegetable-upma",
+    "name": "Vegetable Upma",
+    "category": "South Indian",
+    "image": "assets/menu/south-indian-vegetable-upma.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "south-indian-mini-tiffin",
+    "name": "Mini Tiffin",
+    "category": "South Indian",
+    "image": "assets/menu/south-indian-mini-tiffin.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "nonveg-dosa-egg-dosa",
+    "name": "Egg Dosa",
+    "category": "Egg & Chicken Dosa",
+    "image": "assets/menu/nonveg-dosa-egg-dosa.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "nonveg-dosa-chicken-dosa",
+    "name": "Chicken Dosa",
+    "category": "Egg & Chicken Dosa",
+    "image": "assets/menu/nonveg-dosa-chicken-dosa.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "burgers-classic-veg-burger",
+    "name": "Classic Veg Burger",
+    "category": "Burgers",
+    "image": "assets/menu/burgers-classic-veg-burger.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "burgers-paneer-burger",
+    "name": "Paneer Burger",
+    "category": "Burgers",
+    "image": "assets/menu/burgers-paneer-burger.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "burgers-classic-chicken-burger",
+    "name": "Classic Chicken Burger",
+    "category": "Burgers",
+    "image": "assets/menu/burgers-classic-chicken-burger.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "burgers-crispy-chicken-burger",
+    "name": "Crispy Chicken Burger",
+    "category": "Burgers",
+    "image": "assets/menu/burgers-crispy-chicken-burger.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "burgers-peri-peri-chicken-burger",
+    "name": "Peri Peri Chicken Burger",
+    "category": "Burgers",
+    "image": "assets/menu/burgers-peri-peri-chicken-burger.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "burgers-double-patty-chicken-burger",
+    "name": "Double Patty Chicken Burger",
+    "category": "Burgers",
+    "image": "assets/menu/burgers-double-patty-chicken-burger.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "continental-classic-mac-n-cheese",
+    "name": "Classic Mac n Cheese",
+    "category": "Mac & Cheese",
+    "image": "assets/menu/continental-classic-mac-n-cheese.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "continental-peri-peri-mac-n-cheese",
+    "name": "Peri Peri Mac n Cheese",
+    "category": "Mac & Cheese",
+    "image": "assets/menu/continental-peri-peri-mac-n-cheese.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "continental-loaded-cheese-mac",
+    "name": "Loaded Cheese Mac",
+    "category": "Mac & Cheese",
+    "image": "assets/menu/continental-loaded-cheese-mac.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "continental-mushroom-mac-n-cheese",
+    "name": "Mushroom Mac n Cheese",
+    "category": "Mac & Cheese",
+    "image": "assets/menu/continental-mushroom-mac-n-cheese.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "continental-chicken-mac-n-cheese",
+    "name": "Chicken Mac n Cheese",
+    "category": "Mac & Cheese",
+    "image": "assets/menu/continental-chicken-mac-n-cheese.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "continental-peri-peri-chicken-mac",
+    "name": "Peri Peri Chicken Mac",
+    "category": "Mac & Cheese",
+    "image": "assets/menu/continental-peri-peri-chicken-mac.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "continental-loaded-chicken-mac",
+    "name": "Loaded Chicken Mac",
+    "category": "Mac & Cheese",
+    "image": "assets/menu/continental-loaded-chicken-mac.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "salads-garden-fresh-salad",
+    "name": "Garden Fresh Salad",
+    "category": "Salads",
+    "image": "assets/menu/salads-garden-fresh-salad.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "salads-greek-salad",
+    "name": "Greek Salad",
+    "category": "Salads",
+    "image": "assets/menu/salads-greek-salad.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "salads-chicken-caesar-salad",
+    "name": "Chicken Caesar Salad",
+    "category": "Salads",
+    "image": "assets/menu/salads-chicken-caesar-salad.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "salads-grilled-chicken-salad",
+    "name": "Grilled Chicken Salad",
+    "category": "Salads",
+    "image": "assets/menu/salads-grilled-chicken-salad.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "salads-paneer-protein-salad",
+    "name": "Paneer Protein Salad",
+    "category": "Salads",
+    "image": "assets/menu/salads-paneer-protein-salad.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "salads-indian-garden-salad",
+    "name": "Indian Garden Salad",
+    "category": "Salads",
+    "image": "assets/menu/salads-indian-garden-salad.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "salads-fresh-cucumber-salad",
+    "name": "Fresh Cucumber Salad",
+    "category": "Salads",
+    "image": "assets/menu/salads-fresh-cucumber-salad.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "salads-classic-onion-salad",
+    "name": "Classic Onion Salad",
+    "category": "Salads",
+    "image": "assets/menu/salads-classic-onion-salad.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "soups-veg-sweet-corn-soup",
+    "name": "Veg Sweet Corn Soup",
+    "category": "Soups",
+    "image": "assets/menu/soups-veg-sweet-corn-soup.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "soups-veg-hot-sour-soup",
+    "name": "Veg Hot & Sour Soup",
+    "category": "Soups",
+    "image": "assets/menu/soups-veg-hot-sour-soup.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "soups-veg-manchow-soup",
+    "name": "Veg Manchow Soup",
+    "category": "Soups",
+    "image": "assets/menu/soups-veg-manchow-soup.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "soups-lemon-coriander-soup",
+    "name": "Lemon Coriander Soup",
+    "category": "Soups",
+    "image": "assets/menu/soups-lemon-coriander-soup.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "soups-veg-burnt-garlic-soup",
+    "name": "Veg Burnt Garlic Soup",
+    "category": "Soups",
+    "image": "assets/menu/soups-veg-burnt-garlic-soup.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "soups-chicken-sweet-corn-soup",
+    "name": "Chicken Sweet Corn Soup",
+    "category": "Soups",
+    "image": "assets/menu/soups-chicken-sweet-corn-soup.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "soups-chicken-hot-sour-soup",
+    "name": "Chicken Hot & Sour Soup",
+    "category": "Soups",
+    "image": "assets/menu/soups-chicken-hot-sour-soup.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "soups-chicken-manchow-soup",
+    "name": "Chicken Manchow Soup",
+    "category": "Soups",
+    "image": "assets/menu/soups-chicken-manchow-soup.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "soups-chicken-burnt-garlic-soup",
+    "name": "Chicken Burnt Garlic Soup",
+    "category": "Soups",
+    "image": "assets/menu/soups-chicken-burnt-garlic-soup.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "desserts-double-ka-meetha",
+    "name": "Double Ka Meetha",
+    "category": "Desserts",
+    "image": "assets/menu/desserts-double-ka-meetha.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "desserts-qubani-ka-meetha",
+    "name": "Qubani Ka Meetha",
+    "category": "Desserts",
+    "image": "assets/menu/desserts-qubani-ka-meetha.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "desserts-apricot-delight",
+    "name": "Apricot Delight",
+    "category": "Desserts",
+    "image": "assets/menu/desserts-apricot-delight.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "desserts-gulab-jamun",
+    "name": "Gulab Jamun",
+    "category": "Desserts",
+    "image": "assets/menu/desserts-gulab-jamun.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "desserts-shahi-tukda",
+    "name": "Shahi Tukda",
+    "category": "Desserts",
+    "image": "assets/menu/desserts-shahi-tukda.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "desserts-brownie-with-ice-cream",
+    "name": "Brownie With Ice Cream",
+    "category": "Desserts",
+    "image": "assets/menu/desserts-brownie-with-ice-cream.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "desserts-rasgulla",
+    "name": "Rasgulla",
+    "category": "Desserts",
+    "image": "assets/menu/desserts-rasgulla.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "thick-shakes-oreo-thick-shake",
+    "name": "Oreo Thick Shake",
+    "category": "Thick Shakes",
+    "image": "assets/menu/thick-shakes-oreo-thick-shake.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "thick-shakes-kitkat-thick-shake",
+    "name": "Kitkat Thick Shake",
+    "category": "Thick Shakes",
+    "image": "assets/menu/thick-shakes-kitkat-thick-shake.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "thick-shakes-brownie-thick-shake",
+    "name": "Brownie Thick Shake",
+    "category": "Thick Shakes",
+    "image": "assets/menu/thick-shakes-brownie-thick-shake.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "thick-shakes-ferrero-thick-shake",
+    "name": "Ferrero Thick Shake",
+    "category": "Thick Shakes",
+    "image": "assets/menu/thick-shakes-ferrero-thick-shake.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "thick-shakes-mango-thick-shake",
+    "name": "Mango Thick Shake",
+    "category": "Thick Shakes",
+    "image": "assets/menu/thick-shakes-mango-thick-shake.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "thick-shakes-strawberry-thick-shake",
+    "name": "Strawberry Thick Shake",
+    "category": "Thick Shakes",
+    "image": "assets/menu/thick-shakes-strawberry-thick-shake.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "thick-shakes-chocolate-thick-shake",
+    "name": "Chocolate Thick Shake",
+    "category": "Thick Shakes",
+    "image": "assets/menu/thick-shakes-chocolate-thick-shake.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "thick-shakes-cold-coffee-thick-shake",
+    "name": "Cold Coffee Thick Shake",
+    "category": "Thick Shakes",
+    "image": "assets/menu/thick-shakes-cold-coffee-thick-shake.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "mocktails-virgin-mojito",
+    "name": "Virgin Mojito",
+    "category": "Mocktails & Iced Tea",
+    "image": "assets/menu/mocktails-virgin-mojito.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "mocktails-blue-lagoon",
+    "name": "BLue Lagoon",
+    "category": "Mocktails & Iced Tea",
+    "image": "assets/menu/mocktails-blue-lagoon.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "mocktails-green-apple-cooler",
+    "name": "Green Apple Cooler",
+    "category": "Mocktails & Iced Tea",
+    "image": "assets/menu/mocktails-green-apple-cooler.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "mocktails-watermelon-mint-cooler",
+    "name": "Watermelon Mint Cooler",
+    "category": "Mocktails & Iced Tea",
+    "image": "assets/menu/mocktails-watermelon-mint-cooler.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "mocktails-kiwi-cooler",
+    "name": "Kiwi Cooler",
+    "category": "Mocktails & Iced Tea",
+    "image": "assets/menu/mocktails-kiwi-cooler.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "mocktails-passion-fruit-cooler",
+    "name": "Passion Fruit Cooler",
+    "category": "Mocktails & Iced Tea",
+    "image": "assets/menu/mocktails-passion-fruit-cooler.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "mocktails-fruit-punch",
+    "name": "Fruit Punch",
+    "category": "Mocktails & Iced Tea",
+    "image": "assets/menu/mocktails-fruit-punch.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "mocktails-peach-iced-tea",
+    "name": "Peach Iced Tea",
+    "category": "Mocktails & Iced Tea",
+    "image": "assets/menu/mocktails-peach-iced-tea.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "mocktails-lemon-iced-tea",
+    "name": "Lemon Iced Tea",
+    "category": "Mocktails & Iced Tea",
+    "image": "assets/menu/mocktails-lemon-iced-tea.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "cold-beverages-mineral-water-500-ml",
+    "name": "Mineral Water 500 ml",
+    "category": "Cold Beverages",
+    "image": "assets/menu/cold-beverages-mineral-water-500-ml.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "cold-beverages-mineral-water-1000-ml",
+    "name": "Mineral Water 1000 ml",
+    "category": "Cold Beverages",
+    "image": "assets/menu/cold-beverages-mineral-water-1000-ml.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "cold-beverages-coca-cola-soft-beverage-300-ml-served-in-glass",
+    "name": "Coca-Cola Soft Beverage 300 ml (Served in Glass)",
+    "category": "Cold Beverages",
+    "image": "assets/menu/cold-beverages-coca-cola-soft-beverage-300-ml-served-in-glass.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "cold-beverages-pepsi-soft-beverage-300-ml-served-in-glass",
+    "name": "Pepsi Soft Beverage 300 ml (Served In Glass)",
+    "category": "Cold Beverages",
+    "image": "assets/menu/cold-beverages-pepsi-soft-beverage-300-ml-served-in-glass.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "cold-beverages-campa-soft-beverage-300-ml-served-in-glass",
+    "name": "Campa Soft Beverage 300 ml (Served In Glass)",
+    "category": "Cold Beverages",
+    "image": "assets/menu/cold-beverages-campa-soft-beverage-300-ml-served-in-glass.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "cold-beverages-masala-cool-drink",
+    "name": "Masala Cool Drink",
+    "category": "Cold Beverages",
+    "image": "assets/menu/cold-beverages-masala-cool-drink.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "biryani-addons-onion-raita",
+    "name": "Onion Raita",
+    "category": "Biryani Add-ons",
+    "image": "assets/menu/biryani-addons-onion-raita.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "biryani-addons-boondi-raita",
+    "name": "Boondi Raita",
+    "category": "Biryani Add-ons",
+    "image": "assets/menu/biryani-addons-boondi-raita.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "biryani-addons-cucumber-raita",
+    "name": "Cucumber Raita",
+    "category": "Biryani Add-ons",
+    "image": "assets/menu/biryani-addons-cucumber-raita.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "biryani-addons-extra-dum-chicken-piece",
+    "name": "Extra Dum Chicken Piece",
+    "category": "Biryani Add-ons",
+    "image": "assets/menu/biryani-addons-extra-dum-chicken-piece.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "biryani-addons-extra-fry-piece-chicken",
+    "name": "Extra Fry Piece Chicken",
+    "category": "Biryani Add-ons",
+    "image": "assets/menu/biryani-addons-extra-fry-piece-chicken.webp",
+    "type": "representative illustration"
+  },
+  {
+    "id": "biryani-addons-extra-lollipop-2-pcs",
+    "name": "Extra Lollipop (2 pcs)",
+    "category": "Biryani Add-ons",
+    "image": "assets/menu/biryani-addons-extra-lollipop-2-pcs.webp",
+    "type": "representative illustration"
+  }
+]

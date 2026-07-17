@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f6f2eb">
+  <meta name="description" content="Browse the complete Amigos dine-in menu at IIT Kharagpur. Search dishes, open categories and compare portions on any phone.">
+  <meta name="format-detection" content="telephone=no">
+  <title>Amigos · Dine-in Menu</title>
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#menuMain">Skip to menu</a>
+
+  <header class="hero" id="top">
+    <div class="wrap hero__inner">
+      <nav class="topbar" aria-label="Restaurant menu">
+        <a class="brand" href="#top" aria-label="Amigos menu home">
+          <span class="brand__mark" aria-hidden="true">A</span>
+          <span class="brand__copy">
+            <strong>AMIGOS</strong>
+            <small>IIT Kharagpur</small>
+          </span>
+        </a>
+        <span class="hours"><i aria-hidden="true"></i><span id="hoursText">11:00 AM – 11:30 PM</span></span>
+      </nav>
+
+      <div class="hero__copy">
+        <p class="eyebrow">DINE-IN MENU</p>
+        <p class="anniversary">Celebrating 10 Years — 2016–2026</p>
+        <h1>Good food.<br><em>Easy choices.</em></h1>
+        <p>Scan, search and browse the complete menu. No ordering flow, no login and no app download.</p>
+        <div class="facts" aria-label="Menu summary">
+          <span><strong id="itemCount">—</strong> dishes</span>
+          <span><strong id="categoryCount">—</strong> categories</span>
+          <span>Dine-in prices only</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="controls" aria-label="Menu controls">
+    <div class="wrap controls__primary">
+      <label class="search" for="searchInput">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 21-4.4-4.4M19 11a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z"/></svg>
+        <input id="searchInput" type="search" inputmode="search" autocomplete="off" placeholder="Search biryani, dosa, paneer…">
+        <button id="clearSearch" type="button" aria-label="Clear search" hidden>×</button>
+      </label>
+      <button class="categories-button" id="categoriesButton" type="button" aria-haspopup="dialog" aria-controls="categoryDrawer">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h6v6H4V5Zm10 0h6v6h-6V5ZM4 15h6v4H4v-4Zm10 0h6v4h-6v-4Z"/></svg>
+        <span>Categories</span>
+      </button>
+    </div>
+
+    <div class="wrap filters" id="filters" aria-label="Quick filters">
+      <button type="button" data-diet="all" aria-pressed="true">All</button>
+      <button type="button" data-diet="veg" aria-pressed="false"><i class="diet veg" aria-hidden="true"></i>Veg</button>
+      <button type="button" data-diet="egg" aria-pressed="false"><i class="diet egg" aria-hidden="true"></i>Egg</button>
+      <button type="button" data-diet="nonveg" aria-pressed="false"><i class="diet nonveg" aria-hidden="true"></i>Non-veg</button>
+      <button type="button" data-budget="199" aria-pressed="false" aria-label="Show dishes under 199 rupees">≤ ₹199</button>
+    </div>
+  </section>
+
+  <main class="wrap main" id="menuMain">
+    <header class="main__header">
+      <div>
+        <p class="eyebrow">BROWSE</p>
+        <h2 id="mainTitle">Find your category</h2>
+      </div>
+      <p id="menuStatus" aria-live="polite">Loading the menu…</p>
+    </header>
+
+    <section id="categoryView" aria-label="Menu categories">
+      <div class="category-grid" id="categoryGrid"></div>
+      <div class="category-sections" id="categorySections"></div>
+    </section>
+
+    <section id="searchView" class="search-view" hidden aria-label="Search results">
+      <div class="search-view__header">
+        <h2 id="searchTitle">Search results</h2>
+        <button id="resetSearch" type="button">Clear filters</button>
+      </div>
+      <div id="searchResults"></div>
+    </section>
+
+    <section id="emptyState" class="empty" hidden>
+      <span aria-hidden="true">0</span>
+      <h2>No dishes found</h2>
+      <p>Try a shorter search or clear the selected filters.</p>
+      <button id="emptyReset" type="button">Show full menu</button>
+    </section>
+  </main>
+
+  <section class="notes wrap" aria-label="Menu notes">
+    <article><span>01</span><div><h2>Dine-in only</h2><p>Only dine-in menu prices are shown. There is no cart, checkout or ordering action.</p></div></article>
+    <article><span>02</span><div><h2>Allergens</h2><p>Please ask the restaurant team about ingredients, allergies and current availability before ordering.</p></div></article>
+    <article><span>03</span><div><h2>Dish visuals</h2><p>Every product has lightweight local artwork. Visuals are illustrative and presentation may vary.</p></div></article>
+  </section>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <div><strong>AMIGOS</strong><p id="locationText">IIT Kharagpur, West Bengal</p></div>
+      <p>Complete dine-in menu · No app required</p>
+    </div>
+  </footer>
+
+  <button class="back-top" id="backTop" type="button" aria-label="Back to top" hidden>
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 15 6-6 6 6"/></svg>
+  </button>
+
+  <div class="drawer-backdrop" id="drawerBackdrop" hidden></div>
+  <aside class="drawer" id="categoryDrawer" role="dialog" aria-modal="true" aria-labelledby="drawerTitle" hidden>
+    <div class="drawer__handle" aria-hidden="true"></div>
+    <header class="drawer__header">
+      <div><p class="eyebrow">JUMP TO</p><h2 id="drawerTitle">Categories</h2></div>
+      <button id="closeDrawer" type="button" aria-label="Close categories">×</button>
+    </header>
+    <div class="drawer__list" id="drawerList"></div>
+  </aside>
+
+  <dialog class="dish-dialog" id="dishDialog" aria-labelledby="dishDialogTitle">
+    <button class="dish-dialog__close" id="closeDishDialog" type="button" aria-label="Close dish preview">×</button>
+    <img id="dishDialogImage" src="" alt="">
+    <div class="dish-dialog__body">
+      <div class="dish-dialog__title">
+        <i id="dishDialogDiet" class="diet" aria-hidden="true"></i>
+        <div><p id="dishDialogCategory"></p><h2 id="dishDialogTitle"></h2></div>
+      </div>
+      <div id="dishDialogPrices" class="dish-dialog__prices"></div>
+      <small>Visual is illustrative. Actual presentation may vary.</small>
+    </div>
+  </dialog>
+
+  <noscript><div class="noscript">JavaScript is required to search and browse this menu.</div></noscript>
+  <script src="menu-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
