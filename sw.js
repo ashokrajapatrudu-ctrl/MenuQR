@@ -1,4 +1,4 @@
-const CACHE = 'amigos-brand-experience-v8';
+const CACHE = 'amigos-brand-experience-v9';
 const CORE = [
   './',
   './index.html',
@@ -8,6 +8,7 @@ const CORE = [
   './icon.svg',
   './manifest.webmanifest',
   './assets/menu/fallback.webp',
+  './assets/menu/premium/chicken-biryani.webp',
   './assets/logos/amigos.webp',
   './assets/logos/spicy-darbar.webp',
   './assets/logos/red-panda.webp',
