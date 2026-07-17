@@ -20,6 +20,112 @@
     { id: 'tandoori-kebabs-tandoori-chicken', name: 'Tandoori Chicken' },
     { id: 'noodles-chicken-schezwan-noodles', name: 'Chicken Schezwan Noodles' }
   ];
+  const studentFavouriteGroups = [
+    {
+      title: 'Best Biryanis',
+      query: 'biryani',
+      ids: [
+        'nonveg-biryanis-hyderabadi-chicken-dum-biryani',
+        'nonveg-biryanis-amigos-fry-piece-chicken-biryani',
+        'veg-biryanis-paneer-tikka-biryani'
+      ]
+    },
+    {
+      title: 'Best Chinese',
+      query: 'chinese',
+      ids: [
+        'chicken-starters-chicken-65',
+        'noodles-chicken-schezwan-noodles',
+        'chinese-rice-chicken-fried-rice'
+      ]
+    },
+    {
+      title: 'Best Shawarmas',
+      query: 'shawarma',
+      ids: [
+        'shawarma-wraps-loaded-chicken-shawarma',
+        'shawarma-wraps-classic-chicken-shawarma',
+        'shawarma-wraps-paneer-shawarma'
+      ]
+    },
+    {
+      title: 'Best Desserts',
+      query: 'dessert',
+      ids: [
+        'desserts-double-ka-meetha',
+        'desserts-gulab-jamun',
+        'desserts-brownie-with-ice-cream'
+      ]
+    },
+    {
+      title: 'Late Night Favourites',
+      query: 'chicken',
+      ids: [
+        'chicken-main-course-spicy-darbar-tandoor-butter-chicken-bn',
+        'rotis-naans-garlic-butter-naan',
+        'mocktails-virgin-mojito'
+      ]
+    },
+    {
+      title: 'Budget Picks',
+      query: 'under 199',
+      ids: [
+        'south-indian-masala-dosa',
+        'meals-thalis-veg-mini-meals',
+        'cold-beverages-coca-cola-soft-beverage-300-ml-served-in-glass'
+      ]
+    }
+  ];
+  const popularSearchTerms = ['Chicken Biryani', 'Paneer', 'Butter Chicken', 'Shawarma', 'Mojito', 'Dosa', 'Pizza', 'Noodles'];
+  const smartFilters = {
+    chicken: ['chicken', 'murgh', 'kodi'],
+    mutton: ['mutton', 'raan', 'keema', 'gosht'],
+    seafood: ['seafood', 'fish', 'prawn', 'prawns', 'basa'],
+    paneer: ['paneer', 'chaman'],
+    rice: ['rice', 'biryani', 'pulao', 'mandi'],
+    noodles: ['noodles', 'hakka'],
+    tandoor: ['tandoor', 'tandoori', 'tikka', 'kebab', 'seekh', 'naan', 'roti'],
+    desserts: ['dessert', 'meetha', 'jamun', 'brownie', 'rasgulla', 'tukda', 'apricot', 'qubani'],
+    mocktails: ['mocktail', 'mojito', 'cooler', 'iced tea', 'punch']
+  };
+  const complementSets = {
+    biryani: [
+      { role: 'Starter', patterns: ['chicken 65', 'paneer 65', 'salt pepper prawns', 'crispy fish', 'veg manchurian dry'] },
+      { role: 'Main Pairing', patterns: ['onion raita', 'boondi raita', 'cucumber raita'] },
+      { role: 'Dessert', patterns: ['double ka meetha', 'shahi tukda', 'gulab jamun'] },
+      { role: 'Beverage', patterns: ['coca cola', 'masala cool drink', 'virgin mojito'] }
+    ],
+    indian: [
+      { role: 'Starter', patterns: ['tandoori chicken', 'paneer tikka', 'chicken seekh kebab', 'veg manchurian dry'] },
+      { role: 'Main Pairing', patterns: ['butter naan', 'garlic naan', 'classic jeera rice', 'steamed basmati rice'] },
+      { role: 'Dessert', patterns: ['gulab jamun', 'shahi tukda', 'double ka meetha'] },
+      { role: 'Beverage', patterns: ['virgin mojito', 'masala cool drink', 'coca cola'] }
+    ],
+    wok: [
+      { role: 'Starter', patterns: ['chicken lollipop', 'chilli paneer', 'crispy chilli baby corn', 'salt pepper prawns'] },
+      { role: 'Main Course', patterns: ['chicken hakka noodles', 'veg hakka noodles', 'chicken fried rice', 'veg fried rice'] },
+      { role: 'Dessert', patterns: ['brownie with ice cream', 'gulab jamun'] },
+      { role: 'Beverage', patterns: ['virgin mojito', 'lemon iced tea', 'blue lagoon'] }
+    ],
+    grill: [
+      { role: 'Starter', patterns: ['tandoori chicken', 'paneer tikka', 'chicken wings'] },
+      { role: 'Main Course', patterns: ['loaded mac cheese', 'classic chicken burger', 'garden fresh salad'] },
+      { role: 'Dessert', patterns: ['brownie with ice cream', 'gulab jamun'] },
+      { role: 'Beverage', patterns: ['virgin mojito', 'fruit punch', 'cold coffee thick shake'] }
+    ],
+    south: [
+      { role: 'Starter', patterns: ['sambar vada', 'medu vada', 'idli vada combo'] },
+      { role: 'Main Course', patterns: ['south indian meals', 'plain dosa', 'idli sambar'] },
+      { role: 'Dessert', patterns: ['rasgulla', 'gulab jamun'] },
+      { role: 'Beverage', patterns: ['cold coffee thick shake', 'masala cool drink'] }
+    ],
+    drinks: [
+      { role: 'Main Course', patterns: ['hyderabadi chicken dum biryani', 'paneer butter masala', 'loaded chicken shawarma', 'masala dosa'] },
+      { role: 'Starter', patterns: ['chicken 65', 'paneer 65', 'veg manchurian dry'] },
+      { role: 'Dessert', patterns: ['brownie with ice cream', 'gulab jamun'] },
+      { role: 'Beverage', patterns: ['virgin mojito', 'masala cool drink'] }
+    ]
+  };
   const itemsByCategory = new Map(DATA.categories.map(category => [
     category.id,
     DATA.items.filter(item => item.category === category.id)
@@ -75,6 +181,7 @@
   const state = {
     query: '',
     diet: 'all',
+    smartFilter: null,
     budget: null,
     openCategory: null,
     lastFocused: null
@@ -95,6 +202,8 @@
     categoryGrid: document.getElementById('categoryGrid'),
     categorySections: document.getElementById('categorySections'),
     signatureGrid: document.getElementById('signatureGrid'),
+    studentFavouritesGrid: document.getElementById('studentFavouritesGrid'),
+    popularSearches: document.getElementById('popularSearches'),
     searchView: document.getElementById('searchView'),
     searchTitle: document.getElementById('searchTitle'),
     searchResults: document.getElementById('searchResults'),
@@ -115,6 +224,7 @@
     dishDialogDescription: document.getElementById('dishDialogDescription'),
     dishDialogMeta: document.getElementById('dishDialogMeta'),
     dishDialogPrices: document.getElementById('dishDialogPrices'),
+    dishDialogSmart: document.getElementById('dishDialogSmart'),
     dishDialogAllergens: document.getElementById('dishDialogAllergens'),
     dishDialogDisclaimer: document.getElementById('dishDialogDisclaimer'),
     anniversaryOfferDialog: document.getElementById('anniversaryOfferDialog'),
@@ -303,14 +413,57 @@
     return 'Mild';
   }
 
+  function itemText(item) {
+    const category = categoryMap.get(item.category);
+    const detail = productDetail(item);
+    return normalize([
+      item.name,
+      item.category,
+      item.cuisine,
+      item.search,
+      category?.name,
+      category?.description,
+      detail?.brand,
+      detail?.menuSection,
+      detail?.description,
+      detail?.searchText,
+      detail?.dietary?.label,
+      detail?.spice
+    ].join(' '));
+  }
+
+  function normalizeBadgeLabel(label) {
+    const text = normalize(label);
+    if (!text) return '';
+    if (/most ordered/.test(text)) return 'Most Ordered';
+    if (/chef|signature/.test(text)) return "Chef's Recommendation";
+    if (/limited|seasonal|selected/.test(text)) return 'Limited Time';
+    if (/popular|favourite|favorite|best value|spicy pick|veg favourite/.test(text)) return 'Student Favourite';
+    return 'Student Favourite';
+  }
+
+  function highlightBadges(item) {
+    const detail = productDetail(item);
+    const labels = [];
+    if (/selected days|available on selected/i.test(item.note || '')) labels.push('Limited Time');
+    (detail?.badges || []).forEach(badge => {
+      const label = normalizeBadgeLabel(badge);
+      if (label) labels.push(label);
+    });
+    return [...new Set(labels)].slice(0, 2);
+  }
+
   function dishBadges(item) {
     const spice = spicyLevel(item);
-    const detail = productDetail(item);
-    const approvedBadge = detail?.badges?.[0] || '';
+    const badges = highlightBadges(item);
     const spiceIcons = spice === 'Hot' ? '🌶🌶 ' : spice === 'Medium' ? '🌶 ' : '';
-    const approvedMarkup = approvedBadge
-      ? `<span class="dish-badge dish-badge--approved">${escapeHTML(approvedBadge)}</span>`
-      : '';
+    const approvedMarkup = badges.map(label => {
+      const modifier = label === "Chef's Recommendation" ? 'chef'
+        : label === 'Most Ordered' ? 'ordered'
+          : label === 'Limited Time' ? 'limited'
+            : 'student';
+      return `<span class="dish-badge dish-badge--${modifier}">${escapeHTML(label)}</span>`;
+    }).join('');
     return `<div class="dish-card__badges" aria-label="Dish highlights">
       ${approvedMarkup}
       <span class="dish-badge dish-badge--spice dish-badge--${escapeHTML(spice.toLowerCase())}">${spiceIcons}${escapeHTML(spice)} Spice</span>
@@ -336,6 +489,11 @@
 
   function matchesFilters(item, includeQuery = true) {
     if (state.diet !== 'all' && item.diet !== state.diet) return false;
+    if (state.smartFilter) {
+      const terms = smartFilters[state.smartFilter] || [];
+      const haystack = itemText(item);
+      if (!terms.some(term => haystack.includes(normalize(term)))) return false;
+    }
     if (state.budget !== null) {
       const min = minimumPrice(item);
       if (min === null || min > state.budget) return false;
@@ -385,6 +543,132 @@
         </span>`;
       }).join('')}
     </div>`;
+  }
+
+  function itemFocus(item) {
+    const text = itemText(item);
+    if (/prawn|shrimp|fish|basa|seafood/.test(text)) return 'seafood';
+    if (/mutton|raan|keema|gosht/.test(text)) return 'mutton';
+    if (/chicken|murgh|kodi|lollipop|wings|tangdi/.test(text)) return 'chicken';
+    if (/egg|omelette|bhurji/.test(text)) return 'egg';
+    if (/paneer|chaman/.test(text)) return 'paneer';
+    return item.diet === 'veg' ? 'veg' : 'nonveg';
+  }
+
+  function compatibleRecommendation(target, candidate) {
+    if (!candidate || target.id === candidate.id) return false;
+    if (target.diet === 'veg' && candidate.diet !== 'veg') return false;
+    if (target.diet === 'egg' && candidate.diet === 'nonveg') return false;
+    return true;
+  }
+
+  function recommendationProfile(item) {
+    if (/biryani|mandi|family-packs|biryani-addons/.test(item.category) || item.cuisine === 'biryani') return 'biryani';
+    if (item.cuisine === 'south' || /dosa|idli|vada|uttapam|pongal|upma|poori/.test(itemText(item))) return 'south';
+    if (item.cuisine === 'grill' || /shawarma|burger|mac|salad/.test(itemText(item))) return 'grill';
+    if (item.cuisine === 'wok' || /noodles|fried rice|manchurian|chilli|schezwan/.test(itemText(item))) return 'wok';
+    if (item.cuisine === 'drinks' || /dessert|shake|mocktail|beverage|mojito|cooler/.test(itemText(item))) return 'drinks';
+    return 'indian';
+  }
+
+  function candidateScore(target, candidate, patternIndex) {
+    const targetFocus = itemFocus(target);
+    const candidateFocus = itemFocus(candidate);
+    let score = 100 - patternIndex;
+    if (targetFocus === candidateFocus) score += 18;
+    if (target.diet === candidate.diet) score += 10;
+    if (candidate.imageThumb) score += 3;
+    if (highlightBadges(candidate).length) score += 2;
+    return score;
+  }
+
+  function roleCategories(role) {
+    const categoryPreferences = {
+      Starter: ['veg-starters', 'chicken-starters', 'seafood-starters', 'tandoori-kebabs', 'south-indian'],
+      'Main Course': ['nonveg-biryanis', 'veg-biryanis', 'meals-thalis', 'chicken-main-course', 'paneer-main-course', 'veg-main-course', 'mutton-main-course', 'seafood-main-course', 'chinese-main-course', 'chinese-rice', 'noodles', 'south-indian', 'shawarma-wraps', 'burgers', 'continental'],
+      'Main Pairing': ['rotis-naans', 'indian-rice', 'biryani-addons'],
+      Dessert: ['desserts'],
+      Beverage: ['mocktails', 'cold-beverages', 'thick-shakes']
+    };
+    return categoryPreferences[role] || categoryPreferences['Main Course'];
+  }
+
+  function findRecommendation(patterns, role, target, used) {
+    const allowedCategories = roleCategories(role);
+    for (let index = 0; index < patterns.length; index += 1) {
+      const pattern = normalize(patterns[index]);
+      const matches = DATA.items
+        .filter(candidate => !used.has(candidate.id))
+        .filter(candidate => compatibleRecommendation(target, candidate))
+        .filter(candidate => allowedCategories.includes(candidate.category))
+        .filter(candidate => itemText(candidate).includes(pattern))
+        .sort((a, b) => candidateScore(target, b, index) - candidateScore(target, a, index));
+      if (matches.length) return matches[0];
+    }
+    return null;
+  }
+
+  function fallbackRecommendation(role, target, used) {
+    const categories = roleCategories(role);
+    return DATA.items
+      .filter(candidate => !used.has(candidate.id))
+      .filter(candidate => compatibleRecommendation(target, candidate))
+      .filter(candidate => categories.includes(candidate.category))
+      .sort((a, b) => candidateScore(target, b, 0) - candidateScore(target, a, 0))[0] || null;
+  }
+
+  function completeMealRecommendations(item) {
+    const profile = recommendationProfile(item);
+    const used = new Set([item.id]);
+    const rules = complementSets[profile] || complementSets.indian;
+    return rules.map(rule => {
+      const candidate = findRecommendation(rule.patterns, rule.role, item, used) || fallbackRecommendation(rule.role, item, used);
+      if (!candidate) return null;
+      used.add(candidate.id);
+      return { role: rule.role, item: candidate };
+    }).filter(Boolean).slice(0, 4);
+  }
+
+  function servingMax(item) {
+    const detail = productDetail(item);
+    if (/family|pack/.test(item.category)) return 4;
+    const values = (detail?.variants || []).flatMap(variant => String(variant.serves || '').match(/\d+/g) || []).map(Number);
+    return values.length ? Math.max(...values) : 1;
+  }
+
+  function perfectFor(item) {
+    const max = servingMax(item);
+    if (max >= 4) return { icon: '🎉', label: /family|pack/.test(item.category) ? 'Family Sharing' : 'Group of Four' };
+    if (max >= 2) return { icon: '👥', label: 'Two People' };
+    return { icon: '👤', label: 'Solo Meal' };
+  }
+
+  function smartDialogMarkup(item) {
+    const recommendations = completeMealRecommendations(item);
+    const fit = perfectFor(item);
+    const recMarkup = recommendations.length
+      ? `<section class="meal-builder" aria-labelledby="mealBuilderTitle">
+          <div class="meal-builder__heading">
+            <h3 id="mealBuilderTitle">Complete Your Meal</h3>
+            <p>Recommended with ${escapeHTML(item.name)}</p>
+          </div>
+          <div class="meal-builder__grid">
+            ${recommendations.map(({ role, item: recommendation }) => `<button type="button" class="meal-card" data-open-dish="${escapeHTML(recommendation.id)}" aria-label="View ${escapeHTML(recommendation.name)}">
+              <img ${responsiveImageAttrs(recommendation, '104px')} alt="" loading="lazy" decoding="async" width="160" height="120" onerror="this.src='assets/menu/fallback.webp'">
+              <span>
+                <small>${escapeHTML(role)}</small>
+                <strong>${escapeHTML(recommendation.name)}</strong>
+                <em>${escapeHTML(priceSummary(recommendation))}</em>
+              </span>
+            </button>`).join('')}
+          </div>
+        </section>`
+      : '';
+
+    return `<section class="perfect-for" aria-label="Perfect for">
+        <span>Perfect For</span>
+        <strong>${fit.icon} ${escapeHTML(fit.label)}</strong>
+      </section>${recMarkup}`;
   }
 
   function dishCard(item) {
@@ -447,6 +731,33 @@
     el.signatureGrid.innerHTML = selected.map(signatureCard).join('');
   }
 
+  function favouriteGroupItems(group) {
+    return group.ids
+      .map(id => itemMap.get(id))
+      .filter(Boolean)
+      .slice(0, 3);
+  }
+
+  function renderStudentFavourites() {
+    if (!el.studentFavouritesGrid) return;
+    el.studentFavouritesGrid.innerHTML = studentFavouriteGroups.map(group => {
+      const items = favouriteGroupItems(group);
+      const image = items[0]?.image || 'assets/menu/fallback.webp';
+      return `<article class="student-favourite-card">
+        <button class="student-favourite-card__image" type="button" data-smart-search="${escapeHTML(group.query)}" aria-label="Search ${escapeHTML(group.title)}">
+          <img src="${escapeHTML(image)}" alt="" loading="lazy" decoding="async" width="640" height="480" onerror="this.src='assets/menu/fallback.webp'">
+        </button>
+        <div class="student-favourite-card__body">
+          <h3>${escapeHTML(group.title)}</h3>
+          <div class="student-favourite-card__items">
+            ${items.map(item => `<button type="button" data-open-dish="${escapeHTML(item.id)}">${escapeHTML(item.name)}</button>`).join('')}
+          </div>
+          <button class="student-favourite-card__search" type="button" data-smart-search="${escapeHTML(group.query)}">Explore ${escapeHTML(group.title)}</button>
+        </div>
+      </article>`;
+    }).join('');
+  }
+
   function categoryCard(category, count) {
     return `<button class="category-card" type="button" data-open-category="${escapeHTML(category.id)}" aria-label="Open ${escapeHTML(category.name)}, ${count} dishes">
       <span class="category-card__image"><img src="${escapeHTML(representativeImage.get(category.id))}" alt="" loading="lazy" decoding="async" width="640" height="480" onerror="this.src='assets/menu/fallback.webp'"></span>
@@ -486,8 +797,19 @@
     el.filters.querySelectorAll('[data-diet]').forEach(button => {
       button.setAttribute('aria-pressed', String(button.dataset.diet === state.diet));
     });
+    el.filters.querySelectorAll('[data-smart-filter]').forEach(button => {
+      button.setAttribute('aria-pressed', String(button.dataset.smartFilter === state.smartFilter));
+    });
     const budgetButton = el.filters.querySelector('[data-budget]');
     budgetButton?.setAttribute('aria-pressed', String(state.budget !== null));
+  }
+
+  function renderPopularSearches() {
+    if (!el.popularSearches) return;
+    el.popularSearches.hidden = Boolean(state.query);
+    el.popularSearches.innerHTML = popularSearchTerms
+      .map(term => `<button type="button" data-smart-search="${escapeHTML(term)}">${escapeHTML(term)}</button>`)
+      .join('');
   }
 
   function availableCategoryEntries() {
@@ -533,6 +855,7 @@
 
       const filterDescription = [];
       if (state.diet !== 'all') filterDescription.push(DIET_LABELS[state.diet]);
+      if (state.smartFilter) filterDescription.push(state.smartFilter.replace('-', ' '));
       if (state.budget !== null) filterDescription.push(`under ₹${state.budget}`);
       el.menuStatus.textContent = filterDescription.length
         ? `${visibleItemCount} dishes · ${filterDescription.join(' · ')}`
@@ -560,10 +883,21 @@
 
     el.searchView.hidden = results.length === 0;
     el.emptyState.hidden = results.length !== 0;
+    if (results.length === 0) {
+      el.emptyState.innerHTML = `<span aria-hidden="true">0</span>
+        <h2>No dishes found.</h2>
+        <p>Try one of these searches:</p>
+        <div class="empty-suggestions">
+          ${['Chicken', 'Paneer', 'Biryani', 'Noodles', 'Desserts'].map(term => `<button type="button" data-smart-search="${term}">${term}</button>`).join('')}
+        </div>
+        <button id="emptyReset" type="button">Show full menu</button>`;
+      el.emptyReset = document.getElementById('emptyReset');
+    }
   }
 
   function render() {
     renderFilters();
+    renderPopularSearches();
     el.clearSearch.hidden = !state.query;
     const searching = state.query.trim().length > 0;
     if (searching) el.mainTitle.textContent = 'Search the full menu';
@@ -575,6 +909,17 @@
       el.searchView.hidden = true;
       renderBrowseView();
     }
+  }
+
+  function runSearch(term) {
+    state.query = String(term || '').trim();
+    state.diet = 'all';
+    state.smartFilter = null;
+    state.budget = null;
+    state.openCategory = null;
+    el.searchInput.value = state.query;
+    render();
+    document.getElementById('menuMain')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 
   function openCategory(categoryId, scroll = true) {
@@ -604,6 +949,7 @@
   function resetAll() {
     state.query = '';
     state.diet = 'all';
+    state.smartFilter = null;
     state.budget = null;
     state.openCategory = null;
     el.searchInput.value = '';
@@ -630,6 +976,7 @@
   function openDish(itemId) {
     const item = itemMap.get(itemId);
     if (!item) return;
+    const alreadyOpen = el.dishDialog.open || el.dishDialog.hasAttribute('open');
     const category = categoryMap.get(item.category);
     const detail = productDetail(item);
     el.dishDialogImage.src = item.image;
@@ -643,7 +990,7 @@
     const meta = [];
     if (detail?.dietary?.label) meta.push(detail.dietary.label);
     if (detail?.spice) meta.push(`${detail.spice} Spicy`);
-    if (detail?.badges?.length) meta.push(...detail.badges.slice(0, 2));
+    meta.push(...highlightBadges(item));
     el.dishDialogMeta.innerHTML = meta.map(value => `<span>${escapeHTML(value)}</span>`).join('');
 
     el.dishDialogPrices.innerHTML = item.variants.map((variant, index) => {
@@ -663,13 +1010,16 @@
         <strong class="${price === 'Ask staff' ? 'ask' : ''}">${escapeHTML(price)}</strong>
       </div>`;
     }).join('');
+    el.dishDialogSmart.innerHTML = smartDialogMarkup(item);
     const allergens = [...new Set((detail?.variants || []).map(variant => variant.allergens).filter(Boolean))];
     el.dishDialogAllergens.innerHTML = allergens.length
       ? `<strong>Allergens</strong><p>${allergens.map(escapeHTML).join('<br>')}</p>`
       : '';
     el.dishDialogDisclaimer.textContent = PRODUCT_DETAILS.meta?.disclaimer || 'Visual is illustrative. Actual presentation may vary.';
 
-    if (typeof el.dishDialog.showModal === 'function') {
+    if (alreadyOpen) {
+      el.dishDialog.scrollTo({ top: 0, behavior: 'smooth' });
+    } else if (typeof el.dishDialog.showModal === 'function') {
       el.dishDialog.showModal();
     } else {
       el.dishDialog.setAttribute('open', '');
@@ -763,10 +1113,21 @@
 
   el.filters.addEventListener('click', event => {
     const dietButton = event.target.closest('[data-diet]');
+    const smartFilterButton = event.target.closest('[data-smart-filter]');
     const budgetButton = event.target.closest('[data-budget]');
 
     if (dietButton) {
       state.diet = dietButton.dataset.diet || 'all';
+      state.smartFilter = null;
+      state.openCategory = null;
+      render();
+      return;
+    }
+
+    if (smartFilterButton) {
+      const value = smartFilterButton.dataset.smartFilter || null;
+      state.smartFilter = state.smartFilter === value ? null : value;
+      state.diet = 'all';
       state.openCategory = null;
       render();
       return;
@@ -781,6 +1142,17 @@
   });
 
   document.addEventListener('click', event => {
+    const searchButton = event.target.closest('[data-smart-search]');
+    if (searchButton) {
+      runSearch(searchButton.dataset.smartSearch);
+      return;
+    }
+
+    if (event.target.closest('#emptyReset')) {
+      resetAll();
+      return;
+    }
+
     const categoryButton = event.target.closest('[data-open-category]');
     if (categoryButton) {
       openCategory(categoryButton.dataset.openCategory);
@@ -801,7 +1173,6 @@
   el.closeDrawer.addEventListener('click', closeDrawerPanel);
   el.drawerBackdrop.addEventListener('click', closeDrawerPanel);
   el.resetSearch.addEventListener('click', resetAll);
-  el.emptyReset.addEventListener('click', resetAll);
   el.backTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
   el.closeDishDialog.addEventListener('click', closeDish);
   el.viewOfferDetails?.addEventListener('click', event => {
@@ -851,6 +1222,7 @@
 
   renderMeta();
   renderSignatureDishes();
+  renderStudentFavourites();
   render();
   scheduleOfferDialog();
 

@@ -140,6 +140,14 @@
     <div class="signature-grid" id="signatureGrid" aria-live="polite"></div>
   </section>
 
+  <section class="student-favourites wrap" aria-labelledby="studentFavouritesTitle">
+    <div class="section-heading">
+      <p class="eyebrow">STUDENT FAVOURITES</p>
+      <h2 id="studentFavouritesTitle">⭐ Most Loved at IIT Kharagpur</h2>
+    </div>
+    <div class="student-favourites__grid" id="studentFavouritesGrid" aria-live="polite"></div>
+  </section>
+
   <section class="loyalty-card wrap" aria-labelledby="loyaltyTitle">
     <div class="loyalty-card__icon" aria-hidden="true">
       <svg viewBox="0 0 24 24"><path d="M12 3.5 14.8 9l6.2.9-4.5 4.4 1.1 6.1L12 17.5l-5.6 2.9 1.1-6.1L3 9.9 9.2 9 12 3.5Z"/></svg>
@@ -180,8 +188,25 @@
       <button type="button" data-diet="all" aria-pressed="true">All</button>
       <button type="button" data-diet="veg" aria-pressed="false"><i class="diet veg" aria-hidden="true"></i>Veg</button>
       <button type="button" data-diet="egg" aria-pressed="false"><i class="diet egg" aria-hidden="true"></i>Egg</button>
-      <button type="button" data-diet="nonveg" aria-pressed="false"><i class="diet nonveg" aria-hidden="true"></i>Non-veg</button>
+      <button type="button" data-smart-filter="chicken" aria-pressed="false">Chicken</button>
+      <button type="button" data-smart-filter="mutton" aria-pressed="false">Mutton</button>
+      <button type="button" data-smart-filter="seafood" aria-pressed="false">Seafood</button>
+      <button type="button" data-smart-filter="paneer" aria-pressed="false">Paneer</button>
+      <button type="button" data-smart-filter="rice" aria-pressed="false">Rice</button>
+      <button type="button" data-smart-filter="noodles" aria-pressed="false">Noodles</button>
+      <button type="button" data-smart-filter="tandoor" aria-pressed="false">Tandoor</button>
+      <button type="button" data-smart-filter="desserts" aria-pressed="false">Desserts</button>
+      <button type="button" data-smart-filter="mocktails" aria-pressed="false">Mocktails</button>
       <button type="button" data-budget="199" aria-pressed="false" aria-label="Show dishes under 199 rupees">≤ ₹199</button>
+    </div>
+    <div class="wrap smart-controls" id="smartControls">
+      <div class="spice-guide" aria-label="Spice guide">
+        <span>Spice Guide</span>
+        <span>🌶 Mild</span>
+        <span>🌶🌶 Medium</span>
+        <span>🌶🌶🌶 Hot</span>
+      </div>
+      <div class="popular-searches" id="popularSearches" aria-label="Popular searches"></div>
     </div>
   </section>
 
@@ -299,6 +324,7 @@
       <p id="dishDialogDescription" class="dish-dialog__description"></p>
       <div id="dishDialogMeta" class="dish-dialog__meta" aria-label="Dish attributes"></div>
       <div id="dishDialogPrices" class="dish-dialog__prices"></div>
+      <div id="dishDialogSmart" class="dish-dialog__smart"></div>
       <div id="dishDialogAllergens" class="dish-dialog__allergens"></div>
       <small id="dishDialogDisclaimer">Visual is illustrative. Actual presentation may vary.</small>
     </div>

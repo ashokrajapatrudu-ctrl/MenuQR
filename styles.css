@@ -609,6 +609,88 @@ input:focus-visible {
   gap: 7px;
 }
 
+.student-favourites {
+  padding-top: 22px;
+  padding-bottom: 44px;
+}
+
+.student-favourites__grid {
+  display: grid;
+  gap: 14px;
+}
+
+.student-favourite-card {
+  display: grid;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+}
+
+.student-favourite-card__image {
+  width: 100%;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  background: var(--surface-2);
+  cursor: pointer;
+}
+
+.student-favourite-card__image img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.student-favourite-card__body {
+  display: grid;
+  gap: 14px;
+  padding: 16px;
+}
+
+.student-favourite-card h3 {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.32rem;
+  font-weight: 500;
+  line-height: 1.15;
+}
+
+.student-favourite-card__items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.student-favourite-card__items button,
+.student-favourite-card__search,
+.popular-searches button,
+.empty-suggestions button {
+  min-height: 38px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(255, 253, 248, .86);
+  color: var(--ink-soft);
+  font-size: 11px;
+  font-weight: 820;
+  cursor: pointer;
+}
+
+.student-favourite-card__items button {
+  padding: 7px 10px;
+  text-align: left;
+}
+
+.student-favourite-card__search {
+  justify-self: start;
+  min-height: 44px;
+  padding: 9px 13px;
+  border-color: rgba(22, 61, 52, .22);
+  color: var(--reserve);
+  background: rgba(22, 61, 52, .055);
+}
+
 .loyalty-card,
 .anniversary-strip,
 .edstop-card {
@@ -851,9 +933,9 @@ input:focus-visible {
 
 .filters {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 8px;
-  overflow-x: visible;
+  overflow-x: auto;
   padding-top: 10px;
   padding-bottom: 4px;
   scroll-snap-type: x proximity;
@@ -916,6 +998,49 @@ input:focus-visible {
 .diet.nonveg { color: var(--nonveg); }
 .diet.seafood { color: #1d6d7d; }
 .filters button[aria-pressed="true"] .diet { color: #fff; }
+
+.smart-controls {
+  display: grid;
+  gap: 9px;
+  padding-top: 8px;
+}
+
+.spice-guide,
+.popular-searches {
+  display: flex;
+  gap: 7px;
+  overflow-x: auto;
+  padding-bottom: 2px;
+  scrollbar-width: none;
+}
+
+.spice-guide::-webkit-scrollbar,
+.popular-searches::-webkit-scrollbar { display: none; }
+
+.spice-guide span {
+  display: inline-flex;
+  flex: 0 0 auto;
+  min-height: 32px;
+  align-items: center;
+  padding: 6px 9px;
+  border: 1px solid rgba(168, 120, 54, .18);
+  border-radius: 999px;
+  color: #6c6254;
+  background: rgba(255, 253, 248, .62);
+  font-size: 10px;
+  font-weight: 800;
+}
+
+.spice-guide span:first-child {
+  color: var(--reserve);
+  background: rgba(22, 61, 52, .055);
+}
+
+.popular-searches button {
+  flex: 0 0 auto;
+  min-height: 36px;
+  padding: 7px 11px;
+}
 
 .main {
   padding-top: 48px;
@@ -1307,6 +1432,18 @@ input:focus-visible {
   background: rgba(239, 225, 198, .46);
 }
 
+.dish-badge--student {
+  border-color: rgba(22, 61, 52, .2);
+  color: var(--reserve);
+  background: rgba(22, 61, 52, .065);
+}
+
+.dish-badge--limited {
+  border-color: rgba(105, 39, 53, .22);
+  color: var(--wine);
+  background: rgba(105, 39, 53, .06);
+}
+
 .dish-badge--spice {
   border-color: rgba(105, 39, 53, .2);
   color: var(--wine);
@@ -1462,7 +1599,20 @@ input:focus-visible {
   color: var(--muted);
 }
 
-.empty button {
+.empty-suggestions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin: 0 auto 20px;
+}
+
+.empty-suggestions button {
+  min-height: 42px;
+  padding: 8px 12px;
+}
+
+.empty > button {
   border-color: var(--reserve);
   color: #fff;
   background: var(--reserve);
@@ -2024,6 +2174,118 @@ input:focus-visible {
   list-style: none;
 }
 
+.dish-dialog__smart {
+  display: grid;
+  gap: 14px;
+  margin-top: 18px;
+}
+
+.perfect-for {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 13px;
+  border: 1px solid rgba(22, 61, 52, .14);
+  border-radius: var(--radius);
+  background: rgba(22, 61, 52, .045);
+}
+
+.perfect-for span,
+.meal-builder__heading p,
+.meal-card small {
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: 850;
+  text-transform: uppercase;
+}
+
+.perfect-for strong {
+  color: var(--reserve);
+  font-size: 13px;
+  font-weight: 850;
+  text-align: right;
+}
+
+.meal-builder {
+  padding-top: 15px;
+  border-top: 1px solid var(--line);
+}
+
+.meal-builder__heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 14px;
+  margin-bottom: 10px;
+}
+
+.meal-builder h3 {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.28rem;
+  font-weight: 500;
+  line-height: 1.15;
+}
+
+.meal-builder__heading p {
+  max-width: 172px;
+  margin: 0;
+  line-height: 1.35;
+  text-align: right;
+}
+
+.meal-builder__grid {
+  display: grid;
+  gap: 8px;
+}
+
+.meal-card {
+  display: grid;
+  grid-template-columns: 76px minmax(0, 1fr);
+  gap: 10px;
+  min-height: 86px;
+  padding: 8px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  color: var(--ink);
+  background: rgba(255, 253, 248, .82);
+  text-align: left;
+  cursor: pointer;
+}
+
+.meal-card img {
+  width: 76px;
+  height: 68px;
+  border-radius: 7px;
+  object-fit: cover;
+  background: var(--surface-2);
+}
+
+.meal-card span {
+  display: grid;
+  min-width: 0;
+  align-content: center;
+  gap: 4px;
+}
+
+.meal-card strong {
+  overflow: hidden;
+  color: var(--ink);
+  font-size: 13px;
+  font-weight: 850;
+  line-height: 1.25;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.meal-card em {
+  color: var(--reserve);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 850;
+}
+
 .dish-dialog__allergens {
   margin-top: 18px;
   padding-top: 14px;
@@ -2261,6 +2523,7 @@ input:focus-visible {
   }
   .category-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .brand-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .student-favourites__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .signature-card {
     grid-template-columns: minmax(190px, .82fr) minmax(0, 1fr);
     align-items: stretch;
@@ -2276,6 +2539,7 @@ input:focus-visible {
   .section-toggle__image { width: 88px; height: 88px; }
   .section-toggle__copy p { display: block; max-width: 520px; }
   .section-panel { padding: 0 14px 16px; }
+  .meal-builder__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .notes { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .notes article { grid-template-columns: 1fr; }
 }
@@ -2331,6 +2595,11 @@ input:focus-visible {
   .signature-section { padding-top: 96px; padding-bottom: 42px; }
   .signature-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .signature-card { grid-template-columns: minmax(180px, .78fr) minmax(0, 1fr); }
+  .student-favourites {
+    padding-top: 34px;
+    padding-bottom: 58px;
+  }
+  .student-favourites__grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .loyalty-card {
     grid-template-columns: auto minmax(0, 1fr);
     padding: 22px;
@@ -2357,6 +2626,14 @@ input:focus-visible {
     pointer-events: none;
   }
   .filters button { pointer-events: auto; }
+  .smart-controls {
+    grid-template-columns: minmax(0, 1fr) minmax(260px, auto);
+    align-items: center;
+  }
+  .popular-searches {
+    justify-self: end;
+    max-width: 46vw;
+  }
   .main { padding-top: 64px; padding-bottom: 84px; }
   .main__header h2,
   .search-view__header h2 { font-size: 2.8rem; }
