@@ -555,6 +555,10 @@ input:focus-visible {
   backdrop-filter: none;
 }
 
+.brand-swipe-hint {
+  display: none;
+}
+
 .signature-section {
   padding-top: 76px;
   padding-bottom: 40px;
@@ -3486,6 +3490,82 @@ a,
   .meal-builder__heading p {
     max-width: none;
     text-align: left;
+  }
+}
+
+@media (max-width: 767px) {
+  .brands .brand-grid {
+    display: flex;
+    grid-template-columns: none;
+    gap: 14px;
+    padding: 0 14px 2px 0;
+    overflow-x: auto;
+    overflow-y: visible;
+    scroll-padding-inline: 14px;
+    scroll-snap-type: x mandatory;
+    overscroll-behavior-x: contain;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  .brands .brand-grid::-webkit-scrollbar {
+    display: none;
+  }
+  .brands .brand-card {
+    flex: 0 0 clamp(252px, 82vw, 306px);
+    scroll-snap-align: start;
+  }
+  .brands .brand-card > img {
+    height: calc(clamp(252px, 82vw, 306px) - 2px);
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+  }
+  .brands .brand-card__body {
+    padding: 16px;
+  }
+  .brands .brand-card__logo {
+    width: 56px;
+    height: 56px;
+  }
+  .brands .brand-card h3 {
+    margin-top: 12px;
+    font-size: 1.28rem;
+  }
+  .brands .brand-card p {
+    display: -webkit-box;
+    margin: 8px 0 12px;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+  }
+  .brands .brand-card__signatures {
+    gap: 6px;
+    margin-bottom: 14px;
+  }
+  .brand-swipe-hint {
+    display: block;
+    margin: 12px 0 0;
+    color: var(--muted);
+    font-size: 12px;
+    font-weight: 750;
+    letter-spacing: .02em;
+  }
+}
+
+@media (min-width: 380px) and (max-width: 409px) {
+  .brands .brand-card {
+    flex-basis: clamp(276px, 78vw, 316px);
+  }
+  .brands .brand-card > img {
+    height: calc(clamp(276px, 78vw, 316px) - 2px);
+  }
+}
+
+@media (min-width: 410px) and (max-width: 767px) {
+  .brands .brand-card {
+    flex-basis: clamp(292px, 72vw, 520px);
+  }
+  .brands .brand-card > img {
+    height: calc(clamp(292px, 72vw, 520px) - 2px);
   }
 }
 
