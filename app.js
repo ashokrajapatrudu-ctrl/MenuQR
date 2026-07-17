@@ -9,6 +9,14 @@
 
   const categoryMap = new Map(DATA.categories.map(category => [category.id, category]));
   const itemMap = new Map(DATA.items.map(item => [item.id, item]));
+  const signatureSelections = [
+    { id: 'nonveg-biryanis-hyderabadi-chicken-dum-biryani', name: 'Chicken Dum Biryani' },
+    { id: 'chicken-main-course-spicy-darbar-tandoor-butter-chicken-bn', name: 'Butter Chicken' },
+    { id: 'shawarma-wraps-loaded-chicken-shawarma', name: 'Loaded Chicken Shawarma' },
+    { id: 'paneer-main-course-creamy-paneer-butter-masala', name: 'Paneer Butter Masala' },
+    { id: 'tandoori-kebabs-tandoori-chicken', name: 'Tandoori Chicken' },
+    { id: 'noodles-chicken-schezwan-noodles', name: 'Chicken Schezwan Noodles' }
+  ];
   const itemsByCategory = new Map(DATA.categories.map(category => [
     category.id,
     DATA.items.filter(item => item.category === category.id)
@@ -46,6 +54,7 @@
     categoryView: document.getElementById('categoryView'),
     categoryGrid: document.getElementById('categoryGrid'),
     categorySections: document.getElementById('categorySections'),
+    signatureGrid: document.getElementById('signatureGrid'),
     searchView: document.getElementById('searchView'),
     searchTitle: document.getElementById('searchTitle'),
     searchResults: document.getElementById('searchResults'),
@@ -222,6 +231,43 @@
     </article>`;
   }
 
+  function signatureItem(selection) {
+    if (itemMap.has(selection.id)) return itemMap.get(selection.id);
+    const normalized = normalize(selection.name);
+    return DATA.items.find(item => normalize(item.name).includes(normalized) && item.imageThumb)
+      || DATA.items.find(item => normalize(item.name).includes(normalized))
+      || null;
+  }
+
+  function signatureCard(item) {
+    const category = categoryMap.get(item.category);
+    return `<article class="signature-card">
+      <button class="signature-card__image" type="button" data-open-dish="${escapeHTML(item.id)}" aria-label="View ${escapeHTML(item.name)}">
+        <img ${responsiveImageAttrs(item, '(min-width: 820px) 36vw, calc(100vw - 56px)')} alt="Illustrative visual of ${escapeHTML(item.name)}" loading="lazy" decoding="async" width="960" height="720" onerror="this.src='assets/menu/fallback.webp'">
+      </button>
+      <div class="signature-card__body">
+        <div>
+          <p>${escapeHTML(category?.name || 'Amigos favourite')}</p>
+          <h3>${escapeHTML(item.name)}</h3>
+        </div>
+        <div class="signature-card__badges" aria-label="Dish highlights">
+          <span class="dish-badge dish-badge--chef">Chef Recommended</span>
+          <span class="dish-badge dish-badge--ordered">Most Ordered</span>
+        </div>
+      </div>
+    </article>`;
+  }
+
+  function renderSignatureDishes() {
+    if (!el.signatureGrid) return;
+    const selected = signatureSelections
+      .map(signatureItem)
+      .filter(Boolean)
+      .filter((item, index, items) => items.findIndex(entry => entry.id === item.id) === index);
+
+    el.signatureGrid.innerHTML = selected.map(signatureCard).join('');
+  }
+
   function categoryCard(category, count) {
     return `<button class="category-card" type="button" data-open-category="${escapeHTML(category.id)}" aria-label="Open ${escapeHTML(category.name)}, ${count} dishes">
       <span class="category-card__image"><img src="${escapeHTML(representativeImage.get(category.id))}" alt="" loading="lazy" decoding="async" width="640" height="480" onerror="this.src='assets/menu/fallback.webp'"></span>
@@ -251,10 +297,10 @@
   }
 
   function renderMeta() {
-    el.itemCount.textContent = DATA.meta.itemCount.toLocaleString('en-IN');
-    el.categoryCount.textContent = DATA.meta.categoryCount.toLocaleString('en-IN');
-    el.hoursText.textContent = DATA.meta.hours;
-    el.locationText.textContent = DATA.meta.location;
+    if (el.itemCount) el.itemCount.textContent = DATA.meta.itemCount.toLocaleString('en-IN');
+    if (el.categoryCount) el.categoryCount.textContent = DATA.meta.categoryCount.toLocaleString('en-IN');
+    if (el.hoursText) el.hoursText.textContent = DATA.meta.hours;
+    if (el.locationText) el.locationText.textContent = DATA.meta.location;
   }
 
   function renderFilters() {
@@ -520,6 +566,7 @@
   }, { passive: true });
 
   renderMeta();
+  renderSignatureDishes();
   render();
 
   if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {
