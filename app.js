@@ -21,9 +21,46 @@
     category.id,
     DATA.items.filter(item => item.category === category.id)
   ]));
+  const CATEGORY_IMAGE_OVERRIDES = {
+    'veg-starters': 'assets/menu/premium/paneer-chinese.webp',
+    'chicken-starters': 'assets/menu/premium/manchurian.webp',
+    'seafood-starters': 'assets/menu/premium/prawn-chinese.webp',
+    'shawarma-wraps': 'assets/menu/premium/chicken-wrap.webp',
+    'veg-biryanis': 'assets/menu/premium/veg-biryani.webp',
+    'veg-pot-biryanis': 'assets/menu/premium/veg-biryani.webp',
+    'nonveg-biryanis': 'assets/menu/premium/chicken-biryani.webp',
+    'nonveg-pot-biryanis': 'assets/menu/premium/chicken-biryani.webp',
+    'family-packs': 'assets/menu/family-packs-hyderabadi-chicken-dum-family-pack.webp',
+    mandi: 'assets/menu/mandi-classic-chicken-mandi.webp',
+    'meals-thalis': 'assets/menu/meals-thalis-south-indian-meals.webp',
+    dals: 'assets/menu/premium/dal-makhani.webp',
+    'veg-main-course': 'assets/menu/premium/palak-paneer.webp',
+    'paneer-main-course': 'assets/menu/premium/paneer-curry.webp',
+    'egg-main-course': 'assets/menu/premium/egg-curry.webp',
+    'chicken-main-course': 'assets/menu/premium/butter-chicken.webp',
+    'mutton-main-course': 'assets/menu/premium/mutton-curry.webp',
+    'seafood-main-course': 'assets/menu/premium/fish-curry.webp',
+    'tandoori-kebabs': 'assets/menu/premium/tandoori-chicken.webp',
+    'chinese-main-course': 'assets/menu/premium/manchurian.webp',
+    'chinese-rice': 'assets/menu/premium/fried-rice.webp',
+    noodles: 'assets/menu/premium/noodles.webp',
+    'rotis-naans': 'assets/menu/rotis-naans-garlic-butter-naan.webp',
+    'indian-rice': 'assets/menu/premium/steamed-rice.webp',
+    'south-indian': 'assets/menu/south-indian-masala-dosa.webp',
+    'nonveg-dosa': 'assets/menu/nonveg-dosa-chicken-dosa.webp',
+    burgers: 'assets/menu/burgers-classic-chicken-burger.webp',
+    continental: 'assets/menu/continental-loaded-chicken-mac.webp',
+    salads: 'assets/menu/salads-grilled-chicken-salad.webp',
+    soups: 'assets/menu/premium/soup.webp',
+    desserts: 'assets/menu/desserts-shahi-tukda.webp',
+    'thick-shakes': 'assets/menu/thick-shakes-chocolate-thick-shake.webp',
+    mocktails: 'assets/menu/mocktails-fruit-punch.webp',
+    'cold-beverages': 'assets/menu/cold-beverages-masala-cool-drink.webp',
+    'biryani-addons': 'assets/menu/biryani-addons-onion-raita.webp'
+  };
   const representativeImage = new Map(DATA.categories.map(category => [
     category.id,
-    itemsByCategory.get(category.id)?.[0]?.image || 'assets/menu/fallback.webp'
+    CATEGORY_IMAGE_OVERRIDES[category.id] || itemsByCategory.get(category.id)?.[0]?.image || 'assets/menu/fallback.webp'
   ]));
 
   const DIET_LABELS = {
@@ -112,16 +149,127 @@
     return item.variants.length > 1 ? `From ${formatPrice(min)}` : formatPrice(min);
   }
 
+  function dishFocus(item) {
+    const text = normalize(item.name);
+    const focusMatches = [
+      [/prawn|shrimp/, 'prawns'],
+      [/fish|basa/, 'fish'],
+      [/mutton|raan|kosha|rogan|keema/, 'mutton'],
+      [/chicken|lollipop|wings|tangdi/, 'chicken'],
+      [/egg|omelette|bhurji/, 'egg'],
+      [/paneer|chaman/, 'paneer'],
+      [/mushroom/, 'mushroom'],
+      [/baby corn/, 'baby corn'],
+      [/corn/, 'corn'],
+      [/soya|chaap/, 'soya chaap'],
+      [/kaju|cashew/, 'cashew'],
+      [/rajma/, 'rajma'],
+      [/bhindi/, 'bhindi'],
+      [/aloo|potato/, 'potato'],
+      [/dal|pappu|lentil/, 'lentils']
+    ];
+    const match = focusMatches.find(([pattern]) => pattern.test(text));
+    if (match) return match[1];
+    if (item.diet === 'veg') return 'vegetables';
+    if (item.diet === 'egg') return 'egg';
+    return 'fresh ingredients';
+  }
+
+  function flavorStyle(item) {
+    const text = normalize(`${item.name} ${item.search || ''}`);
+    if (/\b(honey|sweet)\b/.test(text)) return 'sweet-spicy';
+    if (/\b(schezwan|chilli|chili|dragon|hot|kolhapuri|andhra|gongura|avakai|karam|peri peri)\b/.test(text)) return 'fiery';
+    if (/\b(garlic|lasooni|burnt garlic)\b/.test(text)) return 'garlic-forward';
+    if (/\b(pepper|chettinad)\b/.test(text)) return 'peppery';
+    if (/\b(butter|creamy|malai|afghani|reshmi|white|shahi|korma|lababdar)\b/.test(text)) return 'creamy';
+    if (/\b(tandoori|tikka|kebab|seekh|smoky|grilled)\b/.test(text)) return 'smoky';
+    if (/\b(lemon|coriander|mint|curd|raita|iced tea|mojito|cooler)\b/.test(text)) return 'refreshing';
+    return 'balanced';
+  }
+
   function dishDescription(item) {
     if (item.note) return item.note;
-    const category = categoryMap.get(item.category);
-    const cuisine = DATA.cuisines.find(entry => entry.id === item.cuisine);
-    const tone = {
-      veg: 'A vegetarian favourite',
-      egg: 'A comforting egg favourite',
-      nonveg: 'A hearty non-veg favourite'
-    }[item.diet] || 'A house favourite';
-    return `${tone} from ${category?.name || cuisine?.name || 'the Amigos kitchen'}, prepared fresh for your table.`;
+    const text = normalize(`${item.name} ${item.search || ''}`);
+    const focus = dishFocus(item);
+    const style = flavorStyle(item);
+
+    if (item.category === 'family-packs') {
+      return `A generous biryani pack made for sharing, layered with ${focus}, aromatic rice and house spices.`;
+    }
+    if (item.category === 'biryani-addons') {
+      return `A useful biryani companion with ${focus}, made to round out the meal at the table.`;
+    }
+    if (item.category === 'mandi') {
+      return `A slow-spiced mandi plate with ${focus}, fragrant rice and a mellow, comforting finish.`;
+    }
+    if (/pot biryani/.test(text) || item.category.includes('pot-biryanis')) {
+      return `A hearty pot-style biryani with ${focus}, sealed-in aroma and a richer spice finish.`;
+    }
+    if (/biryani|pulao/.test(text) || item.category.includes('biryanis')) {
+      return `Fragrant rice layered with ${focus}, warm spices and classic Amigos biryani comfort.`;
+    }
+    if (/shawarma|wrap/.test(text)) {
+      return `A warm handheld wrap with ${focus}, crisp fillings and a creamy, satisfying finish.`;
+    }
+    if (/dosa|idli|vada|uttapam|upma|pongal|poori|tiffin/.test(text) || item.cuisine === 'south') {
+      return `A South Indian favourite with ${focus}, clean flavours and comforting campus-style ease.`;
+    }
+    if (/burger/.test(text)) {
+      return `A soft-bun burger with ${focus}, fresh crunch and a saucy cafe-style finish.`;
+    }
+    if (/mac|cheese/.test(text)) {
+      return `Creamy mac and cheese with ${focus}, baked-in richness and a smooth comfort-food finish.`;
+    }
+    if (/salad/.test(text)) {
+      return `A fresh salad bowl with ${focus}, crisp vegetables and a clean, balanced bite.`;
+    }
+    if (/soup/.test(text)) {
+      return `A warm ${style} soup with ${focus}, served light, savoury and soothing.`;
+    }
+    if (/shake|thick shake/.test(text)) {
+      return `A chilled thick shake with ${focus}, creamy texture and an indulgent cafe finish.`;
+    }
+    if (/mocktail|mojito|cooler|iced tea|punch/.test(text)) {
+      return `A chilled ${style} drink with bright flavour, ice-cold refreshment and a clean finish.`;
+    }
+    if (/water|beverage|coca|pepsi|campa|drink/.test(text) || item.category === 'cold-beverages') {
+      return `A chilled table refreshment served simply to keep the meal easy and balanced.`;
+    }
+    if (/dessert|meetha|jamun|tukda|brownie|rasgulla|apricot|qubani/.test(text) || item.category === 'desserts') {
+      return `A sweet finish with rich comfort, soft texture and a celebratory Amigos touch.`;
+    }
+    if (/naan|roti|paratha|kulcha/.test(text)) {
+      return `Fresh tandoor bread with a soft bite, made to pair beautifully with curries and kebabs.`;
+    }
+    if (/rice/.test(text) || item.category === 'indian-rice') {
+      return `A comforting rice plate with ${focus}, gentle aromatics and a clean homestyle finish.`;
+    }
+    if (/dal|pappu/.test(text) || item.category === 'dals') {
+      return `Slow-simmered ${focus} with a ${style} tempering, made for rice, roti and comfort.`;
+    }
+    if (/tandoori|tikka|kebab|seekh|platter|grill/.test(text) || item.category === 'tandoori-kebabs') {
+      return `Char-grilled ${focus} with smoky edges, warm masala and a refined tandoor finish.`;
+    }
+    if (/fried rice/.test(text) || item.category === 'chinese-rice') {
+      return `Wok-tossed rice with ${focus}, crisp vegetables and a savoury Indo-Chinese finish.`;
+    }
+    if (/noodles/.test(text) || item.category === 'noodles') {
+      return `Wok-tossed noodles with ${focus}, springy strands and a lively ${style} finish.`;
+    }
+    if (/manchurian|gravy|black pepper|hot garlic|chilli garlic/.test(text) || item.category === 'chinese-main-course') {
+      return `An Indo-Chinese gravy with ${focus}, glossy sauce and a bold ${style} finish.`;
+    }
+    if (/starter|crispy|chilli|dragon|pepper|65|lollipop|wings|salt/.test(text) || /starters/.test(item.category)) {
+      return `A ${style} starter with ${focus}, crisp edges and a lively table-sharing bite.`;
+    }
+    if (/meal|thali/.test(text) || item.category === 'meals-thalis') {
+      return `A complete plate with ${focus}, rice, sides and homestyle comfort in every serving.`;
+    }
+    if (/curry|masala|handi|kadai|do pyaza|lababdar|korma|bhurji|fry/.test(text) || /main-course/.test(item.category)) {
+      return `A ${style} curry with ${focus}, slow-built gravy and warm Indian spices.`;
+    }
+
+    return `A balanced Amigos favourite with ${focus}, prepared fresh for easy table-side browsing.`;
   }
 
   function spicyLevel(item) {
