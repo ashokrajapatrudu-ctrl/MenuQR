@@ -1,4 +1,4 @@
-const CACHE = 'amigos-menu-only-v2';
+const CACHE = 'amigos-menu-premium-v3';
 const CORE = [
   './',
   './index.html',

@@ -253,7 +253,7 @@
       el.categorySections.hidden = true;
       el.categoryGrid.innerHTML = entries.map(({ category, items }) => categoryCard(category, items.length)).join('');
       el.categorySections.innerHTML = '';
-      el.mainTitle.textContent = 'Find your category';
+      el.mainTitle.textContent = 'Explore the menu';
 
       const filterDescription = [];
       if (state.diet !== 'all') filterDescription.push(DIET_LABELS[state.diet]);
