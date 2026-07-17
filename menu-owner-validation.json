@@ -1,0 +1,1098 @@
+{
+  "generatedAt": "2026-07-17T10:10:05Z",
+  "totalItemsRequiringValidation": 106,
+  "items": [
+    {
+      "brand": "Amigos",
+      "productName": "Boneless Avakaya Chicken Biryani",
+      "portion": "Half Portion",
+      "menuSection": "Non-Vegetarian Biryanis & Pulao",
+      "fieldsRequiringConfirmation": [
+        "Recipe"
+      ],
+      "ownerCheck": "Allergen information requires confirmation from our team."
+    },
+    {
+      "brand": "Amigos",
+      "productName": "Boneless Avakaya Chicken Biryani",
+      "portion": "Full Portion",
+      "menuSection": "Non-Vegetarian Biryanis & Pulao",
+      "fieldsRequiringConfirmation": [
+        "Recipe"
+      ],
+      "ownerCheck": "Allergen information requires confirmation from our team."
+    },
+    {
+      "brand": "Amigos",
+      "productName": "Avakaya Chicken Pulao (Bone-In)",
+      "portion": "Half Portion",
+      "menuSection": "Non-Vegetarian Biryanis & Pulao",
+      "fieldsRequiringConfirmation": [
+        "Recipe"
+      ],
+      "ownerCheck": "Allergen information requires confirmation from our team."
+    },
+    {
+      "brand": "Amigos",
+      "productName": "Avakaya Chicken Pulao (Bone-In)",
+      "portion": "Full Portion",
+      "menuSection": "Non-Vegetarian Biryanis & Pulao",
+      "fieldsRequiringConfirmation": [
+        "Recipe"
+      ],
+      "ownerCheck": "Allergen information requires confirmation from our team."
+    },
+    {
+      "brand": "Amigos",
+      "productName": "Bone-In Chicken Pot Biryani",
+      "portion": "Pot / Sharing",
+      "menuSection": "Non-Vegetarian Pot Biryanis",
+      "fieldsRequiringConfirmation": [
+        "Recipe"
+      ],
+      "ownerCheck": "Allergen information requires confirmation from our team."
+    },
+    {
+      "brand": "Amigos",
+      "productName": "Classic Chicken Mandi",
+      "portion": "Single Serving",
+      "menuSection": "Arabian Mandi",
+      "fieldsRequiringConfirmation": [
+        "Recipe"
+      ],
+      "ownerCheck": "Allergen information requires confirmation from our team."
+    },
+    {
+      "brand": "Amigos",
+      "productName": "Classic Chicken Mandi",
+      "portion": "Half Chicken Platter",
+      "menuSection": "Arabian Mandi",
+      "fieldsRequiringConfirmation": [
+        "Portion",
+        "Serving size"
+      ],
+      "ownerCheck": "Confirm that platter size and serving count match the kitchen SOP."
+    },
+    {
+      "brand": "Amigos",
+      "productName": "Classic Chicken Mandi",
+      "portion": "Whole Chicken Platter",
+      "menuSection": "Arabian Mandi",
+      "fieldsRequiringConfirmation": [
+        "Portion",
+        "Serving size"
+      ],
+      "ownerCheck": "Confirm that platter size and serving count match the kitchen SOP."
+    },
+    {
+      "brand": "Amigos",
+      "productName": "Juicy Chicken Mandi",
+      "portion": "Single Serving",
+      "menuSection": "Arabian Mandi",
+      "fieldsRequiringConfirmation": [
+        "Recipe"
+      ],
+      "ownerCheck": "Allergen information requires confirmation from our team."
+    },
+    {
+      "brand": "Amigos",
+      "productName": "Juicy Chicken Mandi",
+      "portion": "Full Platter",
+      "menuSection": "Arabian Mandi",
+      "fieldsRequiringConfirmation": [
+        "Portion",
+        "Serving size"
+      ],
+      "ownerCheck": "Confirm that platter size and serving count match the kitchen SOP."
+    },
+    {
+      "brand": "Amigos",
+      "productName": "Juicy Chicken Mandi",
+      "portion": "Half Platter",
+      "menuSection": "Arabian Mandi",
+      "fieldsRequiringConfirmation": [
+        "Portion",
+        "Serving size"
+      ],
+      "ownerCheck": "Confirm that platter size and serving count match the kitchen SOP."
+    },
+    {
+      "brand": "Amigos",
+      "productName": "Mutton Mandi",
+      "portion": "Single Serving",
+      "menuSection": "Arabian Mandi",
+      "fieldsRequiringConfirmation": [
+        "Recipe"
+      ],
+      "ownerCheck": "Allergen information requires confirmation from our team."
+    },
+    {
+      "brand": "Amigos",
+      "productName": "Mutton Mandi",
+      "portion": "Full Platter",
+      "menuSection": "Arabian Mandi",
+      "fieldsRequiringConfirmation": [
+        "Portion",
+        "Serving size"
+      ],
+      "ownerCheck": "Confirm that platter size and serving count match the kitchen SOP."
+    },
+    {
+      "brand": "Amigos",
+      "productName": "Mutton Mandi",
+      "portion": "Half Platter",
+      "menuSection": "Arabian Mandi",
+      "fieldsRequiringConfirmation": [
+        "Portion",
+        "Serving size"
+      ],
+      "ownerCheck": "Confirm that platter size and serving count match the kitchen SOP."
+    },
+    {
+      "brand": "Amigos",
+      "productName": "Mutton Raan Mandi – Selected Days Only",
+      "portion": "Family Platter",
+      "menuSection": "Arabian Mandi",
+      "fieldsRequiringConfirmation": [
+        "Recipe"
+      ],
+      "ownerCheck": "Allergen information requires confirmation from our team."
+    },
+    {
+      "brand": "Amigos",
+      "productName": "Fish Mandi",
+      "portion": "Single Serving",
+      "menuSection": "Arabian Mandi",
+      "fieldsRequiringConfirmation": [
+        "Recipe"
+      ],
+      "ownerCheck": "Allergen information requires confirmation from our team."
+    },
+    {
+      "brand": "Amigos",
+      "productName": "Fish Mandi",
+      "portion": "Half Platter",
+      "menuSection": "Arabian Mandi",
+      "fieldsRequiringConfirmation": [
+        "Portion",
+        "Serving size"
+      ],
+      "ownerCheck": "Confirm that platter size and serving count match the kitchen SOP."
+    },
+    {
+      "brand": "Amigos",
+      "productName": "Fish Mandi",
+      "portion": "Full Platter",
+      "menuSection": "Arabian Mandi",
+      "fieldsRequiringConfirmation": [
+        "Portion",
+        "Serving size"
+      ],
+      "ownerCheck": "Confirm that platter size and serving count match the kitchen SOP."
+    },
+    {
+      "brand": "Amigos",
+      "productName": "Prawns Mandi",
+      "portion": "Single Serving",
+      "menuSection": "Arabian Mandi",
+      "fieldsRequiringConfirmation": [
+        "Recipe"
+      ],
+      "ownerCheck": "Allergen information requires confirmation from our team."
+    },
+    {
+      "brand": "Amigos",
+      "productName": "Prawns Mandi",
+      "portion": "Half Platter",
+      "menuSection": "Arabian Mandi",
+      "fieldsRequiringConfirmation": [
+        "Portion",
+        "Serving size"
+      ],
+      "ownerCheck": "Confirm that platter size and serving count match the kitchen SOP."
+    },
+    {
+      "brand": "Amigos",
+      "productName": "Prawns Mandi",
+      "portion": "Full Platter",
+      "menuSection": "Arabian Mandi",
+      "fieldsRequiringConfirmation": [
+        "Portion",
+        "Serving size"
+      ],
+      "ownerCheck": "Confirm that platter size and serving count match the kitchen SOP."
+    },
+    {
+      "brand": "Amigos",
+      "productName": "Paneer Mandi",
+      "portion": "Single Serving",
+      "menuSection": "Arabian Mandi",
+      "fieldsRequiringConfirmation": [
+        "Recipe"
+      ],
+      "ownerCheck": "Allergen information requires confirmation from our team."
+    },
+    {
+      "brand": "Amigos",
+      "productName": "Paneer Mandi",
+      "portion": "Half Platter",
+      "menuSection": "Arabian Mandi",
+      "fieldsRequiringConfirmation": [
+        "Portion",
+        "Serving size"
+      ],
+      "ownerCheck": "Confirm that platter size and serving count match the kitchen SOP."
+    },
+    {
+      "brand": "Amigos",
+      "productName": "Paneer Mandi",
+      "portion": "Full Platter",
+      "menuSection": "Arabian Mandi",
+      "fieldsRequiringConfirmation": [
+        "Portion",
+        "Serving size"
+      ],
+      "ownerCheck": "Confirm that platter size and serving count match the kitchen SOP."
+    },
+    {
+      "brand": "Amigos",
+      "productName": "Mushroom Mandi",
+      "portion": "Single Serving",
+      "menuSection": "Arabian Mandi",
+      "fieldsRequiringConfirmation": [
+        "Recipe"
+      ],
+      "ownerCheck": "Allergen information requires confirmation from our team."
+    },
+    {
+      "brand": "Amigos",
+      "productName": "Mushroom Mandi",
+      "portion": "Half Platter",
+      "menuSection": "Arabian Mandi",
+      "fieldsRequiringConfirmation": [
+        "Portion",
+        "Serving size"
+      ],
+      "ownerCheck": "Confirm that platter size and serving count match the kitchen SOP."
+    },
+    {
+      "brand": "Amigos",
+      "productName": "Mushroom Mandi",
+      "portion": "Full Platter",
+      "menuSection": "Arabian Mandi",
+      "fieldsRequiringConfirmation": [
+        "Portion",
+        "Serving size"
+      ],
+      "ownerCheck": "Confirm that platter size and serving count match the kitchen SOP."
+    },
+    {
+      "brand": "Amigos",
+      "productName": "Veg Arabian Mandi",
+      "portion": "Single Serving",
+      "menuSection": "Arabian Mandi",
+      "fieldsRequiringConfirmation": [
+        "Recipe"
+      ],
+      "ownerCheck": "Allergen information requires confirmation from our team."
+    },
+    {
+      "brand": "Amigos",
+      "productName": "Veg Arabian Mandi",
+      "portion": "Half Platter",
+      "menuSection": "Arabian Mandi",
+      "fieldsRequiringConfirmation": [
+        "Portion",
+        "Serving size"
+      ],
+      "ownerCheck": "Dine-in price missing/invalid in master—do not print until approved. Takeaway price missing/invalid in master. Confirm that platter size and serving count match the kitchen SOP."
+    },
+    {
+      "brand": "Amigos",
+      "productName": "Veg Arabian Mandi",
+      "portion": "Full Platter",
+      "menuSection": "Arabian Mandi",
+      "fieldsRequiringConfirmation": [
+        "Portion",
+        "Serving size"
+      ],
+      "ownerCheck": "Dine-in price missing/invalid in master—do not print until approved. Confirm that platter size and serving count match the kitchen SOP."
+    },
+    {
+      "brand": "Amigos",
+      "productName": "Udta Panchhi Chicken Kebab",
+      "portion": "Full Portion",
+      "menuSection": "Tandoori Kebabs & Platters",
+      "fieldsRequiringConfirmation": [
+        "Recipe"
+      ],
+      "ownerCheck": "Owner confirmation required for proprietary dish name/spelling."
+    },
+    {
+      "brand": "Amigos",
+      "productName": "South Indian Meals",
+      "portion": "Single Serving",
+      "menuSection": "Meals & Thalis",
+      "fieldsRequiringConfirmation": [
+        "Portion"
+      ],
+      "ownerCheck": "Portion missing in master; designer-ready portion assigned and requires confirmation."
+    },
+    {
+      "brand": "Amigos",
+      "productName": "North Indian Meals",
+      "portion": "Single Serving",
+      "menuSection": "Meals & Thalis",
+      "fieldsRequiringConfirmation": [
+        "Portion"
+      ],
+      "ownerCheck": "Portion missing in master; designer-ready portion assigned and requires confirmation."
+    },
+    {
+      "brand": "Amigos",
+      "productName": "Veg Mini Meals",
+      "portion": "Single Serving",
+      "menuSection": "Meals & Thalis",
+      "fieldsRequiringConfirmation": [
+        "Portion"
+      ],
+      "ownerCheck": "Portion missing in master; designer-ready portion assigned and requires confirmation."
+    },
+    {
+      "brand": "Amigos",
+      "productName": "Chicken Tangdi Masala",
+      "portion": "Full Portion (Confirm)",
+      "menuSection": "Chicken Main Course",
+      "fieldsRequiringConfirmation": [
+        "Portion"
+      ],
+      "ownerCheck": "Portion missing in master; designer-ready portion assigned and requires confirmation. Confirm portion/piece count with kitchen."
+    },
+    {
+      "brand": "Amigos",
+      "productName": "Karam Podi Idli",
+      "portion": "Full Portion",
+      "menuSection": "South Indian Tiffins",
+      "fieldsRequiringConfirmation": [
+        "Recipe"
+      ],
+      "ownerCheck": "Allergen information requires confirmation from our team."
+    },
+    {
+      "brand": "Amigos",
+      "productName": "Idli Sambar",
+      "portion": "Full Portion",
+      "menuSection": "South Indian Tiffins",
+      "fieldsRequiringConfirmation": [
+        "Recipe"
+      ],
+      "ownerCheck": "Allergen information requires confirmation from our team."
+    },
+    {
+      "brand": "Amigos",
+      "productName": "Sambar Vada",
+      "portion": "Full Portion",
+      "menuSection": "South Indian Tiffins",
+      "fieldsRequiringConfirmation": [
+        "Recipe"
+      ],
+      "ownerCheck": "Allergen information requires confirmation from our team."
+    },
+    {
+      "brand": "Amigos",
+      "productName": "Karam Dosa",
+      "portion": "Full Portion",
+      "menuSection": "South Indian Tiffins",
+      "fieldsRequiringConfirmation": [
+        "Recipe"
+      ],
+      "ownerCheck": "Allergen information requires confirmation from our team."
+    },
+    {
+      "brand": "Amigos",
+      "productName": "Ghee Karam Dosa",
+      "portion": "Full Portion",
+      "menuSection": "South Indian Tiffins",
+      "fieldsRequiringConfirmation": [
+        "Recipe"
+      ],
+      "ownerCheck": "Allergen information requires confirmation from our team."
+    },
+    {
+      "brand": "Amigos",
+      "productName": "Butter Karam Dosa",
+      "portion": "Full Portion",
+      "menuSection": "South Indian Tiffins",
+      "fieldsRequiringConfirmation": [
+        "Recipe"
+      ],
+      "ownerCheck": "Allergen information requires confirmation from our team."
+    },
+    {
+      "brand": "Amigos",
+      "productName": "Onion Masala Dosa",
+      "portion": "Full Portion",
+      "menuSection": "South Indian Tiffins",
+      "fieldsRequiringConfirmation": [
+        "Recipe"
+      ],
+      "ownerCheck": "Allergen information requires confirmation from our team."
+    },
+    {
+      "brand": "Amigos",
+      "productName": "Set Dosa",
+      "portion": "Full Portion",
+      "menuSection": "South Indian Tiffins",
+      "fieldsRequiringConfirmation": [
+        "Recipe"
+      ],
+      "ownerCheck": "Allergen information requires confirmation from our team."
+    },
+    {
+      "brand": "Amigos",
+      "productName": "Chicken Dosa",
+      "portion": "Full Portion",
+      "menuSection": "Non-Vegetarian Dosas",
+      "fieldsRequiringConfirmation": [
+        "Recipe"
+      ],
+      "ownerCheck": "Allergen information requires confirmation from our team."
+    },
+    {
+      "brand": "Amigos",
+      "productName": "Chicken & Falafel Shawarma",
+      "portion": "Single Serving",
+      "menuSection": "Shawarmas & Wraps",
+      "fieldsRequiringConfirmation": [
+        "Recipe"
+      ],
+      "ownerCheck": "Confirm that this item contains both chicken and falafel; otherwise rename to Falafel Shawarma."
+    },
+    {
+      "brand": "Amigos",
+      "productName": "Coca-Cola Soft Beverage 300 ml (Served in Glass)",
+      "portion": "300 ml Glass",
+      "menuSection": "Water & Soft Beverages",
+      "fieldsRequiringConfirmation": [
+        "Portion"
+      ],
+      "ownerCheck": "Portion missing in master; designer-ready portion assigned and requires confirmation."
+    },
+    {
+      "brand": "Amigos",
+      "productName": "Pepsi Soft Beverage 300 ml (Served in Glass)",
+      "portion": "300 ml Glass",
+      "menuSection": "Water & Soft Beverages",
+      "fieldsRequiringConfirmation": [
+        "Portion"
+      ],
+      "ownerCheck": "Portion missing in master; designer-ready portion assigned and requires confirmation. Online price missing/invalid in master."
+    },
+    {
+      "brand": "Amigos",
+      "productName": "Campa Soft Beverage 300 ml (Served in Glass)",
+      "portion": "300 ml Glass",
+      "menuSection": "Water & Soft Beverages",
+      "fieldsRequiringConfirmation": [
+        "Portion"
+      ],
+      "ownerCheck": "Portion missing in master; designer-ready portion assigned and requires confirmation. Online price missing/invalid in master."
+    },
+    {
+      "brand": "Amigos",
+      "productName": "Masala Cool Drink",
+      "portion": "Single Serving",
+      "menuSection": "Water & Soft Beverages",
+      "fieldsRequiringConfirmation": [
+        "Portion"
+      ],
+      "ownerCheck": "Portion missing in master; designer-ready portion assigned and requires confirmation. Online price missing/invalid in master. Confirm whether the intended customer-facing name is Masala Soda."
+    },
+    {
+      "brand": "Amigos",
+      "productName": "Onion Raita",
+      "portion": "Add-on",
+      "menuSection": "Biryani Add-ons",
+      "fieldsRequiringConfirmation": [
+        "Portion"
+      ],
+      "ownerCheck": "Portion missing in master; designer-ready portion assigned and requires confirmation."
+    },
+    {
+      "brand": "Amigos",
+      "productName": "Boondi Raita",
+      "portion": "Add-on",
+      "menuSection": "Biryani Add-ons",
+      "fieldsRequiringConfirmation": [
+        "Portion"
+      ],
+      "ownerCheck": "Portion missing in master; designer-ready portion assigned and requires confirmation."
+    },
+    {
+      "brand": "Amigos",
+      "productName": "Cucumber Raita",
+      "portion": "Add-on",
+      "menuSection": "Biryani Add-ons",
+      "fieldsRequiringConfirmation": [
+        "Portion"
+      ],
+      "ownerCheck": "Portion missing in master; designer-ready portion assigned and requires confirmation."
+    },
+    {
+      "brand": "Amigos",
+      "productName": "Extra Dum Chicken Piece",
+      "portion": "Add-on",
+      "menuSection": "Biryani Add-ons",
+      "fieldsRequiringConfirmation": [
+        "Portion"
+      ],
+      "ownerCheck": "Portion missing in master; designer-ready portion assigned and requires confirmation."
+    },
+    {
+      "brand": "Amigos",
+      "productName": "Extra Fry Piece Chicken",
+      "portion": "Add-on",
+      "menuSection": "Biryani Add-ons",
+      "fieldsRequiringConfirmation": [
+        "Portion"
+      ],
+      "ownerCheck": "Portion missing in master; designer-ready portion assigned and requires confirmation."
+    },
+    {
+      "brand": "Amigos",
+      "productName": "Extra Chicken Lollipop (2 Pieces)",
+      "portion": "Add-on",
+      "menuSection": "Biryani Add-ons",
+      "fieldsRequiringConfirmation": [
+        "Portion"
+      ],
+      "ownerCheck": "Portion missing in master; designer-ready portion assigned and requires confirmation."
+    },
+    {
+      "brand": "Spicy Darbar",
+      "productName": "Udta Panchhi Chicken Kebab",
+      "portion": "Full Portion",
+      "menuSection": "Tandoori Kebabs & Platters",
+      "fieldsRequiringConfirmation": [
+        "Recipe"
+      ],
+      "ownerCheck": "Owner confirmation required for proprietary dish name/spelling."
+    },
+    {
+      "brand": "Spicy Darbar",
+      "productName": "Chicken Tangdi Masala",
+      "portion": "Full Portion (Confirm)",
+      "menuSection": "Chicken Main Course",
+      "fieldsRequiringConfirmation": [
+        "Portion"
+      ],
+      "ownerCheck": "Portion missing in master; designer-ready portion assigned and requires confirmation. Confirm portion/piece count with kitchen."
+    },
+    {
+      "brand": "Spicy Darbar",
+      "productName": "North Indian Meals",
+      "portion": "Single Serving",
+      "menuSection": "Meals & Thalis",
+      "fieldsRequiringConfirmation": [
+        "Portion"
+      ],
+      "ownerCheck": "Portion missing in master; designer-ready portion assigned and requires confirmation."
+    },
+    {
+      "brand": "Spicy Darbar",
+      "productName": "Veg Mini Meals",
+      "portion": "Single Serving",
+      "menuSection": "Meals & Thalis",
+      "fieldsRequiringConfirmation": [
+        "Portion"
+      ],
+      "ownerCheck": "Portion missing in master; designer-ready portion assigned and requires confirmation."
+    },
+    {
+      "brand": "Spicy Darbar",
+      "productName": "Coca-Cola Soft Beverage 300 ml (Served in Glass)",
+      "portion": "300 ml Glass",
+      "menuSection": "Water & Soft Beverages",
+      "fieldsRequiringConfirmation": [
+        "Portion"
+      ],
+      "ownerCheck": "Portion missing in master; designer-ready portion assigned and requires confirmation."
+    },
+    {
+      "brand": "Spicy Darbar",
+      "productName": "Pepsi Soft Beverage 300 ml (Served in Glass)",
+      "portion": "300 ml Glass",
+      "menuSection": "Water & Soft Beverages",
+      "fieldsRequiringConfirmation": [
+        "Portion"
+      ],
+      "ownerCheck": "Portion missing in master; designer-ready portion assigned and requires confirmation. Online price missing/invalid in master."
+    },
+    {
+      "brand": "Spicy Darbar",
+      "productName": "Campa Soft Beverage 300 ml (Served in Glass)",
+      "portion": "300 ml Glass",
+      "menuSection": "Water & Soft Beverages",
+      "fieldsRequiringConfirmation": [
+        "Portion"
+      ],
+      "ownerCheck": "Portion missing in master; designer-ready portion assigned and requires confirmation. Online price missing/invalid in master."
+    },
+    {
+      "brand": "Spicy Darbar",
+      "productName": "Masala Cool Drink",
+      "portion": "Single Serving",
+      "menuSection": "Water & Soft Beverages",
+      "fieldsRequiringConfirmation": [
+        "Portion"
+      ],
+      "ownerCheck": "Portion missing in master; designer-ready portion assigned and requires confirmation. Online price missing/invalid in master. Confirm whether the intended customer-facing name is Masala Soda."
+    },
+    {
+      "brand": "Spicy Darbar",
+      "productName": "Onion Raita",
+      "portion": "Add-on",
+      "menuSection": "Biryani Add-ons",
+      "fieldsRequiringConfirmation": [
+        "Portion"
+      ],
+      "ownerCheck": "Portion missing in master; designer-ready portion assigned and requires confirmation."
+    },
+    {
+      "brand": "Spicy Darbar",
+      "productName": "Boondi Raita",
+      "portion": "Add-on",
+      "menuSection": "Biryani Add-ons",
+      "fieldsRequiringConfirmation": [
+        "Portion"
+      ],
+      "ownerCheck": "Portion missing in master; designer-ready portion assigned and requires confirmation."
+    },
+    {
+      "brand": "Spicy Darbar",
+      "productName": "Cucumber Raita",
+      "portion": "Add-on",
+      "menuSection": "Biryani Add-ons",
+      "fieldsRequiringConfirmation": [
+        "Portion"
+      ],
+      "ownerCheck": "Portion missing in master; designer-ready portion assigned and requires confirmation."
+    },
+    {
+      "brand": "Spicy Darbar",
+      "productName": "Extra Dum Chicken Piece",
+      "portion": "Add-on",
+      "menuSection": "Biryani Add-ons",
+      "fieldsRequiringConfirmation": [
+        "Portion"
+      ],
+      "ownerCheck": "Portion missing in master; designer-ready portion assigned and requires confirmation."
+    },
+    {
+      "brand": "Spicy Darbar",
+      "productName": "Extra Fry Piece Chicken",
+      "portion": "Add-on",
+      "menuSection": "Biryani Add-ons",
+      "fieldsRequiringConfirmation": [
+        "Portion"
+      ],
+      "ownerCheck": "Portion missing in master; designer-ready portion assigned and requires confirmation."
+    },
+    {
+      "brand": "Spicy Darbar",
+      "productName": "Extra Chicken Lollipop (2 Pieces)",
+      "portion": "Add-on",
+      "menuSection": "Biryani Add-ons",
+      "fieldsRequiringConfirmation": [
+        "Portion"
+      ],
+      "ownerCheck": "Portion missing in master; designer-ready portion assigned and requires confirmation."
+    },
+    {
+      "brand": "Amigos Grill Cafe",
+      "productName": "Chicken & Falafel Shawarma",
+      "portion": "Single Serving",
+      "menuSection": "Shawarmas & Wraps",
+      "fieldsRequiringConfirmation": [
+        "Recipe"
+      ],
+      "ownerCheck": "Confirm that this item contains both chicken and falafel; otherwise rename to Falafel Shawarma."
+    },
+    {
+      "brand": "Amigos Grill Cafe",
+      "productName": "Classic Chicken Mandi",
+      "portion": "Single Serving",
+      "menuSection": "Arabian Mandi",
+      "fieldsRequiringConfirmation": [
+        "Recipe"
+      ],
+      "ownerCheck": "Allergen information requires confirmation from our team."
+    },
+    {
+      "brand": "Amigos Grill Cafe",
+      "productName": "Classic Chicken Mandi",
+      "portion": "Half Chicken Platter",
+      "menuSection": "Arabian Mandi",
+      "fieldsRequiringConfirmation": [
+        "Portion",
+        "Serving size"
+      ],
+      "ownerCheck": "Confirm that platter size and serving count match the kitchen SOP."
+    },
+    {
+      "brand": "Amigos Grill Cafe",
+      "productName": "Classic Chicken Mandi",
+      "portion": "Whole Chicken Platter",
+      "menuSection": "Arabian Mandi",
+      "fieldsRequiringConfirmation": [
+        "Portion",
+        "Serving size"
+      ],
+      "ownerCheck": "Confirm that platter size and serving count match the kitchen SOP."
+    },
+    {
+      "brand": "Amigos Grill Cafe",
+      "productName": "Juicy Chicken Mandi",
+      "portion": "Single Serving",
+      "menuSection": "Arabian Mandi",
+      "fieldsRequiringConfirmation": [
+        "Recipe"
+      ],
+      "ownerCheck": "Allergen information requires confirmation from our team."
+    },
+    {
+      "brand": "Amigos Grill Cafe",
+      "productName": "Juicy Chicken Mandi",
+      "portion": "Full Platter",
+      "menuSection": "Arabian Mandi",
+      "fieldsRequiringConfirmation": [
+        "Portion",
+        "Serving size"
+      ],
+      "ownerCheck": "Confirm that platter size and serving count match the kitchen SOP."
+    },
+    {
+      "brand": "Amigos Grill Cafe",
+      "productName": "Juicy Chicken Mandi",
+      "portion": "Half Platter",
+      "menuSection": "Arabian Mandi",
+      "fieldsRequiringConfirmation": [
+        "Portion",
+        "Serving size"
+      ],
+      "ownerCheck": "Confirm that platter size and serving count match the kitchen SOP."
+    },
+    {
+      "brand": "Amigos Grill Cafe",
+      "productName": "Mutton Mandi",
+      "portion": "Single Serving",
+      "menuSection": "Arabian Mandi",
+      "fieldsRequiringConfirmation": [
+        "Recipe"
+      ],
+      "ownerCheck": "Allergen information requires confirmation from our team."
+    },
+    {
+      "brand": "Amigos Grill Cafe",
+      "productName": "Mutton Mandi",
+      "portion": "Full Platter",
+      "menuSection": "Arabian Mandi",
+      "fieldsRequiringConfirmation": [
+        "Portion",
+        "Serving size"
+      ],
+      "ownerCheck": "Confirm that platter size and serving count match the kitchen SOP."
+    },
+    {
+      "brand": "Amigos Grill Cafe",
+      "productName": "Mutton Mandi",
+      "portion": "Half Platter",
+      "menuSection": "Arabian Mandi",
+      "fieldsRequiringConfirmation": [
+        "Portion",
+        "Serving size"
+      ],
+      "ownerCheck": "Confirm that platter size and serving count match the kitchen SOP."
+    },
+    {
+      "brand": "Amigos Grill Cafe",
+      "productName": "Mutton Raan Mandi – Selected Days Only",
+      "portion": "Family Platter",
+      "menuSection": "Arabian Mandi",
+      "fieldsRequiringConfirmation": [
+        "Recipe"
+      ],
+      "ownerCheck": "Allergen information requires confirmation from our team."
+    },
+    {
+      "brand": "Amigos Grill Cafe",
+      "productName": "Fish Mandi",
+      "portion": "Single Serving",
+      "menuSection": "Arabian Mandi",
+      "fieldsRequiringConfirmation": [
+        "Recipe"
+      ],
+      "ownerCheck": "Allergen information requires confirmation from our team."
+    },
+    {
+      "brand": "Amigos Grill Cafe",
+      "productName": "Fish Mandi",
+      "portion": "Half Platter",
+      "menuSection": "Arabian Mandi",
+      "fieldsRequiringConfirmation": [
+        "Portion",
+        "Serving size"
+      ],
+      "ownerCheck": "Confirm that platter size and serving count match the kitchen SOP."
+    },
+    {
+      "brand": "Amigos Grill Cafe",
+      "productName": "Fish Mandi",
+      "portion": "Full Platter",
+      "menuSection": "Arabian Mandi",
+      "fieldsRequiringConfirmation": [
+        "Portion",
+        "Serving size"
+      ],
+      "ownerCheck": "Confirm that platter size and serving count match the kitchen SOP."
+    },
+    {
+      "brand": "Amigos Grill Cafe",
+      "productName": "Prawns Mandi",
+      "portion": "Single Serving",
+      "menuSection": "Arabian Mandi",
+      "fieldsRequiringConfirmation": [
+        "Recipe"
+      ],
+      "ownerCheck": "Allergen information requires confirmation from our team."
+    },
+    {
+      "brand": "Amigos Grill Cafe",
+      "productName": "Prawns Mandi",
+      "portion": "Half Platter",
+      "menuSection": "Arabian Mandi",
+      "fieldsRequiringConfirmation": [
+        "Portion",
+        "Serving size"
+      ],
+      "ownerCheck": "Confirm that platter size and serving count match the kitchen SOP."
+    },
+    {
+      "brand": "Amigos Grill Cafe",
+      "productName": "Prawns Mandi",
+      "portion": "Full Platter",
+      "menuSection": "Arabian Mandi",
+      "fieldsRequiringConfirmation": [
+        "Portion",
+        "Serving size"
+      ],
+      "ownerCheck": "Confirm that platter size and serving count match the kitchen SOP."
+    },
+    {
+      "brand": "Amigos Grill Cafe",
+      "productName": "Paneer Mandi",
+      "portion": "Single Serving",
+      "menuSection": "Arabian Mandi",
+      "fieldsRequiringConfirmation": [
+        "Recipe"
+      ],
+      "ownerCheck": "Allergen information requires confirmation from our team."
+    },
+    {
+      "brand": "Amigos Grill Cafe",
+      "productName": "Paneer Mandi",
+      "portion": "Half Platter",
+      "menuSection": "Arabian Mandi",
+      "fieldsRequiringConfirmation": [
+        "Portion",
+        "Serving size"
+      ],
+      "ownerCheck": "Confirm that platter size and serving count match the kitchen SOP."
+    },
+    {
+      "brand": "Amigos Grill Cafe",
+      "productName": "Paneer Mandi",
+      "portion": "Full Platter",
+      "menuSection": "Arabian Mandi",
+      "fieldsRequiringConfirmation": [
+        "Portion",
+        "Serving size"
+      ],
+      "ownerCheck": "Confirm that platter size and serving count match the kitchen SOP."
+    },
+    {
+      "brand": "Amigos Grill Cafe",
+      "productName": "Mushroom Mandi",
+      "portion": "Single Serving",
+      "menuSection": "Arabian Mandi",
+      "fieldsRequiringConfirmation": [
+        "Recipe"
+      ],
+      "ownerCheck": "Allergen information requires confirmation from our team."
+    },
+    {
+      "brand": "Amigos Grill Cafe",
+      "productName": "Mushroom Mandi",
+      "portion": "Half Platter",
+      "menuSection": "Arabian Mandi",
+      "fieldsRequiringConfirmation": [
+        "Portion",
+        "Serving size"
+      ],
+      "ownerCheck": "Confirm that platter size and serving count match the kitchen SOP."
+    },
+    {
+      "brand": "Amigos Grill Cafe",
+      "productName": "Mushroom Mandi",
+      "portion": "Full Platter",
+      "menuSection": "Arabian Mandi",
+      "fieldsRequiringConfirmation": [
+        "Portion",
+        "Serving size"
+      ],
+      "ownerCheck": "Confirm that platter size and serving count match the kitchen SOP."
+    },
+    {
+      "brand": "Amigos Grill Cafe",
+      "productName": "Veg Arabian Mandi",
+      "portion": "Single Serving",
+      "menuSection": "Arabian Mandi",
+      "fieldsRequiringConfirmation": [
+        "Recipe"
+      ],
+      "ownerCheck": "Allergen information requires confirmation from our team."
+    },
+    {
+      "brand": "Amigos Grill Cafe",
+      "productName": "Veg Arabian Mandi",
+      "portion": "Half Platter",
+      "menuSection": "Arabian Mandi",
+      "fieldsRequiringConfirmation": [
+        "Portion",
+        "Serving size"
+      ],
+      "ownerCheck": "Dine-in price missing/invalid in master—do not print until approved. Takeaway price missing/invalid in master. Confirm that platter size and serving count match the kitchen SOP."
+    },
+    {
+      "brand": "Amigos Grill Cafe",
+      "productName": "Veg Arabian Mandi",
+      "portion": "Full Platter",
+      "menuSection": "Arabian Mandi",
+      "fieldsRequiringConfirmation": [
+        "Portion",
+        "Serving size"
+      ],
+      "ownerCheck": "Dine-in price missing/invalid in master—do not print until approved. Confirm that platter size and serving count match the kitchen SOP."
+    },
+    {
+      "brand": "Amigos Andhra Bhawan",
+      "productName": "South Indian Meals",
+      "portion": "Single Serving",
+      "menuSection": "Meals & Thalis",
+      "fieldsRequiringConfirmation": [
+        "Portion"
+      ],
+      "ownerCheck": "Portion missing in master; designer-ready portion assigned and requires confirmation."
+    },
+    {
+      "brand": "Amigos Andhra Bhawan",
+      "productName": "Veg Mini Meals",
+      "portion": "Single Serving",
+      "menuSection": "Meals & Thalis",
+      "fieldsRequiringConfirmation": [
+        "Portion"
+      ],
+      "ownerCheck": "Portion missing in master; designer-ready portion assigned and requires confirmation."
+    },
+    {
+      "brand": "Amigos Andhra Bhawan",
+      "productName": "Karam Podi Idli",
+      "portion": "Full Portion",
+      "menuSection": "South Indian Tiffins",
+      "fieldsRequiringConfirmation": [
+        "Recipe"
+      ],
+      "ownerCheck": "Allergen information requires confirmation from our team."
+    },
+    {
+      "brand": "Amigos Andhra Bhawan",
+      "productName": "Idli Sambar",
+      "portion": "Full Portion",
+      "menuSection": "South Indian Tiffins",
+      "fieldsRequiringConfirmation": [
+        "Recipe"
+      ],
+      "ownerCheck": "Allergen information requires confirmation from our team."
+    },
+    {
+      "brand": "Amigos Andhra Bhawan",
+      "productName": "Sambar Vada",
+      "portion": "Full Portion",
+      "menuSection": "South Indian Tiffins",
+      "fieldsRequiringConfirmation": [
+        "Recipe"
+      ],
+      "ownerCheck": "Allergen information requires confirmation from our team."
+    },
+    {
+      "brand": "Amigos Andhra Bhawan",
+      "productName": "Karam Dosa",
+      "portion": "Full Portion",
+      "menuSection": "South Indian Tiffins",
+      "fieldsRequiringConfirmation": [
+        "Recipe"
+      ],
+      "ownerCheck": "Allergen information requires confirmation from our team."
+    },
+    {
+      "brand": "Amigos Andhra Bhawan",
+      "productName": "Ghee Karam Dosa",
+      "portion": "Full Portion",
+      "menuSection": "South Indian Tiffins",
+      "fieldsRequiringConfirmation": [
+        "Recipe"
+      ],
+      "ownerCheck": "Allergen information requires confirmation from our team."
+    },
+    {
+      "brand": "Amigos Andhra Bhawan",
+      "productName": "Butter Karam Dosa",
+      "portion": "Full Portion",
+      "menuSection": "South Indian Tiffins",
+      "fieldsRequiringConfirmation": [
+        "Recipe"
+      ],
+      "ownerCheck": "Allergen information requires confirmation from our team."
+    },
+    {
+      "brand": "Amigos Andhra Bhawan",
+      "productName": "Onion Masala Dosa",
+      "portion": "Full Portion",
+      "menuSection": "South Indian Tiffins",
+      "fieldsRequiringConfirmation": [
+        "Recipe"
+      ],
+      "ownerCheck": "Allergen information requires confirmation from our team."
+    },
+    {
+      "brand": "Amigos Andhra Bhawan",
+      "productName": "Set Dosa",
+      "portion": "Full Portion",
+      "menuSection": "South Indian Tiffins",
+      "fieldsRequiringConfirmation": [
+        "Recipe"
+      ],
+      "ownerCheck": "Allergen information requires confirmation from our team."
+    },
+    {
+      "brand": "Amigos Andhra Bhawan",
+      "productName": "Chicken Dosa",
+      "portion": "Full Portion",
+      "menuSection": "Non-Vegetarian Dosas",
+      "fieldsRequiringConfirmation": [
+        "Recipe"
+      ],
+      "ownerCheck": "Allergen information requires confirmation from our team."
+    }
+  ]
+}

@@ -1,10 +1,11 @@
-const CACHE = 'amigos-brand-experience-v10';
+const CACHE = 'amigos-brand-experience-v11';
 const CORE = [
   './',
   './index.html',
   './styles.css',
   './app.js',
   './menu-data.js',
+  './menu-product-details.js',
   './icon.svg',
   './manifest.webmanifest',
   './assets/menu/fallback.webp',

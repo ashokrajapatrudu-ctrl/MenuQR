@@ -780,6 +780,7 @@ input:focus-visible {
 
 .diet.egg { color: var(--egg); }
 .diet.nonveg { color: var(--nonveg); }
+.diet.seafood { color: #1d6d7d; }
 .filters button[aria-pressed="true"] .diet { color: #fff; }
 
 .main {
@@ -1164,6 +1165,12 @@ input:focus-visible {
   border-color: rgba(22, 61, 52, .2);
   color: var(--reserve);
   background: rgba(22, 61, 52, .065);
+}
+
+.dish-badge--approved {
+  border-color: rgba(168, 120, 54, .34);
+  color: #684b1e;
+  background: rgba(239, 225, 198, .46);
 }
 
 .dish-badge--spice {
@@ -1758,6 +1765,34 @@ input:focus-visible {
   overflow-wrap: anywhere;
 }
 
+.dish-dialog__description {
+  margin: 16px 0 0;
+  color: #3d3932;
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+.dish-dialog__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.dish-dialog__meta span {
+  display: inline-flex;
+  min-height: 28px;
+  align-items: center;
+  padding: 6px 9px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: #4f493f;
+  background: rgba(255, 253, 248, .86);
+  font-size: 10px;
+  font-weight: 800;
+  line-height: 1;
+}
+
 .dish-dialog__prices {
   display: grid;
   gap: 8px;
@@ -1776,9 +1811,44 @@ input:focus-visible {
 .dialog-price span {
   color: var(--muted);
   font-size: 13px;
+  font-weight: 850;
 }
 
 .dialog-price strong { font-size: 17px; }
+
+.dialog-price ul {
+  display: grid;
+  gap: 4px;
+  margin: 8px 0 0;
+  padding: 0;
+  color: #5b554b;
+  font-size: 12px;
+  line-height: 1.45;
+  list-style: none;
+}
+
+.dish-dialog__allergens {
+  margin-top: 18px;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+}
+
+.dish-dialog__allergens:empty { display: none; }
+
+.dish-dialog__allergens strong {
+  display: block;
+  color: var(--reserve);
+  font-size: 11px;
+  font-weight: 850;
+  text-transform: uppercase;
+}
+
+.dish-dialog__allergens p {
+  margin: 7px 0 0;
+  color: #5b554b;
+  font-size: 12px;
+  line-height: 1.55;
+}
 
 .dish-dialog__body > small {
   display: block;

@@ -6,6 +6,7 @@
     document.body.innerHTML = '<p style="padding:2rem;font-family:sans-serif">The menu data could not be loaded.</p>';
     return;
   }
+  const PRODUCT_DETAILS = window.MENU_PRODUCT_DETAILS || { meta: {}, items: {} };
 
   const categoryMap = new Map(DATA.categories.map(category => [category.id, category]));
   const itemMap = new Map(DATA.items.map(item => [item.id, item]));
@@ -109,7 +110,11 @@
     dishDialogDiet: document.getElementById('dishDialogDiet'),
     dishDialogCategory: document.getElementById('dishDialogCategory'),
     dishDialogTitle: document.getElementById('dishDialogTitle'),
-    dishDialogPrices: document.getElementById('dishDialogPrices')
+    dishDialogDescription: document.getElementById('dishDialogDescription'),
+    dishDialogMeta: document.getElementById('dishDialogMeta'),
+    dishDialogPrices: document.getElementById('dishDialogPrices'),
+    dishDialogAllergens: document.getElementById('dishDialogAllergens'),
+    dishDialogDisclaimer: document.getElementById('dishDialogDisclaimer')
   };
 
   function escapeHTML(value) {
@@ -147,6 +152,10 @@
     const min = minimumPrice(item);
     if (min === null) return 'Ask staff';
     return item.variants.length > 1 ? `From ${formatPrice(min)}` : formatPrice(min);
+  }
+
+  function productDetail(item) {
+    return PRODUCT_DETAILS.items?.[item.id] || null;
   }
 
   function dishFocus(item) {
@@ -188,6 +197,8 @@
   }
 
   function dishDescription(item) {
+    const detail = productDetail(item);
+    if (detail?.description) return detail.description;
     if (item.note) return item.note;
     const text = normalize(`${item.name} ${item.search || ''}`);
     const focus = dishFocus(item);
@@ -273,6 +284,8 @@
   }
 
   function spicyLevel(item) {
+    const detail = productDetail(item);
+    if (detail?.spice) return detail.spice;
     const text = normalize(`${item.name} ${item.search || ''}`);
     if (/\b(spicy|schezwan|chilli|chili|dragon|pepper|kolhapuri|andhra|gongura|avakai|hot)\b/.test(text)) {
       return 'Hot';
@@ -285,10 +298,15 @@
 
   function dishBadges(item) {
     const spice = spicyLevel(item);
+    const detail = productDetail(item);
+    const approvedBadge = detail?.badges?.[0] || '';
+    const spiceIcons = spice === 'Hot' ? '🌶🌶 ' : spice === 'Medium' ? '🌶 ' : '';
+    const approvedMarkup = approvedBadge
+      ? `<span class="dish-badge dish-badge--approved">${escapeHTML(approvedBadge)}</span>`
+      : '';
     return `<div class="dish-card__badges" aria-label="Dish highlights">
-      <span class="dish-badge dish-badge--chef">Chef Recommended</span>
-      <span class="dish-badge dish-badge--ordered">Most Ordered</span>
-      <span class="dish-badge dish-badge--spice dish-badge--${escapeHTML(spice.toLowerCase())}">${escapeHTML(spice)} Spice</span>
+      ${approvedMarkup}
+      <span class="dish-badge dish-badge--spice dish-badge--${escapeHTML(spice.toLowerCase())}">${spiceIcons}${escapeHTML(spice)} Spice</span>
     </div>`;
   }
 
@@ -298,6 +316,8 @@
     const haystack = normalize([
       item.search,
       item.name,
+      productDetail(item)?.description,
+      productDetail(item)?.searchText,
       category?.name,
       category?.description,
       DIET_LABELS[item.diet],
@@ -325,8 +345,11 @@
     return (itemsByCategory.get(categoryId) || []).filter(item => matchesFilters(item, includeQuery));
   }
 
-  function dietMarkup(diet) {
-    return `<i class="diet ${escapeHTML(diet)}" role="img" aria-label="${escapeHTML(DIET_LABELS[diet] || 'Diet information')}"></i>`;
+  function dietMarkup(diet, detail = null) {
+    const dietary = detail?.dietary;
+    const key = dietary?.key || diet;
+    const label = dietary?.label || DIET_LABELS[diet] || 'Diet information';
+    return `<i class="diet ${escapeHTML(key)}" role="img" aria-label="${escapeHTML(label)}"></i>`;
   }
 
   function responsiveImageAttrs(item, sizes) {
@@ -359,6 +382,7 @@
 
   function dishCard(item) {
     const category = categoryMap.get(item.category);
+    const detail = productDetail(item);
     const price = priceSummary(item);
     return `<article class="dish-card">
       <button class="dish-card__image" type="button" data-open-dish="${escapeHTML(item.id)}" aria-label="View ${escapeHTML(item.name)}">
@@ -367,7 +391,7 @@
       <div class="dish-card__body">
         <div class="dish-card__content">
           <div class="dish-card__top">
-            <div class="dish-card__name">${dietMarkup(item.diet)}<h3>${escapeHTML(item.name)}</h3></div>
+            <div class="dish-card__name">${dietMarkup(item.diet, detail)}<h3>${escapeHTML(item.name)}</h3></div>
             <strong class="dish-card__price ${price === 'Ask staff' ? 'ask' : ''}">${escapeHTML(price)}</strong>
           </div>
           <p class="dish-card__category">${escapeHTML(category?.name || '')}</p>
@@ -600,16 +624,43 @@
     const item = itemMap.get(itemId);
     if (!item) return;
     const category = categoryMap.get(item.category);
+    const detail = productDetail(item);
     el.dishDialogImage.src = item.image;
     el.dishDialogImage.alt = `Illustrative visual of ${item.name}`;
     el.dishDialogTitle.textContent = item.name;
-    el.dishDialogCategory.textContent = category?.name || '';
-    el.dishDialogDiet.className = `diet ${item.diet}`;
-    el.dishDialogDiet.setAttribute('aria-label', DIET_LABELS[item.diet] || 'Diet information');
-    el.dishDialogPrices.innerHTML = item.variants.map(variant => {
+    el.dishDialogCategory.textContent = detail?.brand ? `${detail.brand} · ${category?.name || ''}` : category?.name || '';
+    el.dishDialogDiet.className = `diet ${detail?.dietary?.key || item.diet}`;
+    el.dishDialogDiet.setAttribute('aria-label', detail?.dietary?.label || DIET_LABELS[item.diet] || 'Diet information');
+    el.dishDialogDescription.textContent = dishDescription(item);
+
+    const meta = [];
+    if (detail?.dietary?.label) meta.push(detail.dietary.label);
+    if (detail?.spice) meta.push(`${detail.spice} Spicy`);
+    if (detail?.badges?.length) meta.push(...detail.badges.slice(0, 2));
+    el.dishDialogMeta.innerHTML = meta.map(value => `<span>${escapeHTML(value)}</span>`).join('');
+
+    el.dishDialogPrices.innerHTML = item.variants.map((variant, index) => {
       const price = formatPrice(variant.price);
-      return `<div class="dialog-price"><span>${escapeHTML(variant.label)}</span><strong class="${price === 'Ask staff' ? 'ask' : ''}">${escapeHTML(price)}</strong></div>`;
+      const variantDetail = detail?.variants?.[index];
+      const quantity = [
+        variantDetail?.approxTotalServing,
+        variantDetail?.mainIngredientQuantity,
+        variantDetail?.serves ? `Serves ${variantDetail.serves}` : '',
+        variantDetail?.calorieRange ? `Approximately ${variantDetail.calorieRange}` : variantDetail?.estimatedCalories ? `Approximately ${variantDetail.estimatedCalories} kcal` : ''
+      ].filter(Boolean);
+      return `<div class="dialog-price">
+        <div>
+          <span>${escapeHTML(variantDetail?.approvedPortion || variant.label)}</span>
+          ${quantity.length ? `<ul>${quantity.map(entry => `<li>${escapeHTML(entry)}</li>`).join('')}</ul>` : ''}
+        </div>
+        <strong class="${price === 'Ask staff' ? 'ask' : ''}">${escapeHTML(price)}</strong>
+      </div>`;
     }).join('');
+    const allergens = [...new Set((detail?.variants || []).map(variant => variant.allergens).filter(Boolean))];
+    el.dishDialogAllergens.innerHTML = allergens.length
+      ? `<strong>Allergens</strong><p>${allergens.map(escapeHTML).join('<br>')}</p>`
+      : '';
+    el.dishDialogDisclaimer.textContent = PRODUCT_DETAILS.meta?.disclaimer || 'Visual is illustrative. Actual presentation may vary.';
 
     if (typeof el.dishDialog.showModal === 'function') {
       el.dishDialog.showModal();
