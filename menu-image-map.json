@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T19:08:11.821Z",
+  "generatedAt": "2026-07-17T19:22:14.578Z",
   "mappings": [
     {
       "productId": "veg-starters-crispy-chilli-baby-corn",
@@ -12,7 +12,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Crispy Chilli Baby Corn",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "veg-starters-crispy-corn",
@@ -25,7 +27,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Crispy Corn",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "veg-starters-dragon-baby-corn",
@@ -38,7 +42,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Dragon Baby Corn",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "veg-starters-honey-chilli-potato",
@@ -51,7 +57,9 @@
       "sourceType": "shared-family",
       "sourceProductOrFamily": "indo-chinese:vegetable:dry-starter",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "veg-starters-crispy-mushroom",
@@ -64,7 +72,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Crispy Mushroom",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "veg-starters-chilli-mushroom",
@@ -77,7 +87,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Chilli Mushroom",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "veg-starters-salt-pepper-mushroom",
@@ -90,7 +102,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Salt & Pepper Mushroom",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "veg-starters-veg-manchurian-dry",
@@ -103,7 +117,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indo-chinese:vegetable:dry-starter",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 6,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "veg-starters-veg-65",
@@ -116,7 +132,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Veg 65",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "veg-starters-paneer-65",
@@ -129,7 +147,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indo-chinese:paneer:dry-starter",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 7,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "veg-starters-chilli-paneer",
@@ -142,7 +162,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indo-chinese:paneer:dry-starter",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 7,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "veg-starters-dragon-paneer",
@@ -155,7 +177,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indo-chinese:paneer:dry-starter",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 7,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "veg-starters-paneer-manchurian",
@@ -168,7 +192,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indo-chinese:paneer:dry-starter",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 6,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "veg-starters-schezwan-paneer",
@@ -181,7 +207,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indo-chinese:paneer:dry-starter",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 7,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "chicken-starters-crispy-chicken",
@@ -194,7 +222,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Crispy Chicken",
       "dietary": "Non-Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "chicken-starters-chilli-chicken-dry",
@@ -207,7 +237,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Chilli Chicken Dry",
       "dietary": "Non-Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "chicken-starters-dragon-chicken",
@@ -220,7 +252,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Dragon Chicken",
       "dietary": "Non-Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "chicken-starters-chicken-65",
@@ -233,7 +267,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Chicken 65",
       "dietary": "Non-Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "chicken-starters-pepper-chicken",
@@ -246,7 +282,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Pepper Chicken",
       "dietary": "Non-Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "chicken-starters-honey-chilli-chicken",
@@ -259,7 +297,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Honey Chilli Chicken",
       "dietary": "Non-Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "chicken-starters-chicken-manchurian-dry",
@@ -272,7 +312,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indo-chinese:chicken:dry-starter",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 6,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "chicken-starters-chicken-lollipop",
@@ -285,7 +327,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Chicken Lollipop",
       "dietary": "Non-Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "chicken-starters-chicken-wings",
@@ -298,7 +342,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Chicken Wings",
       "dietary": "Non-Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "chicken-starters-garlic-chicken",
@@ -311,7 +357,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Garlic Chicken",
       "dietary": "Non-Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "chicken-starters-schezwan-chicken",
@@ -324,7 +372,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Schezwan Chicken",
       "dietary": "Non-Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "chicken-starters-lemon-chicken",
@@ -337,7 +387,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Lemon Chicken",
       "dietary": "Non-Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "chicken-starters-sesame-chicken",
@@ -350,7 +402,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Sesame Chicken",
       "dietary": "Non-Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "seafood-starters-crispy-fish",
@@ -363,7 +417,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Crispy Fish",
       "dietary": "Seafood",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "seafood-starters-chilli-fish",
@@ -376,7 +432,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Chilli Fish",
       "dietary": "Seafood",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "seafood-starters-dragon-fish",
@@ -389,7 +447,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Dragon Fish",
       "dietary": "Seafood",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "seafood-starters-pepper-fish",
@@ -402,7 +462,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Pepper Fish",
       "dietary": "Seafood",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "seafood-starters-salt-pepper-prawns",
@@ -415,7 +477,9 @@
       "sourceType": "shared-family",
       "sourceProductOrFamily": "indo-chinese:prawns:spiced-gravy",
       "dietary": "Seafood",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 5,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "seafood-starters-chilli-garlic-prawns",
@@ -428,7 +492,9 @@
       "sourceType": "shared-family",
       "sourceProductOrFamily": "indo-chinese:prawns:dry-starter",
       "dietary": "Seafood",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 5,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "seafood-starters-dragon-prawns",
@@ -441,7 +507,9 @@
       "sourceType": "shared-family",
       "sourceProductOrFamily": "indo-chinese:prawns:dry-starter",
       "dietary": "Seafood",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 5,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "shawarma-wraps-classic-chicken-shawarma",
@@ -454,7 +522,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "grill-cafe:chicken:wrap",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 15,
+      "productionStatus": "needs-real-restaurant-photography"
     },
     {
       "productId": "shawarma-wraps-arabian-chicken-shawarma",
@@ -467,7 +537,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "grill-cafe:chicken:wrap",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 15,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "shawarma-wraps-peri-peri-chicken-shawarma",
@@ -480,7 +552,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "grill-cafe:chicken:wrap",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 15,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "shawarma-wraps-bbq-chicken-shawarma",
@@ -493,7 +567,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "grill-cafe:chicken:wrap",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 15,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "shawarma-wraps-smoky-chicken-shawarma",
@@ -506,7 +582,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "grill-cafe:chicken:wrap",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 15,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "shawarma-wraps-tandoori-chicken-shawarma",
@@ -519,7 +597,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "grill-cafe:chicken:tandoor-grilled",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 15,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "shawarma-wraps-cheesy-chicken-shawarma",
@@ -532,7 +612,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "grill-cafe:chicken:wrap",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 15,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "shawarma-wraps-double-chicken-shawarma",
@@ -545,7 +627,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "grill-cafe:chicken:wrap",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 15,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "shawarma-wraps-loaded-chicken-shawarma",
@@ -558,7 +642,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "grill-cafe:chicken:wrap",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 15,
+      "productionStatus": "needs-real-restaurant-photography"
     },
     {
       "productId": "shawarma-wraps-jumbo-chicken-shawarma",
@@ -571,7 +657,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "grill-cafe:chicken:wrap",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 15,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "shawarma-wraps-mexican-chicken-shawarma",
@@ -584,7 +672,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "grill-cafe:chicken:wrap",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 15,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "shawarma-wraps-paneer-shawarma",
@@ -597,7 +687,9 @@
       "sourceType": "shared-family",
       "sourceProductOrFamily": "grill-cafe:paneer:wrap",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 4,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "shawarma-wraps-falafel-chicken-shawarma",
@@ -610,7 +702,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "grill-cafe:chicken:wrap",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 15,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "shawarma-wraps-veggie-shawarma",
@@ -623,7 +717,9 @@
       "sourceType": "shared-family",
       "sourceProductOrFamily": "grill-cafe:chicken:wrap",
       "dietary": "Egg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 4,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "shawarma-wraps-grilled-chicken-wrap",
@@ -636,7 +732,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "grill-cafe:chicken:wrap",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 15,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "shawarma-wraps-paneer-wrap",
@@ -649,7 +747,9 @@
       "sourceType": "shared-family",
       "sourceProductOrFamily": "grill-cafe:paneer:wrap",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 4,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "shawarma-wraps-falafel-wrap",
@@ -662,7 +762,9 @@
       "sourceType": "shared-family",
       "sourceProductOrFamily": "grill-cafe:vegetable:wrap",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 4,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "shawarma-wraps-mexican-chicken-wrap",
@@ -675,7 +777,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "grill-cafe:chicken:wrap",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 15,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "shawarma-wraps-peri-peri-chicken-wrap",
@@ -688,7 +792,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "grill-cafe:chicken:wrap",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 15,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "veg-biryanis-plain-biryani-rice",
@@ -701,7 +807,9 @@
       "sourceType": "shared-family",
       "sourceProductOrFamily": "biryani:mutton:biryani",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 2,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "veg-biryanis-veg-biryani",
@@ -714,7 +822,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "biryani:rice:biryani",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 5,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "veg-biryanis-baby-corn-biryani",
@@ -727,7 +837,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Baby Corn Biryani",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "veg-biryanis-mushroom-biryani",
@@ -740,7 +852,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Mushroom Biryani",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "veg-biryanis-soya-chaap-biryani",
@@ -753,7 +867,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Soya Chaap Biryani",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "veg-biryanis-kaju-biryani",
@@ -766,7 +882,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Kaju Biryani",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "veg-biryanis-paneer-biryani",
@@ -779,7 +897,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "biryani:paneer:biryani",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 8,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "veg-biryanis-paneer-kaju-biryani",
@@ -792,7 +912,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "biryani:paneer:biryani",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 8,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "veg-biryanis-paneer-pulao",
@@ -805,7 +927,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "biryani:paneer:plated-dish",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 8,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "veg-biryanis-kaju-pulao",
@@ -818,7 +942,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Kaju Pulao",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "veg-biryanis-mushroom-pulao",
@@ -831,7 +957,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Mushroom Pulao",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "veg-biryanis-baby-corn-pulao",
@@ -844,7 +972,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Baby Corn Pulao",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "veg-biryanis-mushroom-avakai-biryani",
@@ -857,7 +987,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Mushroom Avakai Biryani",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "veg-biryanis-paneer-avakai-biryani",
@@ -870,7 +1002,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "biryani:paneer:biryani",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 8,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "veg-biryanis-baby-corn-avakai-biryani",
@@ -883,7 +1017,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Baby Corn Avakai Biryani",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "veg-biryanis-veg-avakai-biryani",
@@ -896,7 +1032,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "biryani:rice:biryani",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 5,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "veg-biryanis-paneer-tikka-biryani",
@@ -909,7 +1047,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "biryani:paneer:biryani",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 8,
+      "productionStatus": "needs-real-restaurant-photography"
     },
     {
       "productId": "veg-pot-biryanis-veg-pot-biryani",
@@ -922,7 +1062,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "biryani:mutton:pot-biryani",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 5,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "veg-pot-biryanis-paneer-pot-biryani",
@@ -935,7 +1077,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "biryani:mutton:pot-biryani",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 8,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "veg-pot-biryanis-baby-corn-pot-biryani",
@@ -948,7 +1092,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Baby Corn Pot Biryani",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "veg-pot-biryanis-mushroom-pot-biryani",
@@ -961,7 +1107,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Mushroom Pot Biryani",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "veg-pot-biryanis-paneer-kaju-pot-biryani",
@@ -974,7 +1122,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "biryani:mutton:pot-biryani",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 8,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "veg-pot-biryanis-kaju-pot-biryani",
@@ -987,7 +1137,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Kaju Pot Biryani",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "veg-pot-biryanis-amigos-veg-special-pot-biryani",
@@ -1000,7 +1152,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "biryani:mutton:pot-biryani",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 5,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "nonveg-biryanis-hyderabadi-egg-biryani",
@@ -1013,7 +1167,9 @@
       "sourceType": "shared-family",
       "sourceProductOrFamily": "biryani:egg:biryani",
       "dietary": "Egg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "nonveg-biryanis-amigos-fry-piece-chicken-biryani",
@@ -1026,7 +1182,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "biryani:chicken:biryani",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 21,
+      "productionStatus": "needs-real-restaurant-photography"
     },
     {
       "productId": "nonveg-biryanis-hyderabadi-chicken-dum-biryani",
@@ -1039,7 +1197,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "biryani:chicken:biryani",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 21,
+      "productionStatus": "needs-real-restaurant-photography"
     },
     {
       "productId": "nonveg-biryanis-chicken-wings-biryani",
@@ -1052,7 +1212,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "biryani:chicken:biryani",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 21,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "nonveg-biryanis-konaseema-chicken-biryani",
@@ -1065,7 +1227,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "biryani:chicken:biryani",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 21,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "nonveg-biryanis-boneless-chicken-biryani",
@@ -1078,7 +1242,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "biryani:chicken:biryani",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 21,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "nonveg-biryanis-mughalai-chicken-biryani",
@@ -1091,7 +1257,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "biryani:chicken:biryani",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 21,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "nonveg-biryanis-chicken-65-biryani",
@@ -1104,7 +1272,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "biryani:chicken:biryani",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 21,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "nonveg-biryanis-andhra-avakai-chicken-biryani",
@@ -1117,7 +1287,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "biryani:chicken:biryani",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 21,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "nonveg-biryanis-chicken-tikka-biryani",
@@ -1130,7 +1302,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "biryani:chicken:biryani",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 21,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "nonveg-biryanis-chicken-tangdi-biryani",
@@ -1143,7 +1317,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "biryani:chicken:biryani",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 21,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "nonveg-biryanis-chicken-lollipop-biryani",
@@ -1156,7 +1332,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "biryani:chicken:biryani",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 21,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "nonveg-biryanis-tandoor-chicken-biryani",
@@ -1169,7 +1347,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "biryani:chicken:biryani",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 21,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "nonveg-biryanis-avakai-chicken-boneless-biryani",
@@ -1182,7 +1362,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "biryani:chicken:biryani",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 21,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "nonveg-biryanis-amigos-raju-gari-kodi-pulao",
@@ -1195,7 +1377,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Amigos Raju Gari Kodi Pulao",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "nonveg-biryanis-avakai-chicken-pulao-bone",
@@ -1208,7 +1392,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "biryani:chicken:spiced-gravy",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 21,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "nonveg-biryanis-avakai-chicken-pulao-boneless",
@@ -1221,7 +1407,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "biryani:chicken:spiced-gravy",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 21,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "nonveg-biryanis-hyderabadi-mutton-biryani",
@@ -1234,7 +1422,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Hyderabadi Mutton Biryani",
       "dietary": "Non-Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "nonveg-biryanis-gongura-mutton-biryani",
@@ -1247,7 +1437,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Gongura Mutton Biryani",
       "dietary": "Non-Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "nonveg-biryanis-mutton-fry-piece-biryani",
@@ -1260,7 +1452,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Mutton Fry Piece Biryani",
       "dietary": "Non-Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "nonveg-biryanis-mutton-keema-biryani",
@@ -1273,7 +1467,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Mutton Keema Biryani",
       "dietary": "Non-Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "nonveg-biryanis-mutton-pulao",
@@ -1286,7 +1482,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Mutton Pulao",
       "dietary": "Non-Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "nonveg-biryanis-fish-biryani",
@@ -1299,7 +1497,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Fish Biryani",
       "dietary": "Seafood",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "nonveg-biryanis-prawns-biryani",
@@ -1312,7 +1512,9 @@
       "sourceType": "shared-family",
       "sourceProductOrFamily": "biryani:prawns:biryani",
       "dietary": "Seafood",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 3,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "nonveg-biryanis-special-spicy-prawns-pulao",
@@ -1325,7 +1527,9 @@
       "sourceType": "shared-family",
       "sourceProductOrFamily": "biryani:prawns:spiced-gravy",
       "dietary": "Seafood",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 3,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "nonveg-pot-biryanis-chicken-pot-biryani-with-bone",
@@ -1338,7 +1542,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "biryani:prawns:pot-biryani",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 21,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "nonveg-pot-biryanis-boneless-chicken-pot-biryani",
@@ -1351,7 +1557,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "biryani:prawns:pot-biryani",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 21,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "nonveg-pot-biryanis-chicken-tikka-pot-biryani",
@@ -1364,7 +1572,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "biryani:prawns:pot-biryani",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 21,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "nonveg-pot-biryanis-special-prawns-pot-biryani",
@@ -1377,7 +1587,9 @@
       "sourceType": "shared-family",
       "sourceProductOrFamily": "biryani:prawns:pot-biryani",
       "dietary": "Seafood",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 3,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "family-packs-hyderabadi-chicken-dum-family-pack",
@@ -1390,7 +1602,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "biryani:chicken:plated-dish",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 21,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "family-packs-fry-piece-chicken-biryani-family-pack",
@@ -1403,7 +1617,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "biryani:chicken:biryani",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 21,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "family-packs-veg-biryani-family-pack",
@@ -1416,7 +1632,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "biryani:rice:biryani",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 5,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "family-packs-paneer-tikka-biryani-family-pack",
@@ -1429,7 +1647,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "biryani:paneer:biryani",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 8,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "family-packs-chicken-tandoori-biryani-family-pack",
@@ -1442,7 +1662,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "biryani:chicken:biryani",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 21,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "mandi-classic-chicken-mandi",
@@ -1455,7 +1677,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Classic Chicken Mandi",
       "dietary": "Non-Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "mandi-chicken-juicy-mandi",
@@ -1468,7 +1692,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Chicken Juicy Mandi",
       "dietary": "Non-Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "mandi-mutton-mandi",
@@ -1481,7 +1707,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Mutton Mandi",
       "dietary": "Non-Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "mandi-mutton-raan-mandi",
@@ -1494,7 +1722,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Mutton Raan Mandi",
       "dietary": "Non-Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "mandi-fish-mandi",
@@ -1507,7 +1737,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Fish Mandi",
       "dietary": "Seafood",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "mandi-prawns-mandi",
@@ -1520,7 +1752,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Prawns Mandi",
       "dietary": "Seafood",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "mandi-paneer-mandi",
@@ -1533,7 +1767,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Paneer Mandi",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "mandi-mushroom-mandi",
@@ -1546,7 +1782,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Mushroom Mandi",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "mandi-veg-arabian-mandi",
@@ -1559,7 +1797,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Veg Arabian Mandi",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "meals-thalis-south-indian-meals",
@@ -1572,7 +1812,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "South Indian Meals",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "meals-thalis-north-indian-meals",
@@ -1585,7 +1827,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "North Indian Meals",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "meals-thalis-veg-mini-meals",
@@ -1598,7 +1842,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Veg Mini Meals",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "dals-creamy-butter-dal",
@@ -1611,7 +1857,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Creamy Butter Dal",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "dals-dhaba-dal-fry",
@@ -1624,7 +1872,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Dhaba Dal Fry",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "dals-punjabi-saag-dal",
@@ -1637,7 +1887,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Punjabi Saag Dal",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "dals-homestyle-tomato-dal",
@@ -1650,7 +1902,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Homestyle Tomato Dal",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "dals-andhra-pappu-dal",
@@ -1663,7 +1917,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Andhra Pappu Dal",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "dals-slow-cooked-dal-makhani",
@@ -1676,7 +1932,9 @@
       "sourceType": "shared-family",
       "sourceProductOrFamily": "indian:lentils:creamy-gravy",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "dals-garlic-tempered-dal-dal-lasooni",
@@ -1689,7 +1947,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Garlic Tempered Dal (Dal Lasooni)",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "veg-main-course-desi-bhindi-fry",
@@ -1702,7 +1962,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Desi Bhindi Fry",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "veg-main-course-golden-aloo-fry",
@@ -1715,7 +1977,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Golden Aloo Fry",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "veg-main-course-classic-jeera-aloo",
@@ -1728,7 +1992,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Classic Jeera Aloo",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "veg-main-course-rajasthani-sev-tamatar",
@@ -1741,7 +2007,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Rajasthani Sev Tamatar",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "veg-main-course-punjabi-rajma-curry",
@@ -1754,7 +2022,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Punjabi Rajma Curry",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "veg-main-course-homestyle-aloo-methi",
@@ -1767,7 +2037,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Homestyle Aloo Methi",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "veg-main-course-dhaba-bhindi-masala",
@@ -1780,7 +2052,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Dhaba Bhindi Masala",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "veg-main-course-garden-mix-veg-curry",
@@ -1793,7 +2067,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Garden Mix Veg Curry",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "veg-main-course-fiery-veg-kolhapuri",
@@ -1806,7 +2082,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Fiery Veg Kolhapuri",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "veg-main-course-royal-veg-handi",
@@ -1819,7 +2097,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Royal Veg Handi",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "veg-main-course-classic-veg-jalfrezi",
@@ -1832,7 +2112,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Classic Veg Jalfrezi",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "veg-main-course-royal-navratan-korma",
@@ -1845,7 +2127,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Royal Navratan Korma",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "veg-main-course-hyderabadi-veg-curry",
@@ -1858,7 +2142,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Hyderabadi Veg Curry",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "veg-main-course-creamy-corn-masala",
@@ -1871,7 +2157,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Creamy Corn Masala",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "veg-main-course-button-mushroom-masala",
@@ -1884,7 +2172,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Button Mushroom Masala",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "veg-main-course-baby-corn-masala-delight",
@@ -1897,7 +2187,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Baby Corn Masala Delight",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "veg-main-course-kadai-mushroom",
@@ -1910,7 +2202,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Kadai Mushroom",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "veg-main-course-butter-mushroom-masala",
@@ -1923,7 +2217,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Butter Mushroom Masala",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "veg-main-course-creamy-mushroom-corn-masala",
@@ -1936,7 +2232,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Creamy Mushroom Corn Masala",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "veg-main-course-punjabi-soya-chaap-masala",
@@ -1949,7 +2247,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Punjabi Soya Chaap Masala",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "veg-main-course-palak-corn-masala",
@@ -1962,7 +2262,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Palak Corn Masala",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "veg-main-course-green-peas-masala-matar",
@@ -1975,7 +2277,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Green Peas Masala (Matar)",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "veg-main-course-kaju-butter-masala",
@@ -1988,7 +2292,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Kaju Butter Masala",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "paneer-main-course-creamy-paneer-butter-masala",
@@ -2001,7 +2307,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indian:paneer:creamy-gravy",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 13,
+      "productionStatus": "needs-real-restaurant-photography"
     },
     {
       "productId": "paneer-main-course-matar-paneer-masala",
@@ -2014,7 +2322,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indian:paneer:spiced-gravy",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 13,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "paneer-main-course-royal-paneer-lababdar",
@@ -2027,7 +2337,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indian:paneer:spiced-gravy",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 13,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "paneer-main-course-kadai-paneer-special",
@@ -2040,7 +2352,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indian:paneer:spiced-gravy",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 13,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "paneer-main-course-royal-shahi-paneer",
@@ -2053,7 +2367,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indian:paneer:plated-dish",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 13,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "paneer-main-course-tandoori-paneer-tikka-masala",
@@ -2066,7 +2382,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "tandoor:paneer:tandoor-grilled",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 13,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "paneer-main-course-dhaba-paneer-bhurji",
@@ -2079,7 +2397,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indian:egg:plated-dish",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 13,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "paneer-main-course-paneer-do-pyaza-special",
@@ -2092,7 +2412,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indian:paneer:spiced-gravy",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 13,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "paneer-main-course-spicy-paneer-kolhapuri",
@@ -2105,7 +2427,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "south-indian:paneer:spiced-gravy",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 13,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "paneer-main-course-royal-paneer-handi",
@@ -2118,7 +2442,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indian:paneer:spiced-gravy",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 13,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "paneer-main-course-punjabi-palak-paneer",
@@ -2131,7 +2457,9 @@
       "sourceType": "shared-family",
       "sourceProductOrFamily": "indian:paneer:plated-dish",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 2,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "paneer-main-course-andhra-aavakai-paneer-masala",
@@ -2144,7 +2472,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indian:paneer:spiced-gravy",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 13,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "paneer-main-course-hyderabadi-paneer-masala-curry",
@@ -2157,7 +2487,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indian:paneer:spiced-gravy",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 13,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "paneer-main-course-methi-chaman-paneer",
@@ -2170,7 +2502,9 @@
       "sourceType": "shared-family",
       "sourceProductOrFamily": "indian:paneer:plated-dish",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 2,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "paneer-main-course-kaju-paneer-butter-masala",
@@ -2183,7 +2517,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indian:paneer:creamy-gravy",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 13,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "egg-main-course-veg-loaded-omelette",
@@ -2196,7 +2532,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Veg Loaded Omelette",
       "dietary": "Egg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "egg-main-course-classic-plain-omelette",
@@ -2209,7 +2547,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Classic Plain Omelette",
       "dietary": "Egg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "egg-main-course-dhaba-masala-omelette",
@@ -2222,7 +2562,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Dhaba Masala Omelette",
       "dietary": "Egg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "egg-main-course-homestyle-egg-curry",
@@ -2235,7 +2577,9 @@
       "sourceType": "shared-family",
       "sourceProductOrFamily": "indian:egg:spiced-gravy",
       "dietary": "Egg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 3,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "egg-main-course-dhaba-style-egg-curry",
@@ -2248,7 +2592,9 @@
       "sourceType": "shared-family",
       "sourceProductOrFamily": "indian:egg:spiced-gravy",
       "dietary": "Egg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 3,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "egg-main-course-creamy-egg-butter-masala-3-eggs",
@@ -2261,7 +2607,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Creamy Egg Butter Masala (3 Eggs)",
       "dietary": "Egg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "egg-main-course-egg-do-pyaza-special",
@@ -2274,7 +2622,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Egg Do Pyaza Special",
       "dietary": "Egg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "egg-main-course-spicy-egg-bhurji-masala",
@@ -2287,7 +2637,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Spicy Egg Bhurji Masala",
       "dietary": "Egg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "egg-main-course-masala-omelette-curry",
@@ -2300,7 +2652,9 @@
       "sourceType": "shared-family",
       "sourceProductOrFamily": "indian:egg:spiced-gravy",
       "dietary": "Egg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 3,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "egg-main-course-egg-keema-masala",
@@ -2313,7 +2667,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Egg Keema Masala",
       "dietary": "Egg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "chicken-main-course-dhaba-chicken-masala-bn",
@@ -2326,7 +2682,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indian:chicken:spiced-gravy",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 14,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "chicken-main-course-spicy-darbar-tandoor-butter-chicken-bn",
@@ -2339,7 +2697,9 @@
       "sourceType": "shared-family",
       "sourceProductOrFamily": "tandoor:chicken:tandoor-grilled",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 2,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "chicken-main-course-royal-chicken-handi-bl",
@@ -2352,7 +2712,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indian:chicken:spiced-gravy",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 14,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "chicken-main-course-kadai-chicken-special-bl",
@@ -2365,7 +2727,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indian:chicken:spiced-gravy",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 14,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "chicken-main-course-fiery-chicken-kolhapuri-bl",
@@ -2378,7 +2742,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "south-indian:chicken:spiced-gravy",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 14,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "chicken-main-course-royal-chicken-lababdar-bl",
@@ -2391,7 +2757,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indian:chicken:spiced-gravy",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 14,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "chicken-main-course-tandoori-chicken-tikka-masala",
@@ -2404,7 +2772,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "tandoor:chicken:tandoor-grilled",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 14,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "chicken-main-course-spicy-andhra-chicken-curry-bn",
@@ -2417,7 +2787,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indian:chicken:spiced-gravy",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 14,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "chicken-main-course-green-chilli-chicken-masala-bn",
@@ -2430,7 +2802,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indo-chinese:chicken:spiced-gravy",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 14,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "chicken-main-course-royal-mughlai-chicken-curry-bn",
@@ -2443,7 +2817,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indian:chicken:spiced-gravy",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 14,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "chicken-main-course-creamy-white-chicken-korma-bn",
@@ -2456,7 +2832,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Creamy White Chicken Korma (With Bone)",
       "dietary": "Non-Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "chicken-main-course-avakaya-chicken-masala-bn",
@@ -2469,7 +2847,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indian:chicken:spiced-gravy",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 14,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "chicken-main-course-gongura-chicken-curry-bn",
@@ -2482,7 +2862,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indian:chicken:spiced-gravy",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 14,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "chicken-main-course-chicken-do-pyaza-special-bl",
@@ -2495,7 +2877,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indian:chicken:spiced-gravy",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 14,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "chicken-main-course-boneless-butter-chicken-masala",
@@ -2508,7 +2892,9 @@
       "sourceType": "shared-family",
       "sourceProductOrFamily": "indian:chicken:creamy-gravy",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 2,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "chicken-main-course-dum-ka-chicken-masala",
@@ -2521,7 +2907,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indian:chicken:spiced-gravy",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 14,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "chicken-main-course-chicken-tangadi-masala",
@@ -2534,7 +2922,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indian:chicken:spiced-gravy",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 14,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "mutton-main-course-kashmiri-mutton-rogan-josh",
@@ -2547,7 +2937,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indian:mutton:spiced-gravy",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 10,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "mutton-main-course-bengali-mutton-kosha",
@@ -2560,7 +2952,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indian:mutton:spiced-gravy",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 10,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "mutton-main-course-dhaba-style-mutton-curry",
@@ -2573,7 +2967,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indian:mutton:spiced-gravy",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 10,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "mutton-main-course-royal-mutton-handi",
@@ -2586,7 +2982,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indian:mutton:spiced-gravy",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 10,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "mutton-main-course-kadai-mutton-special",
@@ -2599,7 +2997,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indian:mutton:spiced-gravy",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 10,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "mutton-main-course-spicy-mutton-keema-masala",
@@ -2612,7 +3012,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indian:mutton:spiced-gravy",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 10,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "mutton-main-course-mutton-do-pyaza-special",
@@ -2625,7 +3027,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indian:mutton:spiced-gravy",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 10,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "mutton-main-course-pepper-mutton-fry",
@@ -2638,7 +3042,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indian:mutton:spiced-gravy",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 10,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "mutton-main-course-gongura-mutton-curry",
@@ -2651,7 +3057,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indian:mutton:spiced-gravy",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 10,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "mutton-main-course-dum-ka-mutton-masala",
@@ -2664,7 +3072,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indian:mutton:spiced-gravy",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 10,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "seafood-main-course-basa-fish-masala-special",
@@ -2677,7 +3087,9 @@
       "sourceType": "shared-family",
       "sourceProductOrFamily": "indian:prawns:spiced-gravy",
       "dietary": "Seafood",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 5,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "seafood-main-course-kadai-fish-masala",
@@ -2690,7 +3102,9 @@
       "sourceType": "shared-family",
       "sourceProductOrFamily": "indian:prawns:spiced-gravy",
       "dietary": "Seafood",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 5,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "seafood-main-course-creamy-butter-fish-masala",
@@ -2703,7 +3117,9 @@
       "sourceType": "shared-family",
       "sourceProductOrFamily": "indian:prawns:creamy-gravy",
       "dietary": "Seafood",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 5,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "seafood-main-course-tandoori-fish-tikka-masala",
@@ -2716,7 +3132,9 @@
       "sourceType": "shared-family",
       "sourceProductOrFamily": "tandoor:prawns:tandoor-grilled",
       "dietary": "Seafood",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 5,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "seafood-main-course-spicy-andhra-fish-curry",
@@ -2729,7 +3147,9 @@
       "sourceType": "shared-family",
       "sourceProductOrFamily": "indian:prawns:spiced-gravy",
       "dietary": "Seafood",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 5,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "seafood-main-course-classic-prawns-masala",
@@ -2742,7 +3162,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indian:prawns:spiced-gravy",
       "dietary": "Seafood",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 6,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "seafood-main-course-butter-garlic-prawns-special",
@@ -2755,7 +3177,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indian:prawns:creamy-gravy",
       "dietary": "Seafood",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 6,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "seafood-main-course-creamy-malai-prawns-curry",
@@ -2768,7 +3192,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indian:prawns:creamy-gravy",
       "dietary": "Seafood",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 6,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "seafood-main-course-spicy-andhra-prawns-curry",
@@ -2781,7 +3207,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indian:prawns:spiced-gravy",
       "dietary": "Seafood",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 6,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "seafood-main-course-pepper-prawn-masala",
@@ -2794,7 +3222,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indian:prawns:spiced-gravy",
       "dietary": "Seafood",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 6,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "seafood-main-course-chettinad-prawn-curry",
@@ -2807,7 +3237,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indian:prawns:spiced-gravy",
       "dietary": "Seafood",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 6,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "tandoori-kebabs-classic-paneer-tikka",
@@ -2820,7 +3252,9 @@
       "sourceType": "shared-family",
       "sourceProductOrFamily": "tandoor:paneer:tandoor-grilled",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 4,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "tandoori-kebabs-achari-paneer-tikka",
@@ -2833,7 +3267,9 @@
       "sourceType": "shared-family",
       "sourceProductOrFamily": "tandoor:paneer:tandoor-grilled",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 4,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "tandoori-kebabs-hariyali-paneer-tikka",
@@ -2846,7 +3282,9 @@
       "sourceType": "shared-family",
       "sourceProductOrFamily": "tandoor:paneer:tandoor-grilled",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 4,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "tandoori-kebabs-malai-paneer-tikka",
@@ -2859,7 +3297,9 @@
       "sourceType": "shared-family",
       "sourceProductOrFamily": "tandoor:paneer:tandoor-grilled",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 4,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "tandoori-kebabs-tandoori-mushroom",
@@ -2872,7 +3312,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Tandoori Mushroom",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 1,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "tandoori-kebabs-tandoori-baby-corn",
@@ -2885,7 +3327,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Tandoori Baby Corn",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 1,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "tandoori-kebabs-tandoori-broccoli",
@@ -2898,7 +3342,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Tandoori Broccoli",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 1,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "tandoori-kebabs-soya-chaap-tikka",
@@ -2911,7 +3357,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Soya Chaap Tikka",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 1,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "tandoori-kebabs-tandoori-chicken",
@@ -2924,7 +3372,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "tandoor:chicken:tandoor-grilled",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 9,
+      "productionStatus": "needs-real-restaurant-photography"
     },
     {
       "productId": "tandoori-kebabs-classic-chicken-tikka",
@@ -2937,7 +3387,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "tandoor:chicken:tandoor-grilled",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 9,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "tandoori-kebabs-malai-chicken-tikka",
@@ -2950,7 +3402,9 @@
       "sourceType": "shared-family",
       "sourceProductOrFamily": "tandoor:chicken:tandoor-grilled",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 3,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "tandoori-kebabs-hariyali-chicken-tikka",
@@ -2963,7 +3417,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "tandoor:chicken:tandoor-grilled",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 9,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "tandoori-kebabs-achari-chicken-tikka",
@@ -2976,7 +3432,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "tandoor:chicken:tandoor-grilled",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 9,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "tandoori-kebabs-afghani-chicken-tikka",
@@ -2989,7 +3447,9 @@
       "sourceType": "shared-family",
       "sourceProductOrFamily": "tandoor:chicken:tandoor-grilled",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 3,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "tandoori-kebabs-tangdi-kebab",
@@ -3002,7 +3462,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "tandoor:chicken:tandoor-grilled",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 9,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "tandoori-kebabs-chicken-seekh-kebab",
@@ -3015,7 +3477,9 @@
       "sourceType": "shared-family",
       "sourceProductOrFamily": "tandoor:chicken:tandoor-grilled",
       "dietary": "Non-Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "tandoori-kebabs-reshmi-chicken-kebab",
@@ -3028,7 +3492,9 @@
       "sourceType": "shared-family",
       "sourceProductOrFamily": "tandoor:chicken:tandoor-grilled",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 3,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "tandoori-kebabs-pepper-chicken-kebab",
@@ -3041,7 +3507,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "tandoor:chicken:tandoor-grilled",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 9,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "tandoori-kebabs-pahadi-chicken-kebab",
@@ -3054,7 +3522,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "tandoor:chicken:tandoor-grilled",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 9,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "tandoori-kebabs-udthi-panchi-chicken-kebab",
@@ -3067,7 +3537,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "tandoor:chicken:tandoor-grilled",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 9,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "tandoori-kebabs-fish-tikka",
@@ -3080,7 +3552,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Fish Tikka",
       "dietary": "Seafood",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "tandoori-kebabs-malai-fish-tikka",
@@ -3093,7 +3567,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Malai Fish Tikka",
       "dietary": "Seafood",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "tandoori-kebabs-tandoori-prawns",
@@ -3106,7 +3582,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Tandoori Prawns",
       "dietary": "Seafood",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "tandoori-kebabs-achari-tandoori-prawns",
@@ -3119,7 +3597,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Achari Tandoori Prawns",
       "dietary": "Seafood",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "tandoori-kebabs-veg-tandoori-platter",
@@ -3132,7 +3612,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Veg Tandoori Platter",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 1,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "tandoori-kebabs-chicken-tikka-platter",
@@ -3145,7 +3627,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "tandoor:chicken:tandoor-grilled",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 9,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "tandoori-kebabs-mixed-tandoor-platter",
@@ -3158,7 +3642,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Mixed Tandoor Platter",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 1,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "chinese-main-course-veg-manchurian-gravy",
@@ -3171,7 +3657,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indo-chinese:vegetable:plated-dish",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 6,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "chinese-main-course-veg-hot-garlic-gravy",
@@ -3184,7 +3672,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Veg Hot Garlic Gravy",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "chinese-main-course-veg-black-pepper-gravy",
@@ -3197,7 +3687,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Veg Black Pepper Gravy",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "chinese-main-course-veg-schezwan-gravy",
@@ -3210,7 +3702,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Veg Schezwan Gravy",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "chinese-main-course-veg-chilli-garlic",
@@ -3223,7 +3717,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Veg Chilli Garlic",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "chinese-main-course-chilli-paneer-gravy",
@@ -3236,7 +3732,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indo-chinese:paneer:dry-starter",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 7,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "chinese-main-course-paneer-manchurian-gravy",
@@ -3249,7 +3747,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indo-chinese:paneer:plated-dish",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 6,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "chinese-main-course-paneer-black-pepper",
@@ -3262,7 +3762,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indo-chinese:paneer:spiced-gravy",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 7,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "chinese-main-course-paneer-hot-garlic",
@@ -3275,7 +3777,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indo-chinese:paneer:plated-dish",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 7,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "chinese-main-course-chilli-chicken-gravy",
@@ -3288,7 +3792,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Chilli Chicken Gravy",
       "dietary": "Non-Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "chinese-main-course-chicken-manchurian-gravy",
@@ -3301,7 +3807,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indo-chinese:chicken:plated-dish",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 6,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "chinese-main-course-chicken-hot-garlic-gravy",
@@ -3314,7 +3822,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Chicken Hot Garlic Gravy",
       "dietary": "Non-Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "chinese-main-course-chicken-black-pepper-gravy",
@@ -3327,7 +3837,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Chicken Black Pepper Gravy",
       "dietary": "Non-Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "chinese-main-course-chicken-schezwan-gravy",
@@ -3340,7 +3852,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Chicken Schezwan Gravy",
       "dietary": "Non-Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "chinese-main-course-chicken-chilli-garlic-gravy",
@@ -3353,7 +3867,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Chicken Chilli Garlic Gravy",
       "dietary": "Non-Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "chinese-main-course-chilli-fish-gravy",
@@ -3366,7 +3882,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Chilli Fish Gravy",
       "dietary": "Seafood",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "chinese-main-course-fish-black-pepper-gravy",
@@ -3379,7 +3897,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Fish Black Pepper Gravy",
       "dietary": "Seafood",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "chinese-main-course-chilli-garlic-prawns-gravy",
@@ -3392,7 +3912,9 @@
       "sourceType": "shared-family",
       "sourceProductOrFamily": "indo-chinese:prawns:dry-starter",
       "dietary": "Seafood",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 5,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "chinese-main-course-prawns-black-pepper-gravy",
@@ -3405,7 +3927,9 @@
       "sourceType": "shared-family",
       "sourceProductOrFamily": "indo-chinese:prawns:spiced-gravy",
       "dietary": "Seafood",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 5,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "chinese-rice-veg-fried-rice",
@@ -3418,7 +3942,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indo-chinese:paneer:fried-rice",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 16,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "chinese-rice-veg-schezwan-fried-rice",
@@ -3431,7 +3957,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indo-chinese:paneer:fried-rice",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 16,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "chinese-rice-veg-burnt-garlic-fried-rice",
@@ -3444,7 +3972,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indo-chinese:paneer:fried-rice",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 16,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "chinese-rice-veg-dragon-fried-rice",
@@ -3457,7 +3987,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indo-chinese:paneer:fried-rice",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 16,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "chinese-rice-paneer-schezwan-fried-rice",
@@ -3470,7 +4002,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indo-chinese:paneer:fried-rice",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 16,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "chinese-rice-veg-triple-schezwan-fried-rice",
@@ -3483,7 +4017,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indo-chinese:paneer:fried-rice",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 16,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "chinese-rice-egg-fried-rice",
@@ -3496,7 +4032,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indo-chinese:egg:fried-rice",
       "dietary": "Egg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 16,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "chinese-rice-egg-schezwan-fried-rice",
@@ -3509,7 +4047,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indo-chinese:egg:fried-rice",
       "dietary": "Egg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 16,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "chinese-rice-chicken-fried-rice",
@@ -3522,7 +4062,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indo-chinese:chicken:fried-rice",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 16,
+      "productionStatus": "needs-real-restaurant-photography"
     },
     {
       "productId": "chinese-rice-chicken-schezwan-fried-rice",
@@ -3535,7 +4077,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indo-chinese:chicken:fried-rice",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 16,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "chinese-rice-chicken-burnt-garlic-fried-rice",
@@ -3548,7 +4092,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indo-chinese:chicken:fried-rice",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 16,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "chinese-rice-chicken-dragon-fried-rice",
@@ -3561,7 +4107,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indo-chinese:chicken:fried-rice",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 16,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "chinese-rice-chicken-triple-schezwan-fried-rice",
@@ -3574,7 +4122,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indo-chinese:chicken:fried-rice",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 16,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "chinese-rice-prawn-fried-rice",
@@ -3587,7 +4137,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indo-chinese:prawns:fried-rice",
       "dietary": "Seafood",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 16,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "chinese-rice-mixed-seafood-fried-rice",
@@ -3600,7 +4152,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indo-chinese:prawns:fried-rice",
       "dietary": "Seafood",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 16,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "chinese-rice-mixed-non-veg-fried-rice",
@@ -3612,8 +4166,10 @@
       "matchQuality": "category-fallback",
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indo-chinese:prawns:fried-rice",
-      "dietary": "Veg",
-      "reviewRequired": true
+      "dietary": "Non-Veg",
+      "reviewRequired": true,
+      "imageUseCount": 16,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "noodles-veg-hakka-noodles",
@@ -3626,7 +4182,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indo-chinese:vegetable:noodles",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 16,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "noodles-veg-schezwan-noodles",
@@ -3639,7 +4197,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indo-chinese:vegetable:noodles",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 16,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "noodles-veg-garlic-noodles",
@@ -3652,7 +4212,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indo-chinese:vegetable:noodles",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 16,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "noodles-veg-burnt-garlic-noodles",
@@ -3665,7 +4227,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indo-chinese:vegetable:noodles",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 16,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "noodles-veg-singapore-noodles",
@@ -3678,7 +4242,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indo-chinese:vegetable:noodles",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 16,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "noodles-veg-triple-schezwan-noodles",
@@ -3691,7 +4257,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indo-chinese:vegetable:noodles",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 16,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "noodles-egg-hakka-noodles",
@@ -3704,7 +4272,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indo-chinese:egg:noodles",
       "dietary": "Egg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 16,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "noodles-egg-garlic-noodles",
@@ -3717,7 +4287,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indo-chinese:egg:noodles",
       "dietary": "Egg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 16,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "noodles-egg-schezwan-noodles",
@@ -3730,7 +4302,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indo-chinese:egg:noodles",
       "dietary": "Egg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 16,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "noodles-chicken-hakka-noodles",
@@ -3743,7 +4317,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indo-chinese:chicken:noodles",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 16,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "noodles-chicken-garlic-noodles",
@@ -3756,7 +4332,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indo-chinese:chicken:noodles",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 16,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "noodles-chicken-schezwan-noodles",
@@ -3769,7 +4347,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indo-chinese:chicken:noodles",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 16,
+      "productionStatus": "needs-real-restaurant-photography"
     },
     {
       "productId": "noodles-chicken-burnt-garlic-noodles",
@@ -3782,7 +4362,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indo-chinese:chicken:noodles",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 16,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "noodles-chicken-triple-schezwan-noodles",
@@ -3795,7 +4377,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indo-chinese:chicken:noodles",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 16,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "noodles-prawn-hakka-noodles",
@@ -3808,7 +4392,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indo-chinese:prawns:noodles",
       "dietary": "Seafood",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 16,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "noodles-mixed-seafood-noodles",
@@ -3821,7 +4407,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indo-chinese:prawns:noodles",
       "dietary": "Seafood",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 16,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "rotis-naans-plain-tandoori-roti",
@@ -3834,7 +4422,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Plain Tandoori Roti",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "rotis-naans-butter-tandoori-roti",
@@ -3847,7 +4437,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Butter Tandoori Roti",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "rotis-naans-missi-roti",
@@ -3860,7 +4452,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Missi Roti",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "rotis-naans-pudina-roti",
@@ -3873,7 +4467,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Pudina Roti",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "rotis-naans-plain-naan",
@@ -3886,7 +4482,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Plain Naan",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "rotis-naans-butter-naan",
@@ -3899,7 +4497,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Butter Naan",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "rotis-naans-garlic-naan",
@@ -3912,7 +4512,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Garlic Naan",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "rotis-naans-garlic-butter-naan",
@@ -3925,7 +4527,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Garlic Butter Naan",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "rotis-naans-cheese-naan",
@@ -3938,7 +4542,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Cheese Naan",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "rotis-naans-cheese-garlic-naan",
@@ -3951,7 +4557,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Cheese Garlic Naan",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "rotis-naans-cheese-chilli-garlic-naan",
@@ -3964,7 +4572,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Cheese Chilli Garlic Naan",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "rotis-naans-aloo-paratha",
@@ -3977,7 +4587,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Aloo Paratha",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "rotis-naans-paneer-paratha",
@@ -3990,7 +4602,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Paneer Paratha",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "rotis-naans-onion-kulcha",
@@ -4003,7 +4617,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Onion Kulcha",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "rotis-naans-paneer-kulcha",
@@ -4016,7 +4632,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Paneer Kulcha",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "rotis-naans-laccha-paratha",
@@ -4029,7 +4647,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Laccha Paratha",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "rotis-naans-butter-laccha-paratha",
@@ -4042,7 +4662,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Butter Laccha Paratha",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "rotis-naans-pudina-laccha-paratha",
@@ -4055,7 +4677,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Pudina Laccha Paratha",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "rotis-naans-rumali-roti",
@@ -4068,7 +4692,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Rumali Roti",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "rotis-naans-tandoori-stuffed-kulcha",
@@ -4081,7 +4707,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Tandoori Stuffed Kulcha",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "rotis-naans-stuffed-cheese-kulcha",
@@ -4094,7 +4722,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Stuffed Cheese Kulcha",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "rotis-naans-folding-naan",
@@ -4107,7 +4737,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Folding Naan",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "indian-rice-steamed-basmati-rice",
@@ -4120,7 +4752,9 @@
       "sourceType": "shared-family",
       "sourceProductOrFamily": "indian:mutton:plated-dish",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 2,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "indian-rice-aromatic-ghee-rice",
@@ -4133,7 +4767,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Aromatic Ghee Rice",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "indian-rice-classic-jeera-rice",
@@ -4146,7 +4782,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Classic Jeera Rice",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "indian-rice-south-indian-lemon-rice",
@@ -4159,7 +4797,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "South Indian Lemon Rice",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "indian-rice-green-peas-pulao",
@@ -4172,7 +4812,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Green Peas Pulao",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "indian-rice-royal-veg-pulao",
@@ -4185,7 +4827,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Royal Veg Pulao",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "indian-rice-royal-kashmiri-pulao",
@@ -4198,7 +4842,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Royal Kashmiri Pulao",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "indian-rice-dhaba-tadka-rice",
@@ -4211,7 +4857,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Dhaba Tadka Rice",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "indian-rice-curd-rice",
@@ -4224,7 +4872,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Curd Rice",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "indian-rice-tomato-rice",
@@ -4237,7 +4887,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Tomato Rice",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "south-indian-idli-2-pcs",
@@ -4250,7 +4902,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Idli (2 pcs)",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "south-indian-karam-podi-idli",
@@ -4263,7 +4917,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Karam Podi Idli",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "south-indian-ghee-podi-idli",
@@ -4276,7 +4932,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Ghee Podi Idli",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "south-indian-idli-sambar",
@@ -4289,7 +4947,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Idli Sambar",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "south-indian-sambar-vada",
@@ -4302,7 +4962,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Sambar Vada",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "south-indian-medu-vada-2-pcs",
@@ -4315,7 +4977,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Medu Vada (2 pcs)",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "south-indian-idli-vada-combo",
@@ -4328,7 +4992,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Idli Vada Combo",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "south-indian-plain-dosa",
@@ -4341,7 +5007,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Plain Dosa",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "south-indian-masala-dosa",
@@ -4354,7 +5022,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Masala Dosa",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "south-indian-butter-dosa",
@@ -4367,7 +5037,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Butter Dosa",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "south-indian-karam-dosa",
@@ -4380,7 +5052,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Karam Dosa",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "south-indian-onion-dosa",
@@ -4393,7 +5067,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Onion Dosa",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "south-indian-ghee-dosa",
@@ -4406,7 +5082,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Ghee Dosa",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "south-indian-podi-dosa",
@@ -4419,7 +5097,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Podi Dosa",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "south-indian-ghee-masala-dosa",
@@ -4432,7 +5112,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Ghee Masala Dosa",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "south-indian-butter-masala-dosa",
@@ -4445,7 +5127,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Butter Masala Dosa",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "south-indian-ghee-karam-dosa",
@@ -4458,7 +5142,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Ghee Karam Dosa",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "south-indian-butter-karam-dosa",
@@ -4471,7 +5157,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Butter Karam Dosa",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "south-indian-onion-masala-dosa",
@@ -4484,7 +5172,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Onion Masala Dosa",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "south-indian-paper-dosa",
@@ -4497,7 +5187,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Paper Dosa",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "south-indian-rava-dosa",
@@ -4510,7 +5202,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Rava Dosa",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "south-indian-onion-rava-dosa",
@@ -4523,7 +5217,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Onion Rava Dosa",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "south-indian-mysore-masala-dosa",
@@ -4536,7 +5232,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Mysore Masala Dosa",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "south-indian-set-dosa",
@@ -4549,7 +5247,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Set Dosa",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "south-indian-pesarattu",
@@ -4562,7 +5262,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Pesarattu",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "south-indian-upma-pesarattu",
@@ -4575,7 +5277,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Upma Pesarattu",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "south-indian-onion-uttapam",
@@ -4588,7 +5292,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Onion Uttapam",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "south-indian-tomato-uttapam",
@@ -4601,7 +5307,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Tomato Uttapam",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "south-indian-mixed-veg-uttapam",
@@ -4614,7 +5322,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Mixed Veg Uttapam",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "south-indian-poori-bhaji",
@@ -4627,7 +5337,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Poori Bhaji",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "south-indian-ven-pongal",
@@ -4640,7 +5352,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Ven Pongal",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "south-indian-vegetable-upma",
@@ -4653,7 +5367,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Vegetable Upma",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "south-indian-mini-tiffin",
@@ -4666,7 +5382,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Mini Tiffin",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "nonveg-dosa-egg-dosa",
@@ -4679,7 +5397,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Egg Dosa",
       "dietary": "Egg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "nonveg-dosa-chicken-dosa",
@@ -4692,7 +5412,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Chicken Dosa",
       "dietary": "Non-Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "burgers-classic-veg-burger",
@@ -4705,7 +5427,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Classic Veg Burger",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "burgers-paneer-burger",
@@ -4718,7 +5442,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Paneer Burger",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "burgers-classic-chicken-burger",
@@ -4731,7 +5457,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Classic Chicken Burger",
       "dietary": "Non-Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "burgers-crispy-chicken-burger",
@@ -4744,7 +5472,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Crispy Chicken Burger",
       "dietary": "Non-Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "burgers-peri-peri-chicken-burger",
@@ -4757,7 +5487,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Peri Peri Chicken Burger",
       "dietary": "Non-Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "burgers-double-patty-chicken-burger",
@@ -4770,7 +5502,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Double Patty Chicken Burger",
       "dietary": "Non-Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "continental-classic-mac-n-cheese",
@@ -4783,7 +5517,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Classic Mac & Cheese",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "continental-peri-peri-mac-n-cheese",
@@ -4796,7 +5532,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Peri Peri Mac & Cheese",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "continental-loaded-cheese-mac",
@@ -4809,7 +5547,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Loaded Mac & Cheese",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "continental-mushroom-mac-n-cheese",
@@ -4822,7 +5562,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Mushroom Mac & Cheese",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "continental-chicken-mac-n-cheese",
@@ -4835,7 +5577,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Chicken Mac & Cheese",
       "dietary": "Non-Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "continental-peri-peri-chicken-mac",
@@ -4848,7 +5592,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Peri Peri Chicken Mac & Cheese",
       "dietary": "Non-Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "continental-loaded-chicken-mac",
@@ -4861,7 +5607,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Loaded Chicken Mac & Cheese",
       "dietary": "Non-Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "salads-garden-fresh-salad",
@@ -4874,7 +5622,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Garden Fresh Salad",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "salads-greek-salad",
@@ -4887,7 +5637,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Greek Salad",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "salads-chicken-caesar-salad",
@@ -4900,7 +5652,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Chicken Caesar Salad",
       "dietary": "Non-Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "salads-grilled-chicken-salad",
@@ -4913,7 +5667,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Grilled Chicken Salad",
       "dietary": "Non-Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "salads-paneer-protein-salad",
@@ -4926,7 +5682,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Paneer Protein Salad",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "salads-indian-garden-salad",
@@ -4939,7 +5697,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Indian Garden Salad",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "salads-fresh-cucumber-salad",
@@ -4952,7 +5712,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Fresh Cucumber Salad",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "salads-classic-onion-salad",
@@ -4965,7 +5727,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Classic Onion Salad",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "soups-veg-sweet-corn-soup",
@@ -4978,7 +5742,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indo-chinese:corn:soup",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 9,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "soups-veg-hot-sour-soup",
@@ -4991,7 +5757,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indo-chinese:vegetable:soup",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 9,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "soups-veg-manchow-soup",
@@ -5004,7 +5772,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indo-chinese:vegetable:soup",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 9,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "soups-lemon-coriander-soup",
@@ -5017,7 +5787,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indo-chinese:vegetable:soup",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 9,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "soups-veg-burnt-garlic-soup",
@@ -5030,7 +5802,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indo-chinese:vegetable:soup",
       "dietary": "Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 9,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "soups-chicken-sweet-corn-soup",
@@ -5043,7 +5817,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indo-chinese:chicken:soup",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 9,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "soups-chicken-hot-sour-soup",
@@ -5056,7 +5832,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indo-chinese:chicken:soup",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 9,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "soups-chicken-manchow-soup",
@@ -5069,7 +5847,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indo-chinese:chicken:soup",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 9,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "soups-chicken-burnt-garlic-soup",
@@ -5082,7 +5862,9 @@
       "sourceType": "shared-category",
       "sourceProductOrFamily": "indo-chinese:chicken:soup",
       "dietary": "Non-Veg",
-      "reviewRequired": true
+      "reviewRequired": true,
+      "imageUseCount": 9,
+      "productionStatus": "acceptable-temporary-fallback"
     },
     {
       "productId": "desserts-double-ka-meetha",
@@ -5095,7 +5877,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Double Ka Meetha",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "desserts-qubani-ka-meetha",
@@ -5108,7 +5892,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Qubani Ka Meetha",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "desserts-apricot-delight",
@@ -5121,7 +5907,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Apricot Delight",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "desserts-gulab-jamun",
@@ -5134,7 +5922,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Gulab Jamun",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "desserts-shahi-tukda",
@@ -5147,7 +5937,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Shahi Tukda",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "desserts-brownie-with-ice-cream",
@@ -5160,7 +5952,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Brownie With Ice Cream",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "desserts-rasgulla",
@@ -5173,7 +5967,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Rasgulla",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "thick-shakes-oreo-thick-shake",
@@ -5186,7 +5982,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Oreo Thick Shake",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "thick-shakes-kitkat-thick-shake",
@@ -5199,7 +5997,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Kitkat Thick Shake",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "thick-shakes-brownie-thick-shake",
@@ -5212,7 +6012,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Brownie Thick Shake",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "thick-shakes-ferrero-thick-shake",
@@ -5225,7 +6027,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Ferrero Thick Shake",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "thick-shakes-mango-thick-shake",
@@ -5238,7 +6042,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Mango Thick Shake",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "thick-shakes-strawberry-thick-shake",
@@ -5251,7 +6057,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Strawberry Thick Shake",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "thick-shakes-chocolate-thick-shake",
@@ -5264,7 +6072,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Chocolate Thick Shake",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "thick-shakes-cold-coffee-thick-shake",
@@ -5277,7 +6087,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Cold Coffee Thick Shake",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "mocktails-virgin-mojito",
@@ -5290,7 +6102,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Virgin Mojito",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "mocktails-blue-lagoon",
@@ -5303,7 +6117,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Blue Lagoon",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "mocktails-green-apple-cooler",
@@ -5316,7 +6132,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Green Apple Cooler",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "mocktails-watermelon-mint-cooler",
@@ -5329,7 +6147,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Watermelon Mint Cooler",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "mocktails-kiwi-cooler",
@@ -5342,7 +6162,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Kiwi Cooler",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "mocktails-passion-fruit-cooler",
@@ -5355,7 +6177,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Passion Fruit Cooler",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "mocktails-fruit-punch",
@@ -5368,7 +6192,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Fruit Punch",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "mocktails-peach-iced-tea",
@@ -5381,7 +6207,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Peach Iced Tea",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "mocktails-lemon-iced-tea",
@@ -5394,7 +6222,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Lemon Iced Tea",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "cold-beverages-mineral-water-500-ml",
@@ -5407,7 +6237,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Mineral Water 500 ml",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "cold-beverages-mineral-water-1000-ml",
@@ -5420,7 +6252,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Mineral Water 1000 ml",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "cold-beverages-coca-cola-soft-beverage-300-ml-served-in-glass",
@@ -5433,7 +6267,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Coca-Cola Soft Beverage 300 ml (Served in Glass)",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "cold-beverages-pepsi-soft-beverage-300-ml-served-in-glass",
@@ -5446,7 +6282,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Pepsi Soft Beverage 300 ml (Served In Glass)",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "cold-beverages-campa-soft-beverage-300-ml-served-in-glass",
@@ -5459,7 +6297,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Campa Soft Beverage 300 ml (Served In Glass)",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "cold-beverages-masala-cool-drink",
@@ -5472,7 +6312,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Masala Cool Drink",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "biryani-addons-onion-raita",
@@ -5485,7 +6327,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Onion Raita",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "biryani-addons-boondi-raita",
@@ -5498,7 +6342,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Boondi Raita",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "biryani-addons-cucumber-raita",
@@ -5511,7 +6357,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Cucumber Raita",
       "dietary": "Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "biryani-addons-extra-dum-chicken-piece",
@@ -5524,7 +6372,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Extra Dum Chicken Piece",
       "dietary": "Non-Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "biryani-addons-extra-fry-piece-chicken",
@@ -5537,7 +6387,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Extra Fry Piece Chicken",
       "dietary": "Non-Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     },
     {
       "productId": "biryani-addons-extra-lollipop-2-pcs",
@@ -5550,7 +6402,9 @@
       "sourceType": "existing-exact",
       "sourceProductOrFamily": "Extra Lollipop (2 pcs)",
       "dietary": "Non-Veg",
-      "reviewRequired": false
+      "reviewRequired": false,
+      "imageUseCount": 1,
+      "productionStatus": "safe-for-production"
     }
   ]
 }

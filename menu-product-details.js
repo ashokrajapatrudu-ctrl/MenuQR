@@ -8752,12 +8752,12 @@ window.MENU_PRODUCT_DETAILS = {
       "menuSection": "Chinese Rice",
       "description": "Wok-tossed rice with chicken, egg and seafood, vegetables and classic wok seasoning.",
       "dietary": {
-        "key": "veg",
-        "label": "Veg"
+        "key": "nonveg",
+        "label": "Non-Veg"
       },
       "spice": "Medium",
       "badges": [],
-      "searchText": "Wok-tossed rice with chicken, egg and seafood, vegetables and classic wok seasoning. Chinese Rice Veg Medium Cooked rice approx. 350–420 g + mixed proteins approx. 100–130 g",
+      "searchText": "Wok-tossed rice with chicken, egg and seafood, vegetables and classic wok seasoning. Chinese Rice Non-Veg Medium Cooked rice approx. 350–420 g + mixed proteins approx. 100–130 g",
       "variants": [
         {
           "stableId": "red-panda-mixed-non-veg-fried-rice-full-portion-portion-rs-279",

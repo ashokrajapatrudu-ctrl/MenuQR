@@ -1,0 +1,24 @@
+{
+  "generatedAt": "2026-07-17T19:22:14.588Z",
+  "summary": {
+    "productsScanned": 427,
+    "highSeverityOpenConflicts": 0,
+    "mediumSeverityOpenConflicts": 0,
+    "lowSeverityOpenConflicts": 0,
+    "resolvedConflictsThisPass": 1
+  },
+  "openConflicts": [],
+  "resolvedConflicts": [
+    {
+      "productId": "chinese-rice-mixed-non-veg-fried-rice",
+      "product": "Mixed Non-Veg Fried Rice",
+      "dietaryTypeBefore": "Veg",
+      "dietaryTypeAfter": "Non-Veg",
+      "image": "assets/menu/premium/fried-rice.webp",
+      "suspectedConflict": "Product name is Mixed Non-Veg Fried Rice but menu data displayed a Veg dietary marker.",
+      "severityBeforeFix": "high",
+      "recommendedAction": "Correct product dietary metadata to Non-Veg while keeping the fried-rice family image.",
+      "resolved": true
+    }
+  ]
+}

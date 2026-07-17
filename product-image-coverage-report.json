@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T19:08:11.821Z",
+  "generatedAt": "2026-07-17T19:22:14.584Z",
   "totals": {
     "totalProducts": 427,
     "exactImages": 229,
@@ -8602,5 +8602,146 @@
       "dietary": "Non-Veg",
       "reviewRequired": false
     }
-  ]
+  ],
+  "visualQa": {
+    "reviewedAt": "2026-07-17T19:22:14.584Z",
+    "productsVisuallyReviewed": 427,
+    "categoryFallbacksReviewed": 155,
+    "categoryFallbacksAccepted": 155,
+    "categoryFallbacksReplaced": 0,
+    "closeMatchesReviewed": 37,
+    "closeMatchesAccepted": 37,
+    "closeMatchesChanged": 0,
+    "highSeverityDietaryConflictsFound": 1,
+    "highSeverityDietaryConflictsFixed": 1,
+    "openHighSeverityDietaryConflicts": 0,
+    "imagesUsedByMoreThan5Products": [
+      {
+        "image": "assets/menu/premium/chicken-biryani.webp",
+        "usageCount": 21
+      },
+      {
+        "image": "assets/menu/premium/fried-rice.webp",
+        "usageCount": 16
+      },
+      {
+        "image": "assets/menu/premium/noodles.webp",
+        "usageCount": 16
+      },
+      {
+        "image": "assets/menu/premium/chicken-wrap.webp",
+        "usageCount": 15
+      },
+      {
+        "image": "assets/menu/premium/chicken-curry.webp",
+        "usageCount": 14
+      },
+      {
+        "image": "assets/menu/premium/paneer-curry.webp",
+        "usageCount": 13
+      },
+      {
+        "image": "assets/menu/premium/mutton-curry.webp",
+        "usageCount": 10
+      },
+      {
+        "image": "assets/menu/premium/tandoori-chicken.webp",
+        "usageCount": 9
+      },
+      {
+        "image": "assets/menu/premium/soup.webp",
+        "usageCount": 9
+      },
+      {
+        "image": "assets/menu/premium/paneer-biryani.webp",
+        "usageCount": 8
+      },
+      {
+        "image": "assets/menu/premium/paneer-chinese.webp",
+        "usageCount": 7
+      },
+      {
+        "image": "assets/menu/premium/manchurian.webp",
+        "usageCount": 6
+      },
+      {
+        "image": "assets/menu/premium/prawn-curry.webp",
+        "usageCount": 6
+      }
+    ],
+    "maximumImageReuseCount": 21,
+    "homepageHighlightedFallbacksRemaining": [
+      {
+        "productId": "shawarma-wraps-classic-chicken-shawarma",
+        "productName": "Classic Chicken Shawarma",
+        "image": "assets/menu/premium/chicken-wrap.webp",
+        "matchQuality": "category-fallback",
+        "productionStatus": "needs-real-restaurant-photography"
+      },
+      {
+        "productId": "shawarma-wraps-loaded-chicken-shawarma",
+        "productName": "Loaded Chicken Shawarma",
+        "image": "assets/menu/premium/chicken-wrap.webp",
+        "matchQuality": "category-fallback",
+        "productionStatus": "needs-real-restaurant-photography"
+      },
+      {
+        "productId": "veg-biryanis-paneer-tikka-biryani",
+        "productName": "Paneer Tikka Biryani",
+        "image": "assets/menu/premium/paneer-biryani.webp",
+        "matchQuality": "category-fallback",
+        "productionStatus": "needs-real-restaurant-photography"
+      },
+      {
+        "productId": "nonveg-biryanis-amigos-fry-piece-chicken-biryani",
+        "productName": "Amigos Fry Piece Chicken Biryani",
+        "image": "assets/menu/premium/chicken-biryani.webp",
+        "matchQuality": "category-fallback",
+        "productionStatus": "needs-real-restaurant-photography"
+      },
+      {
+        "productId": "nonveg-biryanis-hyderabadi-chicken-dum-biryani",
+        "productName": "Hyderabadi Chicken Dum Biryani",
+        "image": "assets/menu/premium/chicken-biryani.webp",
+        "matchQuality": "category-fallback",
+        "productionStatus": "needs-real-restaurant-photography"
+      },
+      {
+        "productId": "paneer-main-course-creamy-paneer-butter-masala",
+        "productName": "Creamy Paneer Butter Masala",
+        "image": "assets/menu/premium/paneer-curry.webp",
+        "matchQuality": "category-fallback",
+        "productionStatus": "needs-real-restaurant-photography"
+      },
+      {
+        "productId": "tandoori-kebabs-tandoori-chicken",
+        "productName": "Tandoori Chicken",
+        "image": "assets/menu/premium/tandoori-chicken.webp",
+        "matchQuality": "category-fallback",
+        "productionStatus": "needs-real-restaurant-photography"
+      },
+      {
+        "productId": "chinese-rice-chicken-fried-rice",
+        "productName": "Chicken Fried Rice",
+        "image": "assets/menu/premium/fried-rice.webp",
+        "matchQuality": "category-fallback",
+        "productionStatus": "needs-real-restaurant-photography"
+      },
+      {
+        "productId": "noodles-chicken-schezwan-noodles",
+        "productName": "Chicken Schezwan Noodles",
+        "image": "assets/menu/premium/noodles.webp",
+        "matchQuality": "category-fallback",
+        "productionStatus": "needs-real-restaurant-photography"
+      }
+    ],
+    "productsShortlistedForGeneratedImagery": 30,
+    "productsStillRequiringRestaurantPhotography": 9,
+    "statusBuckets": {
+      "safe-for-production": 256,
+      "acceptable-temporary-fallback": 162,
+      "needs-real-restaurant-photography": 9
+    },
+    "finalProductionSafetyAssessment": "Safe for production after dietary metadata correction. Remaining issues are repetition and temporary family-level fallbacks, not high-severity misleading imagery."
+  }
 }

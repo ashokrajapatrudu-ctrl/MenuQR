@@ -704,7 +704,8 @@
     "priority": "medium",
     "reason": "Shared by 16 products; confirm the visual remains representative.",
     "badges": [],
-    "family": "indo-chinese:prawns:fried-rice"
+    "family": "indo-chinese:prawns:fried-rice",
+    "dietaryCorrection": "Corrected from Veg to Non-Veg during strict visual QA."
   },
   {
     "productId": "chinese-rice-paneer-schezwan-fried-rice",
