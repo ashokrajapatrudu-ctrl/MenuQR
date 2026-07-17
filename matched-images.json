@@ -1,0 +1,1730 @@
+[
+  {
+    "dishId": "veg-starters-honey-chilli-potato",
+    "dishName": "Honey Chilli Potato",
+    "imageUsed": "assets/menu/premium/honey-chilli-potato.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/honey-chilli-potato.webp",
+    "sourceImage": "assets/food-source/Chinese Pan Asian/Chinese Pan Asian (3).png",
+    "confidence": 0.95,
+    "reason": "Visible honey chilli potato/fries stock image matched exactly."
+  },
+  {
+    "dishId": "veg-starters-veg-manchurian-dry",
+    "dishName": "Veg Manchurian Dry",
+    "imageUsed": "assets/menu/premium/manchurian.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/manchurian.webp",
+    "sourceImage": "assets/food-source/Chinese Pan Asian/Chinese Pan Asian (249).png",
+    "confidence": 0.92,
+    "reason": "Visible Manchurian-style balls stock image matched to Manchurian family."
+  },
+  {
+    "dishId": "veg-starters-paneer-65",
+    "dishName": "Paneer 65",
+    "imageUsed": "assets/menu/premium/paneer-chinese.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/paneer-chinese.webp",
+    "sourceImage": "assets/food-source/Chinese Pan Asian/Chinese Pan Asian (41).png",
+    "confidence": 0.92,
+    "reason": "Visible Indo-Chinese paneer cubes stock image matched to paneer starter/gravy family."
+  },
+  {
+    "dishId": "veg-starters-chilli-paneer",
+    "dishName": "Chilli Paneer",
+    "imageUsed": "assets/menu/premium/paneer-chinese.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/paneer-chinese.webp",
+    "sourceImage": "assets/food-source/Chinese Pan Asian/Chinese Pan Asian (41).png",
+    "confidence": 0.92,
+    "reason": "Visible Indo-Chinese paneer cubes stock image matched to paneer starter/gravy family."
+  },
+  {
+    "dishId": "veg-starters-dragon-paneer",
+    "dishName": "Dragon Paneer",
+    "imageUsed": "assets/menu/premium/paneer-chinese.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/paneer-chinese.webp",
+    "sourceImage": "assets/food-source/Chinese Pan Asian/Chinese Pan Asian (41).png",
+    "confidence": 0.92,
+    "reason": "Visible Indo-Chinese paneer cubes stock image matched to paneer starter/gravy family."
+  },
+  {
+    "dishId": "veg-starters-paneer-manchurian",
+    "dishName": "Paneer Manchurian",
+    "imageUsed": "assets/menu/premium/manchurian.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/manchurian.webp",
+    "sourceImage": "assets/food-source/Chinese Pan Asian/Chinese Pan Asian (249).png",
+    "confidence": 0.92,
+    "reason": "Visible Manchurian-style balls stock image matched to Manchurian family."
+  },
+  {
+    "dishId": "veg-starters-schezwan-paneer",
+    "dishName": "Schezwan Paneer",
+    "imageUsed": "assets/menu/premium/paneer-chinese.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/paneer-chinese.webp",
+    "sourceImage": "assets/food-source/Chinese Pan Asian/Chinese Pan Asian (41).png",
+    "confidence": 0.92,
+    "reason": "Visible Indo-Chinese paneer cubes stock image matched to paneer starter/gravy family."
+  },
+  {
+    "dishId": "chicken-starters-chicken-manchurian-dry",
+    "dishName": "Chicken Manchurian Dry",
+    "imageUsed": "assets/menu/premium/manchurian.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/manchurian.webp",
+    "sourceImage": "assets/food-source/Chinese Pan Asian/Chinese Pan Asian (249).png",
+    "confidence": 0.92,
+    "reason": "Visible Manchurian-style balls stock image matched to Manchurian family."
+  },
+  {
+    "dishId": "seafood-starters-salt-pepper-prawns",
+    "dishName": "Salt & Pepper Prawns",
+    "imageUsed": "assets/menu/premium/prawn-chinese.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/prawn-chinese.webp",
+    "sourceImage": "assets/food-source/Chinese Pan Asian/Chinese Pan Asian (193).png",
+    "confidence": 0.92,
+    "reason": "Visible prawn stir-fry stock image matched to Indo-Chinese prawn family."
+  },
+  {
+    "dishId": "seafood-starters-chilli-garlic-prawns",
+    "dishName": "Chilli Garlic Prawns",
+    "imageUsed": "assets/menu/premium/prawn-chinese.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/prawn-chinese.webp",
+    "sourceImage": "assets/food-source/Chinese Pan Asian/Chinese Pan Asian (193).png",
+    "confidence": 0.92,
+    "reason": "Visible prawn stir-fry stock image matched to Indo-Chinese prawn family."
+  },
+  {
+    "dishId": "seafood-starters-dragon-prawns",
+    "dishName": "Dragon Prawns",
+    "imageUsed": "assets/menu/premium/prawn-chinese.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/prawn-chinese.webp",
+    "sourceImage": "assets/food-source/Chinese Pan Asian/Chinese Pan Asian (193).png",
+    "confidence": 0.92,
+    "reason": "Visible prawn stir-fry stock image matched to Indo-Chinese prawn family."
+  },
+  {
+    "dishId": "shawarma-wraps-classic-chicken-shawarma",
+    "dishName": "Classic Chicken Shawarma",
+    "imageUsed": "assets/menu/premium/chicken-wrap.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/chicken-wrap.webp",
+    "sourceImage": "assets/food-source/Rolls/Rolls Wraps (65).png",
+    "confidence": 0.92,
+    "reason": "Visible chicken wrap stock image matched to chicken shawarma/wrap family."
+  },
+  {
+    "dishId": "shawarma-wraps-arabian-chicken-shawarma",
+    "dishName": "Arabian Chicken Shawarma",
+    "imageUsed": "assets/menu/premium/chicken-wrap.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/chicken-wrap.webp",
+    "sourceImage": "assets/food-source/Rolls/Rolls Wraps (65).png",
+    "confidence": 0.92,
+    "reason": "Visible chicken wrap stock image matched to chicken shawarma/wrap family."
+  },
+  {
+    "dishId": "shawarma-wraps-peri-peri-chicken-shawarma",
+    "dishName": "Peri Peri Chicken Shawarma",
+    "imageUsed": "assets/menu/premium/chicken-wrap.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/chicken-wrap.webp",
+    "sourceImage": "assets/food-source/Rolls/Rolls Wraps (65).png",
+    "confidence": 0.92,
+    "reason": "Visible chicken wrap stock image matched to chicken shawarma/wrap family."
+  },
+  {
+    "dishId": "shawarma-wraps-bbq-chicken-shawarma",
+    "dishName": "BBQ Chicken Shawarma",
+    "imageUsed": "assets/menu/premium/chicken-wrap.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/chicken-wrap.webp",
+    "sourceImage": "assets/food-source/Rolls/Rolls Wraps (65).png",
+    "confidence": 0.92,
+    "reason": "Visible chicken wrap stock image matched to chicken shawarma/wrap family."
+  },
+  {
+    "dishId": "shawarma-wraps-smoky-chicken-shawarma",
+    "dishName": "Smoky Chicken Shawarma",
+    "imageUsed": "assets/menu/premium/chicken-wrap.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/chicken-wrap.webp",
+    "sourceImage": "assets/food-source/Rolls/Rolls Wraps (65).png",
+    "confidence": 0.92,
+    "reason": "Visible chicken wrap stock image matched to chicken shawarma/wrap family."
+  },
+  {
+    "dishId": "shawarma-wraps-tandoori-chicken-shawarma",
+    "dishName": "Tandoori Chicken Shawarma",
+    "imageUsed": "assets/menu/premium/chicken-wrap.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/chicken-wrap.webp",
+    "sourceImage": "assets/food-source/Rolls/Rolls Wraps (65).png",
+    "confidence": 0.92,
+    "reason": "Visible chicken wrap stock image matched to chicken shawarma/wrap family."
+  },
+  {
+    "dishId": "shawarma-wraps-cheesy-chicken-shawarma",
+    "dishName": "Cheesy Chicken Shawarma",
+    "imageUsed": "assets/menu/premium/chicken-wrap.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/chicken-wrap.webp",
+    "sourceImage": "assets/food-source/Rolls/Rolls Wraps (65).png",
+    "confidence": 0.92,
+    "reason": "Visible chicken wrap stock image matched to chicken shawarma/wrap family."
+  },
+  {
+    "dishId": "shawarma-wraps-double-chicken-shawarma",
+    "dishName": "Double Chicken Shawarma",
+    "imageUsed": "assets/menu/premium/chicken-wrap.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/chicken-wrap.webp",
+    "sourceImage": "assets/food-source/Rolls/Rolls Wraps (65).png",
+    "confidence": 0.92,
+    "reason": "Visible chicken wrap stock image matched to chicken shawarma/wrap family."
+  },
+  {
+    "dishId": "shawarma-wraps-loaded-chicken-shawarma",
+    "dishName": "Loaded Chicken Shawarma",
+    "imageUsed": "assets/menu/premium/chicken-wrap.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/chicken-wrap.webp",
+    "sourceImage": "assets/food-source/Rolls/Rolls Wraps (65).png",
+    "confidence": 0.92,
+    "reason": "Visible chicken wrap stock image matched to chicken shawarma/wrap family."
+  },
+  {
+    "dishId": "shawarma-wraps-jumbo-chicken-shawarma",
+    "dishName": "Jumbo Chicken Shawarma",
+    "imageUsed": "assets/menu/premium/chicken-wrap.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/chicken-wrap.webp",
+    "sourceImage": "assets/food-source/Rolls/Rolls Wraps (65).png",
+    "confidence": 0.92,
+    "reason": "Visible chicken wrap stock image matched to chicken shawarma/wrap family."
+  },
+  {
+    "dishId": "shawarma-wraps-mexican-chicken-shawarma",
+    "dishName": "Mexican Chicken Shawarma",
+    "imageUsed": "assets/menu/premium/chicken-wrap.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/chicken-wrap.webp",
+    "sourceImage": "assets/food-source/Rolls/Rolls Wraps (65).png",
+    "confidence": 0.92,
+    "reason": "Visible chicken wrap stock image matched to chicken shawarma/wrap family."
+  },
+  {
+    "dishId": "shawarma-wraps-paneer-shawarma",
+    "dishName": "Paneer Shawarma",
+    "imageUsed": "assets/menu/premium/veg-wrap.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/veg-wrap.webp",
+    "sourceImage": "assets/food-source/Rolls/Rolls Wraps (50).png",
+    "confidence": 0.91,
+    "reason": "Visible vegetable wrap stock image matched to veg wrap family."
+  },
+  {
+    "dishId": "shawarma-wraps-falafel-chicken-shawarma",
+    "dishName": "Falafel Chicken Shawarma",
+    "imageUsed": "assets/menu/premium/chicken-wrap.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/chicken-wrap.webp",
+    "sourceImage": "assets/food-source/Rolls/Rolls Wraps (65).png",
+    "confidence": 0.92,
+    "reason": "Visible chicken wrap stock image matched to chicken shawarma/wrap family."
+  },
+  {
+    "dishId": "shawarma-wraps-veggie-shawarma",
+    "dishName": "Veggie Shawarma",
+    "imageUsed": "assets/menu/premium/veg-wrap.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/veg-wrap.webp",
+    "sourceImage": "assets/food-source/Rolls/Rolls Wraps (50).png",
+    "confidence": 0.91,
+    "reason": "Visible vegetable wrap stock image matched to veg wrap family."
+  },
+  {
+    "dishId": "shawarma-wraps-grilled-chicken-wrap",
+    "dishName": "Grilled Chicken Wrap",
+    "imageUsed": "assets/menu/premium/chicken-wrap.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/chicken-wrap.webp",
+    "sourceImage": "assets/food-source/Rolls/Rolls Wraps (65).png",
+    "confidence": 0.92,
+    "reason": "Visible chicken wrap stock image matched to chicken shawarma/wrap family."
+  },
+  {
+    "dishId": "shawarma-wraps-paneer-wrap",
+    "dishName": "Paneer Wrap",
+    "imageUsed": "assets/menu/premium/veg-wrap.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/veg-wrap.webp",
+    "sourceImage": "assets/food-source/Rolls/Rolls Wraps (50).png",
+    "confidence": 0.91,
+    "reason": "Visible vegetable wrap stock image matched to veg wrap family."
+  },
+  {
+    "dishId": "shawarma-wraps-falafel-wrap",
+    "dishName": "Falafel Wrap",
+    "imageUsed": "assets/menu/premium/veg-wrap.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/veg-wrap.webp",
+    "sourceImage": "assets/food-source/Rolls/Rolls Wraps (50).png",
+    "confidence": 0.91,
+    "reason": "Visible vegetable wrap stock image matched to veg wrap family."
+  },
+  {
+    "dishId": "shawarma-wraps-mexican-chicken-wrap",
+    "dishName": "Mexican Chicken Wrap",
+    "imageUsed": "assets/menu/premium/chicken-wrap.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/chicken-wrap.webp",
+    "sourceImage": "assets/food-source/Rolls/Rolls Wraps (65).png",
+    "confidence": 0.92,
+    "reason": "Visible chicken wrap stock image matched to chicken shawarma/wrap family."
+  },
+  {
+    "dishId": "shawarma-wraps-peri-peri-chicken-wrap",
+    "dishName": "Peri Peri Chicken Wrap",
+    "imageUsed": "assets/menu/premium/chicken-wrap.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/chicken-wrap.webp",
+    "sourceImage": "assets/food-source/Rolls/Rolls Wraps (65).png",
+    "confidence": 0.92,
+    "reason": "Visible chicken wrap stock image matched to chicken shawarma/wrap family."
+  },
+  {
+    "dishId": "veg-biryanis-plain-biryani-rice",
+    "dishName": "Plain Biryani Rice",
+    "imageUsed": "assets/menu/premium/steamed-rice.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/steamed-rice.webp",
+    "sourceImage": "assets/food-source/Biryani/Biryani (72).png",
+    "confidence": 0.93,
+    "reason": "Plain rice stock image matched to plain rice dish."
+  },
+  {
+    "dishId": "veg-biryanis-veg-biryani",
+    "dishName": "Veg Biryani",
+    "imageUsed": "assets/menu/premium/veg-biryani.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/veg-biryani.webp",
+    "sourceImage": "assets/food-source/Biryani/Biryani (7).png",
+    "confidence": 0.91,
+    "reason": "Visible vegetable biryani stock image matched to veg biryani family."
+  },
+  {
+    "dishId": "veg-biryanis-paneer-biryani",
+    "dishName": "Paneer Biryani",
+    "imageUsed": "assets/menu/premium/paneer-biryani.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/paneer-biryani.webp",
+    "sourceImage": "assets/food-source/Biryani/Biryani (94).png",
+    "confidence": 0.93,
+    "reason": "Visible paneer biryani stock image matched to paneer biryani family."
+  },
+  {
+    "dishId": "veg-biryanis-paneer-kaju-biryani",
+    "dishName": "Paneer Kaju Biryani",
+    "imageUsed": "assets/menu/premium/paneer-biryani.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/paneer-biryani.webp",
+    "sourceImage": "assets/food-source/Biryani/Biryani (94).png",
+    "confidence": 0.93,
+    "reason": "Visible paneer biryani stock image matched to paneer biryani family."
+  },
+  {
+    "dishId": "veg-biryanis-paneer-pulao",
+    "dishName": "Paneer Pulao",
+    "imageUsed": "assets/menu/premium/paneer-biryani.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/paneer-biryani.webp",
+    "sourceImage": "assets/food-source/Biryani/Biryani (94).png",
+    "confidence": 0.93,
+    "reason": "Visible paneer biryani stock image matched to paneer biryani family."
+  },
+  {
+    "dishId": "veg-biryanis-paneer-avakai-biryani",
+    "dishName": "Paneer Avakai Biryani",
+    "imageUsed": "assets/menu/premium/paneer-biryani.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/paneer-biryani.webp",
+    "sourceImage": "assets/food-source/Biryani/Biryani (94).png",
+    "confidence": 0.93,
+    "reason": "Visible paneer biryani stock image matched to paneer biryani family."
+  },
+  {
+    "dishId": "veg-biryanis-veg-avakai-biryani",
+    "dishName": "Veg Avakai Biryani",
+    "imageUsed": "assets/menu/premium/veg-biryani.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/veg-biryani.webp",
+    "sourceImage": "assets/food-source/Biryani/Biryani (7).png",
+    "confidence": 0.91,
+    "reason": "Visible vegetable biryani stock image matched to veg biryani family."
+  },
+  {
+    "dishId": "veg-biryanis-paneer-tikka-biryani",
+    "dishName": "Paneer Tikka Biryani",
+    "imageUsed": "assets/menu/premium/paneer-biryani.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/paneer-biryani.webp",
+    "sourceImage": "assets/food-source/Biryani/Biryani (94).png",
+    "confidence": 0.93,
+    "reason": "Visible paneer biryani stock image matched to paneer biryani family."
+  },
+  {
+    "dishId": "veg-pot-biryanis-veg-pot-biryani",
+    "dishName": "Veg Pot Biryani",
+    "imageUsed": "assets/menu/premium/veg-biryani.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/veg-biryani.webp",
+    "sourceImage": "assets/food-source/Biryani/Biryani (7).png",
+    "confidence": 0.91,
+    "reason": "Visible vegetable biryani stock image matched to veg biryani family."
+  },
+  {
+    "dishId": "veg-pot-biryanis-paneer-pot-biryani",
+    "dishName": "Paneer Pot Biryani",
+    "imageUsed": "assets/menu/premium/paneer-biryani.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/paneer-biryani.webp",
+    "sourceImage": "assets/food-source/Biryani/Biryani (94).png",
+    "confidence": 0.93,
+    "reason": "Visible paneer biryani stock image matched to paneer biryani family."
+  },
+  {
+    "dishId": "veg-pot-biryanis-paneer-kaju-pot-biryani",
+    "dishName": "Paneer Kaju Pot Biryani",
+    "imageUsed": "assets/menu/premium/paneer-biryani.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/paneer-biryani.webp",
+    "sourceImage": "assets/food-source/Biryani/Biryani (94).png",
+    "confidence": 0.93,
+    "reason": "Visible paneer biryani stock image matched to paneer biryani family."
+  },
+  {
+    "dishId": "veg-pot-biryanis-amigos-veg-special-pot-biryani",
+    "dishName": "Amigos Veg Special Pot Biryani",
+    "imageUsed": "assets/menu/premium/veg-biryani.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/veg-biryani.webp",
+    "sourceImage": "assets/food-source/Biryani/Biryani (7).png",
+    "confidence": 0.91,
+    "reason": "Visible vegetable biryani stock image matched to veg biryani family."
+  },
+  {
+    "dishId": "nonveg-biryanis-hyderabadi-egg-biryani",
+    "dishName": "Hyderabadi Egg Biryani",
+    "imageUsed": "assets/menu/premium/egg-biryani.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/egg-biryani.webp",
+    "sourceImage": "assets/food-source/Biryani/Biryani (54).png",
+    "confidence": 0.96,
+    "reason": "Visible egg biryani stock image matched to egg biryani family."
+  },
+  {
+    "dishId": "nonveg-biryanis-amigos-fry-piece-chicken-biryani",
+    "dishName": "Amigos Fry Piece Chicken Biryani",
+    "imageUsed": "assets/menu/premium/chicken-biryani.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/chicken-biryani.webp",
+    "sourceImage": "assets/food-source/Biryani/Biryani (5).png",
+    "confidence": 0.94,
+    "reason": "Visible chicken biryani stock image matched to chicken biryani family."
+  },
+  {
+    "dishId": "nonveg-biryanis-hyderabadi-chicken-dum-biryani",
+    "dishName": "Hyderabadi Chicken Dum Biryani",
+    "imageUsed": "assets/menu/premium/chicken-biryani.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/chicken-biryani.webp",
+    "sourceImage": "assets/food-source/Biryani/Biryani (5).png",
+    "confidence": 0.94,
+    "reason": "Visible chicken biryani stock image matched to chicken biryani family."
+  },
+  {
+    "dishId": "nonveg-biryanis-chicken-wings-biryani",
+    "dishName": "Chicken Wings Biryani",
+    "imageUsed": "assets/menu/premium/chicken-biryani.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/chicken-biryani.webp",
+    "sourceImage": "assets/food-source/Biryani/Biryani (5).png",
+    "confidence": 0.94,
+    "reason": "Visible chicken biryani stock image matched to chicken biryani family."
+  },
+  {
+    "dishId": "nonveg-biryanis-konaseema-chicken-biryani",
+    "dishName": "Konaseema Chicken Biryani",
+    "imageUsed": "assets/menu/premium/chicken-biryani.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/chicken-biryani.webp",
+    "sourceImage": "assets/food-source/Biryani/Biryani (5).png",
+    "confidence": 0.94,
+    "reason": "Visible chicken biryani stock image matched to chicken biryani family."
+  },
+  {
+    "dishId": "nonveg-biryanis-boneless-chicken-biryani",
+    "dishName": "Boneless Chicken Biryani",
+    "imageUsed": "assets/menu/premium/chicken-biryani.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/chicken-biryani.webp",
+    "sourceImage": "assets/food-source/Biryani/Biryani (5).png",
+    "confidence": 0.94,
+    "reason": "Visible chicken biryani stock image matched to chicken biryani family."
+  },
+  {
+    "dishId": "nonveg-biryanis-mughalai-chicken-biryani",
+    "dishName": "Mughalai Chicken Biryani",
+    "imageUsed": "assets/menu/premium/chicken-biryani.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/chicken-biryani.webp",
+    "sourceImage": "assets/food-source/Biryani/Biryani (5).png",
+    "confidence": 0.94,
+    "reason": "Visible chicken biryani stock image matched to chicken biryani family."
+  },
+  {
+    "dishId": "nonveg-biryanis-chicken-65-biryani",
+    "dishName": "Chicken 65 Biryani",
+    "imageUsed": "assets/menu/premium/chicken-biryani.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/chicken-biryani.webp",
+    "sourceImage": "assets/food-source/Biryani/Biryani (5).png",
+    "confidence": 0.94,
+    "reason": "Visible chicken biryani stock image matched to chicken biryani family."
+  },
+  {
+    "dishId": "nonveg-biryanis-andhra-avakai-chicken-biryani",
+    "dishName": "Andhra Avakai Chicken Biryani",
+    "imageUsed": "assets/menu/premium/chicken-biryani.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/chicken-biryani.webp",
+    "sourceImage": "assets/food-source/Biryani/Biryani (5).png",
+    "confidence": 0.94,
+    "reason": "Visible chicken biryani stock image matched to chicken biryani family."
+  },
+  {
+    "dishId": "nonveg-biryanis-chicken-tikka-biryani",
+    "dishName": "Chicken Tikka Biryani",
+    "imageUsed": "assets/menu/premium/chicken-biryani.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/chicken-biryani.webp",
+    "sourceImage": "assets/food-source/Biryani/Biryani (5).png",
+    "confidence": 0.94,
+    "reason": "Visible chicken biryani stock image matched to chicken biryani family."
+  },
+  {
+    "dishId": "nonveg-biryanis-chicken-tangdi-biryani",
+    "dishName": "Chicken Tangdi Biryani",
+    "imageUsed": "assets/menu/premium/chicken-biryani.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/chicken-biryani.webp",
+    "sourceImage": "assets/food-source/Biryani/Biryani (5).png",
+    "confidence": 0.94,
+    "reason": "Visible chicken biryani stock image matched to chicken biryani family."
+  },
+  {
+    "dishId": "nonveg-biryanis-chicken-lollipop-biryani",
+    "dishName": "Chicken Lollipop Biryani",
+    "imageUsed": "assets/menu/premium/chicken-biryani.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/chicken-biryani.webp",
+    "sourceImage": "assets/food-source/Biryani/Biryani (5).png",
+    "confidence": 0.94,
+    "reason": "Visible chicken biryani stock image matched to chicken biryani family."
+  },
+  {
+    "dishId": "nonveg-biryanis-tandoor-chicken-biryani",
+    "dishName": "Tandoor Chicken Biryani",
+    "imageUsed": "assets/menu/premium/chicken-biryani.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/chicken-biryani.webp",
+    "sourceImage": "assets/food-source/Biryani/Biryani (5).png",
+    "confidence": 0.94,
+    "reason": "Visible chicken biryani stock image matched to chicken biryani family."
+  },
+  {
+    "dishId": "nonveg-biryanis-avakai-chicken-boneless-biryani",
+    "dishName": "Avakai Chicken Boneless Biryani",
+    "imageUsed": "assets/menu/premium/chicken-biryani.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/chicken-biryani.webp",
+    "sourceImage": "assets/food-source/Biryani/Biryani (5).png",
+    "confidence": 0.94,
+    "reason": "Visible chicken biryani stock image matched to chicken biryani family."
+  },
+  {
+    "dishId": "nonveg-biryanis-avakai-chicken-pulao-bone",
+    "dishName": "Avakai Chicken Pulao Bone",
+    "imageUsed": "assets/menu/premium/chicken-biryani.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/chicken-biryani.webp",
+    "sourceImage": "assets/food-source/Biryani/Biryani (5).png",
+    "confidence": 0.94,
+    "reason": "Visible chicken biryani stock image matched to chicken biryani family."
+  },
+  {
+    "dishId": "nonveg-biryanis-avakai-chicken-pulao-boneless",
+    "dishName": "Avakai Chicken Pulao Boneless",
+    "imageUsed": "assets/menu/premium/chicken-biryani.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/chicken-biryani.webp",
+    "sourceImage": "assets/food-source/Biryani/Biryani (5).png",
+    "confidence": 0.94,
+    "reason": "Visible chicken biryani stock image matched to chicken biryani family."
+  },
+  {
+    "dishId": "nonveg-biryanis-prawns-biryani",
+    "dishName": "Prawns Biryani",
+    "imageUsed": "assets/menu/premium/prawn-biryani.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/prawn-biryani.webp",
+    "sourceImage": "assets/food-source/Biryani/Biryani (71).png",
+    "confidence": 0.94,
+    "reason": "Visible prawn biryani stock image matched to prawn biryani family."
+  },
+  {
+    "dishId": "nonveg-biryanis-special-spicy-prawns-pulao",
+    "dishName": "Special Spicy Prawns Pulao",
+    "imageUsed": "assets/menu/premium/prawn-biryani.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/prawn-biryani.webp",
+    "sourceImage": "assets/food-source/Biryani/Biryani (71).png",
+    "confidence": 0.94,
+    "reason": "Visible prawn biryani stock image matched to prawn biryani family."
+  },
+  {
+    "dishId": "nonveg-pot-biryanis-chicken-pot-biryani-with-bone",
+    "dishName": "Chicken Pot Biryani With Bone",
+    "imageUsed": "assets/menu/premium/chicken-biryani.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/chicken-biryani.webp",
+    "sourceImage": "assets/food-source/Biryani/Biryani (5).png",
+    "confidence": 0.94,
+    "reason": "Visible chicken biryani stock image matched to chicken biryani family."
+  },
+  {
+    "dishId": "nonveg-pot-biryanis-boneless-chicken-pot-biryani",
+    "dishName": "Boneless Chicken Pot Biryani",
+    "imageUsed": "assets/menu/premium/chicken-biryani.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/chicken-biryani.webp",
+    "sourceImage": "assets/food-source/Biryani/Biryani (5).png",
+    "confidence": 0.94,
+    "reason": "Visible chicken biryani stock image matched to chicken biryani family."
+  },
+  {
+    "dishId": "nonveg-pot-biryanis-chicken-tikka-pot-biryani",
+    "dishName": "Chicken Tikka Pot Biryani",
+    "imageUsed": "assets/menu/premium/chicken-biryani.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/chicken-biryani.webp",
+    "sourceImage": "assets/food-source/Biryani/Biryani (5).png",
+    "confidence": 0.94,
+    "reason": "Visible chicken biryani stock image matched to chicken biryani family."
+  },
+  {
+    "dishId": "nonveg-pot-biryanis-special-prawns-pot-biryani",
+    "dishName": "Special Prawns Pot Biryani",
+    "imageUsed": "assets/menu/premium/prawn-biryani.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/prawn-biryani.webp",
+    "sourceImage": "assets/food-source/Biryani/Biryani (71).png",
+    "confidence": 0.94,
+    "reason": "Visible prawn biryani stock image matched to prawn biryani family."
+  },
+  {
+    "dishId": "family-packs-hyderabadi-chicken-dum-family-pack",
+    "dishName": "Hyderabadi Chicken Dum Family Pack",
+    "imageUsed": "assets/menu/premium/chicken-biryani.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/chicken-biryani.webp",
+    "sourceImage": "assets/food-source/Biryani/Biryani (5).png",
+    "confidence": 0.94,
+    "reason": "Visible chicken biryani stock image matched to chicken biryani family."
+  },
+  {
+    "dishId": "family-packs-fry-piece-chicken-biryani-family-pack",
+    "dishName": "Fry Piece Chicken Biryani Family Pack",
+    "imageUsed": "assets/menu/premium/chicken-biryani.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/chicken-biryani.webp",
+    "sourceImage": "assets/food-source/Biryani/Biryani (5).png",
+    "confidence": 0.94,
+    "reason": "Visible chicken biryani stock image matched to chicken biryani family."
+  },
+  {
+    "dishId": "family-packs-veg-biryani-family-pack",
+    "dishName": "Veg Biryani Family Pack",
+    "imageUsed": "assets/menu/premium/veg-biryani.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/veg-biryani.webp",
+    "sourceImage": "assets/food-source/Biryani/Biryani (7).png",
+    "confidence": 0.91,
+    "reason": "Visible vegetable biryani stock image matched to veg biryani family."
+  },
+  {
+    "dishId": "family-packs-paneer-tikka-biryani-family-pack",
+    "dishName": "Paneer Tikka Biryani Family Pack",
+    "imageUsed": "assets/menu/premium/paneer-biryani.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/paneer-biryani.webp",
+    "sourceImage": "assets/food-source/Biryani/Biryani (94).png",
+    "confidence": 0.93,
+    "reason": "Visible paneer biryani stock image matched to paneer biryani family."
+  },
+  {
+    "dishId": "family-packs-chicken-tandoori-biryani-family-pack",
+    "dishName": "Chicken Tandoori Biryani Family Pack",
+    "imageUsed": "assets/menu/premium/chicken-biryani.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/chicken-biryani.webp",
+    "sourceImage": "assets/food-source/Biryani/Biryani (5).png",
+    "confidence": 0.94,
+    "reason": "Visible chicken biryani stock image matched to chicken biryani family."
+  },
+  {
+    "dishId": "dals-slow-cooked-dal-makhani",
+    "dishName": "Slow Cooked Dal Makhani",
+    "imageUsed": "assets/menu/premium/dal-makhani.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/dal-makhani.webp",
+    "sourceImage": "assets/food-source/North Indian Maincourse/North Indian Course  (67).png",
+    "confidence": 0.96,
+    "reason": "Visible dal makhani stock image matched exactly."
+  },
+  {
+    "dishId": "paneer-main-course-creamy-paneer-butter-masala",
+    "dishName": "Creamy Paneer Butter Masala",
+    "imageUsed": "assets/menu/premium/paneer-curry.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/paneer-curry.webp",
+    "sourceImage": "assets/food-source/North Indian Maincourse/North Indian Course  (16).png",
+    "confidence": 0.93,
+    "reason": "Visible paneer gravy stock image matched to paneer main-course family."
+  },
+  {
+    "dishId": "paneer-main-course-matar-paneer-masala",
+    "dishName": "Matar Paneer Masala",
+    "imageUsed": "assets/menu/premium/paneer-curry.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/paneer-curry.webp",
+    "sourceImage": "assets/food-source/North Indian Maincourse/North Indian Course  (16).png",
+    "confidence": 0.93,
+    "reason": "Visible paneer gravy stock image matched to paneer main-course family."
+  },
+  {
+    "dishId": "paneer-main-course-royal-paneer-lababdar",
+    "dishName": "Royal Paneer Lababdar",
+    "imageUsed": "assets/menu/premium/paneer-curry.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/paneer-curry.webp",
+    "sourceImage": "assets/food-source/North Indian Maincourse/North Indian Course  (16).png",
+    "confidence": 0.93,
+    "reason": "Visible paneer gravy stock image matched to paneer main-course family."
+  },
+  {
+    "dishId": "paneer-main-course-kadai-paneer-special",
+    "dishName": "Kadai Paneer Special",
+    "imageUsed": "assets/menu/premium/paneer-curry.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/paneer-curry.webp",
+    "sourceImage": "assets/food-source/North Indian Maincourse/North Indian Course  (16).png",
+    "confidence": 0.93,
+    "reason": "Visible paneer gravy stock image matched to paneer main-course family."
+  },
+  {
+    "dishId": "paneer-main-course-royal-shahi-paneer",
+    "dishName": "Royal Shahi Paneer",
+    "imageUsed": "assets/menu/premium/paneer-curry.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/paneer-curry.webp",
+    "sourceImage": "assets/food-source/North Indian Maincourse/North Indian Course  (16).png",
+    "confidence": 0.93,
+    "reason": "Visible paneer gravy stock image matched to paneer main-course family."
+  },
+  {
+    "dishId": "paneer-main-course-tandoori-paneer-tikka-masala",
+    "dishName": "Tandoori Paneer Tikka Masala",
+    "imageUsed": "assets/menu/premium/paneer-curry.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/paneer-curry.webp",
+    "sourceImage": "assets/food-source/North Indian Maincourse/North Indian Course  (16).png",
+    "confidence": 0.93,
+    "reason": "Visible paneer gravy stock image matched to paneer main-course family."
+  },
+  {
+    "dishId": "paneer-main-course-dhaba-paneer-bhurji",
+    "dishName": "Dhaba Paneer Bhurji",
+    "imageUsed": "assets/menu/premium/paneer-curry.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/paneer-curry.webp",
+    "sourceImage": "assets/food-source/North Indian Maincourse/North Indian Course  (16).png",
+    "confidence": 0.93,
+    "reason": "Visible paneer gravy stock image matched to paneer main-course family."
+  },
+  {
+    "dishId": "paneer-main-course-paneer-do-pyaza-special",
+    "dishName": "Paneer Do Pyaza Special",
+    "imageUsed": "assets/menu/premium/paneer-curry.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/paneer-curry.webp",
+    "sourceImage": "assets/food-source/North Indian Maincourse/North Indian Course  (16).png",
+    "confidence": 0.93,
+    "reason": "Visible paneer gravy stock image matched to paneer main-course family."
+  },
+  {
+    "dishId": "paneer-main-course-spicy-paneer-kolhapuri",
+    "dishName": "Spicy Paneer Kolhapuri",
+    "imageUsed": "assets/menu/premium/paneer-curry.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/paneer-curry.webp",
+    "sourceImage": "assets/food-source/North Indian Maincourse/North Indian Course  (16).png",
+    "confidence": 0.93,
+    "reason": "Visible paneer gravy stock image matched to paneer main-course family."
+  },
+  {
+    "dishId": "paneer-main-course-royal-paneer-handi",
+    "dishName": "Royal Paneer Handi",
+    "imageUsed": "assets/menu/premium/paneer-curry.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/paneer-curry.webp",
+    "sourceImage": "assets/food-source/North Indian Maincourse/North Indian Course  (16).png",
+    "confidence": 0.93,
+    "reason": "Visible paneer gravy stock image matched to paneer main-course family."
+  },
+  {
+    "dishId": "paneer-main-course-punjabi-palak-paneer",
+    "dishName": "Punjabi Palak Paneer",
+    "imageUsed": "assets/menu/premium/palak-paneer.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/palak-paneer.webp",
+    "sourceImage": "assets/food-source/North Indian Maincourse/North Indian Course  (197).png",
+    "confidence": 0.93,
+    "reason": "Visible spinach-paneer stock image matched to palak/methi paneer family."
+  },
+  {
+    "dishId": "paneer-main-course-andhra-aavakai-paneer-masala",
+    "dishName": "Andhra Aavakai Paneer Masala",
+    "imageUsed": "assets/menu/premium/paneer-curry.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/paneer-curry.webp",
+    "sourceImage": "assets/food-source/North Indian Maincourse/North Indian Course  (16).png",
+    "confidence": 0.93,
+    "reason": "Visible paneer gravy stock image matched to paneer main-course family."
+  },
+  {
+    "dishId": "paneer-main-course-hyderabadi-paneer-masala-curry",
+    "dishName": "Hyderabadi Paneer Masala Curry",
+    "imageUsed": "assets/menu/premium/paneer-curry.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/paneer-curry.webp",
+    "sourceImage": "assets/food-source/North Indian Maincourse/North Indian Course  (16).png",
+    "confidence": 0.93,
+    "reason": "Visible paneer gravy stock image matched to paneer main-course family."
+  },
+  {
+    "dishId": "paneer-main-course-methi-chaman-paneer",
+    "dishName": "Methi Chaman Paneer",
+    "imageUsed": "assets/menu/premium/palak-paneer.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/palak-paneer.webp",
+    "sourceImage": "assets/food-source/North Indian Maincourse/North Indian Course  (197).png",
+    "confidence": 0.93,
+    "reason": "Visible spinach-paneer stock image matched to palak/methi paneer family."
+  },
+  {
+    "dishId": "paneer-main-course-kaju-paneer-butter-masala",
+    "dishName": "Kaju Paneer Butter Masala",
+    "imageUsed": "assets/menu/premium/paneer-curry.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/paneer-curry.webp",
+    "sourceImage": "assets/food-source/North Indian Maincourse/North Indian Course  (16).png",
+    "confidence": 0.93,
+    "reason": "Visible paneer gravy stock image matched to paneer main-course family."
+  },
+  {
+    "dishId": "egg-main-course-homestyle-egg-curry",
+    "dishName": "Homestyle Egg Curry",
+    "imageUsed": "assets/menu/premium/egg-curry.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/egg-curry.webp",
+    "sourceImage": "assets/food-source/North Indian Maincourse/North Indian Course  (142).png",
+    "confidence": 0.95,
+    "reason": "Visible egg curry stock image matched to egg curry family."
+  },
+  {
+    "dishId": "egg-main-course-dhaba-style-egg-curry",
+    "dishName": "Dhaba Style Egg Curry",
+    "imageUsed": "assets/menu/premium/egg-curry.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/egg-curry.webp",
+    "sourceImage": "assets/food-source/North Indian Maincourse/North Indian Course  (142).png",
+    "confidence": 0.95,
+    "reason": "Visible egg curry stock image matched to egg curry family."
+  },
+  {
+    "dishId": "egg-main-course-masala-omelette-curry",
+    "dishName": "Masala Omelette Curry",
+    "imageUsed": "assets/menu/premium/egg-curry.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/egg-curry.webp",
+    "sourceImage": "assets/food-source/North Indian Maincourse/North Indian Course  (142).png",
+    "confidence": 0.95,
+    "reason": "Visible egg curry stock image matched to egg curry family."
+  },
+  {
+    "dishId": "chicken-main-course-dhaba-chicken-masala-bn",
+    "dishName": "Dhaba Chicken Masala (With Bone)",
+    "imageUsed": "assets/menu/premium/chicken-curry.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/chicken-curry.webp",
+    "sourceImage": "assets/food-source/North Indian Maincourse/North Indian Course  (93).png",
+    "confidence": 0.92,
+    "reason": "Visible chicken curry stock image matched to chicken curry/masala family."
+  },
+  {
+    "dishId": "chicken-main-course-spicy-darbar-tandoor-butter-chicken-bn",
+    "dishName": "Spicy Darbar Tandoori Butter Chicken (With Bone)",
+    "imageUsed": "assets/menu/premium/butter-chicken.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/butter-chicken.webp",
+    "sourceImage": "assets/food-source/North Indian Maincourse/North Indian Course  (130).png",
+    "confidence": 0.95,
+    "reason": "Visible butter chicken gravy stock image matched to butter chicken family."
+  },
+  {
+    "dishId": "chicken-main-course-royal-chicken-handi-bl",
+    "dishName": "Royal Chicken Handi (Boneless)",
+    "imageUsed": "assets/menu/premium/chicken-curry.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/chicken-curry.webp",
+    "sourceImage": "assets/food-source/North Indian Maincourse/North Indian Course  (93).png",
+    "confidence": 0.92,
+    "reason": "Visible chicken curry stock image matched to chicken curry/masala family."
+  },
+  {
+    "dishId": "chicken-main-course-kadai-chicken-special-bl",
+    "dishName": "Kadai Chicken Special (Boneless)",
+    "imageUsed": "assets/menu/premium/chicken-curry.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/chicken-curry.webp",
+    "sourceImage": "assets/food-source/North Indian Maincourse/North Indian Course  (93).png",
+    "confidence": 0.92,
+    "reason": "Visible chicken curry stock image matched to chicken curry/masala family."
+  },
+  {
+    "dishId": "chicken-main-course-fiery-chicken-kolhapuri-bl",
+    "dishName": "Fiery Chicken Kolhapuri (Boneless)",
+    "imageUsed": "assets/menu/premium/chicken-curry.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/chicken-curry.webp",
+    "sourceImage": "assets/food-source/North Indian Maincourse/North Indian Course  (93).png",
+    "confidence": 0.92,
+    "reason": "Visible chicken curry stock image matched to chicken curry/masala family."
+  },
+  {
+    "dishId": "chicken-main-course-royal-chicken-lababdar-bl",
+    "dishName": "Royal Chicken Lababdar (Boneless)",
+    "imageUsed": "assets/menu/premium/chicken-curry.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/chicken-curry.webp",
+    "sourceImage": "assets/food-source/North Indian Maincourse/North Indian Course  (93).png",
+    "confidence": 0.92,
+    "reason": "Visible chicken curry stock image matched to chicken curry/masala family."
+  },
+  {
+    "dishId": "chicken-main-course-tandoori-chicken-tikka-masala",
+    "dishName": "Tandoori Chicken Tikka Masala",
+    "imageUsed": "assets/menu/premium/chicken-curry.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/chicken-curry.webp",
+    "sourceImage": "assets/food-source/North Indian Maincourse/North Indian Course  (93).png",
+    "confidence": 0.92,
+    "reason": "Visible chicken curry stock image matched to chicken curry/masala family."
+  },
+  {
+    "dishId": "chicken-main-course-spicy-andhra-chicken-curry-bn",
+    "dishName": "Spicy Andhra Chicken Curry (With Bone)",
+    "imageUsed": "assets/menu/premium/chicken-curry.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/chicken-curry.webp",
+    "sourceImage": "assets/food-source/North Indian Maincourse/North Indian Course  (93).png",
+    "confidence": 0.92,
+    "reason": "Visible chicken curry stock image matched to chicken curry/masala family."
+  },
+  {
+    "dishId": "chicken-main-course-green-chilli-chicken-masala-bn",
+    "dishName": "Green Chilli Chicken Masala (With Bone)",
+    "imageUsed": "assets/menu/premium/chicken-curry.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/chicken-curry.webp",
+    "sourceImage": "assets/food-source/North Indian Maincourse/North Indian Course  (93).png",
+    "confidence": 0.92,
+    "reason": "Visible chicken curry stock image matched to chicken curry/masala family."
+  },
+  {
+    "dishId": "chicken-main-course-royal-mughlai-chicken-curry-bn",
+    "dishName": "Royal Mughlai Chicken Curry (With Bone)",
+    "imageUsed": "assets/menu/premium/chicken-curry.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/chicken-curry.webp",
+    "sourceImage": "assets/food-source/North Indian Maincourse/North Indian Course  (93).png",
+    "confidence": 0.92,
+    "reason": "Visible chicken curry stock image matched to chicken curry/masala family."
+  },
+  {
+    "dishId": "chicken-main-course-avakaya-chicken-masala-bn",
+    "dishName": "Avakaya Chicken Masala (With Bone)",
+    "imageUsed": "assets/menu/premium/chicken-curry.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/chicken-curry.webp",
+    "sourceImage": "assets/food-source/North Indian Maincourse/North Indian Course  (93).png",
+    "confidence": 0.92,
+    "reason": "Visible chicken curry stock image matched to chicken curry/masala family."
+  },
+  {
+    "dishId": "chicken-main-course-gongura-chicken-curry-bn",
+    "dishName": "Gongura Chicken Curry (With Bone)",
+    "imageUsed": "assets/menu/premium/chicken-curry.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/chicken-curry.webp",
+    "sourceImage": "assets/food-source/North Indian Maincourse/North Indian Course  (93).png",
+    "confidence": 0.92,
+    "reason": "Visible chicken curry stock image matched to chicken curry/masala family."
+  },
+  {
+    "dishId": "chicken-main-course-chicken-do-pyaza-special-bl",
+    "dishName": "Chicken Do Pyaza Special (Boneless)",
+    "imageUsed": "assets/menu/premium/chicken-curry.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/chicken-curry.webp",
+    "sourceImage": "assets/food-source/North Indian Maincourse/North Indian Course  (93).png",
+    "confidence": 0.92,
+    "reason": "Visible chicken curry stock image matched to chicken curry/masala family."
+  },
+  {
+    "dishId": "chicken-main-course-boneless-butter-chicken-masala",
+    "dishName": "Boneless Butter Chicken Masala",
+    "imageUsed": "assets/menu/premium/butter-chicken.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/butter-chicken.webp",
+    "sourceImage": "assets/food-source/North Indian Maincourse/North Indian Course  (130).png",
+    "confidence": 0.95,
+    "reason": "Visible butter chicken gravy stock image matched to butter chicken family."
+  },
+  {
+    "dishId": "chicken-main-course-dum-ka-chicken-masala",
+    "dishName": "Dum Ka Chicken Masala",
+    "imageUsed": "assets/menu/premium/chicken-curry.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/chicken-curry.webp",
+    "sourceImage": "assets/food-source/North Indian Maincourse/North Indian Course  (93).png",
+    "confidence": 0.92,
+    "reason": "Visible chicken curry stock image matched to chicken curry/masala family."
+  },
+  {
+    "dishId": "chicken-main-course-chicken-tangadi-masala",
+    "dishName": "Chicken Tangadi Masala",
+    "imageUsed": "assets/menu/premium/chicken-curry.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/chicken-curry.webp",
+    "sourceImage": "assets/food-source/North Indian Maincourse/North Indian Course  (93).png",
+    "confidence": 0.92,
+    "reason": "Visible chicken curry stock image matched to chicken curry/masala family."
+  },
+  {
+    "dishId": "mutton-main-course-kashmiri-mutton-rogan-josh",
+    "dishName": "Kashmiri Mutton Rogan Josh",
+    "imageUsed": "assets/menu/premium/mutton-curry.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/mutton-curry.webp",
+    "sourceImage": "assets/food-source/North Indian Maincourse/North Indian Course  (37).png",
+    "confidence": 0.92,
+    "reason": "Visible mutton curry stock image matched to mutton curry family."
+  },
+  {
+    "dishId": "mutton-main-course-bengali-mutton-kosha",
+    "dishName": "Bengali Mutton Kosha",
+    "imageUsed": "assets/menu/premium/mutton-curry.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/mutton-curry.webp",
+    "sourceImage": "assets/food-source/North Indian Maincourse/North Indian Course  (37).png",
+    "confidence": 0.92,
+    "reason": "Visible mutton curry stock image matched to mutton curry family."
+  },
+  {
+    "dishId": "mutton-main-course-dhaba-style-mutton-curry",
+    "dishName": "Dhaba Style Mutton Curry",
+    "imageUsed": "assets/menu/premium/mutton-curry.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/mutton-curry.webp",
+    "sourceImage": "assets/food-source/North Indian Maincourse/North Indian Course  (37).png",
+    "confidence": 0.92,
+    "reason": "Visible mutton curry stock image matched to mutton curry family."
+  },
+  {
+    "dishId": "mutton-main-course-royal-mutton-handi",
+    "dishName": "Royal Mutton Handi",
+    "imageUsed": "assets/menu/premium/mutton-curry.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/mutton-curry.webp",
+    "sourceImage": "assets/food-source/North Indian Maincourse/North Indian Course  (37).png",
+    "confidence": 0.92,
+    "reason": "Visible mutton curry stock image matched to mutton curry family."
+  },
+  {
+    "dishId": "mutton-main-course-kadai-mutton-special",
+    "dishName": "Kadai Mutton Special",
+    "imageUsed": "assets/menu/premium/mutton-curry.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/mutton-curry.webp",
+    "sourceImage": "assets/food-source/North Indian Maincourse/North Indian Course  (37).png",
+    "confidence": 0.92,
+    "reason": "Visible mutton curry stock image matched to mutton curry family."
+  },
+  {
+    "dishId": "mutton-main-course-spicy-mutton-keema-masala",
+    "dishName": "Spicy Mutton Keema Masala",
+    "imageUsed": "assets/menu/premium/mutton-curry.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/mutton-curry.webp",
+    "sourceImage": "assets/food-source/North Indian Maincourse/North Indian Course  (37).png",
+    "confidence": 0.92,
+    "reason": "Visible mutton curry stock image matched to mutton curry family."
+  },
+  {
+    "dishId": "mutton-main-course-mutton-do-pyaza-special",
+    "dishName": "Mutton Do Pyaza Special",
+    "imageUsed": "assets/menu/premium/mutton-curry.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/mutton-curry.webp",
+    "sourceImage": "assets/food-source/North Indian Maincourse/North Indian Course  (37).png",
+    "confidence": 0.92,
+    "reason": "Visible mutton curry stock image matched to mutton curry family."
+  },
+  {
+    "dishId": "mutton-main-course-pepper-mutton-fry",
+    "dishName": "Pepper Mutton Fry",
+    "imageUsed": "assets/menu/premium/mutton-curry.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/mutton-curry.webp",
+    "sourceImage": "assets/food-source/North Indian Maincourse/North Indian Course  (37).png",
+    "confidence": 0.92,
+    "reason": "Visible mutton curry stock image matched to mutton curry family."
+  },
+  {
+    "dishId": "mutton-main-course-gongura-mutton-curry",
+    "dishName": "Gongura Mutton Curry",
+    "imageUsed": "assets/menu/premium/mutton-curry.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/mutton-curry.webp",
+    "sourceImage": "assets/food-source/North Indian Maincourse/North Indian Course  (37).png",
+    "confidence": 0.92,
+    "reason": "Visible mutton curry stock image matched to mutton curry family."
+  },
+  {
+    "dishId": "mutton-main-course-dum-ka-mutton-masala",
+    "dishName": "Dum Ka Mutton Masala",
+    "imageUsed": "assets/menu/premium/mutton-curry.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/mutton-curry.webp",
+    "sourceImage": "assets/food-source/North Indian Maincourse/North Indian Course  (37).png",
+    "confidence": 0.92,
+    "reason": "Visible mutton curry stock image matched to mutton curry family."
+  },
+  {
+    "dishId": "seafood-main-course-basa-fish-masala-special",
+    "dishName": "Basa Fish Masala Special",
+    "imageUsed": "assets/menu/premium/fish-curry.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/fish-curry.webp",
+    "sourceImage": "assets/food-source/North Indian Maincourse/North Indian Course  (63).png",
+    "confidence": 0.92,
+    "reason": "Visible fish curry stock image matched to fish curry family."
+  },
+  {
+    "dishId": "seafood-main-course-kadai-fish-masala",
+    "dishName": "Kadai Fish Masala",
+    "imageUsed": "assets/menu/premium/fish-curry.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/fish-curry.webp",
+    "sourceImage": "assets/food-source/North Indian Maincourse/North Indian Course  (63).png",
+    "confidence": 0.92,
+    "reason": "Visible fish curry stock image matched to fish curry family."
+  },
+  {
+    "dishId": "seafood-main-course-creamy-butter-fish-masala",
+    "dishName": "Creamy Butter Fish Masala",
+    "imageUsed": "assets/menu/premium/fish-curry.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/fish-curry.webp",
+    "sourceImage": "assets/food-source/North Indian Maincourse/North Indian Course  (63).png",
+    "confidence": 0.92,
+    "reason": "Visible fish curry stock image matched to fish curry family."
+  },
+  {
+    "dishId": "seafood-main-course-tandoori-fish-tikka-masala",
+    "dishName": "Tandoori Fish Tikka Masala",
+    "imageUsed": "assets/menu/premium/fish-curry.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/fish-curry.webp",
+    "sourceImage": "assets/food-source/North Indian Maincourse/North Indian Course  (63).png",
+    "confidence": 0.92,
+    "reason": "Visible fish curry stock image matched to fish curry family."
+  },
+  {
+    "dishId": "seafood-main-course-spicy-andhra-fish-curry",
+    "dishName": "Spicy Andhra Fish Curry",
+    "imageUsed": "assets/menu/premium/fish-curry.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/fish-curry.webp",
+    "sourceImage": "assets/food-source/North Indian Maincourse/North Indian Course  (63).png",
+    "confidence": 0.92,
+    "reason": "Visible fish curry stock image matched to fish curry family."
+  },
+  {
+    "dishId": "seafood-main-course-classic-prawns-masala",
+    "dishName": "Classic Prawns Masala",
+    "imageUsed": "assets/menu/premium/prawn-curry.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/prawn-curry.webp",
+    "sourceImage": "assets/food-source/North Indian Maincourse/North Indian Course  (40).png",
+    "confidence": 0.92,
+    "reason": "Visible prawn curry stock image matched to prawn curry family."
+  },
+  {
+    "dishId": "seafood-main-course-butter-garlic-prawns-special",
+    "dishName": "Butter Garlic Prawns Special",
+    "imageUsed": "assets/menu/premium/prawn-curry.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/prawn-curry.webp",
+    "sourceImage": "assets/food-source/North Indian Maincourse/North Indian Course  (40).png",
+    "confidence": 0.92,
+    "reason": "Visible prawn curry stock image matched to prawn curry family."
+  },
+  {
+    "dishId": "seafood-main-course-creamy-malai-prawns-curry",
+    "dishName": "Creamy Malai Prawns Curry",
+    "imageUsed": "assets/menu/premium/prawn-curry.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/prawn-curry.webp",
+    "sourceImage": "assets/food-source/North Indian Maincourse/North Indian Course  (40).png",
+    "confidence": 0.92,
+    "reason": "Visible prawn curry stock image matched to prawn curry family."
+  },
+  {
+    "dishId": "seafood-main-course-spicy-andhra-prawns-curry",
+    "dishName": "Spicy Andhra Prawns Curry",
+    "imageUsed": "assets/menu/premium/prawn-curry.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/prawn-curry.webp",
+    "sourceImage": "assets/food-source/North Indian Maincourse/North Indian Course  (40).png",
+    "confidence": 0.92,
+    "reason": "Visible prawn curry stock image matched to prawn curry family."
+  },
+  {
+    "dishId": "seafood-main-course-pepper-prawn-masala",
+    "dishName": "Pepper Prawn Masala",
+    "imageUsed": "assets/menu/premium/prawn-curry.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/prawn-curry.webp",
+    "sourceImage": "assets/food-source/North Indian Maincourse/North Indian Course  (40).png",
+    "confidence": 0.92,
+    "reason": "Visible prawn curry stock image matched to prawn curry family."
+  },
+  {
+    "dishId": "seafood-main-course-chettinad-prawn-curry",
+    "dishName": "Chettinad Prawn Curry",
+    "imageUsed": "assets/menu/premium/prawn-curry.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/prawn-curry.webp",
+    "sourceImage": "assets/food-source/North Indian Maincourse/North Indian Course  (40).png",
+    "confidence": 0.92,
+    "reason": "Visible prawn curry stock image matched to prawn curry family."
+  },
+  {
+    "dishId": "tandoori-kebabs-classic-paneer-tikka",
+    "dishName": "Classic Paneer Tikka",
+    "imageUsed": "assets/menu/premium/paneer-tikka.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/paneer-tikka.webp",
+    "sourceImage": "assets/food-source/North Indian Starters/North Indian Starters/North Indian Starters (50).png",
+    "confidence": 0.94,
+    "reason": "Visible paneer tikka stock image matched to paneer tikka family."
+  },
+  {
+    "dishId": "tandoori-kebabs-achari-paneer-tikka",
+    "dishName": "Achari Paneer Tikka",
+    "imageUsed": "assets/menu/premium/paneer-tikka.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/paneer-tikka.webp",
+    "sourceImage": "assets/food-source/North Indian Starters/North Indian Starters/North Indian Starters (50).png",
+    "confidence": 0.94,
+    "reason": "Visible paneer tikka stock image matched to paneer tikka family."
+  },
+  {
+    "dishId": "tandoori-kebabs-hariyali-paneer-tikka",
+    "dishName": "Hariyali Paneer Tikka",
+    "imageUsed": "assets/menu/premium/paneer-tikka.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/paneer-tikka.webp",
+    "sourceImage": "assets/food-source/North Indian Starters/North Indian Starters/North Indian Starters (50).png",
+    "confidence": 0.94,
+    "reason": "Visible paneer tikka stock image matched to paneer tikka family."
+  },
+  {
+    "dishId": "tandoori-kebabs-malai-paneer-tikka",
+    "dishName": "Malai Paneer Tikka",
+    "imageUsed": "assets/menu/premium/paneer-tikka.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/paneer-tikka.webp",
+    "sourceImage": "assets/food-source/North Indian Starters/North Indian Starters/North Indian Starters (50).png",
+    "confidence": 0.94,
+    "reason": "Visible paneer tikka stock image matched to paneer tikka family."
+  },
+  {
+    "dishId": "tandoori-kebabs-tandoori-chicken",
+    "dishName": "Tandoori Chicken",
+    "imageUsed": "assets/menu/premium/tandoori-chicken.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/tandoori-chicken.webp",
+    "sourceImage": "assets/food-source/North Indian Starters/North Indian Starters/North Indian Starters (67).png",
+    "confidence": 0.93,
+    "reason": "Visible tandoori chicken/kebab stock image matched to chicken kebab family."
+  },
+  {
+    "dishId": "tandoori-kebabs-classic-chicken-tikka",
+    "dishName": "Classic Chicken Tikka",
+    "imageUsed": "assets/menu/premium/tandoori-chicken.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/tandoori-chicken.webp",
+    "sourceImage": "assets/food-source/North Indian Starters/North Indian Starters/North Indian Starters (67).png",
+    "confidence": 0.93,
+    "reason": "Visible tandoori chicken/kebab stock image matched to chicken kebab family."
+  },
+  {
+    "dishId": "tandoori-kebabs-malai-chicken-tikka",
+    "dishName": "Malai Chicken Tikka",
+    "imageUsed": "assets/menu/premium/malai-kebab.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/malai-kebab.webp",
+    "sourceImage": "assets/food-source/North Indian Starters/North Indian Starters/North Indian Starters (71).png",
+    "confidence": 0.93,
+    "reason": "Visible malai/white kebab stock image matched to malai-style kebab family."
+  },
+  {
+    "dishId": "tandoori-kebabs-hariyali-chicken-tikka",
+    "dishName": "Hariyali Chicken Tikka",
+    "imageUsed": "assets/menu/premium/tandoori-chicken.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/tandoori-chicken.webp",
+    "sourceImage": "assets/food-source/North Indian Starters/North Indian Starters/North Indian Starters (67).png",
+    "confidence": 0.93,
+    "reason": "Visible tandoori chicken/kebab stock image matched to chicken kebab family."
+  },
+  {
+    "dishId": "tandoori-kebabs-achari-chicken-tikka",
+    "dishName": "Achari Chicken Tikka",
+    "imageUsed": "assets/menu/premium/tandoori-chicken.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/tandoori-chicken.webp",
+    "sourceImage": "assets/food-source/North Indian Starters/North Indian Starters/North Indian Starters (67).png",
+    "confidence": 0.93,
+    "reason": "Visible tandoori chicken/kebab stock image matched to chicken kebab family."
+  },
+  {
+    "dishId": "tandoori-kebabs-afghani-chicken-tikka",
+    "dishName": "Afghani Chicken Tikka",
+    "imageUsed": "assets/menu/premium/malai-kebab.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/malai-kebab.webp",
+    "sourceImage": "assets/food-source/North Indian Starters/North Indian Starters/North Indian Starters (71).png",
+    "confidence": 0.93,
+    "reason": "Visible malai/white kebab stock image matched to malai-style kebab family."
+  },
+  {
+    "dishId": "tandoori-kebabs-tangdi-kebab",
+    "dishName": "Tangdi Kebab",
+    "imageUsed": "assets/menu/premium/tandoori-chicken.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/tandoori-chicken.webp",
+    "sourceImage": "assets/food-source/North Indian Starters/North Indian Starters/North Indian Starters (67).png",
+    "confidence": 0.93,
+    "reason": "Visible tandoori chicken/kebab stock image matched to chicken kebab family."
+  },
+  {
+    "dishId": "tandoori-kebabs-chicken-seekh-kebab",
+    "dishName": "Chicken Seekh Kebab",
+    "imageUsed": "assets/menu/premium/seekh-kebab.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/seekh-kebab.webp",
+    "sourceImage": "assets/food-source/North Indian Starters/North Indian Starters/North Indian Starters (2).png",
+    "confidence": 0.93,
+    "reason": "Visible seekh kebab stock image matched to seekh kebab."
+  },
+  {
+    "dishId": "tandoori-kebabs-reshmi-chicken-kebab",
+    "dishName": "Reshmi Chicken Kebab",
+    "imageUsed": "assets/menu/premium/malai-kebab.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/malai-kebab.webp",
+    "sourceImage": "assets/food-source/North Indian Starters/North Indian Starters/North Indian Starters (71).png",
+    "confidence": 0.93,
+    "reason": "Visible malai/white kebab stock image matched to malai-style kebab family."
+  },
+  {
+    "dishId": "tandoori-kebabs-pepper-chicken-kebab",
+    "dishName": "Pepper Chicken Kebab",
+    "imageUsed": "assets/menu/premium/tandoori-chicken.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/tandoori-chicken.webp",
+    "sourceImage": "assets/food-source/North Indian Starters/North Indian Starters/North Indian Starters (67).png",
+    "confidence": 0.93,
+    "reason": "Visible tandoori chicken/kebab stock image matched to chicken kebab family."
+  },
+  {
+    "dishId": "tandoori-kebabs-pahadi-chicken-kebab",
+    "dishName": "Pahadi Chicken Kebab",
+    "imageUsed": "assets/menu/premium/tandoori-chicken.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/tandoori-chicken.webp",
+    "sourceImage": "assets/food-source/North Indian Starters/North Indian Starters/North Indian Starters (67).png",
+    "confidence": 0.93,
+    "reason": "Visible tandoori chicken/kebab stock image matched to chicken kebab family."
+  },
+  {
+    "dishId": "tandoori-kebabs-udthi-panchi-chicken-kebab",
+    "dishName": "Udthi Panchi Chicken Kebab",
+    "imageUsed": "assets/menu/premium/tandoori-chicken.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/tandoori-chicken.webp",
+    "sourceImage": "assets/food-source/North Indian Starters/North Indian Starters/North Indian Starters (67).png",
+    "confidence": 0.93,
+    "reason": "Visible tandoori chicken/kebab stock image matched to chicken kebab family."
+  },
+  {
+    "dishId": "tandoori-kebabs-chicken-tikka-platter",
+    "dishName": "Chicken Tikka Platter",
+    "imageUsed": "assets/menu/premium/tandoori-chicken.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/tandoori-chicken.webp",
+    "sourceImage": "assets/food-source/North Indian Starters/North Indian Starters/North Indian Starters (67).png",
+    "confidence": 0.93,
+    "reason": "Visible tandoori chicken/kebab stock image matched to chicken kebab family."
+  },
+  {
+    "dishId": "chinese-main-course-veg-manchurian-gravy",
+    "dishName": "Veg Manchurian Gravy",
+    "imageUsed": "assets/menu/premium/manchurian.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/manchurian.webp",
+    "sourceImage": "assets/food-source/Chinese Pan Asian/Chinese Pan Asian (249).png",
+    "confidence": 0.92,
+    "reason": "Visible Manchurian-style balls stock image matched to Manchurian family."
+  },
+  {
+    "dishId": "chinese-main-course-chilli-paneer-gravy",
+    "dishName": "Chilli Paneer Gravy",
+    "imageUsed": "assets/menu/premium/paneer-chinese.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/paneer-chinese.webp",
+    "sourceImage": "assets/food-source/Chinese Pan Asian/Chinese Pan Asian (41).png",
+    "confidence": 0.92,
+    "reason": "Visible Indo-Chinese paneer cubes stock image matched to paneer starter/gravy family."
+  },
+  {
+    "dishId": "chinese-main-course-paneer-manchurian-gravy",
+    "dishName": "Paneer Manchurian Gravy",
+    "imageUsed": "assets/menu/premium/manchurian.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/manchurian.webp",
+    "sourceImage": "assets/food-source/Chinese Pan Asian/Chinese Pan Asian (249).png",
+    "confidence": 0.92,
+    "reason": "Visible Manchurian-style balls stock image matched to Manchurian family."
+  },
+  {
+    "dishId": "chinese-main-course-paneer-black-pepper",
+    "dishName": "Paneer Black Pepper",
+    "imageUsed": "assets/menu/premium/paneer-chinese.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/paneer-chinese.webp",
+    "sourceImage": "assets/food-source/Chinese Pan Asian/Chinese Pan Asian (41).png",
+    "confidence": 0.92,
+    "reason": "Visible Indo-Chinese paneer cubes stock image matched to paneer starter/gravy family."
+  },
+  {
+    "dishId": "chinese-main-course-paneer-hot-garlic",
+    "dishName": "Paneer Hot Garlic",
+    "imageUsed": "assets/menu/premium/paneer-chinese.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/paneer-chinese.webp",
+    "sourceImage": "assets/food-source/Chinese Pan Asian/Chinese Pan Asian (41).png",
+    "confidence": 0.92,
+    "reason": "Visible Indo-Chinese paneer cubes stock image matched to paneer starter/gravy family."
+  },
+  {
+    "dishId": "chinese-main-course-chicken-manchurian-gravy",
+    "dishName": "Chicken Manchurian Gravy",
+    "imageUsed": "assets/menu/premium/manchurian.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/manchurian.webp",
+    "sourceImage": "assets/food-source/Chinese Pan Asian/Chinese Pan Asian (249).png",
+    "confidence": 0.92,
+    "reason": "Visible Manchurian-style balls stock image matched to Manchurian family."
+  },
+  {
+    "dishId": "chinese-main-course-chilli-garlic-prawns-gravy",
+    "dishName": "Chilli Garlic Prawns Gravy",
+    "imageUsed": "assets/menu/premium/prawn-chinese.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/prawn-chinese.webp",
+    "sourceImage": "assets/food-source/Chinese Pan Asian/Chinese Pan Asian (193).png",
+    "confidence": 0.92,
+    "reason": "Visible prawn stir-fry stock image matched to Indo-Chinese prawn family."
+  },
+  {
+    "dishId": "chinese-main-course-prawns-black-pepper-gravy",
+    "dishName": "Prawns Black Pepper Gravy",
+    "imageUsed": "assets/menu/premium/prawn-chinese.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/prawn-chinese.webp",
+    "sourceImage": "assets/food-source/Chinese Pan Asian/Chinese Pan Asian (193).png",
+    "confidence": 0.92,
+    "reason": "Visible prawn stir-fry stock image matched to Indo-Chinese prawn family."
+  },
+  {
+    "dishId": "chinese-rice-veg-fried-rice",
+    "dishName": "Veg Fried Rice",
+    "imageUsed": "assets/menu/premium/fried-rice.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/fried-rice.webp",
+    "sourceImage": "assets/food-source/Chinese Pan Asian/Chinese Pan Asian (200).png",
+    "confidence": 0.93,
+    "reason": "Visible fried rice stock image matched to fried rice family."
+  },
+  {
+    "dishId": "chinese-rice-veg-schezwan-fried-rice",
+    "dishName": "Veg Schezwan Fried Rice",
+    "imageUsed": "assets/menu/premium/fried-rice.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/fried-rice.webp",
+    "sourceImage": "assets/food-source/Chinese Pan Asian/Chinese Pan Asian (200).png",
+    "confidence": 0.93,
+    "reason": "Visible fried rice stock image matched to fried rice family."
+  },
+  {
+    "dishId": "chinese-rice-veg-burnt-garlic-fried-rice",
+    "dishName": "Veg Burnt Garlic Fried Rice",
+    "imageUsed": "assets/menu/premium/fried-rice.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/fried-rice.webp",
+    "sourceImage": "assets/food-source/Chinese Pan Asian/Chinese Pan Asian (200).png",
+    "confidence": 0.93,
+    "reason": "Visible fried rice stock image matched to fried rice family."
+  },
+  {
+    "dishId": "chinese-rice-veg-dragon-fried-rice",
+    "dishName": "Veg Dragon Fried Rice",
+    "imageUsed": "assets/menu/premium/fried-rice.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/fried-rice.webp",
+    "sourceImage": "assets/food-source/Chinese Pan Asian/Chinese Pan Asian (200).png",
+    "confidence": 0.93,
+    "reason": "Visible fried rice stock image matched to fried rice family."
+  },
+  {
+    "dishId": "chinese-rice-paneer-schezwan-fried-rice",
+    "dishName": "Paneer Schezwan Fried Rice",
+    "imageUsed": "assets/menu/premium/fried-rice.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/fried-rice.webp",
+    "sourceImage": "assets/food-source/Chinese Pan Asian/Chinese Pan Asian (200).png",
+    "confidence": 0.93,
+    "reason": "Visible fried rice stock image matched to fried rice family."
+  },
+  {
+    "dishId": "chinese-rice-veg-triple-schezwan-fried-rice",
+    "dishName": "Veg Triple Schezwan Fried Rice",
+    "imageUsed": "assets/menu/premium/fried-rice.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/fried-rice.webp",
+    "sourceImage": "assets/food-source/Chinese Pan Asian/Chinese Pan Asian (200).png",
+    "confidence": 0.93,
+    "reason": "Visible fried rice stock image matched to fried rice family."
+  },
+  {
+    "dishId": "chinese-rice-egg-fried-rice",
+    "dishName": "Egg Fried Rice",
+    "imageUsed": "assets/menu/premium/fried-rice.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/fried-rice.webp",
+    "sourceImage": "assets/food-source/Chinese Pan Asian/Chinese Pan Asian (200).png",
+    "confidence": 0.93,
+    "reason": "Visible fried rice stock image matched to fried rice family."
+  },
+  {
+    "dishId": "chinese-rice-egg-schezwan-fried-rice",
+    "dishName": "Egg Schezwan Fried Rice",
+    "imageUsed": "assets/menu/premium/fried-rice.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/fried-rice.webp",
+    "sourceImage": "assets/food-source/Chinese Pan Asian/Chinese Pan Asian (200).png",
+    "confidence": 0.93,
+    "reason": "Visible fried rice stock image matched to fried rice family."
+  },
+  {
+    "dishId": "chinese-rice-chicken-fried-rice",
+    "dishName": "Chicken Fried Rice",
+    "imageUsed": "assets/menu/premium/fried-rice.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/fried-rice.webp",
+    "sourceImage": "assets/food-source/Chinese Pan Asian/Chinese Pan Asian (200).png",
+    "confidence": 0.93,
+    "reason": "Visible fried rice stock image matched to fried rice family."
+  },
+  {
+    "dishId": "chinese-rice-chicken-schezwan-fried-rice",
+    "dishName": "Chicken Schezwan Fried Rice",
+    "imageUsed": "assets/menu/premium/fried-rice.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/fried-rice.webp",
+    "sourceImage": "assets/food-source/Chinese Pan Asian/Chinese Pan Asian (200).png",
+    "confidence": 0.93,
+    "reason": "Visible fried rice stock image matched to fried rice family."
+  },
+  {
+    "dishId": "chinese-rice-chicken-burnt-garlic-fried-rice",
+    "dishName": "Chicken Burnt Garlic Fried Rice",
+    "imageUsed": "assets/menu/premium/fried-rice.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/fried-rice.webp",
+    "sourceImage": "assets/food-source/Chinese Pan Asian/Chinese Pan Asian (200).png",
+    "confidence": 0.93,
+    "reason": "Visible fried rice stock image matched to fried rice family."
+  },
+  {
+    "dishId": "chinese-rice-chicken-dragon-fried-rice",
+    "dishName": "Chicken Dragon Fried Rice",
+    "imageUsed": "assets/menu/premium/fried-rice.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/fried-rice.webp",
+    "sourceImage": "assets/food-source/Chinese Pan Asian/Chinese Pan Asian (200).png",
+    "confidence": 0.93,
+    "reason": "Visible fried rice stock image matched to fried rice family."
+  },
+  {
+    "dishId": "chinese-rice-chicken-triple-schezwan-fried-rice",
+    "dishName": "Chicken Triple Schezwan Fried Rice",
+    "imageUsed": "assets/menu/premium/fried-rice.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/fried-rice.webp",
+    "sourceImage": "assets/food-source/Chinese Pan Asian/Chinese Pan Asian (200).png",
+    "confidence": 0.93,
+    "reason": "Visible fried rice stock image matched to fried rice family."
+  },
+  {
+    "dishId": "chinese-rice-prawn-fried-rice",
+    "dishName": "Prawn Fried Rice",
+    "imageUsed": "assets/menu/premium/fried-rice.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/fried-rice.webp",
+    "sourceImage": "assets/food-source/Chinese Pan Asian/Chinese Pan Asian (200).png",
+    "confidence": 0.93,
+    "reason": "Visible fried rice stock image matched to fried rice family."
+  },
+  {
+    "dishId": "chinese-rice-mixed-seafood-fried-rice",
+    "dishName": "Mixed Seafood Fried Rice",
+    "imageUsed": "assets/menu/premium/fried-rice.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/fried-rice.webp",
+    "sourceImage": "assets/food-source/Chinese Pan Asian/Chinese Pan Asian (200).png",
+    "confidence": 0.93,
+    "reason": "Visible fried rice stock image matched to fried rice family."
+  },
+  {
+    "dishId": "chinese-rice-mixed-non-veg-fried-rice",
+    "dishName": "Mixed Non-Veg Fried Rice",
+    "imageUsed": "assets/menu/premium/fried-rice.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/fried-rice.webp",
+    "sourceImage": "assets/food-source/Chinese Pan Asian/Chinese Pan Asian (200).png",
+    "confidence": 0.93,
+    "reason": "Visible fried rice stock image matched to fried rice family."
+  },
+  {
+    "dishId": "noodles-veg-hakka-noodles",
+    "dishName": "Veg Hakka Noodles",
+    "imageUsed": "assets/menu/premium/noodles.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/noodles.webp",
+    "sourceImage": "assets/food-source/Chinese Pan Asian/Chinese Pan Asian (231).png",
+    "confidence": 0.93,
+    "reason": "Visible wok noodles stock image matched to noodles family."
+  },
+  {
+    "dishId": "noodles-veg-schezwan-noodles",
+    "dishName": "Veg Schezwan Noodles",
+    "imageUsed": "assets/menu/premium/noodles.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/noodles.webp",
+    "sourceImage": "assets/food-source/Chinese Pan Asian/Chinese Pan Asian (231).png",
+    "confidence": 0.93,
+    "reason": "Visible wok noodles stock image matched to noodles family."
+  },
+  {
+    "dishId": "noodles-veg-garlic-noodles",
+    "dishName": "Veg Garlic Noodles",
+    "imageUsed": "assets/menu/premium/noodles.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/noodles.webp",
+    "sourceImage": "assets/food-source/Chinese Pan Asian/Chinese Pan Asian (231).png",
+    "confidence": 0.93,
+    "reason": "Visible wok noodles stock image matched to noodles family."
+  },
+  {
+    "dishId": "noodles-veg-burnt-garlic-noodles",
+    "dishName": "Veg Burnt Garlic Noodles",
+    "imageUsed": "assets/menu/premium/noodles.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/noodles.webp",
+    "sourceImage": "assets/food-source/Chinese Pan Asian/Chinese Pan Asian (231).png",
+    "confidence": 0.93,
+    "reason": "Visible wok noodles stock image matched to noodles family."
+  },
+  {
+    "dishId": "noodles-veg-singapore-noodles",
+    "dishName": "Veg Singapore Noodles",
+    "imageUsed": "assets/menu/premium/noodles.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/noodles.webp",
+    "sourceImage": "assets/food-source/Chinese Pan Asian/Chinese Pan Asian (231).png",
+    "confidence": 0.93,
+    "reason": "Visible wok noodles stock image matched to noodles family."
+  },
+  {
+    "dishId": "noodles-veg-triple-schezwan-noodles",
+    "dishName": "Veg Triple Schezwan Noodles",
+    "imageUsed": "assets/menu/premium/noodles.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/noodles.webp",
+    "sourceImage": "assets/food-source/Chinese Pan Asian/Chinese Pan Asian (231).png",
+    "confidence": 0.93,
+    "reason": "Visible wok noodles stock image matched to noodles family."
+  },
+  {
+    "dishId": "noodles-egg-hakka-noodles",
+    "dishName": "Egg Hakka Noodles",
+    "imageUsed": "assets/menu/premium/noodles.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/noodles.webp",
+    "sourceImage": "assets/food-source/Chinese Pan Asian/Chinese Pan Asian (231).png",
+    "confidence": 0.93,
+    "reason": "Visible wok noodles stock image matched to noodles family."
+  },
+  {
+    "dishId": "noodles-egg-garlic-noodles",
+    "dishName": "Egg Garlic Noodles",
+    "imageUsed": "assets/menu/premium/noodles.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/noodles.webp",
+    "sourceImage": "assets/food-source/Chinese Pan Asian/Chinese Pan Asian (231).png",
+    "confidence": 0.93,
+    "reason": "Visible wok noodles stock image matched to noodles family."
+  },
+  {
+    "dishId": "noodles-egg-schezwan-noodles",
+    "dishName": "Egg Schezwan Noodles",
+    "imageUsed": "assets/menu/premium/noodles.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/noodles.webp",
+    "sourceImage": "assets/food-source/Chinese Pan Asian/Chinese Pan Asian (231).png",
+    "confidence": 0.93,
+    "reason": "Visible wok noodles stock image matched to noodles family."
+  },
+  {
+    "dishId": "noodles-chicken-hakka-noodles",
+    "dishName": "Chicken Hakka Noodles",
+    "imageUsed": "assets/menu/premium/noodles.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/noodles.webp",
+    "sourceImage": "assets/food-source/Chinese Pan Asian/Chinese Pan Asian (231).png",
+    "confidence": 0.93,
+    "reason": "Visible wok noodles stock image matched to noodles family."
+  },
+  {
+    "dishId": "noodles-chicken-garlic-noodles",
+    "dishName": "Chicken Garlic Noodles",
+    "imageUsed": "assets/menu/premium/noodles.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/noodles.webp",
+    "sourceImage": "assets/food-source/Chinese Pan Asian/Chinese Pan Asian (231).png",
+    "confidence": 0.93,
+    "reason": "Visible wok noodles stock image matched to noodles family."
+  },
+  {
+    "dishId": "noodles-chicken-schezwan-noodles",
+    "dishName": "Chicken Schezwan Noodles",
+    "imageUsed": "assets/menu/premium/noodles.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/noodles.webp",
+    "sourceImage": "assets/food-source/Chinese Pan Asian/Chinese Pan Asian (231).png",
+    "confidence": 0.93,
+    "reason": "Visible wok noodles stock image matched to noodles family."
+  },
+  {
+    "dishId": "noodles-chicken-burnt-garlic-noodles",
+    "dishName": "Chicken Burnt Garlic Noodles",
+    "imageUsed": "assets/menu/premium/noodles.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/noodles.webp",
+    "sourceImage": "assets/food-source/Chinese Pan Asian/Chinese Pan Asian (231).png",
+    "confidence": 0.93,
+    "reason": "Visible wok noodles stock image matched to noodles family."
+  },
+  {
+    "dishId": "noodles-chicken-triple-schezwan-noodles",
+    "dishName": "Chicken Triple Schezwan Noodles",
+    "imageUsed": "assets/menu/premium/noodles.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/noodles.webp",
+    "sourceImage": "assets/food-source/Chinese Pan Asian/Chinese Pan Asian (231).png",
+    "confidence": 0.93,
+    "reason": "Visible wok noodles stock image matched to noodles family."
+  },
+  {
+    "dishId": "noodles-prawn-hakka-noodles",
+    "dishName": "Prawn Hakka Noodles",
+    "imageUsed": "assets/menu/premium/noodles.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/noodles.webp",
+    "sourceImage": "assets/food-source/Chinese Pan Asian/Chinese Pan Asian (231).png",
+    "confidence": 0.93,
+    "reason": "Visible wok noodles stock image matched to noodles family."
+  },
+  {
+    "dishId": "noodles-mixed-seafood-noodles",
+    "dishName": "Mixed Seafood Noodles",
+    "imageUsed": "assets/menu/premium/noodles.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/noodles.webp",
+    "sourceImage": "assets/food-source/Chinese Pan Asian/Chinese Pan Asian (231).png",
+    "confidence": 0.93,
+    "reason": "Visible wok noodles stock image matched to noodles family."
+  },
+  {
+    "dishId": "indian-rice-steamed-basmati-rice",
+    "dishName": "Steamed Basmati Rice",
+    "imageUsed": "assets/menu/premium/steamed-rice.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/steamed-rice.webp",
+    "sourceImage": "assets/food-source/Biryani/Biryani (72).png",
+    "confidence": 0.94,
+    "reason": "Visible steamed rice stock image matched exactly."
+  },
+  {
+    "dishId": "soups-veg-sweet-corn-soup",
+    "dishName": "Veg Sweet Corn Soup",
+    "imageUsed": "assets/menu/premium/soup.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/soup.webp",
+    "sourceImage": "assets/food-source/Chinese Pan Asian/Chinese Pan Asian (199).png",
+    "confidence": 0.92,
+    "reason": "Visible soup stock image matched to soup family."
+  },
+  {
+    "dishId": "soups-veg-hot-sour-soup",
+    "dishName": "Veg Hot & Sour Soup",
+    "imageUsed": "assets/menu/premium/soup.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/soup.webp",
+    "sourceImage": "assets/food-source/Chinese Pan Asian/Chinese Pan Asian (199).png",
+    "confidence": 0.92,
+    "reason": "Visible soup stock image matched to soup family."
+  },
+  {
+    "dishId": "soups-veg-manchow-soup",
+    "dishName": "Veg Manchow Soup",
+    "imageUsed": "assets/menu/premium/soup.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/soup.webp",
+    "sourceImage": "assets/food-source/Chinese Pan Asian/Chinese Pan Asian (199).png",
+    "confidence": 0.92,
+    "reason": "Visible soup stock image matched to soup family."
+  },
+  {
+    "dishId": "soups-lemon-coriander-soup",
+    "dishName": "Lemon Coriander Soup",
+    "imageUsed": "assets/menu/premium/soup.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/soup.webp",
+    "sourceImage": "assets/food-source/Chinese Pan Asian/Chinese Pan Asian (199).png",
+    "confidence": 0.92,
+    "reason": "Visible soup stock image matched to soup family."
+  },
+  {
+    "dishId": "soups-veg-burnt-garlic-soup",
+    "dishName": "Veg Burnt Garlic Soup",
+    "imageUsed": "assets/menu/premium/soup.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/soup.webp",
+    "sourceImage": "assets/food-source/Chinese Pan Asian/Chinese Pan Asian (199).png",
+    "confidence": 0.92,
+    "reason": "Visible soup stock image matched to soup family."
+  },
+  {
+    "dishId": "soups-chicken-sweet-corn-soup",
+    "dishName": "Chicken Sweet Corn Soup",
+    "imageUsed": "assets/menu/premium/soup.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/soup.webp",
+    "sourceImage": "assets/food-source/Chinese Pan Asian/Chinese Pan Asian (199).png",
+    "confidence": 0.92,
+    "reason": "Visible soup stock image matched to soup family."
+  },
+  {
+    "dishId": "soups-chicken-hot-sour-soup",
+    "dishName": "Chicken Hot & Sour Soup",
+    "imageUsed": "assets/menu/premium/soup.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/soup.webp",
+    "sourceImage": "assets/food-source/Chinese Pan Asian/Chinese Pan Asian (199).png",
+    "confidence": 0.92,
+    "reason": "Visible soup stock image matched to soup family."
+  },
+  {
+    "dishId": "soups-chicken-manchow-soup",
+    "dishName": "Chicken Manchow Soup",
+    "imageUsed": "assets/menu/premium/soup.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/soup.webp",
+    "sourceImage": "assets/food-source/Chinese Pan Asian/Chinese Pan Asian (199).png",
+    "confidence": 0.92,
+    "reason": "Visible soup stock image matched to soup family."
+  },
+  {
+    "dishId": "soups-chicken-burnt-garlic-soup",
+    "dishName": "Chicken Burnt Garlic Soup",
+    "imageUsed": "assets/menu/premium/soup.webp",
+    "thumbnailUsed": "assets/menu/premium/thumbs/soup.webp",
+    "sourceImage": "assets/food-source/Chinese Pan Asian/Chinese Pan Asian (199).png",
+    "confidence": 0.92,
+    "reason": "Visible soup stock image matched to soup family."
+  }
+]

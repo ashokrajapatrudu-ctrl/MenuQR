@@ -172,6 +172,13 @@
     return `<i class="diet ${escapeHTML(diet)}" role="img" aria-label="${escapeHTML(DIET_LABELS[diet] || 'Diet information')}"></i>`;
   }
 
+  function responsiveImageAttrs(item, sizes) {
+    const image = escapeHTML(item.image);
+    const thumb = item.imageThumb ? escapeHTML(item.imageThumb) : '';
+    const srcset = thumb ? ` srcset="${thumb} 420w, ${image} 960w" sizes="${escapeHTML(sizes)}"` : '';
+    return `src="${image}"${srcset}`;
+  }
+
   function variantsMarkup(item) {
     if (item.variants.length === 1) {
       const variant = item.variants[0];
@@ -198,7 +205,7 @@
     const price = priceSummary(item);
     return `<article class="dish-card">
       <button class="dish-card__image" type="button" data-open-dish="${escapeHTML(item.id)}" aria-label="View ${escapeHTML(item.name)}">
-        <img src="${escapeHTML(item.image)}" alt="Illustrative visual of ${escapeHTML(item.name)}" loading="lazy" decoding="async" width="640" height="480" onerror="this.src='assets/menu/fallback.webp'">
+        <img ${responsiveImageAttrs(item, '(min-width: 1080px) 31vw, (min-width: 820px) 46vw, calc(100vw - 56px)')} alt="Illustrative visual of ${escapeHTML(item.name)}" loading="lazy" decoding="async" width="960" height="720" onerror="this.src='assets/menu/fallback.webp'">
       </button>
       <div class="dish-card__body">
         <div class="dish-card__content">

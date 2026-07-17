@@ -1,0 +1,1412 @@
+[
+  {
+    "dishId": "veg-starters-crispy-chilli-baby-corn",
+    "dishName": "Crispy Chilli Baby Corn",
+    "currentImage": "assets/menu/veg-starters-crispy-chilli-baby-corn.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "veg-starters-crispy-corn",
+    "dishName": "Crispy Corn",
+    "currentImage": "assets/menu/veg-starters-crispy-corn.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "veg-starters-dragon-baby-corn",
+    "dishName": "Dragon Baby Corn",
+    "currentImage": "assets/menu/veg-starters-dragon-baby-corn.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "veg-starters-crispy-mushroom",
+    "dishName": "Crispy Mushroom",
+    "currentImage": "assets/menu/veg-starters-crispy-mushroom.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "veg-starters-chilli-mushroom",
+    "dishName": "Chilli Mushroom",
+    "currentImage": "assets/menu/veg-starters-chilli-mushroom.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "veg-starters-salt-pepper-mushroom",
+    "dishName": "Salt & Pepper Mushroom",
+    "currentImage": "assets/menu/veg-starters-salt-pepper-mushroom.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "veg-starters-veg-65",
+    "dishName": "Veg 65",
+    "currentImage": "assets/menu/veg-starters-veg-65.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "chicken-starters-crispy-chicken",
+    "dishName": "Crispy Chicken",
+    "currentImage": "assets/menu/chicken-starters-crispy-chicken.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "chicken-starters-chilli-chicken-dry",
+    "dishName": "Chilli Chicken Dry",
+    "currentImage": "assets/menu/chicken-starters-chilli-chicken-dry.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "chicken-starters-dragon-chicken",
+    "dishName": "Dragon Chicken",
+    "currentImage": "assets/menu/chicken-starters-dragon-chicken.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "chicken-starters-chicken-65",
+    "dishName": "Chicken 65",
+    "currentImage": "assets/menu/chicken-starters-chicken-65.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "chicken-starters-pepper-chicken",
+    "dishName": "Pepper Chicken",
+    "currentImage": "assets/menu/chicken-starters-pepper-chicken.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "chicken-starters-honey-chilli-chicken",
+    "dishName": "Honey Chilli Chicken",
+    "currentImage": "assets/menu/chicken-starters-honey-chilli-chicken.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "chicken-starters-chicken-lollipop",
+    "dishName": "Chicken Lollipop",
+    "currentImage": "assets/menu/chicken-starters-chicken-lollipop.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "chicken-starters-chicken-wings",
+    "dishName": "Chicken Wings",
+    "currentImage": "assets/menu/chicken-starters-chicken-wings.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "chicken-starters-garlic-chicken",
+    "dishName": "Garlic Chicken",
+    "currentImage": "assets/menu/chicken-starters-garlic-chicken.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "chicken-starters-schezwan-chicken",
+    "dishName": "Schezwan Chicken",
+    "currentImage": "assets/menu/chicken-starters-schezwan-chicken.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "chicken-starters-lemon-chicken",
+    "dishName": "Lemon Chicken",
+    "currentImage": "assets/menu/chicken-starters-lemon-chicken.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "chicken-starters-sesame-chicken",
+    "dishName": "Sesame Chicken",
+    "currentImage": "assets/menu/chicken-starters-sesame-chicken.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "seafood-starters-crispy-fish",
+    "dishName": "Crispy Fish",
+    "currentImage": "assets/menu/seafood-starters-crispy-fish.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "seafood-starters-chilli-fish",
+    "dishName": "Chilli Fish",
+    "currentImage": "assets/menu/seafood-starters-chilli-fish.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "seafood-starters-dragon-fish",
+    "dishName": "Dragon Fish",
+    "currentImage": "assets/menu/seafood-starters-dragon-fish.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "seafood-starters-pepper-fish",
+    "dishName": "Pepper Fish",
+    "currentImage": "assets/menu/seafood-starters-pepper-fish.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "veg-biryanis-baby-corn-biryani",
+    "dishName": "Baby Corn Biryani",
+    "currentImage": "assets/menu/veg-biryanis-baby-corn-biryani.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "veg-biryanis-mushroom-biryani",
+    "dishName": "Mushroom Biryani",
+    "currentImage": "assets/menu/veg-biryanis-mushroom-biryani.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "veg-biryanis-soya-chaap-biryani",
+    "dishName": "Soya Chaap Biryani",
+    "currentImage": "assets/menu/veg-biryanis-soya-chaap-biryani.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "veg-biryanis-kaju-biryani",
+    "dishName": "Kaju Biryani",
+    "currentImage": "assets/menu/veg-biryanis-kaju-biryani.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "veg-biryanis-kaju-pulao",
+    "dishName": "Kaju Pulao",
+    "currentImage": "assets/menu/veg-biryanis-kaju-pulao.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "veg-biryanis-mushroom-pulao",
+    "dishName": "Mushroom Pulao",
+    "currentImage": "assets/menu/veg-biryanis-mushroom-pulao.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "veg-biryanis-baby-corn-pulao",
+    "dishName": "Baby Corn Pulao",
+    "currentImage": "assets/menu/veg-biryanis-baby-corn-pulao.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "veg-biryanis-mushroom-avakai-biryani",
+    "dishName": "Mushroom Avakai Biryani",
+    "currentImage": "assets/menu/veg-biryanis-mushroom-avakai-biryani.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "veg-biryanis-baby-corn-avakai-biryani",
+    "dishName": "Baby Corn Avakai Biryani",
+    "currentImage": "assets/menu/veg-biryanis-baby-corn-avakai-biryani.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "veg-pot-biryanis-baby-corn-pot-biryani",
+    "dishName": "Baby Corn Pot Biryani",
+    "currentImage": "assets/menu/veg-pot-biryanis-baby-corn-pot-biryani.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "veg-pot-biryanis-mushroom-pot-biryani",
+    "dishName": "Mushroom Pot Biryani",
+    "currentImage": "assets/menu/veg-pot-biryanis-mushroom-pot-biryani.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "veg-pot-biryanis-kaju-pot-biryani",
+    "dishName": "Kaju Pot Biryani",
+    "currentImage": "assets/menu/veg-pot-biryanis-kaju-pot-biryani.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "nonveg-biryanis-amigos-raju-gari-kodi-pulao",
+    "dishName": "Amigos Raju Gari Kodi Pulao",
+    "currentImage": "assets/menu/nonveg-biryanis-amigos-raju-gari-kodi-pulao.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "nonveg-biryanis-hyderabadi-mutton-biryani",
+    "dishName": "Hyderabadi Mutton Biryani",
+    "currentImage": "assets/menu/nonveg-biryanis-hyderabadi-mutton-biryani.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "nonveg-biryanis-gongura-mutton-biryani",
+    "dishName": "Gongura Mutton Biryani",
+    "currentImage": "assets/menu/nonveg-biryanis-gongura-mutton-biryani.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "nonveg-biryanis-mutton-fry-piece-biryani",
+    "dishName": "Mutton Fry Piece Biryani",
+    "currentImage": "assets/menu/nonveg-biryanis-mutton-fry-piece-biryani.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "nonveg-biryanis-mutton-keema-biryani",
+    "dishName": "Mutton Keema Biryani",
+    "currentImage": "assets/menu/nonveg-biryanis-mutton-keema-biryani.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "nonveg-biryanis-mutton-pulao",
+    "dishName": "Mutton Pulao",
+    "currentImage": "assets/menu/nonveg-biryanis-mutton-pulao.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "nonveg-biryanis-fish-biryani",
+    "dishName": "Fish Biryani",
+    "currentImage": "assets/menu/nonveg-biryanis-fish-biryani.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "mandi-classic-chicken-mandi",
+    "dishName": "Classic Chicken Mandi",
+    "currentImage": "assets/menu/mandi-classic-chicken-mandi.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "mandi-chicken-juicy-mandi",
+    "dishName": "Chicken Juicy Mandi",
+    "currentImage": "assets/menu/mandi-chicken-juicy-mandi.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "mandi-mutton-mandi",
+    "dishName": "Mutton Mandi",
+    "currentImage": "assets/menu/mandi-mutton-mandi.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "mandi-mutton-raan-mandi",
+    "dishName": "Mutton Raan Mandi",
+    "currentImage": "assets/menu/mandi-mutton-raan-mandi.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "mandi-fish-mandi",
+    "dishName": "Fish Mandi",
+    "currentImage": "assets/menu/mandi-fish-mandi.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "mandi-prawns-mandi",
+    "dishName": "Prawns Mandi",
+    "currentImage": "assets/menu/mandi-prawns-mandi.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "mandi-paneer-mandi",
+    "dishName": "Paneer Mandi",
+    "currentImage": "assets/menu/mandi-paneer-mandi.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "mandi-mushroom-mandi",
+    "dishName": "Mushroom Mandi",
+    "currentImage": "assets/menu/mandi-mushroom-mandi.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "mandi-veg-arabian-mandi",
+    "dishName": "Veg Arabian Mandi",
+    "currentImage": "assets/menu/mandi-veg-arabian-mandi.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "meals-thalis-south-indian-meals",
+    "dishName": "South Indian Meals",
+    "currentImage": "assets/menu/meals-thalis-south-indian-meals.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "meals-thalis-north-indian-meals",
+    "dishName": "North Indian Meals",
+    "currentImage": "assets/menu/meals-thalis-north-indian-meals.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "meals-thalis-veg-mini-meals",
+    "dishName": "Veg Mini Meals",
+    "currentImage": "assets/menu/meals-thalis-veg-mini-meals.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "dals-creamy-butter-dal",
+    "dishName": "Creamy Butter Dal",
+    "currentImage": "assets/menu/dals-creamy-butter-dal.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "dals-dhaba-dal-fry",
+    "dishName": "Dhaba Dal Fry",
+    "currentImage": "assets/menu/dals-dhaba-dal-fry.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "dals-punjabi-saag-dal",
+    "dishName": "Punjabi Saag Dal",
+    "currentImage": "assets/menu/dals-punjabi-saag-dal.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "dals-homestyle-tomato-dal",
+    "dishName": "Homestyle Tomato Dal",
+    "currentImage": "assets/menu/dals-homestyle-tomato-dal.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "dals-andhra-pappu-dal",
+    "dishName": "Andhra Pappu Dal",
+    "currentImage": "assets/menu/dals-andhra-pappu-dal.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "dals-garlic-tempered-dal-dal-lasooni",
+    "dishName": "Garlic Tempered Dal (Dal Lasooni)",
+    "currentImage": "assets/menu/dals-garlic-tempered-dal-dal-lasooni.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "veg-main-course-desi-bhindi-fry",
+    "dishName": "Desi Bhindi Fry",
+    "currentImage": "assets/menu/veg-main-course-desi-bhindi-fry.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "veg-main-course-golden-aloo-fry",
+    "dishName": "Golden Aloo Fry",
+    "currentImage": "assets/menu/veg-main-course-golden-aloo-fry.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "veg-main-course-classic-jeera-aloo",
+    "dishName": "Classic Jeera Aloo",
+    "currentImage": "assets/menu/veg-main-course-classic-jeera-aloo.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "veg-main-course-rajasthani-sev-tamatar",
+    "dishName": "Rajasthani Sev Tamatar",
+    "currentImage": "assets/menu/veg-main-course-rajasthani-sev-tamatar.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "veg-main-course-punjabi-rajma-curry",
+    "dishName": "Punjabi Rajma Curry",
+    "currentImage": "assets/menu/veg-main-course-punjabi-rajma-curry.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "veg-main-course-homestyle-aloo-methi",
+    "dishName": "Homestyle Aloo Methi",
+    "currentImage": "assets/menu/veg-main-course-homestyle-aloo-methi.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "veg-main-course-dhaba-bhindi-masala",
+    "dishName": "Dhaba Bhindi Masala",
+    "currentImage": "assets/menu/veg-main-course-dhaba-bhindi-masala.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "veg-main-course-garden-mix-veg-curry",
+    "dishName": "Garden Mix Veg Curry",
+    "currentImage": "assets/menu/veg-main-course-garden-mix-veg-curry.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "veg-main-course-fiery-veg-kolhapuri",
+    "dishName": "Fiery Veg Kolhapuri",
+    "currentImage": "assets/menu/veg-main-course-fiery-veg-kolhapuri.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "veg-main-course-royal-veg-handi",
+    "dishName": "Royal Veg Handi",
+    "currentImage": "assets/menu/veg-main-course-royal-veg-handi.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "veg-main-course-classic-veg-jalfrezi",
+    "dishName": "Classic Veg Jalfrezi",
+    "currentImage": "assets/menu/veg-main-course-classic-veg-jalfrezi.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "veg-main-course-royal-navratan-korma",
+    "dishName": "Royal Navratan Korma",
+    "currentImage": "assets/menu/veg-main-course-royal-navratan-korma.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "veg-main-course-hyderabadi-veg-curry",
+    "dishName": "Hyderabadi Veg Curry",
+    "currentImage": "assets/menu/veg-main-course-hyderabadi-veg-curry.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "veg-main-course-creamy-corn-masala",
+    "dishName": "Creamy Corn Masala",
+    "currentImage": "assets/menu/veg-main-course-creamy-corn-masala.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "veg-main-course-button-mushroom-masala",
+    "dishName": "Button Mushroom Masala",
+    "currentImage": "assets/menu/veg-main-course-button-mushroom-masala.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "veg-main-course-baby-corn-masala-delight",
+    "dishName": "Baby Corn Masala Delight",
+    "currentImage": "assets/menu/veg-main-course-baby-corn-masala-delight.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "veg-main-course-kadai-mushroom",
+    "dishName": "Kadai Mushroom",
+    "currentImage": "assets/menu/veg-main-course-kadai-mushroom.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "veg-main-course-butter-mushroom-masala",
+    "dishName": "Butter Mushroom Masala",
+    "currentImage": "assets/menu/veg-main-course-butter-mushroom-masala.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "veg-main-course-creamy-mushroom-corn-masala",
+    "dishName": "Creamy Mushroom Corn Masala",
+    "currentImage": "assets/menu/veg-main-course-creamy-mushroom-corn-masala.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "veg-main-course-punjabi-soya-chaap-masala",
+    "dishName": "Punjabi Soya Chaap Masala",
+    "currentImage": "assets/menu/veg-main-course-punjabi-soya-chaap-masala.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "veg-main-course-palak-corn-masala",
+    "dishName": "Palak Corn Masala",
+    "currentImage": "assets/menu/veg-main-course-palak-corn-masala.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "veg-main-course-green-peas-masala-matar",
+    "dishName": "Green Peas Masala (Matar)",
+    "currentImage": "assets/menu/veg-main-course-green-peas-masala-matar.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "veg-main-course-kaju-butter-masala",
+    "dishName": "Kaju Butter Masala",
+    "currentImage": "assets/menu/veg-main-course-kaju-butter-masala.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "egg-main-course-veg-loaded-omelette",
+    "dishName": "Veg Loaded Omelette",
+    "currentImage": "assets/menu/egg-main-course-veg-loaded-omelette.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "egg-main-course-classic-plain-omelette",
+    "dishName": "Classic Plain Omelette",
+    "currentImage": "assets/menu/egg-main-course-classic-plain-omelette.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "egg-main-course-dhaba-masala-omelette",
+    "dishName": "Dhaba Masala Omelette",
+    "currentImage": "assets/menu/egg-main-course-dhaba-masala-omelette.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "egg-main-course-creamy-egg-butter-masala-3-eggs",
+    "dishName": "Creamy Egg Butter Masala (3 Eggs)",
+    "currentImage": "assets/menu/egg-main-course-creamy-egg-butter-masala-3-eggs.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "egg-main-course-egg-do-pyaza-special",
+    "dishName": "Egg Do Pyaza Special",
+    "currentImage": "assets/menu/egg-main-course-egg-do-pyaza-special.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "egg-main-course-spicy-egg-bhurji-masala",
+    "dishName": "Spicy Egg Bhurji Masala",
+    "currentImage": "assets/menu/egg-main-course-spicy-egg-bhurji-masala.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "egg-main-course-egg-keema-masala",
+    "dishName": "Egg Keema Masala",
+    "currentImage": "assets/menu/egg-main-course-egg-keema-masala.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "chicken-main-course-creamy-white-chicken-korma-bn",
+    "dishName": "Creamy White Chicken Korma (With Bone)",
+    "currentImage": "assets/menu/chicken-main-course-creamy-white-chicken-korma-bn.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "tandoori-kebabs-tandoori-mushroom",
+    "dishName": "Tandoori Mushroom",
+    "currentImage": "assets/menu/tandoori-kebabs-tandoori-mushroom.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "tandoori-kebabs-tandoori-baby-corn",
+    "dishName": "Tandoori Baby Corn",
+    "currentImage": "assets/menu/tandoori-kebabs-tandoori-baby-corn.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "tandoori-kebabs-tandoori-broccoli",
+    "dishName": "Tandoori Broccoli",
+    "currentImage": "assets/menu/tandoori-kebabs-tandoori-broccoli.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "tandoori-kebabs-soya-chaap-tikka",
+    "dishName": "Soya Chaap Tikka",
+    "currentImage": "assets/menu/tandoori-kebabs-soya-chaap-tikka.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "tandoori-kebabs-fish-tikka",
+    "dishName": "Fish Tikka",
+    "currentImage": "assets/menu/tandoori-kebabs-fish-tikka.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "tandoori-kebabs-malai-fish-tikka",
+    "dishName": "Malai Fish Tikka",
+    "currentImage": "assets/menu/tandoori-kebabs-malai-fish-tikka.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "tandoori-kebabs-tandoori-prawns",
+    "dishName": "Tandoori Prawns",
+    "currentImage": "assets/menu/tandoori-kebabs-tandoori-prawns.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "tandoori-kebabs-achari-tandoori-prawns",
+    "dishName": "Achari Tandoori Prawns",
+    "currentImage": "assets/menu/tandoori-kebabs-achari-tandoori-prawns.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "tandoori-kebabs-veg-tandoori-platter",
+    "dishName": "Veg Tandoori Platter",
+    "currentImage": "assets/menu/tandoori-kebabs-veg-tandoori-platter.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "tandoori-kebabs-mixed-tandoor-platter",
+    "dishName": "Mixed Tandoor Platter",
+    "currentImage": "assets/menu/tandoori-kebabs-mixed-tandoor-platter.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "chinese-main-course-veg-hot-garlic-gravy",
+    "dishName": "Veg Hot Garlic Gravy",
+    "currentImage": "assets/menu/chinese-main-course-veg-hot-garlic-gravy.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "chinese-main-course-veg-black-pepper-gravy",
+    "dishName": "Veg Black Pepper Gravy",
+    "currentImage": "assets/menu/chinese-main-course-veg-black-pepper-gravy.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "chinese-main-course-veg-schezwan-gravy",
+    "dishName": "Veg Schezwan Gravy",
+    "currentImage": "assets/menu/chinese-main-course-veg-schezwan-gravy.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "chinese-main-course-veg-chilli-garlic",
+    "dishName": "Veg Chilli Garlic",
+    "currentImage": "assets/menu/chinese-main-course-veg-chilli-garlic.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "chinese-main-course-chilli-chicken-gravy",
+    "dishName": "Chilli Chicken Gravy",
+    "currentImage": "assets/menu/chinese-main-course-chilli-chicken-gravy.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "chinese-main-course-chicken-hot-garlic-gravy",
+    "dishName": "Chicken Hot Garlic Gravy",
+    "currentImage": "assets/menu/chinese-main-course-chicken-hot-garlic-gravy.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "chinese-main-course-chicken-black-pepper-gravy",
+    "dishName": "Chicken Black Pepper Gravy",
+    "currentImage": "assets/menu/chinese-main-course-chicken-black-pepper-gravy.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "chinese-main-course-chicken-schezwan-gravy",
+    "dishName": "Chicken Schezwan Gravy",
+    "currentImage": "assets/menu/chinese-main-course-chicken-schezwan-gravy.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "chinese-main-course-chicken-chilli-garlic-gravy",
+    "dishName": "Chicken Chilli Garlic Gravy",
+    "currentImage": "assets/menu/chinese-main-course-chicken-chilli-garlic-gravy.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "chinese-main-course-chilli-fish-gravy",
+    "dishName": "Chilli Fish Gravy",
+    "currentImage": "assets/menu/chinese-main-course-chilli-fish-gravy.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "chinese-main-course-fish-black-pepper-gravy",
+    "dishName": "Fish Black Pepper Gravy",
+    "currentImage": "assets/menu/chinese-main-course-fish-black-pepper-gravy.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "rotis-naans-plain-tandoori-roti",
+    "dishName": "Plain Tandoori Roti",
+    "currentImage": "assets/menu/rotis-naans-plain-tandoori-roti.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "rotis-naans-butter-tandoori-roti",
+    "dishName": "Butter Tandoori Roti",
+    "currentImage": "assets/menu/rotis-naans-butter-tandoori-roti.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "rotis-naans-missi-roti",
+    "dishName": "Missi Roti",
+    "currentImage": "assets/menu/rotis-naans-missi-roti.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "rotis-naans-pudina-roti",
+    "dishName": "Pudina Roti",
+    "currentImage": "assets/menu/rotis-naans-pudina-roti.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "rotis-naans-plain-naan",
+    "dishName": "Plain Naan",
+    "currentImage": "assets/menu/rotis-naans-plain-naan.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "rotis-naans-butter-naan",
+    "dishName": "Butter Naan",
+    "currentImage": "assets/menu/rotis-naans-butter-naan.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "rotis-naans-garlic-naan",
+    "dishName": "Garlic Naan",
+    "currentImage": "assets/menu/rotis-naans-garlic-naan.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "rotis-naans-garlic-butter-naan",
+    "dishName": "Garlic Butter Naan",
+    "currentImage": "assets/menu/rotis-naans-garlic-butter-naan.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "rotis-naans-cheese-naan",
+    "dishName": "Cheese Naan",
+    "currentImage": "assets/menu/rotis-naans-cheese-naan.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "rotis-naans-cheese-garlic-naan",
+    "dishName": "Cheese Garlic Naan",
+    "currentImage": "assets/menu/rotis-naans-cheese-garlic-naan.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "rotis-naans-cheese-chilli-garlic-naan",
+    "dishName": "Cheese Chilli Garlic Naan",
+    "currentImage": "assets/menu/rotis-naans-cheese-chilli-garlic-naan.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "rotis-naans-aloo-paratha",
+    "dishName": "Aloo Paratha",
+    "currentImage": "assets/menu/rotis-naans-aloo-paratha.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "rotis-naans-paneer-paratha",
+    "dishName": "Paneer Paratha",
+    "currentImage": "assets/menu/rotis-naans-paneer-paratha.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "rotis-naans-onion-kulcha",
+    "dishName": "Onion Kulcha",
+    "currentImage": "assets/menu/rotis-naans-onion-kulcha.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "rotis-naans-paneer-kulcha",
+    "dishName": "Paneer Kulcha",
+    "currentImage": "assets/menu/rotis-naans-paneer-kulcha.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "rotis-naans-laccha-paratha",
+    "dishName": "Laccha Paratha",
+    "currentImage": "assets/menu/rotis-naans-laccha-paratha.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "rotis-naans-butter-laccha-paratha",
+    "dishName": "Butter Laccha Paratha",
+    "currentImage": "assets/menu/rotis-naans-butter-laccha-paratha.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "rotis-naans-pudina-laccha-paratha",
+    "dishName": "Pudina Laccha Paratha",
+    "currentImage": "assets/menu/rotis-naans-pudina-laccha-paratha.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "rotis-naans-rumali-roti",
+    "dishName": "Rumali Roti",
+    "currentImage": "assets/menu/rotis-naans-rumali-roti.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "rotis-naans-tandoori-stuffed-kulcha",
+    "dishName": "Tandoori Stuffed Kulcha",
+    "currentImage": "assets/menu/rotis-naans-tandoori-stuffed-kulcha.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "rotis-naans-stuffed-cheese-kulcha",
+    "dishName": "Stuffed Cheese Kulcha",
+    "currentImage": "assets/menu/rotis-naans-stuffed-cheese-kulcha.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "rotis-naans-folding-naan",
+    "dishName": "Folding Naan",
+    "currentImage": "assets/menu/rotis-naans-folding-naan.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "indian-rice-aromatic-ghee-rice",
+    "dishName": "Aromatic Ghee Rice",
+    "currentImage": "assets/menu/indian-rice-aromatic-ghee-rice.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "indian-rice-classic-jeera-rice",
+    "dishName": "Classic Jeera Rice",
+    "currentImage": "assets/menu/indian-rice-classic-jeera-rice.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "indian-rice-south-indian-lemon-rice",
+    "dishName": "South Indian Lemon Rice",
+    "currentImage": "assets/menu/indian-rice-south-indian-lemon-rice.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "indian-rice-green-peas-pulao",
+    "dishName": "Green Peas Pulao",
+    "currentImage": "assets/menu/indian-rice-green-peas-pulao.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "indian-rice-royal-veg-pulao",
+    "dishName": "Royal Veg Pulao",
+    "currentImage": "assets/menu/indian-rice-royal-veg-pulao.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "indian-rice-royal-kashmiri-pulao",
+    "dishName": "Royal Kashmiri Pulao",
+    "currentImage": "assets/menu/indian-rice-royal-kashmiri-pulao.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "indian-rice-dhaba-tadka-rice",
+    "dishName": "Dhaba Tadka Rice",
+    "currentImage": "assets/menu/indian-rice-dhaba-tadka-rice.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "indian-rice-curd-rice",
+    "dishName": "Curd Rice",
+    "currentImage": "assets/menu/indian-rice-curd-rice.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "indian-rice-tomato-rice",
+    "dishName": "Tomato Rice",
+    "currentImage": "assets/menu/indian-rice-tomato-rice.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "south-indian-idli-2-pcs",
+    "dishName": "Idli (2 pcs)",
+    "currentImage": "assets/menu/south-indian-idli-2-pcs.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "south-indian-karam-podi-idli",
+    "dishName": "Karam Podi Idli",
+    "currentImage": "assets/menu/south-indian-karam-podi-idli.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "south-indian-ghee-podi-idli",
+    "dishName": "Ghee Podi Idli",
+    "currentImage": "assets/menu/south-indian-ghee-podi-idli.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "south-indian-idli-sambar",
+    "dishName": "Idli Sambar",
+    "currentImage": "assets/menu/south-indian-idli-sambar.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "south-indian-sambar-vada",
+    "dishName": "Sambar Vada",
+    "currentImage": "assets/menu/south-indian-sambar-vada.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "south-indian-medu-vada-2-pcs",
+    "dishName": "Medu Vada (2 pcs)",
+    "currentImage": "assets/menu/south-indian-medu-vada-2-pcs.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "south-indian-idli-vada-combo",
+    "dishName": "Idli Vada Combo",
+    "currentImage": "assets/menu/south-indian-idli-vada-combo.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "south-indian-plain-dosa",
+    "dishName": "Plain Dosa",
+    "currentImage": "assets/menu/south-indian-plain-dosa.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "south-indian-masala-dosa",
+    "dishName": "Masala Dosa",
+    "currentImage": "assets/menu/south-indian-masala-dosa.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "south-indian-butter-dosa",
+    "dishName": "Butter Dosa",
+    "currentImage": "assets/menu/south-indian-butter-dosa.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "south-indian-karam-dosa",
+    "dishName": "Karam Dosa",
+    "currentImage": "assets/menu/south-indian-karam-dosa.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "south-indian-onion-dosa",
+    "dishName": "Onion Dosa",
+    "currentImage": "assets/menu/south-indian-onion-dosa.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "south-indian-ghee-dosa",
+    "dishName": "Ghee Dosa",
+    "currentImage": "assets/menu/south-indian-ghee-dosa.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "south-indian-podi-dosa",
+    "dishName": "Podi Dosa",
+    "currentImage": "assets/menu/south-indian-podi-dosa.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "south-indian-ghee-masala-dosa",
+    "dishName": "Ghee Masala Dosa",
+    "currentImage": "assets/menu/south-indian-ghee-masala-dosa.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "south-indian-butter-masala-dosa",
+    "dishName": "Butter Masala Dosa",
+    "currentImage": "assets/menu/south-indian-butter-masala-dosa.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "south-indian-ghee-karam-dosa",
+    "dishName": "Ghee Karam Dosa",
+    "currentImage": "assets/menu/south-indian-ghee-karam-dosa.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "south-indian-butter-karam-dosa",
+    "dishName": "Butter Karam Dosa",
+    "currentImage": "assets/menu/south-indian-butter-karam-dosa.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "south-indian-onion-masala-dosa",
+    "dishName": "Onion Masala Dosa",
+    "currentImage": "assets/menu/south-indian-onion-masala-dosa.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "south-indian-paper-dosa",
+    "dishName": "Paper Dosa",
+    "currentImage": "assets/menu/south-indian-paper-dosa.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "south-indian-rava-dosa",
+    "dishName": "Rava Dosa",
+    "currentImage": "assets/menu/south-indian-rava-dosa.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "south-indian-onion-rava-dosa",
+    "dishName": "Onion Rava Dosa",
+    "currentImage": "assets/menu/south-indian-onion-rava-dosa.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "south-indian-mysore-masala-dosa",
+    "dishName": "Mysore Masala Dosa",
+    "currentImage": "assets/menu/south-indian-mysore-masala-dosa.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "south-indian-set-dosa",
+    "dishName": "Set Dosa",
+    "currentImage": "assets/menu/south-indian-set-dosa.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "south-indian-pesarattu",
+    "dishName": "Pesarattu",
+    "currentImage": "assets/menu/south-indian-pesarattu.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "south-indian-upma-pesarattu",
+    "dishName": "Upma Pesarattu",
+    "currentImage": "assets/menu/south-indian-upma-pesarattu.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "south-indian-onion-uttapam",
+    "dishName": "Onion Uttapam",
+    "currentImage": "assets/menu/south-indian-onion-uttapam.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "south-indian-tomato-uttapam",
+    "dishName": "Tomato Uttapam",
+    "currentImage": "assets/menu/south-indian-tomato-uttapam.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "south-indian-mixed-veg-uttapam",
+    "dishName": "Mixed Veg Uttapam",
+    "currentImage": "assets/menu/south-indian-mixed-veg-uttapam.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "south-indian-poori-bhaji",
+    "dishName": "Poori Bhaji",
+    "currentImage": "assets/menu/south-indian-poori-bhaji.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "south-indian-ven-pongal",
+    "dishName": "Ven Pongal",
+    "currentImage": "assets/menu/south-indian-ven-pongal.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "south-indian-vegetable-upma",
+    "dishName": "Vegetable Upma",
+    "currentImage": "assets/menu/south-indian-vegetable-upma.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "south-indian-mini-tiffin",
+    "dishName": "Mini Tiffin",
+    "currentImage": "assets/menu/south-indian-mini-tiffin.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "nonveg-dosa-egg-dosa",
+    "dishName": "Egg Dosa",
+    "currentImage": "assets/menu/nonveg-dosa-egg-dosa.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "nonveg-dosa-chicken-dosa",
+    "dishName": "Chicken Dosa",
+    "currentImage": "assets/menu/nonveg-dosa-chicken-dosa.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "burgers-classic-veg-burger",
+    "dishName": "Classic Veg Burger",
+    "currentImage": "assets/menu/burgers-classic-veg-burger.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "burgers-paneer-burger",
+    "dishName": "Paneer Burger",
+    "currentImage": "assets/menu/burgers-paneer-burger.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "burgers-classic-chicken-burger",
+    "dishName": "Classic Chicken Burger",
+    "currentImage": "assets/menu/burgers-classic-chicken-burger.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "burgers-crispy-chicken-burger",
+    "dishName": "Crispy Chicken Burger",
+    "currentImage": "assets/menu/burgers-crispy-chicken-burger.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "burgers-peri-peri-chicken-burger",
+    "dishName": "Peri Peri Chicken Burger",
+    "currentImage": "assets/menu/burgers-peri-peri-chicken-burger.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "burgers-double-patty-chicken-burger",
+    "dishName": "Double Patty Chicken Burger",
+    "currentImage": "assets/menu/burgers-double-patty-chicken-burger.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "continental-classic-mac-n-cheese",
+    "dishName": "Classic Mac & Cheese",
+    "currentImage": "assets/menu/continental-classic-mac-n-cheese.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "continental-peri-peri-mac-n-cheese",
+    "dishName": "Peri Peri Mac & Cheese",
+    "currentImage": "assets/menu/continental-peri-peri-mac-n-cheese.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "continental-loaded-cheese-mac",
+    "dishName": "Loaded Mac & Cheese",
+    "currentImage": "assets/menu/continental-loaded-cheese-mac.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "continental-mushroom-mac-n-cheese",
+    "dishName": "Mushroom Mac & Cheese",
+    "currentImage": "assets/menu/continental-mushroom-mac-n-cheese.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "continental-chicken-mac-n-cheese",
+    "dishName": "Chicken Mac & Cheese",
+    "currentImage": "assets/menu/continental-chicken-mac-n-cheese.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "continental-peri-peri-chicken-mac",
+    "dishName": "Peri Peri Chicken Mac & Cheese",
+    "currentImage": "assets/menu/continental-peri-peri-chicken-mac.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "continental-loaded-chicken-mac",
+    "dishName": "Loaded Chicken Mac & Cheese",
+    "currentImage": "assets/menu/continental-loaded-chicken-mac.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "salads-garden-fresh-salad",
+    "dishName": "Garden Fresh Salad",
+    "currentImage": "assets/menu/salads-garden-fresh-salad.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "salads-greek-salad",
+    "dishName": "Greek Salad",
+    "currentImage": "assets/menu/salads-greek-salad.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "salads-chicken-caesar-salad",
+    "dishName": "Chicken Caesar Salad",
+    "currentImage": "assets/menu/salads-chicken-caesar-salad.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "salads-grilled-chicken-salad",
+    "dishName": "Grilled Chicken Salad",
+    "currentImage": "assets/menu/salads-grilled-chicken-salad.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "salads-paneer-protein-salad",
+    "dishName": "Paneer Protein Salad",
+    "currentImage": "assets/menu/salads-paneer-protein-salad.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "salads-indian-garden-salad",
+    "dishName": "Indian Garden Salad",
+    "currentImage": "assets/menu/salads-indian-garden-salad.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "salads-fresh-cucumber-salad",
+    "dishName": "Fresh Cucumber Salad",
+    "currentImage": "assets/menu/salads-fresh-cucumber-salad.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "salads-classic-onion-salad",
+    "dishName": "Classic Onion Salad",
+    "currentImage": "assets/menu/salads-classic-onion-salad.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "desserts-double-ka-meetha",
+    "dishName": "Double Ka Meetha",
+    "currentImage": "assets/menu/desserts-double-ka-meetha.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "desserts-qubani-ka-meetha",
+    "dishName": "Qubani Ka Meetha",
+    "currentImage": "assets/menu/desserts-qubani-ka-meetha.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "desserts-apricot-delight",
+    "dishName": "Apricot Delight",
+    "currentImage": "assets/menu/desserts-apricot-delight.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "desserts-gulab-jamun",
+    "dishName": "Gulab Jamun",
+    "currentImage": "assets/menu/desserts-gulab-jamun.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "desserts-shahi-tukda",
+    "dishName": "Shahi Tukda",
+    "currentImage": "assets/menu/desserts-shahi-tukda.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "desserts-brownie-with-ice-cream",
+    "dishName": "Brownie With Ice Cream",
+    "currentImage": "assets/menu/desserts-brownie-with-ice-cream.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "desserts-rasgulla",
+    "dishName": "Rasgulla",
+    "currentImage": "assets/menu/desserts-rasgulla.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "thick-shakes-oreo-thick-shake",
+    "dishName": "Oreo Thick Shake",
+    "currentImage": "assets/menu/thick-shakes-oreo-thick-shake.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "thick-shakes-kitkat-thick-shake",
+    "dishName": "Kitkat Thick Shake",
+    "currentImage": "assets/menu/thick-shakes-kitkat-thick-shake.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "thick-shakes-brownie-thick-shake",
+    "dishName": "Brownie Thick Shake",
+    "currentImage": "assets/menu/thick-shakes-brownie-thick-shake.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "thick-shakes-ferrero-thick-shake",
+    "dishName": "Ferrero Thick Shake",
+    "currentImage": "assets/menu/thick-shakes-ferrero-thick-shake.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "thick-shakes-mango-thick-shake",
+    "dishName": "Mango Thick Shake",
+    "currentImage": "assets/menu/thick-shakes-mango-thick-shake.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "thick-shakes-strawberry-thick-shake",
+    "dishName": "Strawberry Thick Shake",
+    "currentImage": "assets/menu/thick-shakes-strawberry-thick-shake.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "thick-shakes-chocolate-thick-shake",
+    "dishName": "Chocolate Thick Shake",
+    "currentImage": "assets/menu/thick-shakes-chocolate-thick-shake.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "thick-shakes-cold-coffee-thick-shake",
+    "dishName": "Cold Coffee Thick Shake",
+    "currentImage": "assets/menu/thick-shakes-cold-coffee-thick-shake.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "mocktails-virgin-mojito",
+    "dishName": "Virgin Mojito",
+    "currentImage": "assets/menu/mocktails-virgin-mojito.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "mocktails-blue-lagoon",
+    "dishName": "Blue Lagoon",
+    "currentImage": "assets/menu/mocktails-blue-lagoon.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "mocktails-green-apple-cooler",
+    "dishName": "Green Apple Cooler",
+    "currentImage": "assets/menu/mocktails-green-apple-cooler.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "mocktails-watermelon-mint-cooler",
+    "dishName": "Watermelon Mint Cooler",
+    "currentImage": "assets/menu/mocktails-watermelon-mint-cooler.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "mocktails-kiwi-cooler",
+    "dishName": "Kiwi Cooler",
+    "currentImage": "assets/menu/mocktails-kiwi-cooler.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "mocktails-passion-fruit-cooler",
+    "dishName": "Passion Fruit Cooler",
+    "currentImage": "assets/menu/mocktails-passion-fruit-cooler.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "mocktails-fruit-punch",
+    "dishName": "Fruit Punch",
+    "currentImage": "assets/menu/mocktails-fruit-punch.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "mocktails-peach-iced-tea",
+    "dishName": "Peach Iced Tea",
+    "currentImage": "assets/menu/mocktails-peach-iced-tea.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "mocktails-lemon-iced-tea",
+    "dishName": "Lemon Iced Tea",
+    "currentImage": "assets/menu/mocktails-lemon-iced-tea.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "cold-beverages-mineral-water-500-ml",
+    "dishName": "Mineral Water 500 ml",
+    "currentImage": "assets/menu/cold-beverages-mineral-water-500-ml.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "cold-beverages-mineral-water-1000-ml",
+    "dishName": "Mineral Water 1000 ml",
+    "currentImage": "assets/menu/cold-beverages-mineral-water-1000-ml.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "cold-beverages-coca-cola-soft-beverage-300-ml-served-in-glass",
+    "dishName": "Coca-Cola Soft Beverage 300 ml (Served in Glass)",
+    "currentImage": "assets/menu/cold-beverages-coca-cola-soft-beverage-300-ml-served-in-glass.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "cold-beverages-pepsi-soft-beverage-300-ml-served-in-glass",
+    "dishName": "Pepsi Soft Beverage 300 ml (Served In Glass)",
+    "currentImage": "assets/menu/cold-beverages-pepsi-soft-beverage-300-ml-served-in-glass.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "cold-beverages-campa-soft-beverage-300-ml-served-in-glass",
+    "dishName": "Campa Soft Beverage 300 ml (Served In Glass)",
+    "currentImage": "assets/menu/cold-beverages-campa-soft-beverage-300-ml-served-in-glass.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "cold-beverages-masala-cool-drink",
+    "dishName": "Masala Cool Drink",
+    "currentImage": "assets/menu/cold-beverages-masala-cool-drink.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "biryani-addons-onion-raita",
+    "dishName": "Onion Raita",
+    "currentImage": "assets/menu/biryani-addons-onion-raita.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "biryani-addons-boondi-raita",
+    "dishName": "Boondi Raita",
+    "currentImage": "assets/menu/biryani-addons-boondi-raita.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "biryani-addons-cucumber-raita",
+    "dishName": "Cucumber Raita",
+    "currentImage": "assets/menu/biryani-addons-cucumber-raita.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "biryani-addons-extra-dum-chicken-piece",
+    "dishName": "Extra Dum Chicken Piece",
+    "currentImage": "assets/menu/biryani-addons-extra-dum-chicken-piece.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "biryani-addons-extra-fry-piece-chicken",
+    "dishName": "Extra Fry Piece Chicken",
+    "currentImage": "assets/menu/biryani-addons-extra-fry-piece-chicken.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  },
+  {
+    "dishId": "biryani-addons-extra-lollipop-2-pcs",
+    "dishName": "Extra Lollipop (2 pcs)",
+    "currentImage": "assets/menu/biryani-addons-extra-lollipop-2-pcs.webp",
+    "reason": "No stock image reached the 90% visual-match threshold."
+  }
+]
