@@ -7,6 +7,8 @@
     return;
   }
   const PRODUCT_DETAILS = window.MENU_PRODUCT_DETAILS || { meta: {}, items: {} };
+  const OFFER_STORAGE_KEY = 'amigos-anniversary-offer-dismissed-2026';
+  const OFFER_DISMISSAL_DAYS = 45;
 
   const categoryMap = new Map(DATA.categories.map(category => [category.id, category]));
   const itemMap = new Map(DATA.items.map(item => [item.id, item]));
@@ -114,7 +116,12 @@
     dishDialogMeta: document.getElementById('dishDialogMeta'),
     dishDialogPrices: document.getElementById('dishDialogPrices'),
     dishDialogAllergens: document.getElementById('dishDialogAllergens'),
-    dishDialogDisclaimer: document.getElementById('dishDialogDisclaimer')
+    dishDialogDisclaimer: document.getElementById('dishDialogDisclaimer'),
+    anniversaryOfferDialog: document.getElementById('anniversaryOfferDialog'),
+    closeOfferDialog: document.getElementById('closeOfferDialog'),
+    dismissOfferDialog: document.getElementById('dismissOfferDialog'),
+    exploreOfferMenu: document.getElementById('exploreOfferMenu'),
+    viewOfferDetails: document.getElementById('viewOfferDetails')
   };
 
   function escapeHTML(value) {
@@ -677,6 +684,61 @@
     }
   }
 
+  function readOfferDismissal() {
+    try {
+      return JSON.parse(localStorage.getItem(OFFER_STORAGE_KEY) || 'null');
+    } catch {
+      return null;
+    }
+  }
+
+  function offerDismissedRecently() {
+    const saved = readOfferDismissal();
+    if (!saved?.dismissedAt) return false;
+    return Date.now() - Number(saved.dismissedAt) < OFFER_DISMISSAL_DAYS * 24 * 60 * 60 * 1000;
+  }
+
+  function storeOfferDismissal() {
+    try {
+      localStorage.setItem(OFFER_STORAGE_KEY, JSON.stringify({ dismissedAt: Date.now() }));
+    } catch {}
+  }
+
+  let offerLastFocused = null;
+  let offerAutoTimer = null;
+
+  function openOfferDialog(trigger = null) {
+    if (!el.anniversaryOfferDialog) return;
+    offerLastFocused = trigger || document.activeElement;
+    document.body.classList.add('offer-open');
+    if (typeof el.anniversaryOfferDialog.showModal === 'function') {
+      el.anniversaryOfferDialog.showModal();
+    } else {
+      el.anniversaryOfferDialog.setAttribute('open', '');
+    }
+    requestAnimationFrame(() => el.exploreOfferMenu?.focus());
+  }
+
+  function closeOfferDialog({ remember = true, restoreFocus = true } = {}) {
+    if (!el.anniversaryOfferDialog?.open && !el.anniversaryOfferDialog?.hasAttribute('open')) return;
+    if (remember) storeOfferDismissal();
+    if (typeof el.anniversaryOfferDialog.close === 'function') {
+      el.anniversaryOfferDialog.close();
+    } else {
+      el.anniversaryOfferDialog.removeAttribute('open');
+    }
+    document.body.classList.remove('offer-open');
+    if (restoreFocus) offerLastFocused?.focus?.();
+  }
+
+  function scheduleOfferDialog() {
+    if (!el.anniversaryOfferDialog || offerDismissedRecently()) return;
+    offerAutoTimer = window.setTimeout(() => {
+      if (document.hidden || el.dishDialog.open || !el.categoryDrawer.hidden) return;
+      openOfferDialog();
+    }, 1900);
+  }
+
   let searchFrame = null;
   el.searchInput.addEventListener('input', event => {
     state.query = event.currentTarget.value.trim();
@@ -742,6 +804,14 @@
   el.emptyReset.addEventListener('click', resetAll);
   el.backTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
   el.closeDishDialog.addEventListener('click', closeDish);
+  el.viewOfferDetails?.addEventListener('click', event => {
+    event.preventDefault();
+    window.clearTimeout(offerAutoTimer);
+    openOfferDialog(event.currentTarget);
+  });
+  el.closeOfferDialog?.addEventListener('click', () => closeOfferDialog());
+  el.dismissOfferDialog?.addEventListener('click', () => closeOfferDialog());
+  el.exploreOfferMenu?.addEventListener('click', () => closeOfferDialog({ restoreFocus: false }));
 
   el.dishDialog.addEventListener('click', event => {
     const bounds = el.dishDialog.getBoundingClientRect();
@@ -749,7 +819,22 @@
     if (outside) closeDish();
   });
 
+  el.anniversaryOfferDialog?.addEventListener('cancel', event => {
+    event.preventDefault();
+    closeOfferDialog();
+  });
+
+  el.anniversaryOfferDialog?.addEventListener('click', event => {
+    const bounds = el.anniversaryOfferDialog.getBoundingClientRect();
+    const outside = event.clientX < bounds.left || event.clientX > bounds.right || event.clientY < bounds.top || event.clientY > bounds.bottom;
+    if (outside) closeOfferDialog();
+  });
+
   document.addEventListener('keydown', event => {
+    if (event.key === 'Escape' && el.anniversaryOfferDialog?.open) {
+      closeOfferDialog();
+      return;
+    }
     if (event.key === 'Escape' && !el.categoryDrawer.hidden) {
       closeDrawerPanel();
       return;
@@ -767,6 +852,7 @@
   renderMeta();
   renderSignatureDishes();
   render();
+  scheduleOfferDialog();
 
   if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {
     window.addEventListener('load', () => {

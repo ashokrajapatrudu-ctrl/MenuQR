@@ -46,7 +46,8 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-body.drawer-open { overflow: hidden; }
+body.drawer-open,
+body.offer-open { overflow: hidden; }
 
 button,
 input { font: inherit; }
@@ -606,6 +607,139 @@ input:focus-visible {
   display: flex;
   flex-wrap: wrap;
   gap: 7px;
+}
+
+.loyalty-card,
+.anniversary-strip,
+.edstop-card {
+  border: 1px solid rgba(168, 120, 54, .24);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+}
+
+.loyalty-card {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 16px;
+  margin-top: 6px;
+  margin-bottom: 18px;
+  padding: 18px;
+  background:
+    linear-gradient(135deg, rgba(255, 253, 248, .95), rgba(239, 225, 198, .38)),
+    var(--surface);
+}
+
+.loyalty-card__icon {
+  display: grid;
+  width: 46px;
+  height: 46px;
+  place-items: center;
+  border: 1px solid rgba(168, 120, 54, .34);
+  border-radius: 50%;
+  color: var(--gold);
+  background: rgba(239, 225, 198, .42);
+}
+
+.loyalty-card__icon svg {
+  width: 22px;
+  height: 22px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.7;
+  stroke-linejoin: round;
+}
+
+.loyalty-card h2 {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.55rem;
+  font-weight: 500;
+  line-height: 1.12;
+}
+
+.loyalty-card p {
+  margin: 9px 0 0;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.62;
+}
+
+.loyalty-card strong {
+  display: inline-flex;
+  min-height: 32px;
+  align-items: center;
+  margin-top: 12px;
+  padding: 6px 10px;
+  border: 1px solid rgba(105, 39, 53, .16);
+  border-radius: 999px;
+  color: var(--wine);
+  background: rgba(105, 39, 53, .055);
+  font-size: 12px;
+  font-weight: 850;
+}
+
+.loyalty-card small {
+  display: block;
+  margin-top: 12px;
+  color: var(--reserve);
+  font-size: 11px;
+  font-weight: 850;
+  text-transform: uppercase;
+}
+
+.anniversary-strip {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 8px;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: -18px;
+  padding: 12px;
+  color: #f7efe1;
+  background:
+    linear-gradient(135deg, rgba(16, 9, 5, .96), rgba(105, 39, 53, .88)),
+    var(--ink);
+}
+
+.anniversary-strip p,
+.anniversary-strip small {
+  margin: 0;
+}
+
+.anniversary-strip p:first-child {
+  color: var(--gold-soft);
+  font-size: 12px;
+  font-weight: 850;
+  text-transform: uppercase;
+}
+
+.anniversary-strip p:nth-child(2) {
+  margin-top: 4px;
+  font-size: 12.5px;
+  line-height: 1.36;
+}
+
+.anniversary-strip small {
+  display: block;
+  margin-top: 4px;
+  color: rgba(247, 239, 225, .74);
+  font-size: 10.5px;
+  line-height: 1.32;
+}
+
+.anniversary-strip button {
+  min-height: 44px;
+  max-width: 98px;
+  padding: 8px 10px;
+  border: 1px solid rgba(239, 225, 198, .3);
+  border-radius: 999px;
+  color: #fff;
+  background: rgba(255, 255, 255, .08);
+  font-size: 11px;
+  font-weight: 850;
+  line-height: 1.18;
+  cursor: pointer;
+  justify-self: start;
 }
 
 .controls {
@@ -1527,6 +1661,69 @@ input:focus-visible {
   font-size: 15px;
 }
 
+.edstop-card {
+  display: grid;
+  gap: 16px;
+  align-items: center;
+  margin-top: 34px;
+  margin-bottom: 34px;
+  padding: 18px;
+  background:
+    linear-gradient(135deg, rgba(255, 253, 248, .96), rgba(239, 225, 198, .32)),
+    var(--surface);
+}
+
+.edstop-card > span {
+  justify-self: start;
+  min-height: 30px;
+  padding: 7px 10px;
+  border: 1px solid rgba(105, 39, 53, .16);
+  border-radius: 999px;
+  color: var(--wine);
+  background: rgba(105, 39, 53, .055);
+  font-size: 10px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.edstop-card h2 {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.58rem;
+  font-weight: 500;
+  line-height: 1.12;
+}
+
+.edstop-card p {
+  margin: 9px 0 0;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.edstop-card strong {
+  display: block;
+  margin-top: 10px;
+  color: var(--reserve);
+  font-size: 13px;
+}
+
+.edstop-card a {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+  justify-content: center;
+  justify-self: start;
+  padding: 9px 14px;
+  border: 1px solid rgba(22, 61, 52, .24);
+  border-radius: 999px;
+  color: var(--reserve);
+  background: rgba(22, 61, 52, .055);
+  font-size: 12px;
+  font-weight: 850;
+  text-decoration: none;
+}
+
 .footer {
   padding: 44px 0 max(44px, env(safe-area-inset-bottom));
   color: #ece9e0;
@@ -1857,6 +2054,179 @@ input:focus-visible {
   font-size: 10px;
 }
 
+.offer-dialog {
+  width: min(calc(100% - 24px), 560px);
+  max-height: min(88vh, 760px);
+  padding: 0;
+  overflow: hidden auto;
+  border: 0;
+  border-radius: 12px;
+  color: #f7efe1;
+  background:
+    radial-gradient(circle at 92% 8%, rgba(168, 120, 54, .24), transparent 32%),
+    linear-gradient(145deg, #100905, #281116 58%, #11100d);
+  box-shadow: var(--shadow-lg);
+  transform: scale(.98);
+  opacity: 0;
+}
+
+.offer-dialog[open] {
+  animation: offer-in .18s ease forwards;
+}
+
+@keyframes offer-in {
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.offer-dialog::backdrop {
+  background: rgba(17, 17, 15, .68);
+  backdrop-filter: blur(6px);
+}
+
+.offer-dialog__close {
+  position: absolute;
+  z-index: 2;
+  top: 12px;
+  right: 12px;
+  border-color: rgba(255, 255, 255, .22);
+  color: #fff;
+  background: rgba(255, 255, 255, .12);
+}
+
+.offer-dialog__body {
+  padding: 24px;
+}
+
+.offer-dialog .eyebrow {
+  color: var(--gold-soft);
+}
+
+.offer-dialog h2 {
+  max-width: 420px;
+  margin: 0;
+  color: #fff;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2.2rem;
+  font-weight: 500;
+  line-height: 1.05;
+}
+
+.offer-dialog p {
+  margin: 14px 0 0;
+  color: rgba(247, 239, 225, .82);
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.offer-dialog__rewards {
+  display: grid;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.offer-dialog__rewards article {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 12px;
+  align-items: center;
+  padding: 12px;
+  border: 1px solid rgba(239, 225, 198, .16);
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, .055);
+}
+
+.offer-dialog__rewards span {
+  display: grid;
+  width: 54px;
+  height: 54px;
+  place-items: center;
+  border: 1px solid rgba(168, 120, 54, .38);
+  border-radius: 50%;
+  color: var(--gold-soft);
+  background: rgba(168, 120, 54, .12);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.35rem;
+}
+
+.offer-dialog__rewards strong {
+  display: block;
+  color: #fff;
+  font-size: 14px;
+}
+
+.offer-dialog__rewards p {
+  margin-top: 3px;
+  font-size: 12px;
+}
+
+.offer-terms {
+  margin-top: 18px;
+  border-top: 1px solid rgba(239, 225, 198, .16);
+  border-bottom: 1px solid rgba(239, 225, 198, .16);
+}
+
+.offer-terms summary {
+  min-height: 44px;
+  padding: 12px 0;
+  color: var(--gold-soft);
+  font-size: 12px;
+  font-weight: 850;
+  cursor: pointer;
+}
+
+.offer-terms ul {
+  display: grid;
+  gap: 7px;
+  margin: 0 0 14px;
+  padding-left: 18px;
+  color: rgba(247, 239, 225, .78);
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.offer-dialog__actions {
+  display: grid;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.offer-dialog__actions a,
+.offer-dialog__actions button {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 14px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.offer-dialog__actions a {
+  border: 1px solid rgba(239, 225, 198, .36);
+  color: #100905;
+  background: var(--gold-soft);
+}
+
+.offer-dialog__actions button {
+  border: 1px solid rgba(255, 255, 255, .18);
+  color: #fff;
+  background: rgba(255, 255, 255, .07);
+  cursor: pointer;
+}
+
+.offer-dialog__body > small {
+  display: block;
+  margin-top: 14px;
+  color: rgba(247, 239, 225, .6);
+  font-size: 10px;
+  line-height: 1.45;
+}
+
 .noscript {
   position: fixed;
   z-index: 200;
@@ -1876,6 +2246,14 @@ input:focus-visible {
   .wrap { width: min(calc(100% - 48px), var(--max)); }
   .hero h1 { font-size: 5rem; }
   .anniversary { font-size: 1.72rem; }
+  .anniversary-strip {
+    grid-template-columns: minmax(0, 1fr) auto;
+    padding: 15px 16px;
+  }
+  .offer-dialog__actions {
+    grid-template-columns: 1fr auto;
+    align-items: center;
+  }
   .categories-button {
     min-width: auto;
     padding-inline: 18px;
@@ -1953,6 +2331,14 @@ input:focus-visible {
   .signature-section { padding-top: 96px; padding-bottom: 42px; }
   .signature-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .signature-card { grid-template-columns: minmax(180px, .78fr) minmax(0, 1fr); }
+  .loyalty-card {
+    grid-template-columns: auto minmax(0, 1fr);
+    padding: 22px;
+  }
+  .edstop-card {
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    padding: 20px;
+  }
   .gallery-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .visit-grid { grid-template-columns: minmax(0, 1.2fr) minmax(280px, .8fr); align-items: end; }
   .visit-section h2 { font-size: 2.85rem; }
@@ -2040,6 +2426,30 @@ input:focus-visible {
   .dish-card h3 { font-size: 1.18rem; }
   .dish-card__top { grid-template-columns: minmax(0, 1fr); }
   .variant { padding-inline: 7px; }
+  .loyalty-card,
+  .anniversary-strip,
+  .edstop-card { padding: 14px; }
+  .loyalty-card {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  .loyalty-card__icon {
+    width: 40px;
+    height: 40px;
+  }
+  .loyalty-card h2,
+  .edstop-card h2 { font-size: 1.34rem; }
+  .offer-dialog {
+    width: min(calc(100% - 16px), 560px);
+    max-height: 90vh;
+  }
+  .offer-dialog__body { padding: 20px; }
+  .offer-dialog h2 { font-size: 1.82rem; }
+  .offer-dialog__rewards span {
+    width: 48px;
+    height: 48px;
+    font-size: 1.18rem;
+  }
 }
 
 @media (max-width: 539px) {

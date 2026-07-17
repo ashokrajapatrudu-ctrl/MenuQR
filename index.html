@@ -140,6 +140,29 @@
     <div class="signature-grid" id="signatureGrid" aria-live="polite"></div>
   </section>
 
+  <section class="loyalty-card wrap" aria-labelledby="loyaltyTitle">
+    <div class="loyalty-card__icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24"><path d="M12 3.5 14.8 9l6.2.9-4.5 4.4 1.1 6.1L12 17.5l-5.6 2.9 1.1-6.1L3 9.9 9.2 9 12 3.5Z"/></svg>
+    </div>
+    <div>
+      <p class="eyebrow">LOYALTY POINTS</p>
+      <h2 id="loyaltyTitle">Rewards That Continue Beyond the Celebration</h2>
+      <p>Earn Amigos Loyalty Points when you dine with us and redeem them on future visits.</p>
+      <strong>2 Points = ₹1</strong>
+      <p>Anniversary cashback points are redeemable within 21 days. The Amigos Loyalty Programme remains available beyond the anniversary campaign, subject to applicable programme terms.</p>
+      <small>Dine. Earn. Return. Save.</small>
+    </div>
+  </section>
+
+  <section class="anniversary-strip wrap" aria-label="10th Anniversary offer">
+    <div>
+      <p><strong>10th Anniversary Special</strong></p>
+      <p>Get <strong>10% off + 10% cashback</strong> on dine-in bills ₹300+.</p>
+      <small>17 July–18 August 2026 · 2 Points = ₹1 · 21-day cashback</small>
+    </div>
+    <button type="button" id="viewOfferDetails">View Offer Details</button>
+  </section>
+
   <section class="controls" aria-label="Menu controls">
     <div class="wrap controls__primary">
       <label class="search" for="searchInput">
@@ -232,6 +255,18 @@
     </div>
   </section>
 
+  <section class="edstop-card wrap" aria-labelledby="edstopTitle">
+    <span>Coming Soon</span>
+    <div>
+      <p class="eyebrow">DELIVERY PLATFORM</p>
+      <h2 id="edstopTitle">Amigos Delivery on Edstop — Coming Soon</h2>
+      <p>Your favourite Amigos dishes will soon be available through our own delivery platform.</p>
+      <strong>www.edstop.com</strong>
+      <p>More details and launch updates will be announced soon.</p>
+    </div>
+    <a href="https://www.edstop.com/" target="_blank" rel="noopener">Visit Edstop</a>
+  </section>
+
   <footer class="footer">
     <div class="wrap footer__inner">
       <div><strong>Thank You IIT Kharagpur</strong><p>Celebrating 10 Years</p><p>2016–2026</p><p id="locationText">IIT Kharagpur, West Bengal</p></div>
@@ -266,6 +301,47 @@
       <div id="dishDialogPrices" class="dish-dialog__prices"></div>
       <div id="dishDialogAllergens" class="dish-dialog__allergens"></div>
       <small id="dishDialogDisclaimer">Visual is illustrative. Actual presentation may vary.</small>
+    </div>
+  </dialog>
+
+  <dialog class="offer-dialog" id="anniversaryOfferDialog" aria-labelledby="offerDialogTitle" aria-describedby="offerDialogDescription">
+    <button class="offer-dialog__close" id="closeOfferDialog" type="button" aria-label="Close anniversary offer">×</button>
+    <div class="offer-dialog__body">
+      <p class="eyebrow">10 Years of Amigos</p>
+      <h2 id="offerDialogTitle">Celebrate with More Rewards</h2>
+      <p id="offerDialogDescription">From 17 July to 18 August 2026, enjoy:</p>
+      <div class="offer-dialog__rewards" aria-label="Anniversary rewards">
+        <article>
+          <span>10%</span>
+          <div><strong>Instant Discount</strong><p>On dine-in bills of ₹300 or more</p></div>
+        </article>
+        <article>
+          <span>10%</span>
+          <div><strong>Cashback in Loyalty Points</strong><p>2 Points = ₹1</p></div>
+        </article>
+      </div>
+      <p>Redeem your cashback points within 21 days.</p>
+      <p>The Amigos Loyalty Programme continues beyond the anniversary campaign, so every visit can bring you closer to your next reward.</p>
+      <p><strong>More exclusive anniversary offers are coming soon.</strong></p>
+      <details class="offer-terms">
+        <summary>Offer Terms</summary>
+        <ul>
+          <li>Campaign valid from 17 July 2026 to 18 August 2026.</li>
+          <li>Minimum eligible dine-in bill: ₹300.</li>
+          <li>10% instant discount.</li>
+          <li>10% cashback in loyalty points.</li>
+          <li>2 loyalty points equal ₹1.</li>
+          <li>Anniversary cashback points must be redeemed within 21 days.</li>
+          <li>Loyalty programme continues beyond the anniversary campaign.</li>
+          <li>More exclusive offers will be announced separately.</li>
+          <li>Additional terms may apply and will be communicated by the restaurant.</li>
+        </ul>
+      </details>
+      <div class="offer-dialog__actions">
+        <a href="#menuMain" id="exploreOfferMenu">Explore the Menu</a>
+        <button type="button" id="dismissOfferDialog">Not Now</button>
+      </div>
+      <small>Offer applicable on eligible dine-in bills. Terms and conditions apply.</small>
     </div>
   </dialog>
 
