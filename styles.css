@@ -1394,6 +1394,126 @@ input:focus-visible {
   white-space: nowrap;
 }
 
+.menu-offer-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 12px;
+  padding-block: 0;
+}
+
+.menu-offer-banner[hidden] {
+  display: none;
+}
+
+.menu-offer-banner > div {
+  display: flex;
+  min-width: 0;
+  flex: 1 1 auto;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 12px;
+  border: 1px solid rgba(159, 115, 54, .24);
+  border-radius: var(--radius);
+  color: #4b3927;
+  background: linear-gradient(135deg, rgba(255, 250, 242, .96), rgba(234, 216, 184, .34));
+  box-shadow: 0 8px 22px rgba(23, 19, 15, .045);
+}
+
+.menu-offer-banner strong {
+  flex: 0 0 auto;
+  color: var(--wine);
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: .02em;
+  text-transform: uppercase;
+}
+
+.menu-offer-banner span {
+  min-width: 0;
+  color: var(--ink-soft);
+  font-size: 12px;
+  font-weight: 760;
+  line-height: 1.35;
+}
+
+.menu-offer-banner small {
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 720;
+  line-height: 1.35;
+}
+
+.menu-offer-banner button {
+  flex: 0 0 auto;
+  min-height: 40px;
+  padding: 8px 12px;
+  border: 1px solid rgba(159, 115, 54, .34);
+  border-radius: 999px;
+  color: var(--reserve);
+  background: rgba(255, 250, 242, .84);
+  font-size: 11px;
+  font-weight: 880;
+  cursor: pointer;
+}
+
+.menu-offer-banner button:focus-visible {
+  outline: 3px solid rgba(159, 115, 54, .32);
+  outline-offset: 3px;
+}
+
+.offer-price {
+  display: inline-grid;
+  max-width: 100%;
+  gap: 3px;
+  color: var(--ink);
+  line-height: 1.05;
+}
+
+.offer-price__from {
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: 850;
+  letter-spacing: .02em;
+  text-transform: uppercase;
+}
+
+.offer-price__regular {
+  width: max-content;
+  max-width: 100%;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 760;
+  line-height: 1;
+  text-decoration: line-through;
+  text-decoration-thickness: 1.5px;
+  text-decoration-color: rgba(108, 45, 56, .62);
+}
+
+.offer-price__promo {
+  color: var(--reserve);
+  font-size: 18px;
+  font-weight: 920;
+  line-height: .98;
+  white-space: nowrap;
+}
+
+.offer-price__promo sup {
+  margin-left: 1px;
+  color: var(--wine);
+  font-size: 10px;
+  line-height: 0;
+}
+
+.offer-price__caption {
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: 760;
+  line-height: 1.16;
+  white-space: normal;
+}
+
 .dish-card__category {
   margin: 8px 0 0 23px;
   color: #5b554b;
@@ -1508,10 +1628,28 @@ input:focus-visible {
 }
 
 .variant strong {
+  display: inline-flex;
+  min-width: max-content;
   color: var(--ink);
   font-size: 12px;
   font-weight: 820;
   white-space: nowrap;
+}
+
+.variant .offer-price {
+  gap: 2px;
+}
+
+.variant .offer-price__regular {
+  font-size: 9px;
+}
+
+.variant .offer-price__promo {
+  font-size: 12px;
+}
+
+.variant .offer-price__caption {
+  display: none;
 }
 
 .single-price {
@@ -1519,6 +1657,10 @@ input:focus-visible {
   color: var(--ink);
   font-size: 1.1rem;
   font-weight: 820;
+}
+
+.single-price .offer-price {
+  vertical-align: middle;
 }
 
 .single-price small {
@@ -2177,7 +2319,27 @@ input:focus-visible {
   font-weight: 850;
 }
 
-.dialog-price strong { font-size: 17px; }
+.dialog-price strong {
+  flex: 0 0 auto;
+  font-size: 17px;
+  text-align: right;
+}
+
+.dialog-price .offer-price {
+  justify-items: end;
+}
+
+.dialog-price .offer-price__promo {
+  font-size: 20px;
+}
+
+.dialog-offer-note {
+  margin: 10px 0 0;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 760;
+  line-height: 1.45;
+}
 
 .dialog-price ul {
   display: grid;
@@ -2300,6 +2462,18 @@ input:focus-visible {
   font-size: 12px;
   font-style: normal;
   font-weight: 850;
+}
+
+.meal-card .offer-price {
+  gap: 2px;
+}
+
+.meal-card .offer-price__promo {
+  font-size: 13px;
+}
+
+.meal-card .offer-price__caption {
+  display: none;
 }
 
 .dish-dialog__allergens {
@@ -3751,6 +3925,35 @@ a,
   font-size: 12px;
 }
 
+#menuMain[data-menu-view="grid"] .dish-card__price .offer-price {
+  grid-template-columns: auto auto;
+  align-items: baseline;
+  column-gap: 5px;
+  row-gap: 1px;
+}
+
+#menuMain[data-menu-view="grid"] .dish-card__price .offer-price__from {
+  grid-column: 1 / -1;
+  font-size: 8px;
+}
+
+#menuMain[data-menu-view="grid"] .dish-card__price .offer-price__regular {
+  font-size: 10px;
+}
+
+#menuMain[data-menu-view="grid"] .dish-card__price .offer-price__promo {
+  font-size: 14px;
+}
+
+#menuMain[data-menu-view="grid"] .dish-card__price .offer-price__caption {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
 #menuMain[data-menu-view="grid"] .dish-card__category {
   display: none;
 }
@@ -3843,6 +4046,20 @@ a,
   .view-switcher button {
     min-width: 62px;
     padding-inline: 9px;
+  }
+
+  .menu-offer-banner {
+    display: grid;
+    gap: 8px;
+  }
+
+  .menu-offer-banner > div {
+    display: grid;
+    gap: 4px;
+  }
+
+  .menu-offer-banner button {
+    justify-self: start;
   }
 
   #menuMain[data-menu-view="grid"] .dish-grid {

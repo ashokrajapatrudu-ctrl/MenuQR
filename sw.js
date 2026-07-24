@@ -1,4 +1,4 @@
-const CACHE = 'amigos-brand-experience-v18';
+const CACHE = 'amigos-brand-experience-v19';
 const CORE = [
   './',
   './index.html',

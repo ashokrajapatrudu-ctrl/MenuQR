@@ -11,6 +11,13 @@
   const OFFER_DISMISSAL_DAYS = 45;
   const MENU_VIEW_STORAGE_KEY = 'amigos-menu-view';
   const MENU_VIEWS = new Set(['grid', 'list']);
+  const MENU_OFFER = Object.freeze({
+    enabled: true,
+    discountPercent: 10,
+    minimumBill: 300,
+    minimumRule: 'above',
+    storageKey: 'amigos-menu-offer-seen'
+  });
 
   const categoryMap = new Map(DATA.categories.map(category => [category.id, category]));
   const itemMap = new Map(DATA.items.map(item => [item.id, item]));
@@ -210,6 +217,7 @@
     categoryCount: document.getElementById('categoryCount'),
     hoursText: document.getElementById('hoursText'),
     locationText: document.getElementById('locationText'),
+    menuOfferBanner: document.getElementById('menuOfferBanner'),
     searchInput: document.getElementById('searchInput'),
     clearSearch: document.getElementById('clearSearch'),
     categoriesButton: document.getElementById('categoriesButton'),
@@ -285,10 +293,59 @@
     return prices.length ? Math.min(...prices) : null;
   }
 
+  function getPromotionalPrice(price) {
+    if (!Number.isFinite(price) || price <= 0) return null;
+    return Math.round(Number(price) * (1 - (MENU_OFFER.discountPercent / 100)));
+  }
+
+  function offerConditionText() {
+    const bill = formatPrice(MENU_OFFER.minimumBill);
+    if (MENU_OFFER.minimumRule === 'above') {
+      return `Applicable when the eligible bill exceeds ${bill}.`;
+    }
+    return `Applicable on eligible bills of ${bill} and above.`;
+  }
+
+  function offerBannerText() {
+    const bill = formatPrice(MENU_OFFER.minimumBill);
+    if (MENU_OFFER.minimumRule === 'above') {
+      return `Enjoy ${MENU_OFFER.discountPercent}% off your eligible food bill above ${bill}.`;
+    }
+    return `Enjoy ${MENU_OFFER.discountPercent}% off your eligible food bill of ${bill} and above.`;
+  }
+
+  function offerPriceMarkup(price, { from = false, context = 'card' } = {}) {
+    const regular = formatPrice(price);
+    if (!MENU_OFFER.enabled || regular === 'Ask staff') {
+      return `<span class="offer-price offer-price--disabled ${regular === 'Ask staff' ? 'ask' : ''}">${escapeHTML(regular)}</span>`;
+    }
+    const promotional = formatPrice(getPromotionalPrice(price));
+    const visualPrefix = from ? '<span class="offer-price__from">From</span>' : '';
+    const caption = context === 'modal'
+      ? `after ${MENU_OFFER.discountPercent}% discount`
+      : `with ${MENU_OFFER.discountPercent}% offer`;
+    const ariaCondition = MENU_OFFER.minimumRule === 'above'
+      ? `Offer applies on eligible bills above ${formatPrice(MENU_OFFER.minimumBill)}.`
+      : `Offer applies on eligible bills of ${formatPrice(MENU_OFFER.minimumBill)} and above.`;
+    const aria = `${from ? 'Regular price from' : 'Regular price'} ${regular}. ${from ? `Price after ${MENU_OFFER.discountPercent} percent offer from` : `Price after ${MENU_OFFER.discountPercent} percent offer`} ${promotional}. ${ariaCondition}`;
+    return `<span class="offer-price offer-price--${escapeHTML(context)}" aria-label="${escapeHTML(aria)}">
+      ${visualPrefix}
+      <span class="offer-price__regular" aria-hidden="true">${escapeHTML(regular)}</span>
+      <span class="offer-price__promo" aria-hidden="true">${escapeHTML(promotional)}<sup>*</sup></span>
+      <span class="offer-price__caption" aria-hidden="true">${escapeHTML(caption)}</span>
+    </span>`;
+  }
+
   function priceSummary(item) {
     const min = minimumPrice(item);
     if (min === null) return 'Ask staff';
     return item.variants.length > 1 ? `From ${formatPrice(min)}` : formatPrice(min);
+  }
+
+  function priceSummaryMarkup(item, options = {}) {
+    const min = minimumPrice(item);
+    if (min === null) return offerPriceMarkup(null, options);
+    return offerPriceMarkup(min, { ...options, from: item.variants.length > 1 });
   }
 
   function productDetail(item) {
@@ -563,7 +620,7 @@
       const label = variant.label && !/^regular$/i.test(variant.label)
         ? `<small>${escapeHTML(variant.label)}</small>`
         : '';
-      return `<div class="single-price ${price === 'Ask staff' ? 'ask' : ''}">${label}${escapeHTML(price)}</div>`;
+      return `<div class="single-price ${price === 'Ask staff' ? 'ask' : ''}">${label}${offerPriceMarkup(variant.price, { context: 'variant' })}</div>`;
     }
 
     return `<div class="variants" aria-label="Available portions">
@@ -571,7 +628,7 @@
         const price = formatPrice(variant.price);
         return `<span class="variant" title="${escapeHTML(variant.portion || variant.label)}">
           <span>${escapeHTML(variant.label)}</span>
-          <strong class="${price === 'Ask staff' ? 'ask' : ''}">${escapeHTML(price)}</strong>
+          <strong class="${price === 'Ask staff' ? 'ask' : ''}">${offerPriceMarkup(variant.price, { context: 'variant' })}</strong>
         </span>`;
       }).join('')}
     </div>`;
@@ -690,7 +747,7 @@
               <span>
                 <small>${escapeHTML(role)}</small>
                 <strong>${escapeHTML(recommendation.name)}</strong>
-                <em>${escapeHTML(priceSummary(recommendation))}</em>
+                <em>${priceSummaryMarkup(recommendation, { context: 'meal' })}</em>
               </span>
             </button>`).join('')}
           </div>
@@ -715,7 +772,7 @@
         <div class="dish-card__content">
           <div class="dish-card__top">
             <div class="dish-card__name">${dietMarkup(item.diet, detail)}<h3>${escapeHTML(item.name)}</h3></div>
-            <strong class="dish-card__price ${price === 'Ask staff' ? 'ask' : ''}">${escapeHTML(price)}</strong>
+            <div class="dish-card__price ${price === 'Ask staff' ? 'ask' : ''}">${priceSummaryMarkup(item)}</div>
           </div>
           <p class="dish-card__category">${escapeHTML(category?.name || '')}</p>
           <p class="dish-card__description">${escapeHTML(dishDescription(item))}</p>
@@ -845,6 +902,22 @@
       .join('');
   }
 
+  function renderOfferBanner() {
+    if (!el.menuOfferBanner) return;
+    if (!MENU_OFFER.enabled) {
+      el.menuOfferBanner.hidden = true;
+      el.menuOfferBanner.innerHTML = '';
+      return;
+    }
+    el.menuOfferBanner.hidden = false;
+    el.menuOfferBanner.innerHTML = `<div>
+        <strong>Flat ${MENU_OFFER.discountPercent}% Off</strong>
+        <span>${escapeHTML(offerBannerText())}</span>
+        <small>*${escapeHTML(offerConditionText())}</small>
+      </div>
+      <button type="button" data-open-offer-details>Offer details</button>`;
+  }
+
   function renderMenuViewControls() {
     el.menuMain?.setAttribute('data-menu-view', state.menuView);
     el.viewSwitcher?.querySelectorAll('[data-menu-view]').forEach(button => {
@@ -969,6 +1042,7 @@
     renderFilters();
     renderPopularSearches();
     renderMenuViewControls();
+    renderOfferBanner();
     el.clearSearch.hidden = !state.query;
     const searching = state.query.trim().length > 0;
     if (searching) el.mainTitle.textContent = 'Search the full menu';
@@ -1078,9 +1152,9 @@
           <span>${escapeHTML(variantDetail?.approvedPortion || variant.label)}</span>
           ${quantity.length ? `<ul>${quantity.map(entry => `<li>${escapeHTML(entry)}</li>`).join('')}</ul>` : ''}
         </div>
-        <strong class="${price === 'Ask staff' ? 'ask' : ''}">${escapeHTML(price)}</strong>
+        <strong class="${price === 'Ask staff' ? 'ask' : ''}">${offerPriceMarkup(variant.price, { context: 'modal' })}</strong>
       </div>`;
-    }).join('');
+    }).join('') + (MENU_OFFER.enabled ? `<p class="dialog-offer-note">*${escapeHTML(offerConditionText())}</p>` : '');
     el.dishDialogSmart.innerHTML = smartDialogMarkup(item);
     const allergens = [...new Set((detail?.variants || []).map(variant => variant.allergens).filter(Boolean))];
     el.dishDialogAllergens.innerHTML = allergens.length
@@ -1222,6 +1296,14 @@
     const searchButton = event.target.closest('[data-smart-search]');
     if (searchButton) {
       runSearch(searchButton.dataset.smartSearch);
+      return;
+    }
+
+    const offerButton = event.target.closest('[data-open-offer-details]');
+    if (offerButton) {
+      event.preventDefault();
+      window.clearTimeout(offerAutoTimer);
+      openOfferDialog(offerButton);
       return;
     }
 
